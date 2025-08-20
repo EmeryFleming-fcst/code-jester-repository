@@ -1,0 +1,134 @@
+GFX Design: https://www.youtube.com/watch?v=blsKEwkUKgg
+Make Sure colors Contrast through color theory.
+Sketching. Focus on details
+Text:
+1. Add a border. Softly color it. Add highlights.
+2. Add a complimentary color to the text. Add some effects/filters
+3. Add thin borders. Softly color outlines
+
+Patterns and half-tone effects enhance background
+
+Composition: Rule of thirds. Triangle composition.
+
+Da Vinci Resolve Animation: https://www.youtube.com/watch?v=by1qj0Bwavk
+Magic Animate, Easy FX, Editor Collection
+Fusion Graph. Select items. Right Click and choose Ease.
+Create Macro: Drag and Select Nodes. Right click. Create Macro. Save as Group
+
+
+Procedural Animation with Math: https://www.youtube.com/watch?v=KPoeNZZ6H4s (Follow on Twitter)
+
+
+Most Important Lessons from Blender: https://www.youtube.com/watch?v=n677HB7GbpQ
+1. Make what you want
+2. Get used to the fundamentals of modeling and the UI.
+3. Failures are steps to success.
+4. Shaders are just a tool.
+5. Embrace the ugly phase and push through. May not look good until 70%
+6. Polish observational and artistic skills.
+7. Make lots of varied projects.
+8. Use references. They are essential.
+
+How to edit well: https://www.youtube.com/watch?v=sLgHqZSe2o0
+- Consider what experience the viewers want.
+- Use A-roll: See and hear the subject at the same time. Use if for short periods of time when you're saying something important.
+- B-Roll: Recorded separately from the audio. Creates a visual depiction of what you are talking about. Use as much as possible.
+- B-Roll Alt: Stock Footage and Motion Graphics
+- Engagement Spice:
+   - Add Movement. Scales, wiggles, zooms, pans, etc
+   - Visuals: 
+	- Only use Captions when you really want the user to understand what is being said. 3 words or less, is possible.
+	- Animate or highlight the most important piece of text.
+	- Darken or Blur the area that surrounds the focus point of the image.
+	- Shift the hue of the image to adjust meaning. Positive or negative connotation.
+	- Circles, Arrows, or underlines also work.
+	- Can also make the subject glow.
+- Make the video look good. Color grading, subtle vignette, moving particle effects.
+- Visual Continuity: The editing should be invisible. Keep focus in same area.
+- Immersive Audio: Gather a bunch of sounds. Add sounds where they should be. Whoosh, highlight, etc.
+	- Risers are used to build anticipation
+	- Hits release tension or emphasize motion. Can be used with/without riser in front.
+	- Drones for mystery and intrigue. Darker tones.
+	- Music Choice is MASSIVE. Separate video based on subject changes. Cut out music to focus on something. Fade out Music to show section is ending.
+		- Sync hits and dips to moments in the video.
+
+Great Artists Don't See Color, They Eat It: https://www.youtube.com/watch?v=uoXftNK69rA
+- Train yourself to see subtlety in color naturally.
+- Be picky. Observe the environment.
+- Resources. Pinterest. Museum Websites. Pixiv.
+- Physically paint to improve color.
+
+Retro Game Characters: https://www.youtube.com/watch?v=1FteWqBSg4c
+
+VFX: Portfolio https://www.youtube.com/@DaDi_0416/videos
+
+Nine Editing Tips to Save you Hours: https://www.youtube.com/watch?v=mjiT0g3mYgw
+- Create Custom Project Templates
+- Copy Folder Structure. Drag folder into far left side bar.
+- Middle Mouse Button to scroll through the timeline.
+- Zoom to fit.
+- Alt+Up moves items up in the timeline.
+- Move playhead to where you want to insert something. Alt + Y selects everything on the right.
+- Timeline options. View Background. Checkerboard.
+- Sync Audio in Folders instead of timeline.
+- Batch Audio Fades
+
+https://unity.com/resources
+
+Pro Blender Tutorials:
+- https://www.youtube.com/playlist?list=PLuI7vfZQrW0VAB9Yn1LpiraPSwB-3cfm6 + https://www.youtube.com/watch?v=IHy57Lrzkb4
+
+Your Colors Suck
+- https://www.youtube.com/watch?v=fv-wlo8yVhk
+
+AE: Make premium Looking Edits https://www.youtube.com/watch?v=PtzY3lS-qXY
+- Tutorial. Animated Grain Texture.
+- Tutorial. Holographic Effect
+- Tutorial. Turbulent image Effect
+- Tutorial. Posturize Time.
+- Tutorial. Fast Box Blur.
+- Tutorial. Lumetri Color
+- Tutorial. Scan Lines.
+- Tutorial. WiggleIt
+- Tutorial. DeepGlow.
+- Tutorial. Quick Chromatic Aberration.
+- Overlays
+- Fonts. Google Doc in Video
+
+https://www.youtube.com/@LearnByLeo/videos
+https://www.youtube.com/watch?v=z4y06XtuXec
+https://www.youtube.com/watch?v=sqm6dRtCsfQ
+
+GDC Uncommon Techniques: https://www.youtube.com/watch?v=UTE_bVUeHCQ
+- Create Friction to build Emotional Resonance.
+	- Difficulty, Scarcity, Unconvential Controls, Save System, Time Limit, Durability, Narrative Tension, Bucking Trends, Doesn't have to be negative. A texture.
+	- Resonance: When mechanics enhance theme and emotions.
+	- Learn to stop worrying and love the one off.
+		-Mistake 1: Perfect Gameplay Scripts are Better Scripts. Players won't remember beautiful code, but how the game made them feel.
+		-Mistake 2: Structure always improves the creative process. Iteration is messy. No matter how good your tools are, mess is part of the process.
+		-Mistake 3: Content patterns always make better content. If your patterns make realizing the experience harder, they are bad patterns.
+	- Make everything as simple as possible. But not simpler.
+		- K.I.S.S
+		- Less is More
+		- Everything should be as simple as possible, but no simpler.
+		- Learn though mistakes.
+		- At some point you simplify too much and it breaks down.
+		- Delete everything unnecessary from the process. You may need to add them back later. If you don't add at least 10% back, you didn't delete enough.
+		- When is simple not so simple? Aim for a game that is simple to understand, but that is deep and varying over time.
+			- Emergent Complexity: Tetris. Add rules over time that build on the other rules. A whole that is more than the sum of it's parts. Games like Go and Chess.
+		- Simple Conclusion
+			- Find the Fun -> Add improvements -> Simplify until it breaks -> Restore the last subtraction -> Repeat from 2 until you're satisfied (or broke!) -> Bonus! Emergent Complexity for the win!
+	- Ruthlessly Prioritizing Your Wildest Imaginations 
+		- Here lies PreMortems. Here lies our brilliant idea, killed by: (Brainstorm this with the team)
+		- Magic in knowing what to fight for.
+
+Animate with DaVinci Resolve: https://www.youtube.com/watch?v=PiSxftDea4w
+Animate with After Effects: https://www.youtube.com/watch?v=sqm6dRtCsfQ
+
+Free DaVinci Resolve Plugins: https://www.youtube.com/watch?v=CLqRjPLUT-c
+- Video Editor Studio
+- Snap Plugins
+- Patrick Stirling: Picture and Picture Plugin.
+- REACTOR 
+- Magic Zoom
+
