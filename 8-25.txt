@@ -1,0 +1,61 @@
+Ducky 3D
+
+Color Grading 101: https://www.youtube.com/watch?v=pAh83khT1no
+
+-Color Correction: Harmonizes Image. Correct White Balance, Equalize the Exposure, Reduce the Highlights, increase the Midtones, Apply Noise Reduction
+-Color Grading: Curves, Masks, Color Wheels, and other precise tools to get the look we want.
+-RAW Recordings have the most information, but take a lot of space.
+-LOG uses an optimized gamma curve to save as much info as possible to record highlights and shadows. A good middle ground. Usually use a Log Version to REC.709
+-ACES is a Dynamic Color Space that lets you work with the full color space without needing to convert. Good for distributing on multiple platforms.
+-LUTs cannot do corrections or additions, just handle colors.
+-Try to keep LUTs between 25 - 50% used in the end result.
+-Waveform: Overexposed and Underexposed areas are pure white and pure black.
+-RGB Parade: Check that our RGB is balanced. Control White Balance.
+-Vector Scope: A good balanced image is centered in the middle of the Vector Scope. Good for checking Scopes.
+-RGB curve allows for the correction of contrast.
+-Hue vs Saturation: Increase the saturation based on a Hue.
+-Hue vs Luma: Modify luminance based on Hue.
+-Luma vs Sat: Modify saturation based on Luminance. Highlights and shadows.
+-Hue vs Hue: Modify Hue by Hue
+
+
+After Effects 3D Camera: https://www.youtube.com/watch?v=CkycCzjXiIA
+
+How to Do a Good Title Card: https://www.youtube.com/watch?v=UR5eikHGtlk
+-A title card should not interrupt anything, unless it is intentional.
+-Make it look nice
+	-Pick a font, and then find the letter width slider.
+	-Can place Details and Cast on the same screen.
+-Title is integrated in the shot in a manner that is unobtrusive and follows the rules of shot composition.
+-When the title is tracked into the shot. Such as graffiti.
+-Big Text. Interruption and confrontation.
+-Minimalism can influence tone. The Title needs to align with the content.
+-Sound Design: If you want impact, pair the title with a hard sound. If you want subtle, pair it with a sound from the scene. Can pair it with the start of a music track and a cut.
+
+Best Code Architecture For Indie Games: https://www.youtube.com/watch?v=8WqYQ1OwxJ4
+-Reusable Modules/Systems.
+-Connect Components with no code in engine: Exposed Fields, Events, etc.
+-Connect Components with dedicated Glue Code: Game Managers, System Connectors.
+-Write Systems with the intent to use them in future projects.
+-Don't have one monolith game manager.
+-Try to keep code and data separate. Keep things in a spreadsheet, Scriptable Objects, etc.
+-If it is game designed together, store it together. Data should be easy to work with, update, expand, mod.
+-Try to control execution order when possible.
+-Separate the gameplay and art
+
+8 Quick Programming Tips You Need to Know: https://www.youtube.com/watch?v=YCvh88Hg5m8
+-You don't have to update everything all the time. 2-5 times per second is better.
+-Serialized Fields instead of Find.
+-Make sure to test things on lower framerate!
+
+-After Effects Genshin Character Animation Tutorial: https://www.youtube.com/watch?v=wHbZMGx3GSo
+-Marketing a Game GDC: https://www.youtube.com/watch?v=WUNygTII6p0
+
+-How to Actually Make Anime in 3D: https://www.youtube.com/watch?v=4LhvcINgNxU
+
+
+
+
+
+
+
