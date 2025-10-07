@@ -1,0 +1,182 @@
+https://www.youtube.com/watch?v=sHR7R-TY7NE&t=6481s
+https://www.youtube.com/watch?v=I9fBqKNXIbk
+https://www.youtube.com/watch?v=PUYdVKIWJkQ
+https://www.youtube.com/watch?v=DHBuyeQ7aYs
+https://www.youtube.com/watch?v=1BLZGe-TqW0
+https://www.youtube.com/watch?v=qKZFckGgd8A
+https://www.youtube.com/watch?v=ID-xyOnEB1c
+https://www.youtube.com/watch?v=gxXlPbpRIMc
+https://www.youtube.com/watch?v=ksJRgK3viMc
+https://www.youtube.com/watch?v=ufKKHlnYUso
+https://www.youtube.com/watch?v=OAS9QaU80nU
+https://www.youtube.com/watch?v=AL21_-REZLw
+https://www.youtube.com/watch?v=REyEdDdyJYE
+https://www.youtube.com/watch?v=b3bApEnoMk4
+
+https://www.youtube.com/watch?v=yf7YTtD5BRM
+https://www.youtube.com/watch?v=nWDgeb6Qpsg
+https://www.youtube.com/watch?v=oUY4iwRyJ5Y
+https://www.youtube.com/watch?v=ETrLK0lH6aY
+https://www.youtube.com/watch?v=gCbugYCROCo
+
+Gain Staging: https://www.youtube.com/watch?v=Tq5lDHCKt84
+------------
+- Gain Staging: The pre-mix process of changing the gain of all of your recordings so that they sit around the same level.
+- It is not volume balancing. Gain and volume are not the same.
+- The volume of a track is how loud a track is after processing. The gain is how loud a track is before it's been processed.
+- Gain is your input level, volume is your output level.
+- Changing your volume doesn't mean changing your gain.
+- How do you change gain? Add a plugin at the top of a channel / Or use the DAWs gain system.
+- What should you change the gain to? 0dBVU. Use a VU Meter Plugin. Stage one track of a time. Loop the loudest part and make sure it sits at around 0. If it's dynamic, use the peaks.
+- Sometimes you cannot get an item into the sweet spot due to digital clipping. Get it as close as possible.
+- The more plugins a track will use, the better it will sound if you gain stage a recording. After practice, you should try to knock it out in less than 10 minutes.
+
+
+Low End: https://www.youtube.com/watch?v=7pGtnRIyusA
+-------
+- Shelf EQ to boost everything BUT the low end to make it cut through the mix better. Fletcher-Munson Curve
+
+
+EQ Advice: https://www.youtube.com/watch?v=wrUpFF7nlOg
+----------
+- Balance Chart
+- Seesaw Effect: Sometimes if you hear a problem on one end of the spectrum, the actual solution may be on the opposite side.
+
+
+Gain Automation: https://www.youtube.com/watch?v=aun6XN63Jvo
+---------------
+- When you automate the gain level of an audio file so that it averages the same level throughout the song.
+- Automate areas of lower gain to match higher
+- Peak doesn't matter. Average level should try to match.
+- Volume automation AFTER gain automation can fix a problem with it sounding worse. Gain automation creates a consistent tone, volume automation helps with dynamics.
+- Example: Boost gain on an instrument then lower volume back down.
+
+
+How Fast Are Transients: https://www.youtube.com/watch?v=vg4_vl65RxM
+-----------------------
+Attack Times on Compressors: Can be used to miss the initial transient. Timing is based on slope.
+
+
+Ultimate Recording Checklist: https://www.youtube.com/watch?v=yjalL7csm5M
+----------------------------
+- Do A Take. Do I like it, yes or no?
+- No, redo. Yes, keep.
+- Listen to it bit by bit. If there are parts you don't like, punch them in (record over them).
+
+
+Which Mixing Plugins to Upgrade First: https://www.youtube.com/watch?v=l7UEwA-U73I
+-------------------------------------
+- Saturation Plugins: Fabfilter Saturn
+- Reverb Plugins: Liquidsonic - Seventh Heaven, Valhalla Vintage
+- Amp Simulator: Positive Grid - Bias Amp
+- TDR Kotelnikov Compressor
+- Loudmax Limiter
+
+
+Your Vocals Are Too Loud: https://www.youtube.com/watch?v=XWskyKzGvpc
+------------------------
+- Step 1: Create Brightness - Sounds that are brighter sound closer to the ear. Shelf on High End.
+- Step 2: Create Consistency - Compression. Fast Attack, Slow Release, High Threshold.
+   - Serial Compression: One compressor after the other with a lower threshold to smooth it down.
+- Step 3: Get Rid of Masking
+   - Masking: The perception of one sound is affected by the presence of another. Happens if they have a similar frequency.
+   - Mute Button Method: 
+      - Mute your instruments one at a time.
+      - Listen to the vocal, not the instruments.
+      - Ask yourself: Is the vocal suddenly louder or more present?
+      - If not, then there's no masking between those two tracks.
+      - If so, then masking is occurring.
+      - Cut with EQ
+- Step 4: Volume Balancing
+   - Set your vocal level, set it down a few DB. Forces you to create perceived loudness.
+
+
+How to Compress Vocals: https://www.youtube.com/watch?v=Og8tYrFWazE
+----------------------
+1. Prep the Tracks before compression
+	- Clip gain automation early on.
+2. Remove Unwanted Frequencies
+3. Tame the Peaks (First Compressor)
+4. Add Further Consistency (Second Compressor). The use Make-up Gain
+5. Add Excitement (Third Compressor). Slow attack time
+6. Add Character. This is done through compressor types.
+   - Examples: FET for peak, OPTO for consistency, FET for excitement.
+
+
+Simple Mixing Workflow: https://www.youtube.com/watch?v=aKrF2dra1S0
+----------------------
+1. Session Prep
+	- Organize Tracks, Group similar tracks together, Color-coding, Labeling song sections, Gain Staging, Selecting Reference Tracks, Setting Buffer Size to it's highest limit.
+2. Initial Balance
+	- Faders and Panning. Get the best mix you can with just those.
+3. Mix Bus
+	- Add effects to here first.
+4. Process Top down
+	- Process Parent busses first, then process each individual channel as needed.
+	- How is the tone? -> How are the dynamics? -> Does it need space?
+5. Listen throughs
+	- Listen through everything, beginning to end. Take notes on what needs to be fixed. Make Revisions. 3-5 Rounds.
+6. Evaluate Translation
+	- Make sure it sounds well on any system.
+	- Use a Frequency Analyzer to check how closer yours is to the reference.
+	- Add EQ at the end of Mix Bus Chain to nudge it as close as you can.
+	- Choose any 3 Speaker Systems and play your mix in a playlist next to the reference track. Note any red flags. Phone, Bluetooth Speaker, Earbuds, etc.
+
+Vocal Chain Order: https://www.youtube.com/watch?v=xpaAijC4By0
+-----------------
+- Subtractive EQ -> Address Dynamics (Compression) -> Boost Please Frequencies (Additive EQ) -> Space and Depth (Reverb and Delay)
+
+- Advanced: Tame Sibilance (Add after Additive before Wet Effects) -> Volume Automate (Use Gain Plugin to Automate instead of volume fader) -> Add Character (Compressor Types and Saturation)
+	- Add Saturation first in the chain
+
+Getting Weird with Parallel Compression: https://www.youtube.com/watch?v=DRkMvuNZ8_E
+---------------------------------------
+1. Add Saturation to a parallel compressed track. Antares
+2. Use Modulation and Automate it during specific parts
+3. Use Pitch Shift. Antares Avox Mutator
+
+
+Are Your Ears Broken: https://www.youtube.com/watch?v=_VRsYNX5RdM
+---------------------
+1. Train your ears a little bit everyday.
+2. Frequency is key.
+3. Keep it quick and consistent.
+4. Drills -> Analysis. (10 - 30 minutes)
+	Drills: Soundgym.co / Other ear training websites
+	Analysis: Remove Distractions. Pick a reference. Takes notes on what you hear. 
+		Categories: Song: Pick
+			    Tone: What's bright? What is dark? Overall? Are vocals crisp and up-front?
+			    Balance: Volume Balance and Panning. What is up-front? Back? Where are things panned?
+		            Dynamics: How punchy is it? How compressed?
+			    Space: What kind of reverbs> Where is delay? Wet or dry mix? How is space used? What is the sense of depth?
+			    Notes: Anything Else.
+
+
+Mastering Advice: https://www.youtube.com/watch?v=3jLlCL3uLU4
+----------------
+1. Why am I doing what I am doing? Why am I making this choice?
+2. Ears > Gear
+
+100 Mixing Tip Videos in One Day: https://www.youtube.com/watch?v=-tI7kEC6Blo
+--------------------------------
+1. Do Whatever you want to your Aux channels. EQ/Compress, etc.
+2. Don't solve problems that don't exist.
+3. Mixing is Dynamic. Have to go back through the mix. Volume Automation, etc.
+4. 15 Dave Pensado Mix Tips
+5. Use References
+6. Take lots of breaks
+7. Use Automation
+8. Eqing the AUX
+9. Get it right at the source.
+10. Create Front and Back Depth
+11. Check in Mono
+12. Be intentional.
+13. Parallel Processing
+14. Creative vs Intellectual. Keep it balanced. Follow instincts. Start with Intellectual foundation, then forget it and focus on Creative.
+
+
+Compression, Limiting, and Clipping: https://www.youtube.com/watch?v=5pKbIRxhxIw
+------------------------------------
+1. Compression: Like Limiters by more options.
+2. Limiter: Sound can't get any louder than the threshold.
+3. Clipper: Chops the tops off of the peaks.
