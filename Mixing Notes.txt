@@ -11,13 +11,8 @@ https://www.youtube.com/watch?v=ufKKHlnYUso
 https://www.youtube.com/watch?v=OAS9QaU80nU
 https://www.youtube.com/watch?v=AL21_-REZLw
 https://www.youtube.com/watch?v=REyEdDdyJYE
-https://www.youtube.com/watch?v=b3bApEnoMk4
 
-https://www.youtube.com/watch?v=yf7YTtD5BRM
-https://www.youtube.com/watch?v=nWDgeb6Qpsg
-https://www.youtube.com/watch?v=oUY4iwRyJ5Y
-https://www.youtube.com/watch?v=ETrLK0lH6aY
-https://www.youtube.com/watch?v=gCbugYCROCo
+
 
 Gain Staging: https://www.youtube.com/watch?v=Tq5lDHCKt84
 ------------
@@ -180,3 +175,120 @@ Compression, Limiting, and Clipping: https://www.youtube.com/watch?v=5pKbIRxhxIw
 1. Compression: Like Limiters by more options.
 2. Limiter: Sound can't get any louder than the threshold.
 3. Clipper: Chops the tops off of the peaks.
+
+Do you Need a Mix Bus Compression? https://www.youtube.com/watch?v=J5aHSV_aTWs
+----------------------------------
+1. Limiters and Clippers faster and easier.
+2. Multi-Band Compression as a way to shape the tone. Use it when you like part of the sound, but don't like other parts of it.
+
+Stop High Passing Everything: https://www.youtube.com/watch?v=9bJrPtXYNtI
+----------------------------
+1. Shelving instead of always doing high/low passes.
+2. Retains some of the harmonics by limiting it.
+
+
+1000 Hours of Vocal Mixing Tutorials in 30 minutes: https://www.youtube.com/watch?v=UBigaeYW0mE
+--------------------------------------------------
+
+Music: Pitch Correction -> EQ -> Compression -> De-Esser (Can also be chained) -> Reverb -> Delay
+Compression: More makes it upfront at the cost of losing Energy. Less makes it further but it has more energy. Gain staging helps reduce this
+Can Automate Reverb to come in on empty spaces
+Delay before a reverb. High Pass, Pull it up. Low Pass, Pull it down. Gets it out of the way of the lead vocal.
+Delays are a better alternative to Reverb in a busy mix. Unsync Delay from BPM IF you want to hear it better. May not be often.
+Flanger: Add Width. Helps if you did not record doubles or triples.
+Formant Shifter: Change sound of voice without touching voice.
+Sample Vocals: Take a portion of lead vocal, put it on a new track, put it into a sampler. Slice. Sensitivity Down to the Transients. Can then play on the Piano.
+LFO: Emulating Side chains or Rhythmic Stuttering
+Creative Bussing
+Reversing Vocals: Take First Part of Lead Vocal. Drag to new track. Turn on Reverb. Crank it Up. Bounce it in place. Extend the Tail. Reverse the Track. Creates a Vocal Swell.
+Distortion: Heavier form of Saturation. Can add grittiness and Energy to a vocal.
+Doubles and Triples: Record the same part multiple times. Pan them hard left and hard right. Add a bit of EQ (Usually High Shelf) and make them more tuned.
+More Energy can be achieved through recording the other vocal parts and octave up or an octave down.
+Mixing Vocals: Mix into a limiter. Mix in Mono (Music only) at really low volumes.
+Don't Solo Vocals.
+Send all your instruments into a submix then sidechain it with the vocals. Dips out some range.
+Editing: Get rid of plosives through fading
+Recording: Closer you are, the boomier it is. The further you are, the thinner it is.
+Record to a drum beat, not a metronome.
+
+
+13 Mixing Tips: https://www.youtube.com/watch?v=gCbugYCROCo
+--------------
+1. Cannot make a 5/10 -> 10/10. At most, 8/10 -> 10/10.
+2. Learn technical then creative.
+3. You cannot derive an ought from an is. What you do with something is totally subjective.
+	- Use References
+	- Lean into subjectivity without a guide.
+4. When learning information, context is important. What kind of genre does the person who is giving it work with? Learning is a process.
+5. Train your ears: 
+6. Practice Critical Listening: What am I hearing?
+7. Master the Fundamentals: Volume Balancing, EQ, Compression / Limiting, Saturation, Reverb, Delay
+8. Getting Reps. Practice. Cambridge Multi-Track Library.
+9. Close Your Eyes. Listen.
+10. Use References. As a Beginner, lean on them more. Try to replicate as an exercise.
+11. Mix Fast: Set a deadline. It makes you more intentional.
+12. Any workflow works.
+13. Ask the right questions.
+	- What am I hearing?
+	- How does it make me feel?
+	- What needs fixing?
+	- What emotional aspects can I enhance?
+	- Why am I doing this?
+
+
+3 Levels of Compression: https://www.youtube.com/watch?v=ETrLK0lH6aY
+-----------------------
+Beginner: Focuses only Ratio and Threshold
+Simple Compression: Quick Attack time makes something sound thicker, slow makes it sound more aggressive.
+If Transients are cutting through the mix too much, use a faster attack time.
+Compression isn't always the tool you want to use. 
+	- Limiting
+	- Saturation
+	- Clipping
+
+9 Free Plugins: https://www.youtube.com/watch?v=qjH9zJpvu-U
+---------------
+- Slate Revival EQ: Shimmer Top-End, Thickness Bottom-End
+- IZotope Vinyl
+- TDR Nova
+- Klanghelm IVGI2
+- Izotope Ozone Imager 2
+- IZotope Vocal Doubler
+- Voxengo - SPAN
+- HoRNetVUMeter
+
+5 Vocal Effects for a More Interesting Mix: https://www.youtube.com/watch?v=9lQrSDVJQCs
+------------------------------------------
+- Think of Delay as a whole other instrument in the mix and make sure it fits.
+- Brighter: Forward in the mix.
+- Darker: Backward in the mix.
+- Throw Delay: Copy the part of the track you want to throw, place it in a new lane, and move it forward to fill in empty space of the original track.
+- Speaker Box Effect: Cut the low end and High End.
+- Stereo Delay: Very light touch to make the vocal more powerful. Make sure the delay for left and right are different.
+
+How to Spot (And Smash) Nasty Room Resonances: https://www.youtube.com/watch?v=jMoP2q0jafM
+---------------------------------------------
+- Sweep EQ
+- Limit to a max of 3 to 4 Resonant Frequency cuts.
+
+
+10 Grammy-Winning Secrets: https://www.youtube.com/watch?v=b3bApEnoMk4
+-------------------------
+- Shape Vocals with a Multi-Band Compressor
+- Use Delay to Widen and create movement on a panned instrument. Short Delay on one side, long delay on another.
+- Serial De-ess.
+- Splitting the lead vocal regions into different tracks based on different EQ Needs.
+- EQ to cut bottom and boost top. Compress it. Second EQ. To Boost Low-end and cut top end to reduce harshness.
+- EQ to boost sides. Bring the mids up.
+- Blending Wet Effects for Vocals.
+- Delay. Slight stagger of left and right to use stereo field.
+
+Pro Mixer Demonstrates Fixing a Flat Mix: https://www.youtube.com/watch?v=yf7YTtD5BRM
+-----------------------------------------
+- Panning
+- Volume can Push the track back.
+- EQ. Cutting the highs can push items back. [Lyu's Personal Note: This trick can also be used to make sounds appear to have a structure between them and the listener.]
+	- As sounds get further away, the high ends get diminished.
+- Reverb
+- Delay: Ping-Pong to help make something that already has width also have more depth.
+- Transients: Can cut through the mix. If you want a vocal further up in the mix, have a slower attack on a compressor so the transients pop through.
