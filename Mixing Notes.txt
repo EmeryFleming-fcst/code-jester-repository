@@ -1,6 +1,6 @@
-https://www.youtube.com/watch?v=sHR7R-TY7NE&t=6481s
-https://www.youtube.com/watch?v=I9fBqKNXIbk
-https://www.youtube.com/watch?v=PUYdVKIWJkQ
+Music: https://www.youtube.com/watch?v=I9fBqKNXIbk
+Vocals: https://www.youtube.com/watch?v=AL21_-REZLw
+
 https://www.youtube.com/watch?v=DHBuyeQ7aYs
 https://www.youtube.com/watch?v=1BLZGe-TqW0
 https://www.youtube.com/watch?v=qKZFckGgd8A
@@ -8,9 +8,6 @@ https://www.youtube.com/watch?v=ID-xyOnEB1c
 https://www.youtube.com/watch?v=gxXlPbpRIMc
 https://www.youtube.com/watch?v=ksJRgK3viMc
 https://www.youtube.com/watch?v=ufKKHlnYUso
-https://www.youtube.com/watch?v=OAS9QaU80nU
-https://www.youtube.com/watch?v=AL21_-REZLw
-https://www.youtube.com/watch?v=REyEdDdyJYE
 
 
 
@@ -292,3 +289,100 @@ Pro Mixer Demonstrates Fixing a Flat Mix: https://www.youtube.com/watch?v=yf7YTt
 - Reverb
 - Delay: Ping-Pong to help make something that already has width also have more depth.
 - Transients: Can cut through the mix. If you want a vocal further up in the mix, have a slower attack on a compressor so the transients pop through.
+
+
+How to Use an Equalizer: https://www.youtube.com/watch?v=sHR7R-TY7NE
+-----------------------
+1. Sweep EQ (This can be done in Reverse)
+2. Reference Tracks 
+3. Gain Staging: Make sure the track is the same volume before and after EQ.
+4. dbfs is what the DAW measures. It's too accurate. Human ears don't perceive it the same way. VU meters are less accurate, but are more accurate in relation to the ear. They detect averages.
+5. The A/B test. Make sure to gain stage first. Hover your mouse over the bypass button. Click on and off the bypass a few times to disorient yourself. Back and forth test without knowing which is which.
+6. The Good Philosophy behind a good EQ balance: EQ with purpose. In Mixing, a bunch of Tiny moves is what makes a good mix. Nothing is a rule, everything is a guideline.
+7. Different kinds of EQs
+	- Analog EQ: Physical Hardware. Gives sound color, i.e. subtle saturation. Saturation adds new frequencies.
+	- Digital EQ: Provides accuracy but has no color.
+	- Parametric EQ: Full control over Frequency, Q, and Loudness.
+	- Semi-parametric EQ: Does not give control of the Q.
+	- Graphic EQ: No control of frequency or width. But you get bands.
+	- Minimum Phase EQ: EQ adjustments slightly alter the phase.
+	- Linear EQ: Tools mostly for mastering engineers.
+	- Stereo EQ: Basic EQ.
+	- Mid/Side EQ: Focus on processing the mono channel, and then the sides separately. More advanced.
+	- Static EQ: 99% of all EQ. Boost a band and it's always in effect.
+	- Dynamic EQ: Only comes into effect when frequencies are too loud and move above the threshold. Used to fix odd tonality.
+	- Regular EQ: Standard EQ.
+	- Smart EQ: Balance the sound through AI.
+8. The Chef Method for EQing the entire mix.
+	- Clean your tracks.
+	- Enhance your tracks. Can you more narrow EQ bands to undo parts of a boost you don't like. Bounce in place (Burn the effects into the actual track). Hide the original so you can use it again if you need to.
+	- Set up volume balance. Create a Height Order: #1 Vocals, #2 Most Important Instrument, etc. Loop the loudest part of the track. Personal rule, -8.0 vocals. Start everything at 0.
+	- Balance your mix's tone (EQ on the mix bus): "I want the whole mix to be x". Be subtle.
+	- Blend your tracks. Where things start to sound like an actual mix. Fix masking. 3 rounds questions [3, 2, 1]. Do this in the context of the mix, not solo. To hear better, put a gain plugin at the end of each track and flip it on when needed. This should mostly be subtle. Keep the tone, but make a bit more space.
+		- What are the most important sounds?
+		- What are the instruments that should be in the background?
+		- What instruments sound like they are masking one another? Use the mute method.
+		- Where does each foreground instrument live in the spectrum?
+		- Where does each background instrument live in the spectrum?
+		- Which instruments are in similar octaves?
+		- Step 1: Boost where the instrument should be dominant. Foreground instruments. Maybe background.
+		- Step 2: Make a cut where the background should make room for the dominant. Mirror the boost. This is where you do tonal shaping with the filter.
+		- Step 3: Use Pocket EQ with instruments that are in the same Octave. Cut and Boost, then reverse on the other one.
+	- Make your final tweaks: Problem Solving Stage. 
+9. Mix in Mono: Forces you to create balance and better clarity.
+10. EQing Vocals: Be subtle if recording is good. When mixing harmonies, use same cuts as the main vocals. Make aggressive cut in upper-mids of harmony, look for most energy. Make it sit inside vocal. High Shelf or low pass. Cutting the top end makes something sound further back in the mix.
+
+
+Vocal Delay and Reverb: https://www.youtube.com/watch?v=OAS9QaU80nU
+----------------------
+- Why use them? Create more subtle space and creative effects.
+- Bussing them allows more flexibility. Including send amount and volume.
+- Sit the Vocal well in the mix: Rebalance, Short Reverb (lower than 1 second decay. Dependent on track, maybe try to have it decay between each word), Short Delay (Can be cleaner and stand out more in a thick mix), Add a Longer Reverb.
+- Use EQ to shape the tone of the Reverb.
+- Creating a sense of width: Short Reverb, Stereo Delay (Slightly Different timings on the left and right channels). Fix Masking for the vocal. Pre-delay on reverbs to separate dry and wet signal. Sidechain Compression to duck the volume of your wet FX whenever the vocal is present.
+- Add Obvious and Creative Effects: Stack Delays and Reverbs to create Ambient Effect. Extra track just for throws. Use sidechain compression.
+
+
+10 Mixing Tips Every Producer Should Know: https://www.youtube.com/watch?v=5bm1E5K1qXU
+----------------------------------------
+1. Know the Three Dimensions of your mix: Height: Frequencies. Width: Panning. Depth: Distance.
+2. Make sure to listen to a track in the context of a mix.
+3. Look after your wellbeing...
+
+
+10 Years of Mixing Advice in 10 Minutes: https://www.youtube.com/watch?v=oY079oVS3Nc, https://www.youtube.com/watch?v=LnT_9Xo3VDQ 
+----------------------------------------
+1. Phase can ruin a mix. Make sure waveforms are the same and not opposite. Ex, if one waveform on one track goes up and another goes down they will cancel one another out depending on the frequencies.
+2. The 5 Click Rule: If it takes more than 5 clicks, find a way to automate or shortcut it.
+3. Thinking for yourself when buying products.
+
+
+10 Mixing Tips I Wish I Knew When I Started: https://www.youtube.com/watch?v=pwubHAMfc2o
+-------------------------------------------
+1. Know your tools. Expensive plug-ins are not always better than stock.
+2. Separate your bass into two stems.
+3. Overdrive should be on a return track.
+4. Put a soft-clipper on each group track before it hits the final limiter on the mix bus. Gives more headroom.
+
+
+Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/watch?v=KcFmGYusunk
+----------------------------------------------------
+1. Fast Pitch Delay. Each repetition pitches down. -5, -7, or -12. Route that output into a reverb. (Valhalla Pitch Delay)
+
+
+100 Tips for Pro Mixes: https://www.youtube.com/watch?v=PUYdVKIWJkQ
+-----------------------
+1. Normalize to -10 to -20
+2. Volume Faders exhibit higher resolution near a nominal 0 db setting, offering finer control over adjustment.
+3. Clip gain automation for vocals to make compression more natural.
+4. Choose an anchor to volume balance around the rest of your tracks. For example, a kick at 8-10 db
+5. Clip Gain for De-essing. Doing this before de-essing ensures the plugin does not need to work as hard.
+6. Other Tips for De-essing: Layers of De-essing. Find the exact frequency and cut it out of just that one vocal. Pitch Down.
+7. Add notes to tracks. In Ableton, Edit Info Text of a Track. Right Click Timeline, Add Locator.
+8. Parallel Compression: Applying heavy compression to a copy of a signal and then blending that copied signal into the original signal. Gives greater control of shaping a sound and allowing it to cut through a dense mix. Carve out midrange and boost lows and highs of copy as well. Essentially feeds in power and energy (low and high). Can also automate mute to make it only work for certain sections.
+9. Rear Bus Compression: Parallel compress everything in the mix aside from the drums and possibly the vocals. It acts as a subtle enhancement.
+10. Parallel EQ. Kush Clariphonic EQ. Shape tone with Analog simulation EQ before other EQs.
+11. Parallel Saturation can be used on anything. Decapitator plug-in.
+12. Take intentional breaks when you are mixing. Sit back and recalibrate.
+13. Listen & Takes Notes After Each Break. Can do it on a separate audio track armed to take your recordings.
+14. Pre-delay to let share punch. When sounds are further away, we hear the dry and wet signal of Reverb more meshed together at the same time (Pre-delay)
