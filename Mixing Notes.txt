@@ -385,4 +385,11 @@ Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/wa
 11. Parallel Saturation can be used on anything. Decapitator plug-in.
 12. Take intentional breaks when you are mixing. Sit back and recalibrate.
 13. Listen & Takes Notes After Each Break. Can do it on a separate audio track armed to take your recordings.
-14. Pre-delay to let share punch. When sounds are further away, we hear the dry and wet signal of Reverb more meshed together at the same time (Pre-delay)
+14. Pre-delay to let share punch. When sounds are further away, we hear the dry and wet signal of Reverb more meshed together at the same time (Pre-delay). No Pre-delay emulates this. Can be used to place instruments to the front or back of your mix.
+15. Use Sample Delays for Width: Exceptionally effective for enhancing Percussive Elements that occupy the higher end of the frequency spectrum. Haas Effect. Effectively making a copy and panning one hard left and the other hard right. Needs to be less than 40ms.
+16. Chiaroscuro: The contrast between light and dark that creates the illusion of depth and realism in art and adds to the emotional experience of the viewer. Panning allows us to create contrast in the width dimension. LCR Panning: Hard Left, Hard Right, Dead Center. Depth allows sounds to feel further away by contrasting them with sounds that are closer.
+17. Understand how EQ affects height. The lower the frequency, the lower the height. The higher the frequency, the higher the height. "Chakras" are activated via frequencies.
+18. Use EQ to create depth in the mix. the further away sounds get, the darker in tone they get. This is why Reverbs often have a built-in high cut filter. The essences of a great mix lies in the artful staggering of your sounds through the right EQ adjustments. To ensure an instrument stands out while maintaining it's unique place, it's incredibly effective to selectively limit it's frequency range.
+19. Low Cut + Low Shelf + Low Mid Cut
+20. Abbey Road Reverb Trick: Roll off the low end the high end of your reverb to a desired place. High End: Darken the Reverb to a degree that is desired to push the sound back in the mix.
+21. De-Esser Before Reverb to get rid of splashiness.
