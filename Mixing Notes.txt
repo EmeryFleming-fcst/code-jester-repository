@@ -10,7 +10,6 @@ https://www.youtube.com/watch?v=ksJRgK3viMc
 https://www.youtube.com/watch?v=ufKKHlnYUso
 
 
-
 Gain Staging: https://www.youtube.com/watch?v=Tq5lDHCKt84
 ------------
 - Gain Staging: The pre-mix process of changing the gain of all of your recordings so that they sit around the same level.
@@ -393,3 +392,22 @@ Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/wa
 19. Low Cut + Low Shelf + Low Mid Cut
 20. Abbey Road Reverb Trick: Roll off the low end the high end of your reverb to a desired place. High End: Darken the Reverb to a degree that is desired to push the sound back in the mix.
 21. De-Esser Before Reverb to get rid of splashiness.
+22. Delay after reverb to give it more width and depth. UAD Lexicon plugin.
+23. Tremolo after Reverb. Longer sustained instruments and sounds. Similar to Ping Pong Effect except you can control depth.
+24. Compressing your Reverb: Downward or Upward. MV2 plugin. 
+25. Automate the Reverb. Up in the chorus, for example. Stops the reverb from being too powerful or too weak.
+26. Three Reverb Buckets: Vocals, Drums, Other. Create contrasting areas of depth. Use a different reverb for each of the 3 main instrument groups. For each instrument bucket, create a long and short version of the reverb. Long Reverb is at least 1 second, anything less is short. Intentionally apply any other tone or character shaping to the reverbs [EQ, Delay, Etc]. Some can be more narrow than others, some can be darker.
+27. Create Contrast with Wide and Narrow Reverbs: As sounds are perceived to be further away, they become more narrow in the stereo field. Sounds that are closer to listeners have a more direct path to their ears, making it so they can be more distinctly placed. As sounds get further away, the direct sound decreases in volume and the reverberation volume increases. The reflections start to fill the stereo field. High frequencies are absorbed more quickly by the air then low frequencies. To create distance, roll off high end, increase decay time, and narrow stereo field.
+28. Organize Your Plugins!!!!! Ex. Amps and Pedals, Delay, Distort/Clip/Saturate, EQ, Filter, Imaging, Metering, Modulation/Chorus, Multi Effects, Pitch, Preamp/Channel Strip, Reverb, Specialized, Utility
+29. It's Correct, If That's how you [or the client] likes it! Taste is everything. "It's important that you understand the delineation between the correct way to do something and whether your like it or not" The only real rules that exist in audio are those that exist within the physics of acoustics. If it sounds good, it is good.
+30. Know your room!!! No matter how accurate and controlled your get your room to sound, you're never going to get mixes to translate unless you spend adequate time learning that room. Test your music on speakers outside of the studio. Listen to references. Listen to those references before mixing [2-5 Tracks]. Car Checks. Low end frequencies tend to travel right out of the window. They can go through thin material easily.
+31. How to find the sweet spot in your studio: Harmon Room Mode Calculator. Alt. Measure 33% length of your room and use that as the starting point. Square rooms are very difficult. Possibly use headphones instead. Anything Sonarworks recommends for $200 on their website is reliable. Set speaks in an equilateral triangle from that position. At least 45 inches apart. Room EQ Wizard for testing. Aim for a Frequency Response that is +-6 db of Flat and a decay times less than 200ms below 200HZ frequencies. SPL Meter helps you find where problem frequencies are in your room, which is where you place your acoustic treatment.
+32. Pan Two Different Tonal Reverbs Left and Right. Keep the Decay's time similar. Works well with swelling sounds, like Synths and Pads.
+33. Pan Reverb/Delay to one side, dry to the other.
+34. Volume Automate the end of the phrase to create depth.
+35. Clipping instead of Compression for Rhythmic Transients: Preserves headroom and makes it brighter by adding a bit of distortion.
+36. Side-chain compression for kick drum. Soothe 2.
+37. Side-Chain Reverb Ducking. Allows the vocals to momentarily reduce the reverb as the come in, and then release once they cease, ensuring the vocals pierce through the reverb, maintaining their clarity and forward position in the mix.
+38. Long Dark Reverb: EQ Feeding Into Reverb Feeding Into Echo. Carve out high and low ends far. Reverb also EQs the lows and highs further. Short Decay time. Add wide delay with 1/4th delay time.
+39. Understand How EQ Adds to Transients: EQ Before Clipper (BitCrusher plugin) makes it "louder" and punchier, even if it doesn't sound like it in solo. It keeps headroom.
+40. Reference Stems From Popular Songs: SPLICE, LOOPMASTERS, SKIO MUSIC AND METAPOP, BANDCAMP, SOUNDCLOUD, PRODUCER/ARTIST WEBSITES, PRODUCELIKEAPRO, PRODUCEATHON COMMUNITY, LABEL PROMOTIONS via Social Media or Website
