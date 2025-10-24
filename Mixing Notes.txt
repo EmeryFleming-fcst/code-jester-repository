@@ -411,3 +411,21 @@ Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/wa
 38. Long Dark Reverb: EQ Feeding Into Reverb Feeding Into Echo. Carve out high and low ends far. Reverb also EQs the lows and highs further. Short Decay time. Add wide delay with 1/4th delay time.
 39. Understand How EQ Adds to Transients: EQ Before Clipper (BitCrusher plugin) makes it "louder" and punchier, even if it doesn't sound like it in solo. It keeps headroom.
 40. Reference Stems From Popular Songs: SPLICE, LOOPMASTERS, SKIO MUSIC AND METAPOP, BANDCAMP, SOUNDCLOUD, PRODUCER/ARTIST WEBSITES, PRODUCELIKEAPRO, PRODUCEATHON COMMUNITY, LABEL PROMOTIONS via Social Media or Website
+41. Make Friends with Phase: The timing relationship between two waves at any point in time. Constructive and Destructive Interference. Easy solution can be to invert the phase, though sometimes you have to manually align.
+42. The Right Way to Hi-Pass: Go too far then drag it back slowly in the context of the mix.
+43. Boost the Fundamental of Kick & Snare into a Clipper for maximum punch.
+44. Use Dynamic and Static EQ on Vox Fundamental
+45. Fletcher Munson Curve and EQ: Ears perceive frequencies in the 1-5k range to be much louder, even when played at the same volume. Perceived volume differs from actual volume. Also called the Equal Loudness Contours. Magic of great mixes is in the midrange.
+46. When using a reference track, you can narrow the frequency bands through EQ to better match your track to it.
+47. Class Pultec EQP-1A: Tightening and cleaning the bass.
+48. Different EQ for different sections of the song: Can automate EQ cuts/boosts.
+49. Tilt EQ is useful for quickly brightening/darkening sounds.
+50. Adopt a "Fix-first" mindset. Before you can enhance a track, you must first fix the issues. Sonic and Dynamic Spectrum. EQ/Volume adjustment, compression, clipping, and limiting. Enhancements injects the mix with tone and character and can range from subtle to bold. Akin to painting on a blank canvas.
+51. How to hear problems? Ear training and practice. "What's just as important as being able to identify a problem is the ability to identify when there are no problems or issues to address." When Search and Destroying, don't look for problems. Identify that they exist, and THEN find them. When boosting, never boost more than 12 decibels.
+52. Tremolo On High End creates width. Depth determines how much of the other end it gets. If 50%, the starting end will have more than the alternating end. 
+53. Compression for Depth: Has a great ability to shape the front-end transient on a snare.
+54. Know your Compressor! Different compressor types have different characters. Especially around Attack and Release.
+55. Mixing Mindset When Recording and Producing: Songwriting and Arrangement. Think about how each element sits in the mix. A well-recorded track needs less cleaning in a final mix. Select sounds that compliment one another and fill the frequency spectrum. If all of these steps are done with care, a significant portion of the mixing process can be done with just volume faders.
+56. Modulation in Reverb: "Depth in Reverb + Rate" Can smooth sounds out and be used for creative effects.
+57. Chorus After Reverb: MicroShift plugin. Create additional spaciness.
+58. Transient Shaping with Compression: Shape and change release times.  
