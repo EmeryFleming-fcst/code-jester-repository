@@ -429,3 +429,12 @@ Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/wa
 56. Modulation in Reverb: "Depth in Reverb + Rate" Can smooth sounds out and be used for creative effects.
 57. Chorus After Reverb: MicroShift plugin. Create additional spaciness.
 58. Transient Shaping with Compression: Shape and change release times.  
+59. Polyverse Wider Plugin: Free. Helps fix phase issues with mono.
+60. Correlation Meter - Don't overstress about Phase! As long as it's above 80% of the time, it's fine. Centering other instruments helps offset it.
+61. Consider Limiters over Compressors: Fast attack and release make it very transparent in how it cuts off transients.
+62. Console Emulation: Putting them on your tracks is essentially summing. Adds color. How hot you drive the sound into it determines the color. 8 channels or more is when you really start to notice the sound.
+63. Know the different saturation types.
+64. Parallel Distortion on the Mix-Bus.
+65. Tape Saturation to get rid of Harshness: Tape is great at softening.
+66. Phase Invert to hear the difference
+67. Parallel Exciter on Vocals: 
