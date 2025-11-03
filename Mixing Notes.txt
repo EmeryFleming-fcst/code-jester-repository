@@ -437,4 +437,13 @@ Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/wa
 64. Parallel Distortion on the Mix-Bus.
 65. Tape Saturation to get rid of Harshness: Tape is great at softening.
 66. Phase Invert to hear the difference
-67. Parallel Exciter on Vocals:  
+67. Parallel Exciter on Vocals
+68. Attenuation Select EQP1A
+69. Low-Pass on Vocals: Don't be afraid to use aggressive filtering on vocals that need it.
+70. Drum Replacement/Layering: Battery 4 plugin. Create replacement/double drums if you receive a bad track
+71. 808 Saturation + Chorus + Limiting: Micro-shift Chorus Plugin. Focus know sets everything below the frequency threshold Mono.
+72. When to Kick the Kick out of the drum bus
+73. Bus Compression (VCA Compression) on drum bus to glue them together.
+74. Short Ambience on Percussion: Helps create separation and depth
+75. Short Decay/Ambience on Backing Vocals: Blend it in slightly to give it depth behind the lead vocal. 
+76. How to Mid/Side: Fabfilter Pro-Q3. 
