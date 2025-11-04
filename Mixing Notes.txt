@@ -1,7 +1,7 @@
 Music: https://www.youtube.com/watch?v=I9fBqKNXIbk
 Vocals: https://www.youtube.com/watch?v=AL21_-REZLw
 
-https://www.youtube.com/watch?v=DHBuyeQ7aYs
+
 https://www.youtube.com/watch?v=1BLZGe-TqW0
 https://www.youtube.com/watch?v=qKZFckGgd8A
 https://www.youtube.com/watch?v=ID-xyOnEB1c
@@ -447,3 +447,34 @@ Sound Design Tips for Film, TV, Games, and Animation: https://www.youtube.com/wa
 74. Short Ambience on Percussion: Helps create separation and depth
 75. Short Decay/Ambience on Backing Vocals: Blend it in slightly to give it depth behind the lead vocal. 
 76. How to Mid/Side: Fabfilter Pro-Q3. 
+77. Contrast in Action: The difference between light and dark is what makes light feel brighter. Restrict the three dimensions of a mix to have an impact of power and expansion. Narrow in the stereo-field of a few instruments. Automate the closing and opening of that element of the mix. An example would be to have it be narrow before the chorus and widen when it switches to it.
+78. Linear Phase High-Pass on Kick
+79. Mix with the Master in Mind: Mindset. Two things involved with mastering, the Sonic Spectrum and the Dynamic Spectrum. Sonic Tools: EQ and Saturation. Dynamic Tools: Compressors, Clippers, and Limiters. Keep the end in mind while mixing. Frequency imbalance and Peaks are the two largest enemies to loudness.
+
+
+How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
+----------------------
+- A smart volume fader.
+- Usually used to squish the highs and lows together.
+- 4 Goals of Compression: To Balance, To Enhance, To Glue, To Fix.
+- To Balance for a Good Mix you need to balance The Tone, The Space, and The Dynamics. EQ, Reverb/Panning/Delay, Volume and Compressors.
+- Balance Compression: Balances the Dynamics of each individual instrument.
+- Tonal Compression: Compression that is there to change the sound's tone. 
+- Glue Compression: Bring all of the instruments together and make them feel cohesive.
+- Music Dynamics: The range of volume between the loudest part of the song and the quietest part of the song. Shape of a song.
+- Macro Dynamics: The difference between the loudest note in a track's performance and the quietest note. Shape of an instruments musical performance.
+- Micro Dynamics: The range of volume between the loudest moment and the quietest moment in each and every note an instrument makes. Shape of the note.
+- Volume Envelope: The unique pattern of loudness that's made by each instrument.
+- Sustain: The valley of the note.
+- Transient: The peak of the note.
+- Good Compression Comes in Layers: Each of the layers is accomplishing a different goal and each of them is subtle.
+- Anatomy of a Compressor: 
+--Threshold: Sets the volume level that turns the compressor on.
+--Ratio: How hard the compressor works. How aggressive. The higher the ratio, the more gain reduction you get.
+--Gain Reduction Meter: Visually shows how much compression is being done.
+--Attack: The amount of time it takes for the compressor to apply the full dose of compression.
+--Release: The amount of time it takes for the compressor to fully recover from gain reduction.
+--Make-Up Gain: Turning the Volume up. Making the quiet sounds louder.
+--Knee: Turn the threshold from a single number to a range of number. A hard-knee (0) is a more accurate compressor but is obvious, a soft-knee (1) is a less accurate compressor but is more subtle.
+--Auto: Ignore the Release knob, release when the compressor thinks it should release.
+--Mix Knob: Mix the Dry Signal with the Wet Signal

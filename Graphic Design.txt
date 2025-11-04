@@ -1,0 +1,51 @@
+Full 1 Hour Logo Design Course: https://www.youtube.com/watch?v=l9_BM1opTj8
+------------------------------
+- Font: What do you want to communicate?
+- Logo Design Categories
+-- Lettermark/Monogram Logo: Just text. Uses company name. Reason: When the name is too long, so it's abbreviated. You need to find a way to make a handful of letters iconic, which makes it difficult but possible.
+-- Wordmark: Good for startups and local businesses. Gets their name out there. Should be kept short. They show confidence.
+-- Brandmark: Simple and easy to recognize globally. No worries about languages. 
+-- Combination: Both a logo type and a brandmark. Easiest to work with as a designer.
+-- Emblem Logos: Quite niche. An example is Starbucks.
+-- Mascot Logos: Also niche. Quite fun. 
+- Logo Design Grids: Used in the later stages of the process.
+-- Circle and Oval Grids are used for making organic and natural kinds of logos
+-- 45 Degree lines, or just lines in general, are really good for very man-made logos
+-- Circles can be used to show the width of a part of a design and show how it's maintained throughout the design.
+-- Micro White Space
+- Logo Warning Signs: 
+-- It looks gimmicky, unprofessional, or outdated.
+-- Lack of attention to detail. Sloppy or poor execution. Pixelation or Blurriness. Uneven spacing and poor alignment. Inconsistent line thickness. Weird or Complex composition.
+-- Never overpromise and under-deliver. Do the opposite.
+-- Research and approach design from a problem solving mindset.
+--- Target Audience: Who are they? What do they like? What makes them tick? What do they dislike?
+--- Psychology: Shape, Color, Typeface
+--- Memorability: Memorable Elements, Emotional Connection, Storytelling, Versatility
+-- Lack of iteration and revision can greatly harm the logo.
+-- Do not rush or mismanage the ending stages of a product (the product packaging and delivery)
+- Logo Design Shape Tips
+-- Squares and Rectangles are strong and Reliable
+-- Ovals and Circles are Community, Friendship, and Love.
+-- Angles and Straight lines are linked back to motions and speed.
+-- Triangles: Strength and Dependability
+-- Experiment with placing your logo design shapes in real life situations to see how they look.
+-- Know your client and the target market
+-- Marry together word pairs in couples to help get shapes. 
+-- Really focus on memorability. Keep It Simple Stupid.
+-- Use a Grid.
+- Illustrator Shape Building Tool Tips for Logos
+-- Gain the Client, Research and Concepts, the use Shape Builder
+-- Import Sketches right into Illustrator
+-- Change Keyboard Shortcut for Illustrator tool
+-- Turn on Gap Recognition
+-- De-select Align to Pixel Grid Option
+-- Smart Guides: Low Tolerance of 1
+-- Selection and Anchor Display: Tolerance of 2. Snap to point 2.
+-- Make use of outline mode.
+- Offset Path Tool
+-- Adds a shape around a shape
+- General Design Tips
+-- Window -> Actions -> Create Action -> Scale Test -> Record. Scale the logo repeatedly starting at 75%
+-- Puppet Warp. Has anchors that anchor the logo in places but allow for some free form edits in others. Use Smooth tool to fix any artifacts.
+-- Brands that want to appear man-made must use straight edges and lines.
+-- Global Colors
