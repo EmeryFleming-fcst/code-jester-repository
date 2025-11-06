@@ -478,3 +478,39 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 --Knee: Turn the threshold from a single number to a range of number. A hard-knee (0) is a more accurate compressor but is obvious, a soft-knee (1) is a less accurate compressor but is more subtle.
 --Auto: Ignore the Release knob, release when the compressor thinks it should release.
 --Mix Knob: Mix the Dry Signal with the Wet Signal
+- Threshold and Ratio:
+-- Threshold: Choose the part of the micro-dynamics you want to target.
+-- Ratio: The higher the more compression occurs. For every Xdb that goes in, 1db is released from the Compressor.
+-- At the ratio gets higher, the amount of gain it reduces gets lower. 8:1 -> 1 - 1/8 -> 7/8 -> 88% volume decrease of what goes over the threshold.
+- Attack and Release: Do the most shaping. Are rates, not delays. Rate of change. Think of it like a linear curve.
+-- Attack: The amount of time it takes for the compressor to apply the full does of compression after a sound has gone above the threshold. Slowly turns the ratio up over the attack time, say from 1:1 to 4:1.
+-- Release: The amount of time it takes for the compressor to fully recover from the gain compression.
+-- Fast Attack: Grabs your peaks really hard.
+-- Slow Attack: Lets your peaks pass through relatively uncompressed.
+-- Fast Release: Makes the compressor more dramatic.
+-- Slow Release: Makes the compressor more transparent by keeping the dynamics relatively the same.
+-- Attack times:
+--- Fast: 1us to 1000us
+--- Medium: 1ms - 10ms
+--- Slow: 10ms - 100ms. Starts to get into the valley.
+-- Release:
+--- Fast: 0ms - 100ms
+--- Medium: 100ms - 500ms
+--- Slow: 500ms - 20 seconds
+- Make-up Gain:
+-- Just a volume know that increases the output.
+-- All a compressor knows how to do is turn loud sounds down.
+-- Turn our now turned-down sound back up.
+-- Usually want overall level to be the same pre and post compression.
+-- Sometimes you want the peaks to be at the same level they were before, sometimes the valleys.
+- Sidechain: The ears of the compressor.
+-- There is only one sidechain, but there are two different sources.
+--- Internal Source: Listening to the channel the plugin is on.
+---- Sidechain filtering: Just tells the sidechain "Hey I want you to ignore this part of the FQ spectrum". Can make it sound more natural in the low-end.
+--- External Source: Listen to a different instrument and act like it was compressing that instead.
+---- What people usually refer to as "sidechaining". Helps to keep balance by dropping the db of one thing as another hits the threshold.
+- Lesser used parameters
+-- Knee: Turn the threshold into a range. Like a hazy cloud the sound passes through, eventually reaching the threshold. Helps it feel more subtle and natural. Ratio shifts throughout the cloud. Changes from a liner slope to a more parabolic one. Add it after everything else. Percussion usually prefers hard-knee, string instruments can benefit from a soft one due to sustain.
+-- Range: Affects the amount of compression being applied. Sets the upper limit of compression that can be applied. Helps keep transients intact. Usually in de-essers. Alternative to a mix-knob.
+-- Hold: Prolongs the peaks in gain-reduction. Rounds out the top of your gain-reduction. Usually found in noise-gates. Takes it from a sharp spike to more of a curved mountain.
+-- Lookahead: Anticipates peaks and starts to reduce the gain a few milliseconds early. Delays the entire track. Helps achieve loudness without decreasing clarity. More on Utility Compressors like Limiters where colorless gain reduction is the most important.
