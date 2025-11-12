@@ -523,9 +523,26 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 --- High Threshold, fast attack, slow release.
 --- Match Release to BPM. The Lyons' Den Delay Time Calculator.
 --- Very subtle. Serial-compression can be good here.
+--- Do I want my make-up gain to match the peaks or valleys?
 -- Thickness
+--- Gives a lot of loudness.
+--- Set the threshold to only catch the peaks.
+--- Fast attack. Fast Release. 
+--- Make-up Gain to hit top of peak.
 -- Groove
+--- Accentuates the accents of an instrument by introducing pumping. Can wreck a track.
+--- Slow Attack, Fast Release, Low Threshold. 
+--- Threshold beneath valleys.
+--- Make-up gain to the same as before.
+--- This has to be timed to the tempo.
 -- Punch
+--- Increasing the impact of the peaks.
+--- Changes the micro-dynamics.
+--- Slow Attack, Slow Release, Low Threshold.
+--- Threshold to beneath the peaks.
+--- Attack should allow peaks through.
+--- Release should last until next note.
+--- Make-up gain should match initial.
 - How to set up your compressor
 -- Zero out your compressor. Thresh: 0, Ratio: Max, Attack and Release: Max, if Knee: 0.0.
 -- Adjust the threshold
@@ -533,3 +550,36 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 -- Adjust your knee if you have one.
 -- Adjust ratio to taste.
 -- Adjust your make-up gain.
+- How to Create Depth.
+-- Soundwaves lose their transient properties the longer they go on. Peaks get quieter the further away sound travels. Smaller dynamic range is further away, closer is higher.
+-- Always gain stage to original loudness. Only changing peaks.
+-- The louder something is, the closer it appears to be.
+- How to Create Headroom
+-- Turn down the peaks of certain sounds.
+-- Saturation is a different type of compressor.
+-- Adds distortion and compresses peaks
+- Remove Room Sound
+-- Turn down the valleys of the sound.
+-- Going to be losing some tone.
+-- Slow Attack, Slow Release, Low Threshold. Match output gain to peak level.
+- What compression style should I use?
+-- To Balance
+--- Use Consistency or Depth style (Closer/Farther)
+-- To Enhance
+--- Punchy, Thick, Groove
+-- To Glue
+--- Consistent, Depth (Farther), Groove
+-- To Fix
+--- Create Headroom
+--- Turn Down Room Sound
+- What Does Over Compression sound like
+-- If you can hear the compression, and it's not your goal, you overdid it.
+-- Pumping: Fast Release in compressor that causes unnatural dip in DB. Caused by using too heavy of a ratio on Groove Style.
+-- Breathing / Splat: Breathing is on sustain instruments. Compressor clamps down and has a very slow release. Sustain louder than transient. Splat means peaks are becoming unfocused. Caused by a low threshold targeting both the peaks and valleys in a Consistency style compression.
+-- Brickwalling / Lifelessness : BW. Fast attack, slow release, but has a low threshold. Thickness style of compression leads to it. Turns down peaks so they are at the same level of the valley. If added to a sound that has a lot of dynamics, it will suck the life out of it.
+-- Inconsistency: Occurs when you are compressing on an overly dynamic track. Punchy style of compression with an aggressive ratio.
+- How to Compress Any Instrument
+-- Figure out your goal.
+-- Decide on a Compression Style
+-- Find our style's settings
+-- 
