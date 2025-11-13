@@ -582,4 +582,18 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 -- Figure out your goal.
 -- Decide on a Compression Style
 -- Find our style's settings
--- 
+-- Find your Peaks and Valleys. Use Threshold and makes sure it hits back to zero.
+-- Set up Your Compressor
+- How Fast are the Peaks?
+-- These ranges only show how long it takes to get from no sound to the loudest part of the sound.
+-- Percussive:
+---1ms - 10ms
+-- Rhythmic:
+---10ms - 40ms
+-- Sustained:
+---15ms - 60ms
+-- Use the Slope of the note to visually check it.
+- Serial Compression
+-- Stack multiple compressors in a row.
+- Parallel Compression: Put the compressor on a send and mix it in subtly.
+-- Usually works best with Analog compressor since the goal is color.
