@@ -597,3 +597,36 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 -- Stack multiple compressors in a row.
 - Parallel Compression: Put the compressor on a send and mix it in subtly.
 -- Usually works best with Analog compressor since the goal is color.
+- Sidechain Compression
+-- Creating room in a mix
+- Over vs Under Compression?
+-- How to get good dynamic balance?
+--- Compression Sweet Spot
+---- Depth, Size, Definition, Consistency, Separation. All of that plus keeping excitement and drive in a song is a really good place for compression to sit.
+--- Over-Compression
+---- Flat and annoying. No sense of depth. Low end gives a mix it's size. It's the foundation. Compression can kill it.
+--- Under-Compression
+---- Sounds like RAW tracks. No definition (Can't hear proper details of the instruments. Notes jump in and out). No placement.
+---- Compression is a focuser. Squishes a sound together a little bit. Easier to mix when we have small blocks rather than a lot of instruments elbowing one another.
+-- A/B Test the Compression
+- How To Compress an Entire Mix
+-- Pre-Mix
+--- Routing: Routing Outputs that should be grouped together to a mix Bus that can be glued, then routing that to a mix bus.
+--- Gain Automation: Like doing compression before putting a compressor on your track. Lower or raise volumes of part of the track to keep consistency. Can use automation on a gain plugin or break the track up and increase the clip gain.
+--- Volume Balancing: The most important thing in a mix.
+---- Look for any channels that are peaking and reduce the gain.
+---- Loop the loudest section of the song.
+---- Turn the faders all the way down.
+---- Listen to a few reference tracks to prime your ears.
+---- Decide on the most important channel and send it to -5db.
+---- Bring in the second most important channel and balance its volume with the first channel.
+---- Continue in this manner, bringing up channels in the order of importance.
+---- Once all the channel are set up, spend at least 10 minutes adjusting the balance.
+---- Take a short break and listen again. You will likely find some final tweaks.
+---- Once you've finished your initial mix, play the song from the beginning and automate the volume of each instrument to fit.
+-- Mix Bus
+-- Balancing
+-- Glueing
+-- Enhancing
+-- Fixing
+-- Limiting
