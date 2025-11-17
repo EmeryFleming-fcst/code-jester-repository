@@ -625,8 +625,20 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 ---- Take a short break and listen again. You will likely find some final tweaks.
 ---- Once you've finished your initial mix, play the song from the beginning and automate the volume of each instrument to fit.
 -- Mix Bus
+--- Glues the entire mix together
+--- Aim for 1-2db of compression
+--- Can use different styles by using serial compression
+--- Make sure to use internal sidechain. Filter out some of the low-end.
 -- Balancing
+--- Vocals typically need a lot of compression.
+--- Things that pop in and out usually need consistency compression.
+--- Would also use some depth compression here.
 -- Glueing
+--- Pretty explanatory
 -- Enhancing
+--- Do any of these instruments need enhancements?
+--- Prefer to do in parallel.
 -- Fixing
+--- If it's unnecessary don't use it.
+--- Consider using Saturation when creating headroom.
 -- Limiting
