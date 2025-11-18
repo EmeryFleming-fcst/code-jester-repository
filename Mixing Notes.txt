@@ -642,3 +642,23 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 --- If it's unnecessary don't use it.
 --- Consider using Saturation when creating headroom.
 -- Limiting
+--- Limiter: The most aggressive compressor you can have. Get loudness. -0.3 to -0.7
+--- Limiters are sometimes used on specific instruments subtly.
+- Analog-ing your mix
+-- Saturation is the marriage between compression and distortion. Both adding a removing frequencies. Makes it both thicker and more natural.
+-- Stages to Emulate
+--- Pre-Amp
+--- Analog Tracking Board
+--- Tracking Tape Machine
+--- Mixing Board
+--- Analog Summing Channel
+--- Master Tape Machine
+- Where should I put my compressors?
+-- Cleaning: Do before the compressor.
+-- Tonal: Can do before or after. If huge cuts or boosts, before. Effect, put after.
+-- Reverbs and Delays: Put on a send. If have to be on a channel, put at the very end. Other effects should be at the end of the chain before reverbs and delays.
+- How do I compress the low-end?
+-- low-end has to be louder in order to hear it properly at the same level as other instruments.
+-- Best way is to use the compressor's sidechain filter.
+-- Most of the microdynamics of a low end instrument don't live in the lows 
+-- Bass Frequencies are slower than our standard fast attack times. 3ms-10ms. Cutting the wave off before it finishes causes modulation distortion.
