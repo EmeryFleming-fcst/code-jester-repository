@@ -1,3 +1,17 @@
+https://www.youtube.com/watch?v=0BTcW2PNrnA
+Spitfire Labs
+U-HE TyrelleN6
+Tal-Chorus-LX
+Tone Projects BassLane
+Kilohearts Essentials Bundle
+Venn Audio Free Clip
+Limiter6
+Voxengo Span
+Youlean Loudness Meter
+Analog RareSE EQ
+Acoustic Audio Baxter EQ
+
+
 Music: https://www.youtube.com/watch?v=I9fBqKNXIbk
 Vocals: https://www.youtube.com/watch?v=AL21_-REZLw
 
@@ -661,4 +675,47 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 -- low-end has to be louder in order to hear it properly at the same level as other instruments.
 -- Best way is to use the compressor's sidechain filter.
 -- Most of the microdynamics of a low end instrument don't live in the lows 
--- Bass Frequencies are slower than our standard fast attack times. 3ms-10ms. Cutting the wave off before it finishes causes modulation distortion.
+-- Bass Frequencies are slower than our standard fast attack times. 3ms-10ms. Cutting the wave off before it finishes causes modulation distortion. Stick to medium attack times.
+- Why is Compression making my mix worse?
+-- Room reverb lives in the sustain and valleys.
+-- When bringing up the valley it also brings up that reverb.
+-- Don't record in rooms with parallel walls. Lots of glass, tiles, etc.
+-- Get Acoustic Treatment.
+-- Try to get acoustic panels, not foam, if possible
+-- Record in a studio
+-- Use MIDI, if you want
+-- If none of that works, just be okay with having a punchy mix.
+- Compressing for Different Genres
+-- Pop: Trend towards perfection. More about consistency. Controlling dynamics. Consistency compression.
+-- Rock: More concerned about shaping tones. All about the vibes. Enhance and Glue more that the others. Slow attack times. More punchiness and aggression.
+-- Hip-Hip: Older was more like rock, newer is more like pop. Drums are punchy across the board.
+-- Acoustic: New Country is basically pop. Old country is consistent. No tone-changing or glue. Or at least, very little of it.
+-- Electronic: Compress vocals or enhancement, but that's usually it.
+- What are the most used analog compressors?
+-- Get good with what you have first!
+-- VCA
+--- Voltage Controlled Amplifier. The most standard compressor.
+--- Jack-of-all trades. Not great at adding warmth or color.
+--- Used in 80% of mixes.
+--- API-2500.
+-- FET
+--- Field Effect Transistor
+--- Extremely fast attack times. Down to micro-seconds.
+--- Aggression, excitement, limiting. Great on vocals and guitars.
+--- Usually only have control over the attack, release, and ratio.
+--- 1176 Compressor
+-- Optical
+--- Simplest of all of them. Have only gain and peak reduction.
+--- Attack and release dependent entirely on the sound.
+--- Slow response and a fast-medium attack.
+--- Very polished sound. Great for adding warmth and sheen. Great for controlling the levels of a sound.
+--- Not good for controlling transients. Closer to a consistency compressor.
+--- Not great at adding aggression. Adds smoothness.
+--- Teletronix LA-2A Silver
+-- Vari-Mu
+--- Really, Really colorful.
+--- Very few controls. Thresholds. Combinations of attack and releases.
+--- Add warmth, depth, thickness, fatness. Might have hyper fast or super slow attack times.
+--- Great at punchy and thick styles. Great at mix bus glue. Usually found on vocals.
+--- Do not have precise attack and release. Not great at controlling super hard transients.
+--- Fairchild 670
