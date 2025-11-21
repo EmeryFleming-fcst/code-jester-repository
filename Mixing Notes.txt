@@ -20,7 +20,6 @@ https://www.youtube.com/watch?v=1BLZGe-TqW0
 https://www.youtube.com/watch?v=qKZFckGgd8A
 https://www.youtube.com/watch?v=ID-xyOnEB1c
 https://www.youtube.com/watch?v=gxXlPbpRIMc
-https://www.youtube.com/watch?v=ksJRgK3viMc
 https://www.youtube.com/watch?v=ufKKHlnYUso
 
 
@@ -719,3 +718,26 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 --- Great at punchy and thick styles. Great at mix bus glue. Usually found on vocals.
 --- Do not have precise attack and release. Not great at controlling super hard transients.
 --- Fairchild 670
+
+
+21 Mixing Tips that Nobody Told Me: https://www.youtube.com/watch?v=ufKKHlnYUso
+-----------------------------------
+1. Use both headphones and listen in your room.
+2. Fix Your Room: Reflection Points, Left and right of you. Ceiling. 
+3. Manage your perspective: Take lots of breaks. Preferably a place with sounds. Switch between different headphones and speakers while mixing. Listen to references tracks. Jump around the mix.
+4. Train your ears
+5. END in Mind perspective
+6. Don't use Band-Aids. Make sure you do your job through each part of the phase.
+7. Volume Balance is 80% of the mix.
+8. Volume Automation to help things sit in the mix
+9. Progressive Referencing: As you're starting out, reference and copy. As you progress, reference less. 3-5 every 10 minutes or so to checking your mix. Later on, mostly just at the start and end of the mix.
+10. Any workflow WORKS. Just go through different passes.
+11. Mix Fast: The longer you mix the more perspective you lose. Forces you to be intentional.
+12. Intent Based EQ: Have an intention before you load up an EQ.
+13. Fearless Compression: Don't be afraid to compress a lot.
+14. Don't neglect clipping and limiting: Clipping shaves off the transient. TR5 Classic Clipper. Transparent Limiter
+15. Close your eyes. Tools have a ton of visual feedback. 
+16. Mix in four dimensions: Height is FQ, Width is Panning, Depth is Front and Back: Volume, Transient Shaping, Reverb, Delays, Cutting High Frequencies.
+17. Know what Matters: Don't make hard decisions with the solo button. Mix back-and-forth in Mono. Gain staging does not need to be perfect.
+18. Objective vs Subjective: Technical and Scientific vs Creative.
+19. Lean into Subjectivity. Mixing is artistic.
