@@ -20,7 +20,6 @@ https://www.youtube.com/watch?v=1BLZGe-TqW0
 https://www.youtube.com/watch?v=qKZFckGgd8A
 https://www.youtube.com/watch?v=ID-xyOnEB1c
 https://www.youtube.com/watch?v=gxXlPbpRIMc
-https://www.youtube.com/watch?v=ufKKHlnYUso
 
 
 Gain Staging: https://www.youtube.com/watch?v=Tq5lDHCKt84
@@ -741,3 +740,66 @@ How To Use Compression: https://www.youtube.com/watch?v=ksJRgK3viMc
 17. Know what Matters: Don't make hard decisions with the solo button. Mix back-and-forth in Mono. Gain staging does not need to be perfect.
 18. Objective vs Subjective: Technical and Scientific vs Creative.
 19. Lean into Subjectivity. Mixing is artistic.
+20. Master the Objective first! Once you have the technical skills first it's easier to be creative.
+
+
+How To Use Reverb: https://www.youtube.com/watch?v=gxXlPbpRIMc
+------------------
+- What is Reverb? The sound of the room. The tone printed on top of your sounds.
+- Two uses: To create space and for style.
+-- Creating Space: Glues tracks together. Makes the mix feel cohesive. Creates depth and width. Turns a 1D mix into a 3D mix. Draws attention to what you want. Subtle
+-- Creating Style: Makes the mix cool & unique. helps the mix sound larger than life. Creates energy and connection. Will be heard by the listener.
+- The science of sound
+-- Everything in nature is made up of three sounds: Direct sound, Early Reflections, Late Reflections
+-- Sound waves emanate in all directions.
+-- Direct Sound: The sound wave that travels in a straight line to your ears. "Oh, I'm hearing this sound"
+-- Early Reflections: The sound waves that bounced off one or two surfaces to your ears. Determine the room size, how far away the sound is, what direction the sound is coming from.
+-- Late Reflections: The sound waves that bounce dozens of times before reaching your ears. The makeup, shape, and tone of the room. They give you all of the color of the room, but only that.
+-- Read your reverb plugin manuals!
+- Anatomy of Reverb
+-- The 3 different jobs of a reverb setting
+--- Create the 3D space of the room
+--- Changing the tone of that room
+--- Making the job of mixing with reverb easier
+-- Space: Setting the size of the room and how close/far the instrument will sound to the listener.
+--- Pre-delay, Room Size, Distance, Early Reflections
+-- 3D's of Reverb Tone
+--- Decay, Density, Damping, Late Reflections
+-- Mixing Tools
+--- EQ, Wet/Dry Mix, ER/LR Mix, Stereo Spread, Modulation
+- Creating 3D Space
+-- Room Size: The size of a room. Just a knob. Changing the early reflections. Adding a bit of pre-delay and possibly changing the principal amount of the decay.
+--- The higher the room size, the more spaces out the early reflections are.
+-- Distance: How far away the instrument is.
+--- Distance is like a seesaw. If it's closer, the direct sound and the early early reflections are louder. If it's further, it evens out a bit more. The later early reflections are louder, the early early reflections and direct sound decrease in volume, and the late reflections increase in volume.
+--- The closer the sound is to you, the less energy is lost. All sounds naturally lose energy over time.
+-- Pre-delay
+--- The delay between the direct sound and the reverb.
+--- We use it to make the room sound bigger, to make an instrument sound closer to us, or to separate the instrument from the reverb.
+--- Two different types of pre-delay:
+---- Early pre-delay: A delay between the direct sound and the early reflections. Separates direct sound from all reverb. Helpful for establishing distance. The longer it is, the closer something seems. Helpful for creating separation between the instrument and the reverb.
+---- Late/Reverb Pre-delay: A delay between the early reflections and the late reflections. Early reflections are baked into your direct sound. Help the room seem larger. Help to create separation, but only if you want to have some level of depth inside of your instrument.
+---- Plugins usually only give you control over one, but hide the other behind one of the other knobs, making it part of the backend. Distance knob and early pre-delay. Size and late pre-delay.
+---- A longer pre-delay usually indicates something is closer. The reason for this is the length of the early reflections. If something is closer to you, it typically has to travel further to bounce off the walls and get back to you when compared to the length of time it takes the direct sound to reach you. In comparison, the further away you are from the sound the closer the length the direct sound and early reflections are to one another, since they have to travel a more similar distance. 
+---- Limit to what is natural. Usually between 1-50ms in any room. Greater than that and you start to hear the separation from the sound and reverb.
+---- Larger Room size, higher late pre-delay. Smaller room size, smaller late pre-delay. It also swallows the early reflections.
+---- For early pre-delay, there are times when you may need to use a delay plugin.
+---- How to figure out which pre-delay you have? For one, read the manual. Second, grab a snare or percussive instrument. Dry/Wet 100% and max out the pre-delay. Figure out where the delay is.
+- Changing the Tone of the Room
+-- Late Reflections AKA Reverberation, Decay Time, Reverb Time, Reverb Tail, RT60
+-- When sound waves bounce off of a surface, they have 3 options: Reflection, Absorption, and Diffusion.
+-- Reflection: The base reaction for sound waves. Very little energy is lost. Decay time reflects this. It's essentially how many reflective surfaces there are in a room.
+--- Think What's the room, How Big Is It, How far away is the sound, what is the room made of, what is the room shaped like.
+--- Usually want to stick to 0.5 - 1.5s unless you're doing longer ones with intention.
+--- How Lively a room sounds. Longer = Livelier.
+-- Absorption: When a sound wave hits a soft, porous material, it begins to lose some of its energy.
+--- Top end is absorbed much faster than low end.
+--- Damping: Looks like EQ. Determines how long each of the sections of the Frequency Spectrum last.
+--- Damping can be used to control how emotionally intimate a reverb sounds.
+--- People are some of the most absorbent things in a room.
+--- How full a room sounds. A lot of damping makes a full sounding room that loses top energy quickly.
+-- Diffusion: When a soundwave hits a really sharp or jagged surface, bouncing off completely randomly and sometimes splitting off. This creates a more even wash of sound, since it covers more of the room.
+--- Density controls how focused and even the late reflections sound. Subtle. Mostly in the beginning. It allows you to hear the extra "crack" of the sound.
+--- The denser the sound, the lower the density should be.
+--- If referred to as Diffusion, it works on both type of reflections. If called Density, it's just the late reflections.
+--- How even the room is. The higher the density, the more complex the room.
