@@ -803,3 +803,29 @@ How To Use Reverb: https://www.youtube.com/watch?v=gxXlPbpRIMc
 --- The denser the sound, the lower the density should be.
 --- If referred to as Diffusion, it works on both type of reflections. If called Density, it's just the late reflections.
 --- How even the room is. The higher the density, the more complex the room.
+- Tools for Mixing
+-- EQ, Wet/Dry Mix, ER/LR Mix, Stereo Spread, Modulation
+-- EQ: Before Reverb for smoothness. Cuts are usually in the top, low, and areas where there might be too much energy in the reverb.
+--- Abbey Road Trick: HP Filter. Start at 600Hz, Slope of 12 or 18db. Low pass Filter start at 10KHz with a 12-18db slope. Adjust frequency.
+-- Wet/Dry Mix: How much of the instrument and Reverb is used.
+-- ER/LR Mix: The closer the slider gets to one side or the other the more you hear only one of the two. Helpful when trying to really zone in on one of the two reasons to use Reverb.
+-- Stereo Spread: How Wide the Reverb is. Don't be afraid to decrease it down from 100.
+-- Modulation: Adding random delays so reflections aren't static. Low rate and low depth usually give best results.
+--- Mod Speed: How fast the modulation is.
+--- Mod Depth: How aggressive the back and forth is. 
+- Types of Reverb
+-- Room Reverb: Modeled after normal rooms. Shorter early and late reflections.
+-- Hall Reverb: Modeled after Concert Halls. Long early and late reflections 1 - 1.5s decay.
+-- Chamber Reverb: Modeled after old chamber reverb rooms. Very reflective. Medium early and late reflection time.
+-- Ambience Reverb: Focus on Early Reflections. Short Decay Time. Short Pre-Delay.
+-- Plate Reverb: A huge metal plate with a pickup. No early reflections or natural pre-delay. Good for getting a cool tone without pushing stuff back in the mix. Sound really smooth or really jangly.
+-- Spring Reverb: Uses large metal spring instead of plate. In most electric guitar amps. No ER or natural Pre-delay. Not very subtle. Very Metallic.
+-- Non-Linear Reverb: Catch all for all of the other reverbs. Gate Reverb is the most common type: A reverb that ends out of nowhere.
+- Types of Reverb Plugins
+-- Algorithmic Reverbs: Created by computer algorithms. Can give a larger than life reverb. About 80% of plugins are this.
+-- Convolution Reverbs: Natural Reverb. Sampled Reverb. Tonally flexible. Natural sounding. Take up a huge amount of processing power. Less control over settings.
+- Creating Space
+-- Science of Distance
+--- Overall loudness, the difference between the direct sound and reverb, the overall brightness, the dynamic range, and the early pre-delay.
+--- Overall loudness through volume faders. The further away it is, the quieter it is. Energy lost.
+--- The volume difference between the direct sound and reverb,
