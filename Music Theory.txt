@@ -43,3 +43,51 @@ Consonances and Dissonances:
 - Equal Temperament
 -- Every note in the chromatic scale is separated by an equal interval, such as 1/12 octave. All notes are slightly offset, same with intervals, but it makes all fifths and thirds equally consonant.
 -- Can now transpose any song in any key without having to retain our instrument.
+- Octave is divided into 12 different intervals, so 12 notes.
+- Excluding Major and Minor there are 7 notes: CDEFGABC
+- Name of Scale Dependent on the Fundamental and How the Note is spaced
+- C Major Scale:
+-- C Fundamental
+-- Major: 1 1 1/2 1 1 1 1/2 tones (Intervals between keys)
+- Minor: Takes the 6th notes of the Major scale. A minor is the minor scale of C Major.
+-- 1 1/2 1 1 1/2 1 1
+
+- Modes: Take a Major Scale and build a whole bunch of new scales. Each type is defined by intervals:
+-- C D E F G A B C -> Ionian (Mode of C) -> 1 1 1/2 1 1 1 1/2
+-- D E F G A B C D -> Dorian -> 1 1/2 1 1 1 1/2 1
+-- E F G A B C D E -> Phrygian -> 1/2 1 1 1 1/2 1 1
+-- F G A B C D E F -> Lydian -> 1 1 1 1/2 1 1 1/2
+-- G A B C D E F G -> Mixolydian -> 1 1 1/2 1 1 1/2 1
+-- A B C D E F G A -> Aeolian (Minor) -> 1 1/2 1 1 1/2 1 1
+-- B C D E F G A B -> Locrian -> 1/2 1 1 1/2 1 1 1
+
+- Niche Scales not made from Major Scale:
+-- Acoustic/Lydian Dominant: 1 1 1 1/2 1 1/2 1
+-- Byzantine / Double Harmonic: 1/2 1.5 1/2 1 1/2 1.5 1/2
+
+- Chord is a set of notes played together. Name depends on the root node, how many notes are in it, and the interval that separates the notes.
+- Triads are chords made of 3 notes. Basis of all chords.
+-- Need the Root Node, then a 3rd and a 5th.
+-- C Major Chord: C E G. 2 tones between C and E, which is a Major 3rd. 3.5 tones between C and G which is a Perfect 5th.
+- Major Chord: Root + Major 3rd + Perfect 5th (Sounds Happy). Major 3rd + minor 3rd
+-- C Minor Chord: C E(Flat) G. 1.5 Tones between C and E(flat) is a minor 3rd. 3.5 tones between C and G which is a Perfect 5th.
+- Minor Chord: Root + Minor 3rd + Perfect 5th = Minor Chord (Sounds Sad). minor 3rd + Major 3rd
+- If you change the order of the notes, the voicing, it will still stay the same chord. E G C is still a C Major Chord.
+- If you remove the third in the Chord, it is neither a minor or major. It is a power chord. 
+- Can also alter a chord by moving the Perfect 5th. Up 1 semitone (1/2) it becomes Augmented. Down 1 Semitone it becomes diminished.
+- Augmented Chord: Root + Major 3rd + Augmented 5th. (Bright Chord) Major 3rd + Major 3rd
+- Diminished Chord: Root + Minor 3rd + diminished 5th (Dark Chord) minor 3rd + minor 3rd
+- Chords of the C Major Scale: CM, Dm, Em, FM, GM, Am, Bdim. Refer to in roman numerals. I -> VII. These are called degrees. I.e. 1st Degree, 2nd Degree, 3rd Degree, etc. 5th Degree is called the dominant.
+- Chords can be created by stacking third on top of each other or taking 1 note every 2 passed.
+- Extended Chords Occur when you add more notes on top of the 3. Adding 1 extra gives you the 7th, adding another gives you the 9th, adding another gives you the 11th, adding another gives the 13th chord.
+
+- Intervals
+-- Perfect:
+--- +1/2 Augmented || -1/2 Diminished
+--- Major or Minor have a semitone between the two states. +1/2 Augmented, -1/2 Diminished
+-- C Major Scale:
+--- 4th and 5th are Perfect
+--- 2nd, 3rd, 6th, and 7th are all major.
+- Major Chords are built upon the Perfect and Root, Diminished and Minor are built upon the non-perfect intervals
+
+- 
