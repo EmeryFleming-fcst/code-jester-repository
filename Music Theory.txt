@@ -1,0 +1,45 @@
+Music Theory: https://www.youtube.com/watch?v=_VvKeiwddPI
+------------
+Consonances and Dissonances:
+- The simpler the ratio between the frequencies are the more consonant they are.
+- 220Hz. Next ration would be 2:1 at 440, 3:1 at 660hz, 4:1 at 880Hz. This is harmonic series.
+- The ratio us how often they will sync up over x period.
+- Purity of a Consonance: Absence of beating when two sounds play together.
+- Any time you divide or multiply a note by two, you are getting the same not but an octave higher or lower.
+- Create a scale:
+-- Start with 440hz, or A.
+-- Multiple by 3 and then divide by 2: 146,66 | 440 | 1320 -> 293.33 | 440 | 660
+-- Same as above: (97.77 | 293.33 | 440 | 660 | 1980) % 2 = (391.11 | 586.66 | 440 | 660 | 495)
+-- Final: 391.11 | 440 | 495 | 586.66 | 660 = Pentatonic Scale. G A B D E (G-Major/E-Minor Pentatonic Scale)
+-- Adding two more notes gives 521.48 and 742.5. C and F#. G-Major Scale.
+-- First note is called the Tonic. Rest are 2nd, third, fourth, fifth, sixth, seventh, etc.
+-- Next note after is the 8ve. Same note of the tonic
+-- Compare to Harmonic Series:
+--- 1:1 - Tonic / G
+--- 2:1 - 2nd / A
+--- 3:1 - 3rd / B
+--- 4:1 - 4th / C
+--- 5:1 - 5th / D
+--- 6:1 - 6th / E
+--- 7:1 - 7th / F#
+--- 8:1 - 8ve / G
+- Within a sound, the lower frequency is called the fundamental.
+- All other frequencies are called the overtones.
+-- Harmonic Overtones: Participate with the sound. Part of the harmonic series.
+-- Inharmonic Overtones: Participate with the tone of the sound. 
+- White noise is 100% inharmonic sounds.
+- Overtones are the reason a piano and trumpet sound different.
+- In a Major scale, the most consonant sounds with the Tonic are the 4th and the 5th, then the third and the sixth, and then the 2nd and the 7th
+- The more consonant a sound is, the more overtones they have in common.
+- To get the fifth of a note: F(Note) x 3 / 2(or 4)
+- The Circle of fifths:
+-- C264 x3/2 -> G396 x3/4 -> D297 x3/2 -> A445.5 x3/4 -> E334.125 x3/2 -> B501.188 x3/4 -> F#375.89 -> DFlat281.918 -> AFlat422.877 -> EFlat317.158 -> BFlat475.737 -> F356.803
+- How we tune an instrument is called temperament. The way of tuning via the circle of fifths is called the Pythagorean temperament.
+- A problem: After F if we try to continue to add another 5th, it should return to the tonic. However, it overshoots it and must be squished causing it to become dissonant (The Wolf Interval)
+- Another problem: There was a difference between the third in the temperament and the third in the natural harmonic series.
+- To solve this, Meantone Temperaments:
+-- The difference in the third(which was 4 consecutive 5ths) is called the comma. Lower each 5th by 1/4 of a comma. Third becomes pure, but sacrifices the fifths.
+-- 1/6 or 1/8 instead. Brings it closer to the comma, sacrifices the purity of 1/3rd
+- Equal Temperament
+-- Every note in the chromatic scale is separated by an equal interval, such as 1/12 octave. All notes are slightly offset, same with intervals, but it makes all fifths and thirds equally consonant.
+-- Can now transpose any song in any key without having to retain our instrument.

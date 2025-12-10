@@ -1,3 +1,6 @@
+Sound Effects Should be in the Key of the Song
+
+
 https://www.youtube.com/watch?v=0BTcW2PNrnA
 Spitfire Labs
 U-HE TyrelleN6
@@ -828,4 +831,79 @@ How To Use Reverb: https://www.youtube.com/watch?v=gxXlPbpRIMc
 -- Science of Distance
 --- Overall loudness, the difference between the direct sound and reverb, the overall brightness, the dynamic range, and the early pre-delay.
 --- Overall loudness through volume faders. The further away it is, the quieter it is. Energy lost.
---- The volume difference between the direct sound and reverb,
+--- The volume difference between the direct sound and reverb.
+--- The higher the Dry, the Lower the Wet, the closer it sounds.
+--- High Frequency Energy: Absorbed first. If it's really close, it sounds brighter. If it's further away, it's darker. EQ. Low Pass/High Pass filter. Use a low slope. Subtle Low Cut can make it sound better.
+--- Dynamic Range: Things that are further away have smaller Dynamic Ranges, things that are closer have larger ones. Depth Compression/Thickness Compression. Saturation. Modulation (these make the transient sound less focused and our ears treat it like they're lowers)
+--- Early Pre-Delay (ITDG: Initial Time Delay Gap): The larger it is, the closer it is. Early Reflections.
+- Direction
+-- There are only 2 Direction Cues your ears use
+--- Interaural Level Difference (ILD): Volume difference. Panning
+--- Interaural Time Difference (ITD): Time difference. Precedence effect. Wherever a sound comes from first, our ear determines that as the direction of the sound. HAAS Delay. <1ms delay. Pan to the exact opposite.
+---- 0%Pan = 0.0ms. 25% = 0.23ms. 50% = 0.42ms. 75% = 0.55ms. 100% = 0.59ms. All of this on the HAAS delay.
+---- Want to add Head Shadow to it. 100% = -6db. 50% -3db. 25% = -1.5db. Turn down volume of the delay.
+---- Pitch Shift to avoid wrecking a sound when it gets summed to Mono. Minus 1-10ct in a Detune.
+---- Can also add a very subtle chorus.
+---- Mainly use this for things in the background.
+-- The direct sound is two sound waves: The on that hits your left ear and the one that hits your right ear. This is how we tell direction.
+-- The Head Shadow Effect: If something passes through the head, absorption occurs. 
+- The Shadow System
+-- Built around how we see things.
+-- Depth, Distance, and Direction.
+-- Steps:
+--- 1. Create Depth: Add Early Reflections to everything
+--- 2. Create Distance: Make use of 5 Distance Cues
+--- 3. Create Direction: Panning and HAAS Delay
+- Creating Depth
+-- The Mix-Depth Matrix: A serious of Aux tracks with different versions of the same reverb on them.
+-- Create 4 different sends. FRONT, BACK, MIDDLE, Room Tone names.
+-- Start with setting up general room sound. Send every track to it at Unity.
+-- Visualize where the song is being performed.
+-- Pick a preset and start tweaking
+-- Set Room Size. 100% Early Reflection. Set Size Knob. Tweak Late Pre-Delay if you have access. Same with early reflection patterns.
+-- Set Room Tone: 100% Late Reflection. Decay time: 0.5 - 1.5seconds. Try to time to tempo of song, can use Delay Time Calculator (The Lyon's Den free). The more complex the arrangement, the shorter the decay time. Tweak Density based on what objects are in the room and how big it is. Damping: How many people are in the room. Or how much furniture. Essentially, how full is it.
+-- Set Early/Late to 50/50 and do some tweaking.
+-- End with about 85% to 15% Early/Late.
+- Creating Distance
+-- Finish the Matrix.
+-- Pushing things further makes them sound quieter, darker, and more compressed.
+-- Chart:
+--- EQ: Bright, Dimmer, Dark
+--- Volume: Loud, Average, Quiet
+--- Compression: Fast Attack, Fast Release, High Threshold (Dynamics). 0db Gain Reduction, 1-3db Gain Reduction, 4-6db Gain Reduction.
+--- Reverb: Early Pre-Delay: Large, Medium, Small. ER/LR Balance: Mostly ERs, 2/3rd ERs, 50/50. Wet/Dry Balance: Mostly Dry, 2/3rds Dry, 50/50.
+--- Moves from Near to Far.
+-- Pre-Delay/Decay Time Cheat Sheet
+--- Ambience: 0-10ms / 0.25-1.0ms.
+--- Room: 0-25ms / 0.25 - 1.5ms.
+--- Chamber: 5ms-40ms / 0.75ms - 2.0ms
+--- Hall: 10-50ms / 1.25 - 2.5ms
+-- Copy Reverb to each of the aux tracks.
+-- Set the different variant values. Get a good starting point.
+-- Since 100% of the volume of the channels are sent to Reverb with 100% Wet, the volume fader of the reverb channels becomes the wet/dry mix. -15, -7, 0 to start with.
+-- Room Tone: 100% LR. Just for color. Usually don't have pre-delay. Distance around where you set the middle to. Overall Dependent on Reverb Plugin.
+-- A General, but not hard, rule is to have about 25% of instruments in the front, 25% in the back, and 50% in the middle. If the listener should be paying attention to it, should be in the front. Ear Candy, Pad, things that should fill up the room tend to go in the back. Everything else goes in the middle. Send stuff to front and back first, then fill in the middle.
+-- When adding to the back/middle reverbs, gain will increase. Make sure to compensate by turning down the volume of the input.
+-- Final Question: What needs more color? Add to the Room Tone. Don't add 100%, like the others. Add to taste. A lot of the time, the things set to the back aux are sent to the room tone as well. Pick your battles carefully.
+-- After tweaking, can start modifying for style. Like the width. Output EQ. Etc.
+- Others Ways to Create Distance
+-- EQ: Top-End Shelf Boost to bring it closer. Can back off Volume. Reverse to push back.
+-- Compression: Decrease the peaks to push it further back. Can use Saturation instead.
+- Creating Direction:
+-- 50/50 Panning: 100%, 50%, Center 
+-- LCR Panning: 100%, Center
+-- Instinctual Panning: Move as you see fit.
+-- If parts feel like they're sticking out, use HAAS Delay.
+- Creating Style with Reverb:
+-- Avoid Creating Space and Avoid Gunk
+-- Pre-delay above 40-50ms can cause the ear to detect a proper delay between the instrument and reverb. This can be useful for tonal reverbs because it puts the reverb behind the instrument. 
+-- Aim pre-delay to 50ms-150ms. Time it to the tempo of the song.
+-- For style reverbs, focus on mono reverbs (or thinner reverbs)
+-- Use mostly Late Reflection 85%+
+-- Long Decay vs Short Decay: Mixes usually do better with short. Depends on how many instruments. Time to tempo of song.
+-- Density: The denser it is, the more gunk it will add. Making it harder to see what's behind it.
+-- EQ: Abbey Road Trick.
+-- If you can't get the reverb you want, but you want the length, try using a delay. Or try using a delay leading into the reverb for smoothness
+- How to use a De-Esser
+-- Use before compressor. Sometimes use both before and after.
+-- Look for Good De-esser plugins
