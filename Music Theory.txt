@@ -1,3 +1,47 @@
+Understanding Music Theory: https://www.youtube.com/watch?v=kvGYl8SQBJ0
+---------------------------
+- If two of the same letter and missing one, use the other version. Flat and Sharp.
+- Scale Degrees:
+-- Note you start on is 1. Counting up increases by 1.
+- Harmonic Minor:
+-- Sharp the 7th note. If the note is a flat, cancel the flat and it returns to base. 
+- Natural Minor:
+-- Normal irregular. Not sharp, not flat. As it occurs from the original pattern.
+- Melodic Minor: 
+-- On the way up, sharp the 6th and 7th scale degree.
+-- On the way down, play the natural minor scale.
+- Intervals: The major of musical distance.
+-- Major, Minor, Augmented, Diminished, and Perfect
+-- Major is a full step. Minor is a half step smaller.
+-- If you ever want to turn a major step into a minor step, lower the higher step by a 1/2 step.
+-- Perfect 4th and Perfect 5th.
+-- Tritons is a special interval. Chromatic Scale: C to Gb
+-- Major C (Lower) -> Minor Eb -> (Lower) Diminished Ebb. The name will imply the function.
+-- Major C (Raise) -> Augmented E#
+-- Perfect intervals skip the minor. Major C -> Diminished Gb && Augmented G#.
+- Melody and Transposition
+-- Uses scales as building blocks.
+-- A melody is a single line of music.
+-- F Major Scale: F G A Bb C D E F. Melody Examples: 144351
+-- When using a scale to build a melody or chord progression, that's called playing in a key.
+- Chords
+-- Chords are built off of patterns.
+-- Triad: Take the root note. Do every other note.
+--- Major/Minor Triads: If you want to make a major tried a minor triad, just lower the middle note by a 1/2 step.
+- Chord Progressions
+-- Building Chords based off of the same scale and progressing from one to the next.
+-- Chords are named off of their base note
+-- A Major Scale: A B C# D E F# G#
+-- A Major Chord: A C# E
+-- 4th Scale Degree: D F# A
+-- 2nd Scale Degree: B D F#
+-- 5th Scale Degree: E G# B
+-- Can build melodies from this type of grid.
+-- 3 Part Harmony: Cello, Viola, Violin. 
+-- Cello Plays: A A B B. Viola: C# D D E. Violin: E F# F# G#
+
+
+
 Music Theory: https://www.youtube.com/watch?v=_VvKeiwddPI
 ------------
 Consonances and Dissonances:

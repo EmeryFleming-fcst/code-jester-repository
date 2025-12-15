@@ -1,4 +1,5 @@
 Sound Effects Should be in the Key of the Song
+https://www.waves.com/plugins/scheps-omni-channel
 
 
 https://www.youtube.com/watch?v=0BTcW2PNrnA
@@ -14,15 +15,15 @@ Youlean Loudness Meter
 Analog RareSE EQ
 Acoustic Audio Baxter EQ
 
+Find a Good De-esser: Tokyo Dawn Nova
+Find a Good Gate
+
 
 Music: https://www.youtube.com/watch?v=I9fBqKNXIbk
 Vocals: https://www.youtube.com/watch?v=AL21_-REZLw
-
-
 https://www.youtube.com/watch?v=1BLZGe-TqW0
 https://www.youtube.com/watch?v=qKZFckGgd8A
 https://www.youtube.com/watch?v=ID-xyOnEB1c
-https://www.youtube.com/watch?v=gxXlPbpRIMc
 
 
 Gain Staging: https://www.youtube.com/watch?v=Tq5lDHCKt84
@@ -907,3 +908,92 @@ How To Use Reverb: https://www.youtube.com/watch?v=gxXlPbpRIMc
 - How to use a De-Esser
 -- Use before compressor. Sometimes use both before and after.
 -- Look for Good De-esser plugins
+- Reverb Tips on Different Instruments
+- Vocals
+-- Avoid Long Delay-Times and Short Pre-Delays
+-- Am I looking for bounce or connection? Shorter Decay Time or Longer Decay Time
+-- If using a brighter reverb, put a de-esser before it. Be a bit more aggressive with how much it taken.
+-- Tape Delay. Darker. Evolves over time. Good for filling empty space.
+- Using a Gate
+-- Threshold: What level should close or open the gate?
+-- Reduction: How much volume is reduced?
+-- Attack: Time it takes to fully open the gate.
+-- Hold: The minimum amount a gate stays open before releasing and closing again.
+-- Release: How slowly the volume is lowered after the audio sign falls below the threshold.
+-- Hysteresis: Turns the threshold into a range. If threshold is -21 and hysteresis is -6, only closes when sound is below -27.
+-- Side Chain: Link gate to another audio source. Closes the gate only when the new side-chained instrument goes below the threshold.
+-- Filters: Don't affect the tone. Only affect accuracy of gate. Essentially, "I only want sounds in this frequency range to trigger the gate"
+-- Monitor: Allows you to just listen to the cutoff.
+-- Gate/Ducker: Lower the volume only when it is above the Threshold.
+-- Lookahead: Predict the change.
+-- Gate Trick:
+--- Help vocals sit on top.
+--- Put Noise Gate on the entire band. Sidechain the vocals.
+--- Change to a Ducker.
+--- This will duck everything else by a little bit when the vocals are playing.
+
+How to Produce & Mix Pro Vocals: https://www.youtube.com/watch?v=qKZFckGgd8A
+----------------------------------
+Vocal Recording
+- Minimizing Reflection
+-- Blankets and Pillows to catch sound
+-- Isolate the singer around the microphone as much as possible
+-- Find the sweet spot of your microphone.
+-- Experiment with angels. Aim for -10 and -6db.
+-- Pick the Right Mic, Find the Sweet Spot, Experiment with Angles, Isolate, Check Gain. Record.
+-- Hydration is Key
+-- Warm up your voice
+-- Focus on Emotional Intent
+-- Embrace Mistakes
+-- Experiment with different takes
+-- Break it Down, section by section
+
+Comping and Editing
+- Assemble the best parts from multiple takes.
+- Comping Process
+-- General Comp. Listen on instinct. Pick the best representation of the performance. Take a break, come back.
+-- Local. Any one-phrases, one-words. Comp those.
+-- Breaths. Fade or bring down breaths with gain automation.
+-- Remove mouth clicks.
+-- Visit Problem areas.
+- Not thinking about technical during comping. Emotion and performance first and foremost.
+- R11 Mouth de-click sensitivity. 5.0-6.0
+
+Time Aligning
+- Adjusting the timing of individual vocal tracks aiming to achieve tight cohesion
+- Listen and analyze the waveforms to identify timing discrepancies. 
+- Carefully adjust the timing of each track to bring all elements into alignment.
+- Why do it?
+-- Enhances tightness, groove, and clarity. Eliminate phase issues. More polished and professional sound.
+- General run through with alignment.
+- Depending on the genre, remove breaths.
+- Afterwards, remove clicks.
+- Align vocals. Manually or through VocAlign.
+- Tuning: Adjustment of a vocalist's pitch to achieve a flawless and harmonically accurate performance. A crucial step in modern music production.
+-- Using software to analyze and adjust the pitch of recorded vocals.
+-- Manual vs Auto-pitch correction:
+--- Manual affords more control and precision. Helps preserve the nuance of the vocal.
+--- Auto relies on algorithms. Quicker and more efficient, but less control.
+- Melodyne:
+-- Click Transfer and play the section you want to fix.
+-- The lines are the pitch, The shaded areas are the breaths and sibilance.
+-- Select tool. Pitch tools. Formant tool (placement of the note within the vocal track. Chesty further down, higher more nasally)
+-- Amplitude tool (volume). Fade tool. Sibilance tool that brings down sibilance.
+-- Time tool to adjust timing. Attack tool.
+-- Noise separation tool for more flexibility.
+-- First: Click on correct pitch macro. Pull centers and drift up to around 75-80%.
+-- Clean up notes through dragging.
+-- Move pitch shift in.
+-- Tedious and Time Consuming. But most important part.
+- Auto-Tune:
+-- Input Type affects algorithm.
+-- Pick Key
+-- Presets
+-- Classic gives original sound. Modern, more options.
+-- Formant: Vocal length.
+-- Transpose to move octaves.
+-- Mix Knob
+-- Retune Speed: How fast you move to the notes. 30-40% typically. The slower it is, the more transparent.
+-- Flex Tune: Allows style to come through.
+-- Natural Vibrato: Shakiness of the track.
+-- Humanize: Adds realism to sustained notes with a high retune speed. Minimizes auto-tune sound. Usually around 100%
