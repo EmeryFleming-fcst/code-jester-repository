@@ -1,0 +1,71 @@
+The C# Job System
+- Maintains a pool of worker threads.
+- Worker thread executes units of work called jobs.
+- Once a job starts execution on a worker thread, it runs to completion.
+— Jobs can only be scheduled (meaning, added to the job queue) from the main thread, not from other jobs.
+— When the main thread calls the Complete() method on a scheduled job, it waits for the job to finish execution (if it hasn’t finished already).
+— Only the main thread can call Complete().
+— After Complete() returns, you can be sure that the data used by the job is once again safe to access on the main thread and safe to be passed into subsequently scheduled jobs.
+- When scheduling a job, you can declare that it depends upon prior scheduled jobs. The worker threads will not start executing a job until all of its dependencies have finished execution, allowing you to safely schedule jobs that would otherwise conflict.
+- Completing a job also completes all of the jobs it depends upon, directly and indirectly.
+
+The Burst Compiler
+- Understand, however, that Burst can only compile a subset of C#, so a lot of typical C# code can’t be compiled with it. The main limitation is that Burst-compiled code can’t access managed objects, including all class instances. As this excludes most conventional C# code, Burst compilation is only applied selectively to designated parts of code, such as jobs.
+
+Collections
+- Unmanaged collection types:
+-- Native: Has safety checks.
+-- Unsafe: Does not.
+
+Mathematics
+- Better performance. Similar to shader code.
+
+Entities
+- ECS
+- Each Entity is composed of components (structs)
+- Each system has an update method that is usually invoked once per frame.
+
+Archetypes
+- All Entities with the same components are stored together in the same archetype.
+- Each unique combination is a separate archetype.
+
+Chunks
+- Within an archetype, the entities and their components are stored in blocks of memory called
+chunks. Each chunk stores up to 128 entities, and the components of each type are stored in
+their own array within the chunk. For example, in the archetype for entities having component
+types A and B, each chunk will store three arrays:
+— One array for the entity ID’s
+— A second array for the A components
+— And a third array for the B components
+The ID and components of the first entity in a chunk are stored at index 0 of these arrays, the
+second entity at index 1, the third entity at index 2, and so on.
+
+Queries
+- Chunks allow for efficient querying and iterations of the entities.
+
+Job System Integration
+- As long as entity component types are unmanaged, they can be accessed in Burst-compiled jobs.
+- IJobChunk and IJobEntity
+
+Subscenes and Baking
+- Unity ECS uses subscenes instead of scenes to manage the content of your application
+- You can think of subscenes as scenes that are nested inside others and are processed by
+baking, which re-runs every time you edit a subscene. For every GameObject in a subscene,
+baking creates an entity, the entities get serialized into a file, and it’s these entities that are
+loaded at runtime when the subscene is loaded, not the GameObjects themselves.
+
+Streaming
+- Loading and unloading elements as they come into view.
+- Entities are far more suited for streaming.
+
+Sections
+- Some examples.
+- Physics examples.
+- Netcode examples.
+
+Reasons to build your projects with Entities
+- The project will have many static elements.
+- The project will have many dynamic elements with computationally heavy behaviors.
+- You prefer the ECS way of structuring data and code, which is arguably easier to reason about and maintain than the more common object-oriented alternative.
+- The project is a competitive multiplayer game with fast action, such as a shooter, and requires authoritative servers and client-side prediction for a good player experience.
+- DOTS only improves CPU efficiency

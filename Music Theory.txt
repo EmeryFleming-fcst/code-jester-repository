@@ -39,7 +39,66 @@ Understanding Music Theory: https://www.youtube.com/watch?v=kvGYl8SQBJ0
 -- Can build melodies from this type of grid.
 -- 3 Part Harmony: Cello, Viola, Violin. 
 -- Cello Plays: A A B B. Viola: C# D D E. Violin: E F# F# G#
-
+- Roman Numerals and Chord Transposition
+-- Lowercase Numeral: Minor. Uppercase Numeral: Major
+-- All Major Scale Chords: I ii iii IV V vi vii^
+-- All Minor Scale Chords: i ii^ III iv v VI VII
+- Tritone: An augmented fourth or a diminished 5th. Can also take any note and go up 3 whole steps.
+-- Serves as a function. It's unstable sound wants to move. Either note will either move outwards or inwards.
+-- Perfectly Symmetrical. Each chord contains at least on Tritone.
+-- Can be used to make chords after the resolution.
+- Chords and their functions
+-- Major Chord:
+-- Sus4 Chord: Trade the 3 for a 4.
+-- Sus2 Chord: Trade the 3 for a 2.
+-- Minor Chord:
+-- Augmented Chord: 
+--- Raise the 5th
+-- Diminished Chord:
+--- Lower the third and 5th.
+-- Dominant Chord:
+--- Built off of the 5th scale degree. Take 4 notes instead of 3.
+-- Chords with notes added on past the active:
+--- Numbers > 8. New notes have a greater active.
+-- Diminished 7th Chord
+--- I ii iii iv. Lower 5 and 7 to flats.
+- Inverting Intervals
+-- Take the lower note of a pair and make it an octave higher.
+-- All M3 become m6. 2 -> 7, 4 -> 5 (Remains Perfect)
+- Inverting Chords
+-- Take the lowest note and make it an octave higher.
+-- For first inversion, numeral has a 6 next to it. Interval of 6 from new base note.
+-- For second inversion, 6/4.
+-- Invert 7 chord: 6/5. 4/3. 4/2
+- The circle of fifths:
+-- C G D A E B F# C#/Db Ab Bb F
+-- When deriving a scale using the 5th interval, the 4th becomes the 7th#
+-- Ends with all #s.
+-- C# can become Db and becomes Db Major Scale
+-- Reverse and starts turning the 4th flat into a normal 7th.
+-- Key Signatures tell you which accidentals belong in each scale.
+-- Order of sharps: F# C# G# D# A# E# B#
+-- To figure out Key Signature. Take the Root Node and go half step lower.
+--- Examples: Root node D has a F# and C# (Everything to the right, inclusive)
+-- To figure out Key Signature for a flat scale: Bb Eb Ab Db Gb Cb Fb
+-- It'll be the second to last note you see.
+-- F major contains only a Bb.
+- Modulation and Borrowing
+-- Secondary Dominant
+-- Borrow Tritone from another chord that resolves to the next chord.
+-- Harmonize a Melody that Borrows from another Key
+--- C D Eb D. Borrows Eb from bIII.
+-- Switching between Chords entirely by borrowing a chord that is common between both keys.
+- Modes: Scales derives from key signatures.
+-- G Major: F#.
+-- Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian. The note you start on. From 1 - 7. Wraps around.
+-- How to make a Major scale into a mode:
+--- Ionian is a major.
+--- Dorian, flat the 3rd and 7th.
+--- Phrygian: Flat 2, 3, 6, 7.
+--- Lydian: #4.
+--- Mixolydian: b7
+--- Locrian: b2, b3, b5, b6, b7
 
 
 Music Theory: https://www.youtube.com/watch?v=_VvKeiwddPI
@@ -134,4 +193,15 @@ Consonances and Dissonances:
 --- 2nd, 3rd, 6th, and 7th are all major.
 - Major Chords are built upon the Perfect and Root, Diminished and Minor are built upon the non-perfect intervals
 
+7th Chords
+-- Major Triad + minor 7th = Dominant 7th Chord
+-- Major Triad + Major 7th = Major 7th Chord
+-- minor Triad + minor 7th = minor 7th chord
+-- minor Triad + Major 7th = minor Major 7th Chord
+-- Diminished Triad + minor 7th = Half-Diminished 7th Chord
+-- Diminished Triad + Diminished 7th = Diminished Chord
+-- Augmented Triad + minor 7th = Augmented 7th Chord
+-- Augmented Triad + Major 7th = Augmented Major 7th Chord
+
+Chord Progression
 - 

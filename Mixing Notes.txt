@@ -997,3 +997,71 @@ Time Aligning
 -- Flex Tune: Allows style to come through.
 -- Natural Vibrato: Shakiness of the track.
 -- Humanize: Adds realism to sustained notes with a high retune speed. Minimizes auto-tune sound. Usually around 100%
+- Gain Automation: Usually done in preparation. 
+-- Dynamically adjusting the volume levels of a vocal track to create a more consistent and balanced performance.
+-- Aims to address variations in volume that naturally occur during a vocal recording.
+-- The goal is to create a consistent volume by mitigating sudden spike and dips that distract from the overall listening experience.
+-- Do it before compression to ensure the process operates on a more stable foundation.
+-- Final stage before it hits the mixer.
+-- Manually adjust gain volume of sections.
+-- Automate gain plugin for specific parts. In singing, lifting the end of the phrases up can accentuate it.
+-- Take regular breaks
+-- Mentally prepare yourself for the tedium.
+-- Edit as many vocals as possible
+-- Give yourself a time limit
+-- Don't fear being heavy-handed with BVS.
+-- Aim for clean takes when comping
+-- Pay close attention to consonant timing.
+
+Audio Restoration
+-- De clicking
+--- RX De-click
+-- Removing Noise
+--- RX Voice De-Noise
+--- UAD C-Suite C-Vox
+-- Removing Plosives
+-- Resonance Suppression
+--- Soothe 2
+--- Can use gates
+--- Usually between 500 - 2K
+-- Different Variations
+
+Vocal Arrangement and Workflow
+- Doubles involves recording the same part twice.
+-- Record a second, identical take.
+-- Alter certain parameters in the second take. Modified double. Different microphone, pitch adjustment, changing the performance style.
+-- Add more thickness and energy.
+-- Panned fully to the side adds more width.
+-- 50% makes it feel more intimate.
+- Harmonies introduce additional notes that complement the main melody.
+-- Layering Harmonies involves careful consideration of each Note's role in the chord.
+- Provide a fuller, more immersive listening experience.
+- Doubles and Harmonies add emotional depth, create a sense of space, and enhance the overall experience for the listener.
+- LCR Panning: Lead vocals in the center, doubles and harmonies panned hard left and hard right.
+- Common Technique.
+-- Lead Vocal
+-- Doubles panned hard left and hard right.
+-- High harmonies panned hard left and right.
+-- Additional Harmonies hard Panned left and Right to thicken part.
+-- Accentuate more specific phrases with Unison.
+- Experiment with panning percentage of different types of harmonies.
+
+Producing Gang Vocals
+- Goal is to create a cohesive and impactful sound.
+- Inject a sense of Unity and Power into a song.
+- Consider layering Unison Chants with Harmonies.
+- Strategically place accents to emphasize key moments in the song.
+
+Producing Choirs
+- Choir-Like Arrangements involves creating a rich and harmonically complex vocal ensemble.
+- Arranging choirs requires meticulous attention to Voicing, Dynamics, and the overall harmonic structure.
+- Counterpoint: The combination of different, independent melodies that are played or sung simultaneously.
+- Encourage singers to deliver nuanced performances, allowing for dynamic expression.
+- Choirs emphasize intricate harmonies and nuanced voicings, creating a refined and classical aesthetic.
+- Gang vocals focus on Unity and Power, often used in Contemporary Genres for anthemic choruses or energetic moments.
+- Choir arrangements bring a level of sophistication and emotional depth to music.
+- Convey a sense of grandeur, nostalgia, or spirituality depending on the context.
+
+AD Libs
+- Spontaneous and Improvisational Vocal Embellishments.
+- Add Flair, Emotion, and a Distinctive Touch To a Song.
