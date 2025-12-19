@@ -1,0 +1,166 @@
+https://www.youtube.com/playlist?list=PLEEVAiK8zmk-v7_ZCzMVtrhBJeFUw31Ut
+https://www.youtube.com/playlist?list=PLEEVAiK8zmk-CIFL3R5gsmkps5w4ABTK2
+https://www.youtube.com/watch?v=jWorjBDcty4
+https://www.youtube.com/watch?v=9vM-sZQAFDo
+https://www.youtube.com/watch?v=c0YINYT4Ozw
+https://www.youtube.com/watch?v=5HU8Jm6pNS0
+https://www.youtube.com/watch?v=BF1uU06uFwg
+https://www.youtube.com/watch?v=j3WXNrWVzlc
+https://www.youtube.com/watch?v=suqco5JQQ5o
+https://www.youtube.com/watch?v=7rgxwdLKqSI
+https://www.youtube.com/@INDEPTHSoundDesign
+https://www.youtube.com/watch?v=TYJOGHEjKsM
+https://www.youtube.com/watch?v=OVdwspf0epY&list=PLbhhI_j7e0uZpxHIJ9RqL5qowUUQM7kvD
+https://www.youtube.com/watch?v=tlygYWeOzTg
+https://www.youtube.com/watch?v=8LV1bqf8ZVo
+
+
+Sound Design and Synth Fundamentals: https://www.youtube.com/watch?v=NJLIS2MkFe4
+-----------------------------------
+- Basic Shapes:
+-- Sin, Triangle, Square, Sawtooth. More harmonics as you go.
+- Additive Synthesis: Start with a basic shape, add more shapes to it.
+- Subtractive Synthesis: Take away from shape. Using filters, EQ, etc.
+- Unison: Adds more waves.
+- Detune: As you add Unison, DeTune to make it richer.
+- Filter: EQ.
+- ADSR: Attack, Delay, Sustain, Release.
+- LFOs: It's oscillating at low frequencies. Add movement and operation to the filter, or other parameters.
+- FX Processors: Distortion, Flanger, Phaser, etc.
+
+Sound Design for Cinematic Filmmaking | My Process: https://www.youtube.com/watch?v=I66_LmOTlSk
+--------------------------------------------------
+- Layers of Audio:
+-- Vocals
+-- Background Music
+-- Sound Design
+- SD: Ambience
+-- First Layer Added.
+-- Should not be overpowering.
+- Diegetic Sounds:
+-- Sounds that come from the environment.
+-- Foley
+- Creative Sound Effects:
+-- Whooshes, Impacts, Risers, Etc.
+-- Whooses are good for transitions, cuts, movements.
+-- Risers are great for building anticipation and suspense. Building up to a reveal or smoothing out the environment to a different cut or energy level.
+- The Absence of Sound is just as important as the presence of it.
+- No need to be literal.
+- Artlist
+- Panning: Enhances design.
+- JCut: Audio from next scene starts playing before the next cut.
+- LCut: Audio from previous scene lingers as we move to the next cut.
+- Reverb: Creates a sense of space and atmosphere. Push sound into the background.
+- EQ: Enhance sounds and voices. Can also make rooms for sounds. High Pass, Low Pass Filter.
+- Mixing: Export -> Audio -> Audio Normalization. Listen to film in different speakers.
+
+How I improved My Sound Design: https://www.youtube.com/watch?v=x7DITSVQChM
+------------------------------
+- Create a Radio Edit: Identify transition points.
+- Add Filters to modify sounds
+- Blend filtere effects together.
+- Customize Speed and Pitch.
+- Reverse sound Effect.
+- Panner
+- Vocal Enhancer + DeReverb + Graphic EQ + Parametric EQ + Hard Limiter
+
+12 Sound Design Tricks I use: https://www.youtube.com/watch?v=R30L1fIKzpU
+----------------------------
+- Layering
+- Record your own sounds
+- Pitch Shifting
+- Pitch Automation
+- Time Stretching: Use Ableton's Warp Settings
+- In Synth, add envelope to various parameters.
+- Sample and Hold, get a value and hold on to it.
+- Assign your macro knobs.
+- Use Effects in Parallel
+
+How to Sound Design a Short Film: https://www.youtube.com/watch?v=caWge0sQqzw
+--------------------------------
+- Ring out: Extending the ending of a sound or music track with Reverb to create an Echo-EY Fade out
+- Use the same type of Ambience to enhance.
+- Can be abstract with Sound Design
+
+ALVA NOTO's SOUND DESIGN PHILOSOPHY you need to know: https://www.youtube.com/watch?v=5XWK5GCznKA
+----------------------------------------------------
+- Reductionism: Start with a fundamental sound and use it to it's maximum potential.
+- Use Granular Synthesis.
+- Use Non-Musical Data in a Musical Context.
+- Resampling can make sounds usable.
+
+13 Sound Design Tips for More Cinematic Films: https://www.youtube.com/watch?v=4gpSsFEl_T0
+----------------------------------------------
+- Punctuate impactful moments with powerful hits.
+- Ambiance: Use at varying intensities.
+- Contrast: Alternate Between loud and quiet sounds.
+- Build: Use Risers
+- Repetition: If you don't have music, use repetition to give the feeling of a score. Heartbeats, hits, etc.
+- Titles: Use Hits to emphasize titles and set the mood.
+- DIY: Make your own sound effects. Risers are created through reversing sounds.
+- Reverb: Make a Sound Effect feel bigger than it is.
+- Layer sound effects.
+- Taper or Fade video in and out. Always.
+- Feeling: Sometimes an inaccurate sound effect conveys the feeling better.
+- Score First: Create the framework of the sound design first. Music, repetition, etc.
+- Pitch Shift: Can alter sound effects easily.
+
+A Simple Approach to Sound Design: https://www.youtube.com/watch?v=9D4i-JM3RXw
+----------------------------------
+- Silence allows you to focus on subtle moments. Creates tension. Etc.
+- Use sounds in unexpected ways.
+- Use Post-Production Effects.
+- Be Selective with your sounds.
+- Keep it simple, Keep it intentional.
+
+See With Your Ears: https://www.youtube.com/watch?v=kavxsXhzD48
+-------------------
+- Use Sound Design to tell a story. Highlight what you want to focus on.
+- Pop certain sounds out of the mix to tell the story.
+- Use other sound to interrupt the story and signal a change.
+- Subtract sounds from the ambience to further focus the story.
+- Silence for tension and lead-in to a large moment.
+
+Sound Design for Filmmaking: https://www.youtube.com/watch?v=eIp6F1wbIIo
+---------------------------
+- Build Momentum through contrast between soundscapes.
+- When you cut between sounds you enhance the feeling when it comes back.
+- Loud to soft using risers. Good way to end video.
+- A Crash sequence is a great way to start a sequence or transition between. 
+- Foley:
+-- Does it sound realistic?
+-- Is it subtle?
+-- No need to be literal.
+-- Modify and Manipulate.
+- Low Pass Filter can make something sound like it's under water.
+- High Pass Filter can make something like a phone call.
+
+Sound Design Tricks that feel like CHEATING!: https://www.youtube.com/watch?v=OGAetp-5N6I
+---------------------------------------------
+- Use a Mid-cut on Music to create space for Dialogue.
+- If song has a good ending, cut it and match it to the a previous beat.
+- Cut the track right before the next beat. Copy and move it down, add reverb. Re-introduce beat.
+- Cut first beat, last beat, or ending of a song. Reverse it and use it as a riser into the song.
+- THINK OF SOUNDS AS FREQUENCY LAYERS THANK YOU FUCKING GOD. Low - Mid - High.
+
+The 9 Fundamentals of Sound Design: https://www.youtube.com/watch?v=nzcx2sm_g4Y
+----------------------------------
+- Know what you are trying to create.
+- The ADSR. Amplitude envelope. As long as the transients match up, you can make anything sound like something else.
+- Pitch
+- Layering: As long as they are within 35-40 milliseconds of one another, we perceive them coming from the same source.
+- Keep it Simple
+- Cleaning: Clean up your sounds and keep only what you need.
+- Tone: Figure out what kind of tone you want.
+- Texture: Add for realism. Can use a noise-oscillator. 
+- Size: Figure out how large you want it. Panning, Effects, etc.
+- Movement: Automate. Auto-Pan. Etc.
+- Depth: Reverb and Delay
+
+3 Sound Design Secrets: https://www.youtube.com/watch?v=tzfzkTAQsnE
+-----------------------
+- Layer sounds with different frequencies.
+-- Apply it outside of sound effects.
+- Use sounds that do not match the visuals to create more emotion.
+- Layer sound effects to get in and out of songs.
+-- Pair it with other techniques.
