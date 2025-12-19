@@ -204,4 +204,15 @@ Consonances and Dissonances:
 -- Augmented Triad + Major 7th = Augmented Major 7th Chord
 
 Chord Progression
+- Some degrees in the scale will sound a specific way.
+-- Example: The Chord V (Dominant) will create a sense of tension that will want to be resolved by going back to the Chord I (Tonic). These two are very consonant.
+-- Chord Progressions are like sentences with punctuation. Some ask questions, some give answers.
+
+Cadences
+- V to I = Authentic Cadence. Usually started by II. Asks like a . or !. 
+- I -> II -> V. Half-Cadence. makes it sound like an unfinished question. Acts like a ? or ,.
+- V not to I. Deceptive/Interrupted Cadence. I is often replace with VI. Great tool for breaking expectation and shifting mood.
+- IV to 1. Plagal Cadence. Not as conclusive ending of a sentence.
+
+Major Chords in Cadences
 - 
