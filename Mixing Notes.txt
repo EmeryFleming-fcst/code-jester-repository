@@ -1190,3 +1190,11 @@ Producing Choirs
 AD Libs
 - Spontaneous and Improvisational Vocal Embellishments.
 - Add Flair, Emotion, and a Distinctive Touch To a Song.
+
+Pitch and Formant Shifting
+- Pitch Shifting Changes the note
+- Formant Shifting changes the color or tonality, offering creative possibilities.
+
+VoCoder
+- Has the characteristics of a Modulator and a Carrier (Synth). Creating a distinctive sound that merges the two together.
+- VocalSynth
