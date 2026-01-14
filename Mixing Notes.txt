@@ -1198,3 +1198,57 @@ Pitch and Formant Shifting
 VoCoder
 - Has the characteristics of a Modulator and a Carrier (Synth). Creating a distinctive sound that merges the two together.
 - VocalSynth
+
+
+Creature Sound Design Part 1: Bahamut: https://www.youtube.com/watch?v=niHW1N_5c8A
+- Four Types of Sounds: Animal Recordings, Human Recordings, Prop Recordings, Synth Layers
+- 192khz sounds. Shift up and Down.
+- Envy or Reformer Pro. Use on sample to have another sample follow it's dynamics, pitch, or specular.
+
+How To Make Sound Sound Further Away: https://www.youtube.com/watch?v=cyv5-YLe4Qw
+- Reverb w/ Pre-Fader
+- Volume
+- EQ w/ Low-Pass
+- Delay: Slapper 2
+
+
+How to Organize Your Sound Effects Like a Pro: https://www.youtube.com/watch?v=AHZMws5Uu9Q
+----------------------------------------------
+- HDD 7200 RPM
+- Raid 0 and Raid 5
+- Sound Effects
+-- Purchased Libraries
+-- Recorded Sound Effects
+-- Sounds to Go Through
+-- Personal Library
+-- Kontakt Libraries
+- Database Manager: SoundMiner, SoundQ, SoundParticles, Soundly
+-- Databases: Sound Effects, Vehicles, Ambiances, All Sounds, RAM
+-- Playlists: Granular search.
+-- Organize Ambience by INT/EXT
+-- Organize Vehicles by Cylinder
+-- UCS v8.1 Meta Data. ADD THIS!
+
+Mono vs Stereo Effects For Film & Games: https://www.youtube.com/watch?v=7lVV7Gww-Vg&
+---------------------------------------
+- Music is usually Stereo.
+- Ambiences are Stereo.
+- Dialogue is typically Mono.
+- Foley is typically Mono.
+- Sound Effects can be both.
+- If the sound is 2D it can be both, if it has 3D space is always going to be mono.
+- Some sounds can have parts that are both via layers.
+
+How To Master Podcasts For Spotify & Apple Podcast: https://www.youtube.com/watch?v=vki3i3m0bLg
+--------------------------------------------------
+- Izotope RX: Fix Phase Rotation.
+- Izotope RX Leveler: Responsiveness 1. Preserve Dynamics 20. Target Level -20.
+- Izotope RX Mouth De-Click. Transparent Removal. Sens: 3. Frequency Skew: -2.0.
+- EQ
+- Multiband Compression: McDSP
+- De-Esser
+- Noise Suppression: NS1
+- POWAIR Compressor. Waves MV2. -16 LUFS
+- True Peak Limiter. Loudness Limiter.
+- Afterwards Mix Everything around the dialogue.
+
