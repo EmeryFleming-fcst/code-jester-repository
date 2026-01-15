@@ -1252,3 +1252,72 @@ How To Master Podcasts For Spotify & Apple Podcast: https://www.youtube.com/watc
 - True Peak Limiter. Loudness Limiter.
 - Afterwards Mix Everything around the dialogue.
 
+I'll Show You How Pro Producers Layer Sounds: https://www.youtube.com/watch?v=aURQtHHQf18
+---------------------------------------------
+- Complimenting: Layering similar sounds that will work with another sound to add something the other sound is lacking. Creating the feeling of one sound.
+- Contrasting: Adding a sound to another sound that does something different to create texture or push against it to create Contrast. User can identify several sounds.
+- Ask yourself first: What am I lacking? What am I missing? What will enhance it?
+
+The Secret to Layering Any Sound Perfectly: https://www.youtube.com/watch?v=7-nVbREJkQ4
+--------------------------------------------
+- One Main Layer, the rest add Texture. Use EQ to fit them together.
+- Pan Layers creates a wide and dense sound.
+- Make sure every layer has a purpose
+
+Sound Design - The concept of LAYERING: https://www.youtube.com/watch?v=4RP6sP-UfpQ
+---------------------------------------
+- Most Real World sounds are little symphonies. When you do this kind of layering right, they combine to create new sounds that are unrecognizable, but still familiar enough to be accepted as real. Think about all the things that would be happening in the object you're trying to create, and then which individual sound-making objects work the same way.
+- Each kind of layer should be responsible for a different part of the spectrum.
+- "Offset layering will allow you to produce richer and more complex sounds from single sources, giving depth and fullness to an otherwise boring sound. It can also create complex sources for ambiences, science fiction, water, and other sounds"
+-  
+
+
+
+How to Use Everything in Izotope Insight 2: https://www.youtube.com/watch?v=zBjdTQE3630
+------------------------------------------
+- Sound Field
+-- Stereo Imager: 
+-- Phase Meter: +1 is good phase polarity. 0 - +1 is in phase. Anything in-phase should fall within that angle.
+-- Polar Level: Sound rays. Length display amplitude.
+-- Lissajous: Pretty tall, not as wide as it's tall, indicates good phase.
+-- History: Shows which parts are quiet/loud over a period of time.
+-- Spectrum: Shows full scope of frequency in mix. Zoom in. Enable Peak Hold in settings. Time vs Frequency. 3D. Use Relay to listen to different parts of track. Can compare to instrument groups.
+
+
+How to Use Everything in Izotope Neoverb: https://www.youtube.com/watch?v=PhJINfAdyiA
+----------------------------------------
+- Can use Real Time Blending.
+- Shared Controls:
+-- Space: Alters Time and Size. Keeps relationship. For reflections, it focuses on Early Reflections.
+-- Time: Length.
+-- Size: Room Size.
+-- Diffusion: High Diffusion, closer and more reflections. Punchier. Lower Diffusion, further away and more spread out.
+- Reflections: Early Reflections
+-- Angle: Early vs Late Reflections: Low is Early, Late is high.
+-- Tone:
+--- Low Pass: Get rid of some of the high frequencies from the initial shot. Remove brightness.
+- Mid-Size Reverb
+-- Attack: How long it takes for the reverb to fully develop.
+-- Tone:
+--- Crossover + Tilt EQ: Darken or Brighten reverb. 
+--- Damping + EQ: Get rid of frequencies and tails.
+-Large Reverb
+-- Attack: How long it takes for the reverb to fully develop.
+-- Tone:
+--- Crossover + Tilt EQ: Darken or Brighten reverb. 
+--- Damping + EQ: Get rid of frequencies and tails.
+- Pre EQ
+-- Use Amount slider to hone in on area. Grab EQ nodes.
+- Reverb EQ
+-- Use Amount slider to hone in on area. Grab EQ nodes.
+- Masking
+- Dry/Wet Control + Level
+- Mod Section
+- Pre-Delay and Smoothing Section
+- Reverb Assistant
+-- Style
+--- Realistic: Early Reflections
+--- Middle: Medium Room
+--- Dramatic: Large Room
+-- Size: Sculpt the size and tail.
+-- Tone: Clean, Dark, Bright, Airy
