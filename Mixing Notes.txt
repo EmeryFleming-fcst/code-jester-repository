@@ -1212,6 +1212,7 @@ How To Make Sound Sound Further Away: https://www.youtube.com/watch?v=cyv5-YLe4Q
 - Delay: Slapper 2
 
 
+
 How to Organize Your Sound Effects Like a Pro: https://www.youtube.com/watch?v=AHZMws5Uu9Q
 ----------------------------------------------
 - HDD 7200 RPM
@@ -1269,7 +1270,9 @@ Sound Design - The concept of LAYERING: https://www.youtube.com/watch?v=4RP6sP-U
 - Most Real World sounds are little symphonies. When you do this kind of layering right, they combine to create new sounds that are unrecognizable, but still familiar enough to be accepted as real. Think about all the things that would be happening in the object you're trying to create, and then which individual sound-making objects work the same way.
 - Each kind of layer should be responsible for a different part of the spectrum.
 - "Offset layering will allow you to produce richer and more complex sounds from single sources, giving depth and fullness to an otherwise boring sound. It can also create complex sources for ambiences, science fiction, water, and other sounds"
--  
+
+
+
 
 
 
@@ -1313,7 +1316,12 @@ How to Use Everything in Izotope Neoverb: https://www.youtube.com/watch?v=PhJINf
 - Masking
 - Dry/Wet Control + Level
 - Mod Section
+-- Better on long tails.
+-- Rate: How often the fluctuation happens.
+-- Depth: How deep it goes.
 - Pre-Delay and Smoothing Section
+-- Delay before Reverb Starts. Can sync to tempo of track.
+-- Smoothing: Smooths between Original Signal and Reverb.
 - Reverb Assistant
 -- Style
 --- Realistic: Early Reflections
@@ -1321,3 +1329,39 @@ How to Use Everything in Izotope Neoverb: https://www.youtube.com/watch?v=PhJINf
 --- Dramatic: Large Room
 -- Size: Sculpt the size and tail.
 -- Tone: Clean, Dark, Bright, Airy
+
+How To Mix Like A Pro: https://www.youtube.com/watch?v=1BLZGe-TqW0
+---------------------
+- Song Writing and Arrangement -> Recording -> Production -> Mixing -> Mastering
+- Mixing enhance Dynamic, Sonic, and Spatial Qualities of Music.
+- The Sonic Spectrum: 20hz -> 20kHz
+- Frequencies are vibrations/pitch.
+- Dynamic Spectrum: Difference between loudest and quietest parts of the music. Volume Fade, Compression, Clipping, and Limiting.
+- Spatial Dimension: Give a feeling of space and realism. Reverb and Delay.
+- The technical is there to serve the creative.
+- The Goal of Mixing:
+-- Blend the individual tracks containing the various instruments and sounds in a way that creates a polished, unified, and pleasing auditory experience for the intended listener.
+-- How to achieve the right Volume Balance in the mix.
+-- How to manipulate Frequencies in the Mix
+-- How to manipulate Dynamics in the mix.
+-- How to manipulate the Spatial Aspects of the mix.
+- The Editing Process:
+-- Tuning
+-- Timing
+-- Cleanup
+-- Digital Cleaning is NO GOOD.
+
+- Session Setup and References
+1. Build a New Session: Match Sample Rate, Set Project Tempo, Increase Buffer Size, Import Multi-Tracks and References. 512 Buffer Size for Mixing, Lower for Recording.
+2. Organize the Tracks.
+3. Identify Phase and Polarity Issues.
+4. Noise Gate Unwanted Bleed.
+5. Gain Stage Everything. -10 to -20dbfs per track. Occasional Peak no higher than -6dbfs.
+
+- Parallel Track Refers to Any Duplicate Copy of a track which has FX on it. The Parallel (Effected) track can be blended in with the original signal to taste.
+- Use Utility Plugin Phase Invert on tracks to see if they are out of phase (Less Punchy)
+- Select All. Normalize Region Gain. Peak. -10.
+- Volume Balance: Adjusting the volume faders of the individual tracks in order to achieve a balanced and cohesive static mix, prior to any processing.
+- Fundamental Frequency: The frequency of any sound where the energy or volume of that energy is greatest.
+- A static mix is one with only volume balance.
+- Can play with gain automation when volume balancing. Start with leading role and pair it with the rest.
