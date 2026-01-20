@@ -1330,6 +1330,23 @@ How to Use Everything in Izotope Neoverb: https://www.youtube.com/watch?v=PhJINf
 -- Size: Sculpt the size and tail.
 -- Tone: Clean, Dark, Bright, Airy
 
+15 Tips After 15 Years in Ableton: https://www.youtube.com/watch?v=OsI533hshP4
+----------------------------------
+- Use OTT to make things huge. If it adds unnecessary low end use an EQ
+- Use an Arpeggiator to play notes consecutively.
+- Chord Scale: In MIDI, pick a scale then turn on Scale only view.
+- Put a Limiter on Master.
+- Create a Sessions Folder. File -> Collect All and Save.
+- Use Audio Effects Racks: Select all of the Audio Effects you want. Press Control + G. Click on Circle on Left. Save it as a effect Rack.
+- Use Favorites.
+- Automate in order to innovate. Song should change and evolve over time. Can bend lines if you hold ctrl and click.
+- Mix Quietly. 
+- Less is more. Quality over quantity.
+- Use a reference.
+- Learn Songwriting. Good Melody, Chord Progression, Good Lyrics. 
+- Make things Wider.
+- Have a plan
+
 How To Mix Like A Pro: https://www.youtube.com/watch?v=1BLZGe-TqW0
 ---------------------
 - Song Writing and Arrangement -> Recording -> Production -> Mixing -> Mastering
@@ -1365,3 +1382,48 @@ How To Mix Like A Pro: https://www.youtube.com/watch?v=1BLZGe-TqW0
 - Fundamental Frequency: The frequency of any sound where the energy or volume of that energy is greatest.
 - A static mix is one with only volume balance.
 - Can play with gain automation when volume balancing. Start with leading role and pair it with the rest.
+- Can also pan.
+
+- Waves PAZ Analyzer
+
+Frequencies (EQ)
+- Refer to the specific pitches or tones in a sound, spanning from low to high.
+- Frequencies are the height of a mix, Width is panning and Stereo Imaging, Depth is Compression, Reverb, Delay, and EQ.
+1. Identify Problems with EQ.
+- Low End Muddiness: 20-60hz: Sub-Bass Range. 60-250hz: General Bass Range. 
+- Mid-Range Clutter: 250-500hz: Muddiness or Thickness. 500-1khz: "Box", "Honky", "Nasal". 1kHz-3kHz: Intelligibility and Prescence. 
+- Harsh Highs: 5-8kHz: Sibilance. 6-10kHz: Cymbals and High-Pitched Percussion.
+2. Fix Sonic Relationships with EQ.
+- Helps reduce Frequency Masking
+- Frequency Carving: Bass & Kick Drum Clarity, Vocal and Guitar Separation, Synth & Snare Definition. 
+-- Identify overlapping frequency ranges and make subtle adjustments to create distinct spaces for each element, ensuring clarity and a balanced mix.
+- Boosting with Context
+-- Boost while paying close attention to how the boost effects everything.
+- Frequency Slotting
+-- Choose which instruments take up which part of the frequency spectrum.
+3. Use EQ to bring Global Balance.
+- Keep in mind Frequency Distributions and Profiles.
+- Track Level
+- Bus Level
+- Boosts are typically more broad than cuts are. Broad > 3.0Q.
+4. Use EQ to Enhance each Instrument.
+- The more subtle and final moves we make.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
