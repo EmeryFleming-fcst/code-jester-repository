@@ -1347,6 +1347,18 @@ How to Use Everything in Izotope Neoverb: https://www.youtube.com/watch?v=PhJINf
 - Make things Wider.
 - Have a plan
 
+Compressor Designer GEEKS OUT on DRUM COMPRESSION! https://www.youtube.com/watch?v=K0XGXz6SHco
+--------------------------------------------------
+- Compression is a lot easier to hear at a lower volume. Turn the mix down to where you can barely hear it. Helpful when shaping the attack.
+- Attack is useful for shaping the punch, attitude, and brightness.
+- Letting less sound through makes it sound mellower.
+- Lets you bury a sound in the mix, only allowing that transient through to remind the listener it's there.
+- Hardness and Softness of a sound. Authority, weight, etc. The lower the attack, the more it is about the release.
+- Release: Changes the groove.
+- Release: Faster releases are brighter more aggressive forms of distortion. Growlier.
+- Release: Slower releases makes the sound more darker and smoother. Compression feels more relaxed.
+
+
 How To Mix Like A Pro: https://www.youtube.com/watch?v=1BLZGe-TqW0
 ---------------------
 - Song Writing and Arrangement -> Recording -> Production -> Mixing -> Mastering
@@ -1408,6 +1420,8 @@ Frequencies (EQ)
 - Boosts are typically more broad than cuts are. Broad > 3.0Q.
 4. Use EQ to Enhance each Instrument.
 - The more subtle and final moves we make.
+- Analog EQs can sound better on the high end.
+- Reference 2
 
 
 
