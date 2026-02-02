@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=-3uO0Qqfklo
+- Slugline or Sceneheader: 
+-- INT/EXT: Interior and Exterior
+-- Setting: Where it takes place
+-- Time
+-- Example: EXT Beach - Towel Bar - Day
+- Actions Lines
+-- Capitalize character name the first time they are introduced.
+-- Important props should be capitalized.
+-- Sounds can be all capitalized/italicized.
+- Dialogue Breaks
+-- Character Name on it's own line. Dialogue lines under that. Note after in paranthesis.
+-- V.O. = Voice Over
+-- O.S. = Offscreen.
+-- O.C. = Off Camera
+- Parenthetical: Tell the actor what to do, what they're talking about, whether or not to wait a bit, etc...
+-- (re: Coffee) - Explains that they are talking about coffee.
+- Transitions and Cuts
+-- Jump Cut, Match Cut, Jump To
+
+https://www.youtube.com/watch?v=6PLSJBTzaGw
+- Begin Montage. End Montage.

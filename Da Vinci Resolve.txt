@@ -1,0 +1,5 @@
+Ripple Overwrite: Shift + F10
+Shift+Ctrl+. Will swap clip from left to right. Shift+Ctrl+,
+Selecting and Moving Contiguous Clips: ALT+Y, CTRL+Y selects all clips from front of playhead.
+Tip: F, Match Frames between viewers. Alt+F finds clip in media pool.
+Tip: Deleting Complex gaps. Set in and out point, delete.

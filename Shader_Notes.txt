@@ -1,4 +1,33 @@
 Unity Shader Graph Basics: https://www.youtube.com/watch?v=TbZYoSu1w8Y&list=PLsaDw3p1XpJiGHPnA8gZH6gO2gQYz3JH1
 --------------------------
-Part 1
--
+- Colors get rendered to the frame buffer. It's essentially an image with the same dimensions as your screen.
+- A shader's job is to fill this buffer with color.
+- Also use a secondary buffer called the Z-buffer. A second image, like the first. Stores the distance between a pixel on an object and the camera.
+- Depth Test in ShaderGraph Properties let's you determine how depth testing comparison occurs.
+- Our Shaders can't read the depth buffer directly. Instead, after all opaque objects have been drawn, Unity copies the whole state of the depth buffer into the _CameraDepthTexture.
+-- Texture only contains useful information if we're writing a transparent shader.
+-- The texture will not contain any information about the depth of transparent objects.
+-- Must be enabled in URP by checking the depth-texture setting.
+- Vertex Shader: Points that lie on the corner of a mesh.
+-- Each frame Unity needs to read the vertex data and figure out where to show it on your screen.
+-- It does this through a series of transformations:
+--- Abstract Mesh Data where the vertex positions are defined relative to some Mesh Origin Point. This is called Object Space.
+--- Based on the Transform Position, the vertices are now moved into World Space where they are relative to the world origin.
+--- Based on the Camera's position and properties, the vertices are transformed into clip space which is relative to the screen.
+- After the Vertex Shader the Mesh is rasterized—turned into pixels—and then a fragment shader is ran on all of those pixels to color your object.
+
+- Lighting
+-- Diffuse Light: Light is reflected in all directions when it comes into contact with a surface. The only angle that matter is the angle between the surface normal and the light source. Anything about 90 degrees results in no illumination.
+-- Specular Light: Shiny spots on smooth surfaces. Smooth objects reflect the majority of incoming light rays in the same direction. Depends on the angle between the reflected light vector and the view vector.
+-- Ambient Light: Base level of light applied to the entire scene. Can be used to loosely approximate indirect light sources.
+-- Unity PBR
+--- Base Color: The base texture of the object.
+--- Displacement Map/Height Map: Acts as if the surface has different height values. The lighter the value, the higher it is.
+--- Normal Map: Changes the angle of pixels.
+--- Metallic: Control Specular reflections by saying how metallic an object is.
+--- Specular: Control over the color of the specular highlight.
+--- Roughness Map: Black represents perfect smoothness, white represents a rough surface.
+--- Smoothness Map: Reverse of Roughness Map.
+--- Emission Map: It does not Dim even if in shadow. Need Bloom Post-Processing Feature to see it.
+--- Ambient Occlusion: More pronounced imperfections like holes or hard edges. Light has a harder time getting into gaps, so they get darker. How much each part of the surface is occluded (hidden) from the ambient light.
+---- 0 means the objects is totally occluded, means it's totally visible.

@@ -1423,6 +1423,25 @@ Frequencies (EQ)
 - Analog EQs can sound better on the high end.
 - Reference 2
 
+Spatial Processing
+- Reverb simulates the natural echoes that envelop sounds in real environments.
+- Delay creates echoes that can add rhythm, depth, & texture. Further enhancing the spatial illusion.
+- Depth and Width Dimensions.
+-- Width: By panning the echoes of the reverb tails we can create a sense of spaciousness. Can add delay to that reverb further enhancing the width. 
+- Delay occupies less space in the mix. 
+- Delays:
+-- Delay Time: Length of time between the original signal and the echo.
+-- Feedback: The number of repeats or echoes.
+-- Wet/Dry: Balance between
+-- Tap Tempo: Set Delay time by tapping a key.
+-- Modulation: Adds Movement and Texture to the echoes.
+-- Filter/EQ: Shape Tonal Quality of Delay Signal
+-- Stereo Spread/ Panning
+-- Ducking: Reduces the volume of the delay when the original signal is present.
+- Analog and Tape Delay: Known for their warm, decaying echoes. Depth without mudiness.
+- Digital Delay: Pristine repeats with precise control. Great for rhythmic patterns.
+- Ping Pong Delay: Back and Forth
+- Slapback Delay: A single short echo with a quick delay time. Mimics a soundwave bouncing off a nearby surface. Tight, energetic feel.
 
 
 
