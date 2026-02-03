@@ -118,3 +118,57 @@ https://www.youtube.com/watch?v=ZfwXGiYJ7Wc
 - Particles Effects
 - Slight Camera Movement
 - Slight Light Flickering
+
+https://www.youtube.com/watch?v=DEX3HZFTyy0
+- Snap into existence on first piano key
+- Zoom outs. Sharp.
+- Particle Effects explode in w/ shimmer sounds.
+- Increase Light Levels as it reaches a certain point.
+- Blur + Flash into new camera position
+- Move camera w/ the turning of the page to help align it better.
+- Use slight lense flares to keep the camera alive.
+- Drop a motion graphic to get the eyes attention. Replace screen with a white background. Have the new graphic force outwards revealing the screen.
+- Graphic can spawn in the middle of the screen, but have them move into position form a direction.
+- Zoom in to hide the frame on hard beats.
+- Zoom in to a new screen that has an opening transition, such as a white screen being torn apart to reveal the background.
+- Particle Effects and Lighting are Important.
+- Blur and Zoom into new screen.
+- Can have the light effect text. Have god rays coming from the text at the angle of the light.
+- Can repeat Sequences.
+- Zooms that cause a sort of warp along the edges.
+
+
+How the Pros Really Make AMVs – Full AE Workflow Breakdown: https://www.youtube.com/watch?v=z3V4o7aprUk
+-----------------------------------------------------------
+1. Collect the clips 
+2. Bring them on to AE
+3. Create Basic Transitions
+4. Add Effects
+5. Color Correct
+6. Export
+
+Set the Tone:
+- Story:
+-- It doesn't have to be deep
+-- It needs a flow
+-- It needs a buildup
+-- It needs a climax
+-- And it needs some emotion that carries through
+-- First few clips set the entire tone of what's coming
+
+Prework:
+- Import Files
+- Create timeline
+- Mark the beats of the song
+- Adjust timing of the clip to hit the beat.
+
+Build
+- Animate the Screen. Use Curves.
+- Add some Shake
+- Add some Blur
+- Brightness Flicker. Make the screen flicker on and off.
+- Distortion. Change the screen shape slightly.
+
+Add Various Effects and Color Corrections
+
+https://www.youtube.com/watch?v=IeySXac3vRo&list=PLtcvTwleZlZEHiW34MlJLcQaYZQaprmZM

@@ -31,3 +31,7 @@ Unity Shader Graph Basics: https://www.youtube.com/watch?v=TbZYoSu1w8Y&list=PLsa
 --- Emission Map: It does not Dim even if in shadow. Need Bloom Post-Processing Feature to see it.
 --- Ambient Occlusion: More pronounced imperfections like holes or hard edges. Light has a harder time getting into gaps, so they get darker. How much each part of the surface is occluded (hidden) from the ambient light.
 ---- 0 means the objects is totally occluded, means it's totally visible.
+
+Custom Lighting
+- Fresnel Lighting: Objects become more reflective when you view them at really shallow viewing angles. A type of specular lighting.
+- Diffuse Light = N dot L

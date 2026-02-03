@@ -1443,8 +1443,50 @@ Spatial Processing
 - Ping Pong Delay: Back and Forth
 - Slapback Delay: A single short echo with a quick delay time. Mimics a soundwave bouncing off a nearby surface. Tight, energetic feel.
 
+More Tools and Techniques
+- Saturation: The addition of harmonic content that wasn't originally there in a dry signal.
+- Adds this above the fundamental. Because our ears are more sensitive to the 1-3k range it makes it louder.
+- Distortion is heavy saturation.
+- Saturation can often tame the high end, especially in tape machines.
+
+- Parallel Processing (Compression, Saturation, EQ): Blending in the dry signal with the wet signal.
+- Send at Unity Gain to another bus. Blend it using the volume knob.
+
+- Sidechain Compression: Duck certain instruments out when other instruments need to be more prominent. Fast Attack.
+- If you want to make it transparent, no more than 5db.
+
+- Dynamic EQ: Supress a certain frequency only when it crosses a certain threshold. Soothe 2.
+
+- Multiband Compression: Take a specific frequency and compress it. 
+
+- Transient Shaper: Transient Master.
+
+Workflow Tips:
+- Mastering Your DAW
+- Keyboard Shortcuts: The Speed Lane
+- The Power of Mix Templates
+- Organize your Plugins
+- Timing Yourself: Add Time Constraints
+- The Importance of Taking Breaks. 5-10 Minute Breaks every hour
+- Establish a Systematic Approach
+- Fix-First Mindset: Fix and then enhance.
+
+How to Make Progress:
+- Disciplined Practice and Strategic Learning
+- Develop Ear Training Habits Focused on identifying Frequency Ranges, Dynamics, Spatial Effects, and other Effects. Soundgym and Quiztone. 20-30 minutes a day.
+- Watch Tutorial then Apply.
+- Stay Consistent, don't be intense.
+- Stay Curious, Stay Humble. Balance Confidence and the awareness that perfection is a constant pursuit.
 
 
+Gain Staging in 5 East Steps:
+----------------------------
+- Go through and look at each waveform manually. Quick adjustment to make it take up roughly center third of the waveform.
+- VU Meter calibrated on Master Bus. Aim for roughly 0 to +1.
+- Kick should hit around -7.
+- Bass + Kick should hit around -5.
+- Build the rest of the mix around the Bass + Kick.
+- Continue to Glance at the VU meter to make sure it doesn't get too hot.
 
 
 
