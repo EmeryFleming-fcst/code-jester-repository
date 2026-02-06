@@ -1489,16 +1489,20 @@ Gain Staging in 5 East Steps:
 - Continue to Glance at the VU meter to make sure it doesn't get too hot.
 
 
+How To Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
+-------------------------
+- The Empire System
 
+- Environment
+- Gremlins to avoid:
+-- Noise: Control Background Noise. Check Equipment Quality.
+-- Reflections: Pick the least reflective room in the house. Tame as many reflective surfaces in your room.
+--- Use Acoustic Panels or Blankets, Mattresses, and Pillows. Reflection Filter. DIY Booth
+-- Resonances: Avoid Corners. Avoid the Center of the Room
 
-
-
-
-
-
-
-
-
-
+- Microphone
+- Placement
+- Record
+- Edit
 
 
