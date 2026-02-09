@@ -1524,4 +1524,50 @@ How To Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
 - Record
 - Edit
 
+Gain Staging Explained: https://www.youtube.com/watch?v=bDnylIRs0jo
+-----------------------
+- Aim for -14dbfs
+- Gain Plugin at the start of each track
 
+12 Life-Changing Ableton Tips: https://www.youtube.com/watch?v=SZ3PTkgy2aA
+------------------------------
+- Create an empty midi-track called length that covers the length of the whole track. Use to keep your place and to render entire length easier.
+- Use search to find things.
+- Get rid of Empty space when cutting. Select all, ctr-x, paste in session view tracks slots, cut again, past back in normal view.
+- Options -> Reduced Latency when Monitoring.
+- Hover over title bar of plugin. Latency appears in bottom left corner.
+- Shift + Tab: Swaps between track and plugin view.
+- Ctrl + 1, 2, 3, 4
+- Ctrl + LIMBO
+-- L: Launch Panel
+-- I: inputs and outputs
+-- M: Mixer
+-- B: Browser
+-- O: Overview
+- Warp in the timeline: Shift + Drag at the top bar of a clip.
+- Slipping: Shift + ALT + Drag. Move position in clip around.
+- Add Ctrl to warp and slip to snap grid on.
+
+
+23 Hidden Ableton Tips in 2023: https://www.youtube.com/watch?v=xO_iz05h2Ug
+-------------------------------
+- 
+
+
+INSANE Ableton Tricks Only 10% Users Know: www.youtube.com/watch?v=9uMosR7sNWg
+-----------------------------------------
+- LWT - AutoTrackColors
+- On plugins, use the orange circle to automate. Can choose which values under it. Can use configure as well. Record automation. Highlight automation, right click, simplify envelope.
+- XY 4x4 [rvn]
+
+Ableton Live - 12 Tips You Need To Know: https://www.youtube.com/watch?v=ca60FPxicU0
+---------------------------------------
+- Link Tracks to edit at the same time. Great for comping.
+- Right click plugin header, Hi-Quality.
+- Macro Snapshot on Instrument Rack
+
+Ableton tips you will use daily: https://www.youtube.com/watch?v=oA1nbFe7ER8
+--------------------------------
+- Ctrl + I: Insert Silence. Keeps automation.
+- Select Part of Track: Edit -> Delete Time.
+- Freeze and Flatten
