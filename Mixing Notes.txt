@@ -1571,3 +1571,52 @@ Ableton tips you will use daily: https://www.youtube.com/watch?v=oA1nbFe7ER8
 - Ctrl + I: Insert Silence. Keeps automation.
 - Select Part of Track: Edit -> Delete Time.
 - Freeze and Flatten
+
+
+My Top 10 Tips After 10 Years In Ableton: https://www.youtube.com/watch?v=AQ-0MHT-lAU
+-----------------------------------------
+1. Sessions + Project Folder. File -> Collect All and Save
+2. Put a Limiter on the Master Channel and focus on Mixing.
+3. Use Ping Pong Delay to Widen sounds and Utility to Make Sounds More Narrow. Feedback to 0 and Dry/Wet to 100.
+4. Use sends and returns to add effects.
+5. Utilize EQ on effects.
+6. Mix as you go.
+7. Use FX and Instrument Racks.
+8. Use sidechaining.
+9. Use OTT to make things sound huge.
+10. Use Warp.
+
+12 Ableton Tips I Wish I Knew as a Beginner: https://www.youtube.com/watch?v=1E1wHDH9Szo
+-------------------------------------------
+- Hide stuff you don't need to see.
+- CTRL + G Makes things a rack.
+- Turn off Create Analysis Files.
+
+5 ABLETON SETTINGS THAT ACTUALLY MAKE A DIFFERENCE: https://www.youtube.com/watch?v=1Sy1Ev2VMig
+---------------------------------------------------
+- Create Fades on Clip Edges off.
+- Right click track. Quantize settings. Turn off end.
+- Reduced Latency when Monitoring. Make this default session.
+- Buffer Size: Lower you go, the lower the latency.
+- Warp Settings: 
+-- Beats Warp preserves transients.
+-- Complex: 
+-- Complex Pro: Best for changing the tempo. Vocals.
+--- Higher the Formant, the closer to the original vocals.
+-- Repitch: Changes the pitch.
+- Default Presets for Plugins: Right-click. Can do the same for audio/midi tracks.
+
+10 Ableton Live Tricks Nobody Shows You (But You Need): https://www.youtube.com/watch?v=kQD3bTQ5jAs
+-------------------------------------------------------
+- Set search column to Rank.
+- Ctrl + Right in rack flips through similar instruments.
+- Hold A, Hold B, Hold Z.
+- Backspace on Clip Gain to reset it to 0.
+
+I will change your Ableton workflow *FOREVER* in less than 10 minutes: https://www.youtube.com/watch?v=u83XcTqAnls
+----------------------------------------------------------------------
+- Break up your project into different sessions and just drag and drop them in.
+- Sessions can be used as Manual Project Backups.
+
+https://www.youtube.com/watch?v=xO_iz05h2Ug
+https://www.youtube.com/watch?v=ycQ-Mc60Vyg
