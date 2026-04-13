@@ -1,0 +1,230 @@
+Spectrogram/Waveform Display
+----------------------------
+- Louder = brighter
+- View -> Spectrogram Settings
+-- FTT Size: The greater the resolution. Clearer at larger sizes.
+-- Enable Reassignment: Enables a special technique for Spectrogram calculation that allows very precise pitch tracking
+for any harmonic components of the signal. 
+-- Window: Weighting Functions. Rectangular, may cause vertical blurring. Kaiser or cos3, eliminate leakage at a slight loss of frequency resolution.
+-- Frequency Scale:
+--- Linear: Most useful when you want to analyze higher frequencies.
+--- Logarithmic: More attention on lower frequencies.
+--- Mel: Based on how humans perceive sound.
+--- Bark: Based on how humans perceive sound by corresponds to a series of frequency bands.
+-- Frequency Overlap: Controls the amount of oversampling on the frequency scale. With reassignment, it will increase vertical resolution.
+-- Time Overlap:This controls the time oversampling of the Spectrogram. In most cases, overlap of 4x or 8x is a
+good setting to start with. However, using higher overlap together with the Reassignment option
+will increase the time resolution of a Spectrogram, letting you see transient events clearly.
+-- Color Map: Lets you change the color scheme.
+-- High-Quality Rendering: Recommended. Makes rendering faster at the cost of some clarity.
+-- Reduce Quality Above: Reduces accuracy of preview mode when above x seconds. When you zoom in, it becomes accurate again.
+-- Cache-Size: Limits memory usage amount.
+- Rulers
+-- Right Click Amplitude ruler for scales: db, normalized, 16 bit, percent.
+-- Right Click Frequency Ruler:
+--- Linear: Hertz are linearly spaced
+--- Mel & Bark: Linear below 500hz and logarithmic above it.
+--- Log: Different octaves occupy equal screen space.
+--- Extended Log: Extends down to 10hz. Attention on low frequencies.
+--- Piano Roll: How specific ranges correlate to the western musical scale.
+- Waveform displays: Allows you to fade in a waveform over the spectrogram.
+- Waveform Overview: Displays the entire audio file.
+
+
+Text Navigation
+---------------
+- Can transcribe audio to be able to locate words.
+
+Interactive Tools
+-----------------
+- Zoom Tools
+-- Zoom in
+-- Zoom out
+-- Zoom to selection
+-- Zoom to whole file
+-- Zoom tool
+-- Zoom Sliders: For Magnitude and time.
+- Navigation Tools
+-- Grab and Drag (G)
+- Channel Selectors
+-- Appear on the left hand side of the spectrogram display when a file is loaded.
+-- Can be used to select/deselect channels.
+-Instant Process
+-- Any selection made will be processed instantly.
+-- Attenuate: Spectral Repair Module
+-- De-Click: De-click or interpolate modules.
+-- Fade: Useful if you'd like to smooth over a transition or edit point.
+-- Gain: Ctrl+G if you want to adjust overall volume.
+-- Replace: Replace tab in spectral repair module. Anything you want to remove entirely.
+- Selection Tools:
+-- Time: T. Select a range of time.
+-- Time-frequency: R. Time and Frequency.
+-- Frequency: F. Frequency only selection.
+-- Lasso: L. Selection based on free-form outline.
+-- Brush: B. Ctrl+Scroll to change size.
+-- Magic Wand: W. Select prominent tone under the cursor. Clicking on an existing selection will select the overtone harmonics.
+-- Harmonic Selection Tool: Shift+Ctrl+H. Duplicates current selection to include harmonics above it. 
+-- Selection Feathering Tool: Shift+F. Crossfading. Higher feathering increases fade times.
+- View Clip Gain: Quickly enable/disable the clip gain curve overlay.
+- Selection Modifiers:
+-- Shift to add more to a selection
+-- Alt to subtract from a selection.
+-- Hold ctrl to move the playhead without modifying the selection.
+
+Undo History
+------------
+- History of all changes is recorded and can be used to restore to a point.
+
+Application Menu
+----------------
+- Edit
+-- Insert: Ctrl-Alt-V
+-- Replace: Ctrl-Alt-Shift-V
+-- Mix: Shift-V
+-- Invert and Mix: Alt-V
+-- To Selection: Alt-Shift-V
+-- To Clip Gain Only: Ctrl-Shift-V
+-- Deselect: Ctrl-D
+-- Reselect: Escape
+-- Invert Selection: Ctrl-Shift-I
+-- Begin/End selection at playhead: Left/Right Brackets
+-- Delete
+-- Trim to selection: Ctrl-T
+-- Add Marker or Region: M
+- View
+-- Effect Overlays.
+-- Channel Mode: Left/Right. Mid/Side.
+
+Preferences
+-----------
+- Settings to play around with.
+
+Batch Processor
+---------------
+- Allows to run multiple files through a custom chain.
+
+Repair Assistant
+----------------
+- Voice/Music mode.
+- Click learn to analyze, render to finalize.
+- On/Off button allows for a bypass.
+- Audition Button lets you hear what is being removed.
+- Clean-up:
+-- De-noise
+-- De-reverb
+-- De-hum
+-- De-click
+- Tone:
+-- % controls the amount of boosting and cutting.
+-- Tilt: Positive boosts the high end and lowers the low end.
+-- Scoop: Positive boosts the high end, boosts the low end, and lowers the mid-range.
+-- Tilt/Scoop: Choose which EQ shape.
+-- Lo-cut: Toggles low cut filter.
+-- Hi-cut: Toggles high cut filter.
+- De-Ess
+-- Shaping: Determines how much the spectral shape of the sibilant is changed.
+-- Threshold: Determines at what level compression begins.
+-- Fast/Slow: Attack and release times.
+- De-clip:
+-- Threshold: Set just below the actual level of clipping.
+-- Output Gain: Selects the gain to be applied after,
+-- Limiter: Applies a true-peak limited.
+- Music Mode is similar.
+
+Module Chain
+------------
+- Allows for the processing of multiple modules in a series.
+
+
+-----------\
+MODULES
+-----------\
+
+- Ambience Match
+-- Advanced Only
+-- Matches the noise floor of one recording to another recording.
+
+- Breath Control
+-- Gain Mode: Will reduce the breath by an absolute amount.
+-- Target Mode: Sets the level of detected breaths. More natural.
+-- Sensitivity: How sensitive the plug-in is.
+
+- Center Extract
+-- Advanced Only
+-- Preserves either the center or sides of an audio.
+
+- De-Bleed
+-- Reduces the leakage of one signal into another.
+-- Must have a bleed source track as well.
+-- Strength: Determines the amount of bleed reduction.
+-- Artifact smoothing: Increase the slider if your output sounds watery, decrease it if the audio sounds dull.
+
+- De-Click
+-- Algorithm:
+--- Single band: Processes Quickly. Narrow, digital clicks.
+--- Multi-Band: Removing regularly repeating clicks with a wider spectrum.
+--- Multi-Band (Random Clicks): Wider, Vinyl clicks. Protective algorithm for preserving periodic audio.
+--- Low-Latency: Works well on mouth clicks and others.
+-- Sensitivity: Increasing too high can impact plosives.
+-- Frequency Skew: Negative values are more suitable for generic clicks. Zero or above targets mouth clicks.
+-- Click Widening: Extends the repair area around detected clicks, compensating for mouth sounds.
+
+- De-Clip
+-- Fixes clipping issues.
+-- Often as easy as finding the part you want to fix, and setting the threshold directly underneath it.
+-- Histogram Meter: Displays information on the waveform.
+-- Quality:
+--- High Quality: Slow processing, better results.
+--- Start with low quality and move up as needed.
+-- Post Limiter: Applies a true peak limiter.
+
+- De-Crackle
+-- Many clicks that are close together and low in volume.
+-- More effective if it is run after De-Click.
+-- Quality: Fast versus quality.
+-- Amplitude Skew: If the crackle accompanies transients or high level signal passages, set this more to the right. If it's low-amplitude instead, set this more to the left.
+
+- De-ess
+-- Classic Mode: Broadband Gain Envelope.
+-- Spectral Mode: Multiband compressor.
+-- Threshold:
+--- Relative Mode: Determines the level of speech and sets it relative to that.
+--- Absolute Mode: Sets the threshold to a decibel level below full scale.
+-- Cutoff Frequency: The lower boundary for sibilance detection.
+-- Spectral Flattening: How much the shape of the sibilant is changed (flattened). 0% leaves natural shape.
+-- Spectral Tilt: Brown noise gives it a darker sound, white noise a brighter one. 0 creates a natural spectral decay close to pink noise. Values below 0 give brown, above give white.
+-- Speed:
+--- Fast: Quick Attack and Release.
+--- Slow: Longer attack and release times.
+
+- De-Hum
+-- Removes persistent tonal noises, like ACs.
+-- Static: Ideal for simple tonal noises. Hum doesn't overlap speech frequencies.
+-- Dynamic: For the more complex ones.
+-- Controls in Dynamic Mode:
+--- Learn: Isolate hum if possible.
+--- Adaptive Mode: Better if hum changes in pitch.
+--- Bands: Adjust to higher value for complex hums, but the tradeoff is transparency.
+--- Filter Q: Adjust the bandwidth of the notch filters.
+--- Range Selectors: Sets the action region of the hum removal.
+-- Controls in Static Mode:
+--- Base Frequency: Adjust the slider until you find the point where the hum is removed.
+--- Frequency: Sets the fundamental frequency of the filter.
+--- Filter Q: Controls the bandwidth of the notch filters.
+--- Linear Phase Filters: The filters provide accurate frequency response with no change in phase at the expense of latency and filter pre-ringing.
+--- Harmonics: Can add up to 16.
+--- Link Harmonics: Different gain selections for the harmonics.
+--- Slope: Sets how aggressively the harmonics are attenuated.
+--- Filter DC Offset: A filter to remove and DC offset.
+-- Should be used prior to Voice or Spectral.
+-- Hums appear like solid orange lines.
+
+- De-Plosive:
+-- Use it before applying any high-pass filter!
+-- Sensitivity: 
+--- Lower values narrow it down, but preserve quality.
+-- Strength:
+--- To maintain speech signal, try upping sensitivity while reducing strength.
+-- Frequency Limits:
+--- Plosives are typically 20 to 300, but may sometimes go as high as 500. Keep this as low as you can.
+-- Plosives look like strong vertical lines that appear brighter than the signal around them.
