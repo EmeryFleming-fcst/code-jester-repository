@@ -1,3 +1,5 @@
+https://www.soundguys.com/audio-bit-depth-explained-23706/
+
 Spectrogram/Waveform Display
 ----------------------------
 - Louder = brighter
@@ -228,3 +230,160 @@ MODULES
 -- Frequency Limits:
 --- Plosives are typically 20 to 300, but may sometimes go as high as 500. Keep this as low as you can.
 -- Plosives look like strong vertical lines that appear brighter than the signal around them.
+
+- De-Reverb:
+-- Reverb Profile: Bands. Can also be used to adjust ringing or muddiness.
+-- Tail-Length: Controls decay of De-Reverb processing. Increase if reverb tails reappear after processing.
+--- Decrease if it sounds overprocessed or dull.
+-- Artifact Smoothing: May need to balance this and reduction. Decreasing it makes it more accurate, instead of smooth.
+-- Enhance Dry Signal: Help create more dynamic range. A good option to try when working with voice or other transient heavy material.
+-- On the Spectrogram, reverberant audio looks more "blended together." This means the horizontal view of the transients doesn't clearly look separated into lines.
+-- Tips for Dealing with complicated Reverbs: Multiple passes
+--- Train the De-Reverb and set the reduction amount to a value that yields good results on the long tail.
+--- Learn a new Reverb Profile and try reducing the level of early reflections: set the tail length control to 0.5, Artifact smoothing around 3.0, increase reduction.
+--- A combination of De-Reverb and Spectral De-noise can help.
+
+- De-Rustle:
+-- Advanced Only
+-- Reduce noise of cloth brushing the microphone.
+
+- De-Wind:
+-- Advanced Only
+-- Remove low frequency rumble from wind.
+
+- Deconstruct
+-- Advanced Only
+-- Analyzes audio and separates the signal into Tonal, Noisy, and Transient components.
+
+- Dialogue Contour
+-- Advanced Only
+-- Manipulate the pitch envelope.
+
+- Dialogue Isolate
+-- Particularly useful for increasing the level of the dialogue in challenging low signal-to-noise ratio recordings.
+-- Sensitivity: 
+--- Higher Values: Broader range but can introduce artifacts.
+--- Lower Values: Can result in more noise being included but it maintains clarity.
+-- For Stationary Noise, if the results aren't good try Spectral De-Noise.
+
+- Guitar De-Noise
+-- Amp section handles hum or buzz from guitar pickups or amplifiers.
+--- Must be tonal or static. If not, address the broadband issues with Spectral or Voice De-noise first.
+--- Sensitivity: Higher sensitivity when the amp of noise varies over time.
+--- Resolution: Default is usually enough, but higher can be used.
+-- Squeak for controlling fret and finger squeaks.
+--- Duration: Short is good for the majority of squeaks.
+--- Long: Can handles short and long ones. Has higher latency.
+-- Pick for reducing the attack of picker or plucked guitar strings if they stand out too much.
+--- Sensitivity: Higher will affect the tone.
+-- Amp does not work well on broadband noises.
+-- Squeak may need manual correction. Run it on higher sensitivity in smaller, isolated sections. Spectral Repair also helps.
+-- If Pick isn't enough, De-ess in Spectral mode or De-click are good options.
+
+- Interpolate
+-- Repairing clicks below 4000 samples.
+
+- Loudness Optimize
+-- A tool for analyzing loudness.
+-- Anything below the threshold does not contribute.
+-- Measured %: How much of the audio in the file is being measured.
+-- Integrated LUFS: Displays the integrated loudness.
+-- Boost: Max amount of gain applied to quiet sections.
+-- Threshold: The level at which upward compression will start to be applied.
+-- Ratio: Amount of compression
+-- Speed: How quickly the processor will begin to boost when the audio falls below the threshold.
+
+- Mouth De-Click
+-- Increasing sensitivity can impact plosives.
+-- Zero or above targets mouth, negative vinyl.
+-- Extends the area around detected clicks, compensating for mouth sounds.
+-- Running it twice can usually offer better results, since louder clicks can mask quieter ones.
+
+- Music Rebalance
+-- Breaks apart different elements of a song and allows you to adjust them.
+-- Adjusts the attention of the stem splitting algorithm to a specific stem.
+
+- Spectral De-noise
+-- Designed to remove stationary or slowly changing tonal noise.
+-- Threshold: Higher reduces noise but can suppress low-level signal components. Lower may result in noise modulation. If background noise changes over time, raise the threshold.
+-- Reduction: Only apply as much as needed.
+-- Quality: Affects CPU usage. A is the lowers, D the highest.
+-- Artifact Control: Lower values can lead to chirpy or watery sounds. Higher values can result in bursts of noise right after the signal falls below the threshold.
+-- Smoothing: Allows for sharper of mor graduals slopes between edit curve points. Controls interpolation amount.
+-- Reduction Curve: Allows for fine tuning of the reduction curve. Higher edit points result in less noise reduction in the region, lower edit points result in more.
+
+- Spectral Repair
+-- Intelligently removes undesired sounds.
+-- Attenuate Mode: Attenuate reduces spectrogram magnitudes in the selected area to match magnitudes from the surrounding area, resulting in the removal of the sound without leaving an audible gap behind.
+-- Bands: Higher number has better resolution, but requires more analysis. Lower is ideal for processing short selections or transients.
+-- Surrounding Region Length: How much of the surrounding content will be used for interpolation.
+-- Strength: Strength of attenuation.
+-- Multi-Resolution: Better frequency and time resolutions.
+-- Before/After Weighting: Gives more weight to the surrounding audio before or after the selection.
+-- Direction of the Interpolation: Horizontal, Vertical, 2D (all directions)
+-- Replace Mode: Can be used to replace badly damaged sections in tonal audio with surrounding data.
+-- Pattern Mode: Pattern mode is suitable for badly damaged audio with background noise or for audio with repeating parts
+-- Partials and Noise: The advanced version of Replace mode. It restores harmonics of the audio more accurately with control over the Harmonic sensitivity parameter. Partials + Noise is able to correctly interpolate cases of pitch modulation, including vibrato.
+-- Harmonic Sensitivity: Lower values will detect fewer. Higher values will detect more but can introduce unnatural pitch modulations.
+-- Use directly on the spectrogram.
+-- When used with Time Selection, it can provide higher quality processing than de-click for long corrupted segments.
+-- Find Similar Event Tool can be used to help repair multiple small sections instead of repairing it all at once.
+
+- Spectral Recovery
+-- Advanced Only
+-- Adds missing frequencies to bandwidth-limited speech content and patches holes in the frequency spectrum due to compression artifacts.
+
+- Streaming Preview
+-- Applies the same loudness normalization that streaming platforms will apply to preview it.
+
+- Voice De-noise
+-- Filter Type: Surgical: Removes more, but may artifact with watery or chirpy noises. Gentle: More transparent, but removes less high end "sizzle"
+
+- Wow & Flutter
+-- Advanced Only
+-- Transparent correction of pitch variations due to inconsistent speed of the recording medium.
+
+- Azimuth: The Azimuth module provides control over left and right channel gain and delay. 
+
+- Dither
+-- A process when converting a higher bit resolution to a lower one.
+-- Noise Shaping: Higher noise shaping can cause slightly higher peaks in your signal.
+-- Dither Amount: Normal is usually good. No/Lower dithering can leave distortion or modulation, too high will eliminate it but increase the noise floor. High with no noise shaping can create white noise.
+-- Auto-Blanking: Automatically mutes dither output.
+-- Limit Noise Peaks: If high peaks are undesirable, enable to suppress them.
+-- Suppress Harmonics: If any noise is undesirable, suppress harmonics. This moves any harmonic quantization distortion away from overtones.
+
+- EQ Match
+-- Advanced Only
+-- Lets you match the EQ profile of a selection with the profile of a different selection.
+
+- Fade
+-- Provide gradual increase or decrease in gain throughout the selection.
+-- Cosine is good for in-phase tonal material.
+-- Equal power for noisy material.
+
+- Leveler
+-- Advanced Only
+-- Rides that gain in your file to even out the variations of the signal level.
+
+- Loudness Control
+-- The Loudness Control module adjusts the gain of the signal in order to meet the specified loudness standard
+-- Integrated Loudness: The desired target.
+-- Tolerance: Margin of error, typically set to 0.5-2.
+-- Short-term/Momentary Loudness: Short term over 3 seconds, momentary is 400ms.
+-- True Peak: True peak value of the clip.
+-- Program Loudness Gate: The cutoff of low level signals to exclude it from the loudness computation.
+
+- Mixing
+-- Provides control over both left and right signal and their balance levels. Can be used to downmix stereo into mono, invert waveforms, transcode left/right to mid/side, subtract a center channel, and more.
+-- Left Output Mix: Define how much of the current selection's left and right channel signal will be present in the new target left channel.
+-- Right Output Mix: Define how much of the current selection's left and right channel signal will be present in the new target right channel.
+
+- Normalize
+-- Sets sample peak level to the specified target peak.
+
+- Phase
+-- Rotates signal phase to balance asymmetrical waveforms.
+-- Spreads peaks more evenly.
+
+- Resample
