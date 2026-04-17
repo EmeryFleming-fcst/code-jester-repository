@@ -387,3 +387,62 @@ MODULES
 -- Spreads peaks more evenly.
 
 - Resample
+-- Convert an audio file from one sampling rate to another.
+-- Change Tag Only: Only changes the file properties. Effectively altering the playback rate and pitch.
+-- Pre-Ringing: Intermediate values between 0 and 1 produce so-called intermediate-phase filters that balance pre- and post-ringing while maintaining linear-phase response across a possibly wider range of frequencies.
+
+- Signal Generator
+-- Synthesize silence, tones, and noise.
+
+- Time & Pitch
+-- Independent control over the length and pitch of audio. It is useful for retuning audio to fit in a mix better.
+-- Algorithm:
+--- Radius: Highest Quality.
+--- Radius RT: Faster than Radius.
+--- Solo Instrument: Good for monophonic. Adaptive window too small, there will be a squeaking noise. Too big, it will become grainy.
+-- Formant Correction: Resonant Frequencies that tend to be perceived as characteristics like age and gender. Strength is usually 1, shift is usually 0. If you hear what sounds like an EQ adjustment, lower strength.
+--- For special effects, like changing perceived gender, try adjusting the semitones.
+-- Stretch Ratio: 12.5% to 100% will cause the audio to speed up without affecting pitch.
+--- 100% to 800% will cause the audio to slow down without affecting pitch.
+-- BPM Calculator
+-- Pitch Shift: How much will be applied
+-- Transient Sensitivity: Determines the algorithm’s handling of transient material. Higher values will result in better preservation of individual transients after processing.
+-- Noise Generation: Helps noisy material sound more natural.
+-- Pitch Coherence: Helps preserve the natural timbre for pitched solo voices. High values of pitch coherence will avoid phasiness in Radius’s output at the expense of roughness (modulation) in processed polyphonic recordings. 
+-- Phase Coherence: Preserves the coherence of phase between the left and right channels.
+
+- Variable Pitch
+-- Can be used to quickly fix small pitch variations or correct gradual pitch drifts.
+-- Contour Curve. Nodes can be added to the curve and adjusted to make changes.
+-- Ctrl+Click to remove a node.
+-- Preserve Time: Radius used when enabled.
+--- Pitch Coherence
+--- Transient Sensitivity
+
+- Variable Time
+-- Correct timing issues or creatively adjust speed.
+-- Controls same as Variable
+
+- Find Similar
+-- Similarity: Scale of how similar they are
+
+- Markers and Regions
+-- M Key adds marker or region at playhead.
+
+- Spectrum Analyzer
+-- Hover mouse near peak to get a readout of the exact frequency and amplitude of it.
+
+- Waveform Statistics
+-- Shows info about waveform in the current selection
+-- Selecting cursor icon next to a value readout will more playhead there.
+
+- Identifying Problems: Use Graph in Docs
+
+- Using the Spectrogram Display
+-- Hum is shown as a series of horizontal lines. Usually with a bright one at 50hz or 60hz.
+-- Buzz is similar to hum but at a higher frequency.
+-- Hiss and other Broadband noise: Speckles that surround the program material.
+-- Clicks, pops, & Short Impulse Noise: Vertical lines. The louder they are, the brighter they are.
+-- Clipping: Makes waveform appear squared off.
+-- Intermittent Noises: Harder to spot, easier to hear.
+-- Gaps and Drop Outs: Delete the gap and apply spectral repair.
