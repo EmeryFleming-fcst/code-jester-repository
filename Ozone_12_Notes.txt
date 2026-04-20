@@ -149,3 +149,75 @@ may introduce distortion if pushed too far) and Clean(Applies transparent upward
 --- Correlation Meter Bar: 0 to +1 is all good.
 
 - Impact: Controls the Microdynamics of a signal. Enabling dynamic range expansion and compression.
+-- Impact Controls: Positive values will expand the microdynamics and negative values will compress them for a more dense, glued sound.
+-- Envelope: The release.
+
+- Low End Focus:
+-- Reduce muddiness, increase low end impact, and address other low end issues.
+-- Modes:
+--- Punchy: Faster response times to emphasize transient content.
+--- Smooth: Slower response times to enhance sustained content.
+-- Contrast:
+--- Positive Values: Increases the difference between low and high level content. Attenuates ‘out-of-focus’ low level content, bringing out transients and leading to a punchier sound.
+--- Negative Values: Decreases the difference between low and high level content. Blurs the low end in a similar way to saturation. Transients will lose focus similar to the smoothing effect of some analog compression.
+--- Action Region Cutoff Adjustments: Drag a handle to adjust a single cutoff value, click between the two handles to move them together, or single-click on the value readout and manually enter a cutoff value.
+
+- Master Rebalance
+-- Machine learning algorithm that determines vocals, bass, or drums. Can adjust the gain of that specific part.
+-- Blue is the focus that displays only the content identified as belonging to the focused element.
+-- Grey is the residual spectrum that shows everything not part of the focus.
+-- Focus swaps the focus element.
+-- Gain lets you lower or raise the gain of the element.
+
+- Match EQ
+-- A digital linear-phase EQ with the ability to use over 8,000 bands of frequencies for very precise matching.
+-- Grey: Displays the output signal of ozone in real time.
+-- White: The filter response of the matched curve.
+-- Goldenrod: Captured reference.
+-- Blue: Captured apply.
+-- Handles to set low and high frequency cutoffs.
+-- Smoothing: Higher smoothing is less precise.
+-- Amount: Determines the amount of processing to apply.
+
+- Maximizer
+-- Mode:
+--- IRC Low Latency: Lowest latency and CPU usage.
+--- IRC 1: Reacts quick to transients and slow to steady bass tones.
+--- IRC 2: Similar to 1 but optimized to preserve transients even more so they sound sharper and clearer.
+--- IRC 3: Most aggressive. Very CPU-intensive, and produces high latency, especially at higher sampling rates
+---- Clipping: Most aggressive style. Colorize mix with distortion or achieve the highest degree of loudness with the greatest risk of clipping.
+---- Crisp: Aggressively constrains the limiter's release and will favor distortion over pumping.
+---- Balanced: Constrains the release behavior of the limiter in the most transparent way.
+---- Pumping: Least aggressive. 
+--- IRC 4: Further reduces pumping and distortion
+---- Classic: Provides general enhancement of the overall mix with a sound more reminiscent of Ozone’s earlier limiting algorithms which are still being used by professionals today.
+---- Modern: Provides general enhancement and life to your mix but with greater detail and clarity than the Classic style.
+---- Transient: Optimized for maximum preservation of all transients resulting in a highly detailed overall sound that may benefit some mixes needing added clarity.
+--- IRC 5: First multiband limiter in Ozone. The result is a louder, cleaner master with improved transparency.
+-- Gain: Input Gain.
+-- Enable Soft Clip processing before the IRC Maximizer by clicking the Soft Clip power button. Adjusting the Amount control provides a high fidelity loudness boost by controlling the wet/dry of the Soft Clip processing. At 100% the signal will fully clip at 0 dBFS. Light, Moderate, Heavy begins saturation at -3, -9, and -30.
+-- Transient Emphasis: Using higher amount values for Transient Emphasis will result in more pronounced transients after the limiting process.
+-- Stereo Independence: Adjusts how the limiter response to both materials.
+
+- Spectral Shaper
+-- The Spectral Shaper can be used to apply high-resolution attenuation to problematic frequencies across the frequency spectrum with configurable time constants, timbre adjustment, and a variable full spectrum action region.
+-- Mode: Sets the intensity to be applied.
+-- Amount: Adjusts how much spectral gain reduction is applied.
+-- Tone: Positive values are bright, negative values are dark.
+-- Attack/Release
+-- Action Region Range Cutoff Handles: Adjusts the low and high cutoff frequency values for the action region.
+
+- Stabilizer
+-- Stabilizer is an adaptive mastering equalizer that reacts to the incoming audio and applies frequency corrections to tonally balance a signal or tame resonances.
+-- Target: The tonal balance to be aimed for.
+-- Mode: Type of EQ adjustments made.
+--- Shape: EQ Boosts and cuts while trying to remain loudness neutral.
+--- Cut: Only applies EQ cuts as it tames resonance frequencies that exceed the upper bounds of the target.
+-- Amount: Scales the gain of the Stabilizer’s adaptive tonal corrections. At 100, the maximum gain that Stabilizer can possibly boost is 9 dB.
+-- Speed: Attack
+-- Smoothing: Controls the contour of the tonal corrections applied by Stabilizer in Shape Mode. At 100 smoothing, the EQ correction will look like 3 - 4 filters. At 0 smoothing, the EQ correction will look like many filters working across the frequency spectrum. Lower Smoothing values will provide a more precise frequency correction but may introduce artifacts.
+-- Sensitivity: Controls how often the stabilizer will detect resonances.
+-- Tame Transients: Enables Stabilizer to react instantly to tonally correct any transient material.
+-- Low: < 100hz
+-- Mid: > 100 & < 5.6
+-- High: > 5.6
