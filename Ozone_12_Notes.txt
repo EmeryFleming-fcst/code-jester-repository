@@ -221,3 +221,68 @@ may introduce distortion if pushed too far) and Clean(Applies transparent upward
 -- Low: < 100hz
 -- Mid: > 100 & < 5.6
 -- High: > 5.6
+
+- Stem EQ
+--EQ Separated Elements of the mix.
+-- Module Header
+--- Stem View Selector: Choose the Stem name to swap to that stem's EQ.
+--- Same as usual EQ controls.
+
+- Unlimiter
+-- Restores dynamics to audio that has been heavily limited or compressed.
+-- Controls Panel
+--- Amount: 100% restore to predicted original, 200% applies an enhanced effect.
+--- Set threshold to predicted limiting region. Lowering the threshold below the actual peak level exaggerates the effect, making the neural network treat the signal as if it were more heavily limited. Raising the threshold above the waveform’s peak level reduces the intensity of the processing.
+
+- Vintage Compressor
+-- The Vintage Compressor is an emulation of a feedback compressor with a detection filter in the feedback loop.
+-- Header
+--- Detection Filter: Adjust the frequency response so that it is more or less sensitive to specific frequencies.
+--- Usual Compressor Controls
+--- Mode:
+---- Sharp: Crisp Dynamics, greater emphasis on transients, maintains body of the signal.
+---- Balanced: Gives a signal-dependent balance between dynamics preservation and overall enhancement to the body of the signal.
+---- Smooth: Smooths out transient and dynamic material while enhancing and bring out the rest of the signal, resulting in a thicker and fuller sound.
+
+- Vintage EQ
+-- Emulates Pultec EQP-1A and Pultec MEQ-5
+-- Top: Pultec EQP-1A
+--- A unique feature of the Pultec EQP-1A is the ability to simultaneously adjust the boost and cut parameters for the low frequency band.
+-- Bottom: Pultec MEQ-5 Equalizer
+--- All of the mid frequency controls are peaking filters. As in the original MEQ-5, the filter bandwidths are affected by the boost/cut amount.
+
+- Vintage Limiter
+-- The Vintage Limiter, modeled after the Fairchild 670, allows you to create a louder and fuller master by limiting the dynamic range and boosting the overall level of your mix.
+-- Mode
+--- Tube: A more balanced limiter with variable attack and release times. Provides smooth feedback limiting with a wider range of sonic characteristics that vary depending on your incoming signal.
+--- Analog:With a fast attack and variable release time, this mode provides a tight bass response with a “thick” limiting quality. Brings out the low-end transients while still providing the smoothness that is characteristic of analog circuitry.
+--- Modern: Blends thicker vintage characteristics and wide range of non-linearity with modern IRC limiting, variable release times, and transient reproduction.
+-- Use -0.3db when dithering, or -0.6 to -0.8 when converting to MPC or AAC formats.
+-- Character adjusts the attack and release times.
+
+- Vintage Tape
+-- Add the frequency response (magnitude plus phase) and saturation characteristics of magnetic tape.
+-- Speed: Inches per second. Faster speeds can improve high frequency response and overall quality. Slower speeds can cause a uniform decrease in the linear frequency response of tape, a shift in background noise toward lower frequencies, and increased background noise.
+-- Bias: Adjusts the shape of the distortion curve. Negative bias values will boost high frequency content, resulting in more high frequency distortion than postive bias values. Positive bias values can begin to limit the dynamic range of the signal, lending a different type of saturation to the output.
+-- Harmonics: Adjusts the amount of even-order harmonic distortion added to the output signal. 
+-- Low Emphasis: 
+--- Lower Values: Can help achieve warmth without adding mud or bias by removing the resonant peak.
+--- Higher Values: Adds low end punch and emphasis.
+-- High Emphasis:
+--- Lower Values: Adds gentle roll-off at higher frequencies.
+--- Higher Values: Adds a high-end shimmer.
+
+- Codec Preview
+-- Allows you to text out lossy compression formats and compensate for any undesirable artifacts.
+
+- Dither
+-- Bit Depth: Sets the target bit depth for the exported file.
+-- Auto-Blanking: Mutes dither output automatically when silence is detected for 0.7 seconds.
+-- Dither Amount: 
+--- Strong: Completely eliminates non-linear distortion with the tradeoff of a slightly increased noise floor.
+--- Medium: Recommended Setting
+--- Low/Off: Can leave some non-linear quantization distortion or dither noise modulation.
+-- Harmonic Suppression: Enabling this option will modify truncation rules in order to move harmonic quantization distortion away from overtones of audible frequencies. This can help maintain better tonal quality in the resulting signal.
+
+- Referencing
+-- Can reference several tracks.
