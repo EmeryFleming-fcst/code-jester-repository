@@ -1,0 +1,32 @@
+Style:
+- A: Ultra-Ultra-Smooth. A jaw-dropping amount of gain.
+- E: Beefy low end coupled with a smooth but airy top-end sheen.
+- N: Weighty but solid low end with focused but not narrow mids. Good for guitar.
+- T: Warm and Punchy. Good for adding warmth, dirt, or attitude.
+- P: Odd harmonic distortion.
+
+Drive: 
+- Harder the input is pushed, the more it is distorted.
+- Gain Control.
+
+Punish:
+- Adds an additional 20db of gain.
+
+Attitude Meter:
+- VU meter paired with Drive. It does not measure the output.
+
+Thump:
+- Adds a few db of low frequency boost at the Low Cut Frequency.
+
+Low Cut:
+- Remove low frequencies before they hit the saturation circuit.
+- Helps to prevent flabbiness.
+- At extreme settings, you can get low-fi telephone and AM Radio Effects, especially when paired with the High Cut.
+
+Tone:
+- Alters sound before saturation.
+- Bright and Dark are the usual EQs that boost one side and lower the other.
+
+High Cut:
+- Operates after the saturation.
+- 
