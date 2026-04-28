@@ -1,0 +1,43 @@
+Easy - Normal - Hard
+
+Shortcuts
+Course Overview Marked as a graph. Give suggestion to take Intro to Programming or C#
+Pre-Requisites? Show off stuff not-used.
+More Material Details
+Cinemachine
+Game View Aspect Ratio
+What a game engine is
+Additional Learning
+-- Videos
+-- Articles
+-- Book Recommendations
+
+- 1.1.3 [Unity Hierarchy and Tools]
+-- For Newer Unity Versions, it's important to note that Universal 3D Core is not the same as 3D Core displayed in the video.
+-- Universal 3D Core uses the Universal Render Pipeline (URP) and 3D Core used the Built-In Render Pipeline.
+-- URP is the new Unity Standard for Render Pipelines, and I would recommend using that though it may cause a few small issues later.
+-- If you would like to use the same Render Pipeline used in the video, search the template section for 3D (Built-In Render Pipeline) (This may require a download)
+
+-- https://docs.unity3d.com/6000.3/Documentation/Manual/render-pipelines-feature-comparison.html
+-- https://www.youtube.com/watch?v=CYeJGQP8g5s
+
+-- The Tools Palette now exists within the scene view window.
+-- If you right click the Tools Palette, you have various visual adjustments you can make.
+-- If you accidentally hide the Tools Palette, you can unhide it using the overlay menu at the bottom of the scene view window or by pressing the ` key while in scene view.
+-- Edit --> Preferences --> Scene View -> Create objects at origin.
+--- I personally find it better to do this then use Ctrl + Alt + F or Ctrl + Shift + F to snap the object to my position
+
+- 1.1.4 [Game Objects and Material Basics]
+-- A note on Parents and Children of Game Objects:
+--- It is often common practice to separate visuals from logic. So, your parent object, may just hold script components and the transform and the child objects may be the actual visual components of the object (See the chair example)
+--- This is done in order to keep logic and visuals in a decoupled (separate and non-linked) state, making changing one or the other a lot easier. For example, if I wanted to change the Chair from a Chair to a Couch, I would just need
+to delete/replace the visuals but all of my code and logic can stay on the parent and remain the same.
+
+- 1.1.5 [Prefabs]
+-- Something to note when modifying an object in a scene that was create from a prefab. In the Inspector view, here you see the word Prefab underneath the object information section, there is an overrides dropdown.
+--- Revert All will Revert the current object to match the Prefab. Apply All will apply the object changes to the prefab itself.
+--- Changed on a game object that differ from a prefab will be both bolded and marked with a blue indicator on the left hand side of the inspector.
+-- It is often easier to think of the Prefab system as a Blueprint system. The prefab is the blueprint that defines how the object should be, and when you create an object from that prefab you're constructing it in the same way an Architect might construct an office building from a blueprint.
+
+- 1.2.1 [Camera]
+-- Camera Component all settings

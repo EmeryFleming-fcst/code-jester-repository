@@ -29,4 +29,14 @@ Tone:
 
 High Cut:
 - Operates after the saturation.
-- 
+- Helps to retain saturation characteristics without passing along excessively high end information or fizz.
+
+Steep:
+- Changes the rolloff from 6db per octave to 30db per octave.
+- Useful for emulating a guitar amplifier speaker cabinet (4khz to 5khz range)
+
+Output:
+- Controls the output level.
+
+Auto:
+- Output control moves in opposite direction of drive control.
