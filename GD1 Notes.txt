@@ -14,6 +14,9 @@ Additional Learning
 -- Book Recommendations
 Common Bugs
 Computer Hardware/Graphics
+Default Parameters
+Memory (RAM variables)
+Commenting
 
 VR/AR
 
@@ -96,3 +99,37 @@ to delete/replace the visuals but all of my code and logic can stay on the paren
 - 2.2.1 & 2.2.2
 -- If(condition) is the same as condition == true
 -- Logical Operator && || vs & |
+
+- 2.3.1 While Loops
+-- Infinite loops WILL crash Unity. Make sure to save.
+-- While loops are something you should avoid if you can.
+-- For Loops give more definitive closure.
+
+- 2.3.3 For Loops
+-- Increment is the same as i = i + 1;
+-- Programming counting starts at zero.
+
+- 2.3.5 Arrays
+-- What is a Data Structure?
+-- Why use a Data Structure?
+-- Data Structures are Very important.
+
+- 2.3.5 Arrays Part.2
+-- Value type vs Reference Type
+
+- 2.4.1 Methods
+-- Parts of a Method
+
+- 2.4.3 Classes and Objects
+-- Classes and Objects.
+-- Methods and Functions.
+-- Properties and Fields.
+-- In most instances, there should only be 1 class for file!
+-- Class Relationship Visualization
+
+- 2.4.5 Object-Oriented Programming
+-- Unity tends to prefer abstraction over inheritance.
+-- Encapsulation: Least Privilege. Only make what needs to be seen visible. 
+-- Abstraction: The user does not need to see the details.
+-- Inheritance: Better example. Child and parent.
+-- Polymorphism: Actual Good Polymorphism example.
