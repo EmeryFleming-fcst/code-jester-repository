@@ -133,3 +133,5 @@ to delete/replace the visuals but all of my code and logic can stay on the paren
 -- Abstraction: The user does not need to see the details.
 -- Inheritance: Better example. Child and parent.
 -- Polymorphism: Actual Good Polymorphism example.
+
+3: Blender
