@@ -17,6 +17,7 @@ Computer Hardware/Graphics
 Default Parameters
 Memory (RAM variables)
 Commenting
+Slowly lead them through making a GDD Template
 
 VR/AR
 
@@ -135,4 +136,7 @@ to delete/replace the visuals but all of my code and logic can stay on the paren
 -- Polymorphism: Actual Good Polymorphism example.
 
 3: Blender
-
+- 3.2.4
+-- Angle Constraint is now 'A'
+-- Cut Through is now 'C'
+-- Add more info on Ngons
