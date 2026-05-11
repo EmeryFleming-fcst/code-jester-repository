@@ -140,3 +140,14 @@ to delete/replace the visuals but all of my code and logic can stay on the paren
 -- Angle Constraint is now 'A'
 -- Cut Through is now 'C'
 -- Add more info on Ngons
+
+- 3.3.3
+-- Images as planes is now a default part of Blender.
+-- When downloading 3rd part addons, it is important to not unzip the download.
+
+- 3.3.4
+-- If you have a pink texture, do the following:
+--- Open the shading workspace (top of the screen)
+--- In the bottom panel, there should be a node graph. On the left side of that graph, there should be two material slots.
+--- One that says basecolor, one that says normal.
+--- Click the folder icon for each of the material nodes. Navigate to the Lion folder you unzipped, navigate to the Textures subfolder, and select the texture that matches the name of the slot.
