@@ -18,6 +18,8 @@ Default Parameters
 Memory (RAM variables)
 Commenting
 Slowly lead them through making a GDD Template
+Design Patterns for Games
+A list of some of the more useful Unity [Tags]
 
 VR/AR
 
@@ -151,3 +153,21 @@ to delete/replace the visuals but all of my code and logic can stay on the paren
 --- In the bottom panel, there should be a node graph. On the left side of that graph, there should be two material slots.
 --- One that says basecolor, one that says normal.
 --- Click the folder icon for each of the material nodes. Navigate to the Lion folder you unzipped, navigate to the Textures subfolder, and select the texture that matches the name of the slot.
+
+- 4.1.1
+-- Include a visual representation of namespaces and classes.
+
+- 4.1.2
+-- Information about access levels when not included.
+-- Information about public versus SerializeField
+
+- 4.1.5
+-- How to use Input Actions. Use new Move Script.
+-- Make new Package for Unity 6+
+
+- 4.2.2
+-- Monobehavior Life Cycle Chart
+
+https://incompetech.com/
+https://color.adobe.com/create/color-wheel
+https://github.com/Cysharp/UniTask
