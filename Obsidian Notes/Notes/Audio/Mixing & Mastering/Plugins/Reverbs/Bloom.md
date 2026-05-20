@@ -1,0 +1,46 @@
+### Main Interface
+---
+- Preset Voyager: Toggles the Central Display
+- A/B Snapshot
+- Randomize/Mutate: Mutate is a random function that takes into consideration the current settings.
+- Reverb Controls:
+- Size: Sets the mean (average) room dimension in meters.
+- Shape: Change the delay distribution. 0% highest echo density, 100% = highest spectral mode density.
+	- Determines the character of the space.
+	- The delay distribution is how the early reflections are spaced out. 0% means they are clustered together, which creates a thick wash. 100% means that they are further apart, which emphasizes tonal ringing and resonances. Making it sound more synthetic.
+- Pre-Delay: A delay of the early reflections.
+- Modulation Depth: Explicit control over the modulation amount in Cents for perfectly controlled Modulated tails.
+- Modulation Rate: Controls the relative rate of modulation.
+- Reverb Mode:
+	- Single: Single reverb engine.
+	- Parallel: Rise time is obtained by running two slightly detuned reverb engines in parallel.
+	- Serial: Rise time is obtained by running two slightly detuned reverb engines in sequence.
+- Output:
+	- Mix: Set the Dry/Wet amount.
+	- Trim: Set the output gain of the reverberated signal path.
+	- Width: Changes the perceived room width.
+	- Diffusion: Controls the diffusion amount. A low diffusion amount yields a longer rise time and a sparser, grainier impulse response.
+	- Tap-out Depth: Sets respectively the depth or curve of the corresponding tapout modes.
+	- Tap-out Mode: Controls the shape of the impulse response and the early reflections.
+- Decay Controls
+	- Decay Time: Main Decay Time in Seconds. For more naturalness, changing the room size will also affect the actual decay time in order to keep the room absorption property constant.
+	- Lo Decay: Decay time multiplier at low frequencies.
+	- Lo Crossover: Cutoff f between low and mid bands.
+	- Hi Decay: Decay time at multiplier at high frequencies.
+	- Hi Crossover: Cutoff f between mid and high bands.
+	- Rise: Controls the amount of rise time as a percentage of the current decay time.
+	- Roll-off: Lowpass filter cutoff frequency to control the reverberation bandwidth.
+- Meters/Displays
+	- I/O Metering: Left is in, right is out.
+	- Display Mode (SPC)
+		- Switch Spectral Decay Visualization between rectangular and polar modes.
+		- Inside the Decay Editor 
+			- Rectangular:
+				- Click-drag in the center column to modify decay time.
+				- Click-drag in the left column to modify lo decay and lo crossover.
+				- Click-drag in the right column to modify hi decay and hi crossover.
+				- Horizontal drag modifies crossover f.
+				- Vertical drag modifies decay time.
+- Freeze: Freezes the reverb with infinite decay.
+- Tools tips located at the bottom.
+- Right click and control to toggle a context menu.

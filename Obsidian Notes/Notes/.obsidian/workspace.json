@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ee5031f3c95bf974",
+        "id": "e3bb3f81b50d7711",
         "type": "tabs",
         "children": [
           {
-            "id": "96bde6ebc4364a07",
+            "id": "f3d774eed0cdc06e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vocal Restoration and Cleaning"
+              "title": "New tab"
             }
           }
         ]
@@ -183,17 +179,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "96bde6ebc4364a07",
+  "active": "f3d774eed0cdc06e",
   "lastOpenFiles": [
-    "Audio/Mixing/Solving Problems/Vocal Processing.png",
-    "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
-    "Audio/Mixing/Plugins/Izotope/RX11.md",
-    "Audio/Mixing/Solving Problems",
+    "Audio/Mixing & Mastering/Plugins/Synths/UVI Walker.md",
+    "Audio/Mixing & Mastering/Plugins/Saturation/Decapitator.md",
+    "Audio/Mixing & Mastering/Plugins/Synths",
+    "Audio/Mixing & Mastering/Plugins/Reverbs/Bloom.md",
+    "Audio/Mixing & Mastering/Plugins/Saturation",
+    "Audio/Mixing & Mastering/Plugins/Izotope/Ozone 12.md",
+    "Audio/Mixing & Mastering/Plugins/Reverbs",
+    "Audio/Mixing & Mastering/Solving Problems/Vocal Restoration and Cleaning.md",
+    "Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png",
+    "Audio/Mixing & Mastering/Plugins/Izotope/RX11.md",
+    "Audio/Mixing & Mastering/Solving Problems",
     "Audio/Mixing/Mixing Problems and Solutions.md",
     "Welcome.md",
-    "Audio/Mixing/Plugins/Izotope",
-    "Audio/Mixing/Plugins",
-    "Audio/Mixing",
+    "Audio/Mixing & Mastering/Plugins/Izotope",
+    "Audio/Mixing & Mastering/Plugins",
+    "Audio/Mixing & Mastering",
     "Audio"
   ]
 }

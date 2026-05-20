@@ -1,0 +1,61 @@
+#### Main
+- Master Volume Dial (Top Right)
+- Shoes and Feet
+	- Mode: The mode of the shoes, feet, or special design.
+	- Power
+	- Menu: The type
+	- Solo
+	- Volume
+	- Pitch
+	- Random
+	- Attack
+	- Decay
+	- Size (Design Only): Size of the foot step sound.
+	- Mix (Design Only): Adjusts the balance between texture and natural footsteps.
+- Pitch Offset: The Pitch Offset for each foot (May be useful for things like limps).
+- Sub Layer
+	- Can add various bells and whistles for step effects.
+- Clothing
+	- Same as above
+- Sub Layer
+	- Worn effects
+- Surface
+	- Same as above
+- Microphone
+	- Classic
+	- Dynamic
+	- Cardioid
+	- Super Cardioid
+- Steps
+	- Speed: The time between the heel and the toe sound.
+	- Auto: Auto adjust the footstep speed.
+	- Distance: Adjust the distance of the footsteps by crossfading the close and the distance mic.
+	- Reverb Send: The amount of the signal sent to the reverb.
+	- Link: Link the reverb send and the distance.
+	- Velocity: Sets the velocity sensitivity of the steps.
+	- Lift: Adjust the sound of a foot lifting off of the ground.
+### FX
+- EQ
+	- EQ Gain: High Shelf, Middle Band, Low Shelf.
+- Compressor
+	- Usual settings
+- Reverb
+	- Time: Decay Time
+	- Level: Output level
+	- High/Mid/Low: Frequency response of the reverb.
+- Limit
+	- Usual Settings
+### Tips:
+- C2 and E2 are left and right steps. D2 is a stop. B1 and F2 are scuff steps.
+- For more realism, blend together to where they almost overlap and then lower the volume of one (if possible in V2)
+- Distance: To match most scenes in the movies, distance should be half or greater.
+- Reverb: Good for most instances, can disconnect, set send to zero, and use your own.
+- Easy Footstep Tweaks:
+	- Color: Change the microphone and pitch.
+	- Envelope: Tweak the resonance. Longer is more natural.
+	- Dynamic: Lower the compressor threshold to tame the dynamics.
+- EQ: Pre-reverb. 
+- Advanced Page: If exists in V2, lets you adjust different pieces of the step.
+- Dynamic Range: If character is thin and small, try too bring dynamic range to the left and increase the pitch. If plump, lower the pitch.
+- Manual Mode: If manual button is clicked, heels and toes are separated.
+- Stairs Mode: Simply reverses the heel and toe order.

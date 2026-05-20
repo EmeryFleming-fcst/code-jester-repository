@@ -1,0 +1,274 @@
+## General
+---
+### General Controls
+- Ozone can use reference tracks.
+### Master Assistant
+- Intensity:
+	- Subtle, Transparent, Balanced, Bold, Transformative
+- After Activated:
+	- Header:
+		- Gain Match: Matches output to input.
+	- Target Library: 
+		- Can create and manage your own references by importing audio files.
+	- Tonal Balance: 
+		- Equalizer. Scales the gain of all EQ nodes from 0-200%. Links directly with EQ global amount control.
+	- Loudness: 
+		- Maximizer. Adjusts the gain +- 4db
+		- Full Scale/Streaming Modes.
+	- Vocal Balance:
+		- Level: Adjusts the gain that is focused on the vocals.
+	- Extras:
+		- Dynamics Match: Scales all of the per-band impact module amounts from 0-100%. Control maps directly to the global amount located in the upper right hand corner of the impact module.
+		- Width Match: Scales all of the per-band imager amounts from 0% to 100%. Maps to Imager module.
+		- Clarity Amount: Controls the amount of clarity processing. Clarity interface link. Applies a Tilt value that is appropriate for the target genre.
+		- Stabilizer Amount: Controls the amount of stabilizer processing. Links directly to the main amount control.
+
+## Modules
+---
+### Bass Control
+- Purpose: Shapes and enhances the low-end.
+- Header
+	- Frequency Cutoff: The Affected Range.
+	- Balance: Bass to High Frequency Meter. Aim to keep in targeted region during loud, full-frequency passages.
+	- Punch: Drifts Left, low end may sound overly compressed. Right, it may sound too dynamic. Mainly with Kick Drum.
+- Oscilloscope
+	- Peak Control: Solid White Line
+	- Sustain Power: Dashed White Line. Amplifies audio that falls below that line. Best Results, place the line between the peaks of your kick and just above the sustained bass level.
+	- Bass Waveform: Insight into the low end. Use it to spot issues.
+- Sustain Power: Upward Compression. 
+	- Sets the level below which Upward Compression is applied.
+	- Character: Blends dirty (Applies Waveshaping to general harmonic content. May make it more audible on smaller speaker but may introduce distortion if pushed too far) and Clean(Applies transparent upward compression)
+	- Amount: Boosts bass frequencies below the threshold.
+	- Gain Readout: Showing the amount of gain boost.
+- Peak Control:
+	- Dirty: Uses Clipping. May make kick more audible on smaller speakers.
+	- Clean: Uses Transparent limiting.
+	- Gain Readout: Shows the amount of gain reduction in decibels.
+### Clarity
+- Purpose: Uses hundreds of bands to maximize the spectral power of your audio. Adaptively contours the spectrum towards flat noise.
+- Can pull the blanket off of a dull mix without sounding harsh.
+- Header: Channel Processing Mode
+- Amount: Maximum gain clarity can possibly boost or cut is 6db.
+- Tilt: 0db will target pink noise, negative brown noise, positive white noise. Brighter/Darker.
+- Attack/Release: Same as compressor.
+- Difference Meter and Action Region
+	- Displays tonal changes that clarity process is applying Can be constrained to a particular frequency area with the action region handles.
+### Dynamics
+- Purpose: Shape the dynamics of the mix. Four bands of analog-modeled compression and limiting.
+- Header
+	- View Selector:
+		- Crossover Spectrum: Shows processing bands and allows for adding more and modifying the existing ones.
+		- Gain Reduction Trace: Shows gain reduction being applied over time.
+		- Detection Filter: Allows you to apply a filter to the signal used by the level detector and adjust the slope.
+	- Link Bands: All band specific control adjustments will be linked relative to their CURRENT settings.
+	- Auto Gain: Make-up gain is automatically applied.
+	- Adaptive Release: Automatically adjusts the release time of the compressor. Transient, shorter. Sustained, longer.
+- Band Control Views
+	- Can toggle between specific bands or all.
+	- The Knee Control, global Level Detection Mode, and the Dynamics Curve Meter and hidden from the all bands view.
+	- Controls and Meters
+		- Level Detection Mode: Global to bands.
+			- Peak: Uses the Peak Level. Useful when trying to even out sudden peaks.
+			- Env: Uses the Average Level. Produces even levels across all frequencies.
+			- RMS: Uses the average level. When trying to increase overall level without changing the character of the sound.
+		- Threshold: Left Limiter, right Compressor.
+		- Threshold Input Meter: Display the input level to the level detection circuit (outer meters)
+		- Ratio:
+			- Compressor Ratios:
+				- Default: 2:1. Range 10:1 to 30:1. Positive values are downward compression, negative ratios are upward compression.
+			- Limiter Ratios:
+				- Default: 10:1. Range 2.5:1 to 30:1. Is not a brick wall Limiter
+		- Attack/Release
+		- Knee: Higher values make it sound more natural. Hard knees are more abrupt. Aggressive sounding.
+		- Parallel: Adjusts the amount of the dry signal to mix with the wet signal.
+		- Dynamics Curve Meter:
+			- Interactive plot of the threshold, Ratio, and Knee Controls.
+			- C: Compressor Threshold and Knee.
+			- L: Limiter Threshold, Limiter Knee, and Compressor Ratio.
+			- Leftmost and Rightmost Nodes: Indicate the amount of gain change.
+### Dynamic EQ
+- Purpose: Controlling specific frequencies in your mix that are too loud with a great degree of precision.
+- Header
+	- Global Filter Mode: 
+		- Analog: Selects Minimum Phase IIR. 
+		- Digital: Selects linear-phase FIR. FIR is more expensive.
+- Spectrum View
+	- The White Line is a composite curves that shows the combined filter response of all bands.
+	- Alt-Solo: Hold alt when clicking on a node or part of the spectrum to solo it.
+	- Add Notes
+		- Ctrl + Return To add a new node to the center.
+		- Double click to add a node
+	- Adjusting Nodes
+		- Hold Shift when dragging to lock horizontally.
+		- Up or Down or Left and Right to adjust frequency. Shift modifier makes coarse value adjustments. Ctrl Makes fine value adjustments.
+	- Set Dynamic Mode Direction
+		- Filled arrow button chooses direction.
+- Dynamic EQ HUD Controls
+	- General Controls: Power, Solo, Remove
+	- Filter Controls
+		- Filter Shape
+			- Baxandall: Bass for a gentle low shelf filter. Treble for a gentle high shelf filter. Transparent way of addressing extreme lows and extreme highs.
+			- Band Shelf: Bell filter with wide top: Change the relationship between harmonics. Useful for boosting or attenuating a block of frequencies.
+			- Peak Bell: Smoothly boosts or cuts an adjustable region around a specific frequency. Changes the overall color or texture of the sound with larger gain adjustments.
+			- Proportional Q: Varies shape in proportion to gain change amount. Tight, precise corrective cuts.
+		- Freq: Determines center frequency. 20Hz to 20 kHz.
+		- Gain: Determine the amount of gain applied -30db to +15db.
+		- Q: Determines the width or slope of parametric/Bell filters.
+	- Threshold Controls
+		- Displays input signal, level adjustment, and allows you to set the threshold.
+	- Advanced Controls
+		- Auto Scale: Attack and Release values scaled automatically depending on the frequency.
+		- Attack/Release
+		- Offset: Sets a static gain offset.
+### Equalizer
+- Header
+	- Phase and Surgical Filters are only available when Digital is selected.
+	- as Stereo, Mid/Side, Left/Right, and Transient/Sustain Modes
+	- Amount: Quick scale of all bands. Will not go past maximum values.
+- HUD and All Bands View
+- Show Extra Curves: Phase Delay, Phase Response(Analog or Minimum Phase Equalization), Group Delay (When Working with Transients)
+### Exciter
+- Four bands of configurable saturation.
+- Post Filter View: Display Harmonic Highlights that represent the saturation being applied. Can adjust a high shelf filter that affects the wet output
+- Oversampling: Increase the sampling rate of the applied distortion to reduce aliasing at the cost of processing power.
+- Modes:
+	- Analog: Emulates the sound of transistor type odd harmonics. Adding Grit.
+	- Retro: Slowly Decaying row of odd harmonics.
+	- Tape: Offers a brighter sound saturation due to the odd harmonics.
+	- Tube: Clear "tonal" excitation with an emphasis on transient attacks.
+	- Warm: Generates only even harmonics that decay quickly.
+	- Triode: Modeled after a tube circuit for realistic analog warmth. It uses one half of
+	- Dual Triode: Models a full circuit using a vacuum tube, introducing more pronounced overdrive with a warmer tone.
+### Imager
+- Correlation Trace View: Out of phase values are drawn in red.
+- Stereo Width Spectrum: Displays a Hybrid Mirrored Spectrum.
+- Width: Adjusts the amount of gain applied to side channel content.
+- Stereoizer Amount: Adjust the slider to add natural-sounding stereo width to narrow recordings and to control the character of the stereo effect in conjunction with the width sliders.
+	- Mode I: Haas Effect-based decorrelation processing. This mode creates a delayed copy of the mid channel signal and injects it into the side channel.
+	- Mode II: A newly developed alternative to the classic stereoize mode. This new mode has a slightly different tonal quality from the original and helps to preserve transients at higher settings.
+	- Recover Sides: Helps recover side signals.
+	- Correlation Meter Bar: 0 to +1 is all good.
+### Impact
+- Controls the Microdynamics of a signal. Enabling dynamic range expansion and compression.
+- Impact Controls: Positive values will expand the Microdynamics and negative values will compress them for a more dense, glued sound.
+- Envelope: The release.
+### Low End Focus
+- Reduce muddiness, increase low end impact, and address other low end issues.
+- Modes:
+	- Punchy: Faster response times to emphasize transient content.
+	- Smooth: Slower response times to enhance sustained content.
+- Contrast:
+	- Positive Values: Increases the difference between low and high level content. Attenuates ‘out-of-focus’ low level content, bringing out transients and leading to a punchier sound.
+	- Negative Values: Decreases the difference between low and high level content. Blurs the low end in a similar way to saturation. Transients will lose focus similar to the smoothing effect of some analog compression.
+	- Action Region Cutoff Adjustments: Drag a handle to adjust a single cutoff value, click between the two handles to move them together, or single-click on the value readout and manually enter a cutoff value.
+### Master Rebalance
+- Machine learning algorithm that determines vocals, bass, or drums. Can adjust the gain of that specific part.
+- Blue is the focus that displays only the content identified as belonging to the focused element.
+- Grey is the residual spectrum that shows everything not part of the focus.
+- Focus swaps the focus element.
+- Gain lets you lower or raise the gain of the element.
+### Match EQ
+- A digital linear-phase EQ with the ability to use over 8,000 bands of frequencies for very precise matching.
+- Grey: Displays the output signal of ozone in real time.
+- White: The filter response of the matched curve.
+- Goldenrod: Captured reference.
+- Blue: Captured apply.
+- Handles to set low and high frequency cutoffs.
+- Smoothing: Higher smoothing is less precise.
+- Amount: Determines the amount of processing to apply.
+### Maximizer
+- Mode:
+	- IRC Low Latency: Lowest latency and CPU usage.
+	- IRC 1: Reacts quick to transients and slow to steady bass tones.
+	- IRC 2: Similar to 1 but optimized to preserve transients even more so they sound sharper and clearer.
+	- IRC 3: Most aggressive. Very CPU-intensive, and produces high latency, especially at higher sampling rates
+		- Clipping: Most aggressive style. Colorize mix with distortion or achieve the highest degree of loudness with the greatest risk of clipping.
+		- Crisp: Aggressively constrains the limiter's release and will favor distortion over pumping.
+		- Balanced: Constrains the release behavior of the limiter in the most transparent way.
+		- Pumping: Least aggressive. 
+	- IRC 4: Further reduces pumping and distortion
+		- Classic: Provides general enhancement of the overall mix with a sound more reminiscent of Ozone’s earlier limiting algorithms which are still being used by professionals today.
+		- Modern: Provides general enhancement and life to your mix but with greater detail and clarity than the Classic style.
+		- Transient: Optimized for maximum preservation of all transients resulting in a highly detailed overall sound that may benefit some mixes needing added clarity.
+	- IRC 5: First multiband limiter in Ozone. The result is a louder, cleaner master with improved transparency.
+- Gain: Input Gain.
+- Enable Soft Clip processing before the IRC Maximizer by clicking the Soft Clip power button. Adjusting the Amount control provides a high fidelity loudness boost by controlling the wet/dry of the Soft Clip processing. At 100% the signal will fully clip at 0 dBFS. Light, Moderate, Heavy begins saturation at -3, -9, and -30.
+- Transient Emphasis: Using higher amount values for Transient Emphasis will result in more pronounced transients after the limiting process.
+- Stereo Independence: Adjusts how the limiter response to both materials.
+### Spectral Shaper
+- The Spectral Shaper can be used to apply high-resolution attenuation to problematic frequencies across the frequency spectrum with configurable time constants, timbre adjustment, and a variable full spectrum action region.
+- Mode: Sets the intensity to be applied.
+- Amount: Adjusts how much spectral gain reduction is applied.
+- Tone: Positive values are bright, negative values are dark.
+- Attack/Release
+- Action Region Range Cutoff Handles: Adjusts the low and high cutoff frequency values for the action region.
+### Stabilizer
+- Stabilizer is an adaptive mastering equalizer that reacts to the incoming audio and applies frequency corrections to tonally balance a signal or tame resonances.
+- Target: The tonal balance to be aimed for.
+- Mode: Type of EQ adjustments made.
+	- Shape: EQ Boosts and cuts while trying to remain loudness neutral.
+	- Cut: Only applies EQ cuts as it tames resonance frequencies that exceed the upper bounds of the target.
+- Amount: Scales the gain of the Stabilizer’s adaptive tonal corrections. At 100, the maximum gain that Stabilizer can possibly boost is 9 dB.
+- Speed: Attack
+- Smoothing: Controls the contour of the tonal corrections applied by Stabilizer in Shape Mode. At 100 smoothing, the EQ correction will look like 3 - 4 filters. At 0 smoothing, the EQ correction will look like many filters working across the frequency spectrum. Lower Smoothing values will provide a more precise frequency correction but may introduce artifacts.
+- Sensitivity: Controls how often the stabilizer will detect resonances.
+- Tame Transients: Enables Stabilizer to react instantly to tonally correct any transient material.
+- Low: < 100hz
+- Mid: > 100 & < 5.6
+- High: > 5.6
+### Stem EQ
+- EQ Separated Elements of the mix.
+- Module Header
+	- Stem View Selector: Choose the Stem name to swap to that stem's EQ.
+	- Same as usual EQ controls.
+### Unlimiter
+- Restores dynamics to audio that has been heavily limited or compressed.
+- Controls Panel
+	- Amount: 100% restore to predicted original, 200% applies an enhanced effect.
+	- Set threshold to predicted limiting region. Lowering the threshold below the actual peak level exaggerates the effect, making the neural network treat the signal as if it were more heavily limited. Raising the threshold above the waveform’s peak level reduces the intensity of the processing.
+### Vintage Compressor
+- The Vintage Compressor is an emulation of a feedback compressor with a detection filter in the feedback loop.
+- Header
+	- Detection Filter: Adjust the frequency response so that it is more or less sensitive to specific frequencies.
+	- Usual Compressor Controls
+	- Mode:
+		- Sharp: Crisp Dynamics, greater emphasis on transients, maintains body of the signal.
+		- Balanced: Gives a signal-dependent balance between dynamics preservation and overall enhancement to the body of the signal.
+		- Smooth: Smooths out transient and dynamic material while enhancing and bring out the rest of the signal, resulting in a thicker and fuller sound.
+### Vintage EQ
+- Emulates Pultec EQP-1A and Pultec MEQ-5
+- Top: Pultec EQP-1A
+	- A unique feature of the Pultec EQP-1A is the ability to simultaneously adjust the boost and cut parameters for the low frequency band.
+- Bottom: Pultec MEQ-5 Equalizer
+	- All of the mid frequency controls are peaking filters. As in the original MEQ-5, the filter bandwidths are affected by the boost/cut amount.
+### Vintage Limiter
+- The Vintage Limiter, modeled after the Fairchild 670, allows you to create a louder and fuller master by limiting the dynamic range and boosting the overall level of your mix.
+- Mode
+	- Tube: A more balanced limiter with variable attack and release times. Provides smooth feedback limiting with a wider range of sonic characteristics that vary depending on your incoming signal.
+	- Analog: With a fast attack and variable release time, this mode provides a tight bass response with a “thick” limiting quality. Brings out the low-end transients while still providing the smoothness that is characteristic of analog circuitry.
+	- Modern: Blends thicker vintage characteristics and wide range of non-linearity with modern IRC limiting, variable release times, and transient reproduction.
+- Use -0.3db when dithering, or -0.6 to -0.8 when converting to MPC or AAC formats.
+- Character adjusts the attack and release times.
+### Vintage Tape
+- Add the frequency response (magnitude plus phase) and saturation characteristics of magnetic tape.
+- Speed: Inches per second. Faster speeds can improve high frequency response and overall quality. Slower speeds can cause a uniform decrease in the linear frequency response of tape, a shift in background noise toward lower frequencies, and increased background noise.
+- Bias: Adjusts the shape of the distortion curve. Negative bias values will boost high frequency content, resulting in more high frequency distortion than postive bias values. Positive bias values can begin to limit the dynamic range of the signal, lending a different type of saturation to the output.
+- Harmonics: Adjusts the amount of even-order harmonic distortion added to the output signal. 
+- Low Emphasis: 
+	- Lower Values: Can help achieve warmth without adding mud or bias by removing the resonant peak.
+	- Higher Values: Adds low end punch and emphasis.
+- High Emphasis:
+	- Lower Values: Adds gentle roll-off at higher frequencies.
+	- Higher Values: Adds a high-end shimmer.
+### Codec Preview
+- Allows you to text out lossy compression formats and compensate for any undesirable artifacts.
+### Dither
+- Bit Depth: Sets the target bit depth for the exported file.
+- Auto-Blanking: Mutes dither output automatically when silence is detected for 0.7 seconds.
+- Dither Amount: 
+	- Strong: Completely eliminates non-linear distortion with the tradeoff of a slightly increased noise floor.
+	- Medium: Recommended Setting
+	- Low/Off: Can leave some non-linear quantization distortion or dither noise modulation.
+- Harmonic Suppression: Enabling this option will modify truncation rules in order to move harmonic quantization distortion away from overtones of audible frequencies. This can help maintain better tonal quality in the resulting signal.
+- Referencing
+	- Can reference several tracks.
