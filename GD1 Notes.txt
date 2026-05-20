@@ -20,6 +20,7 @@ Commenting
 Slowly lead them through making a GDD Template
 Design Patterns for Games
 A list of some of the more useful Unity [Tags]
+Joke Articles
 
 VR/AR
 
@@ -167,6 +168,39 @@ to delete/replace the visuals but all of my code and logic can stay on the paren
 
 - 4.2.2
 -- Monobehavior Life Cycle Chart
+
+- 4.2.3
+-- Events and Memory Leaks
+
+- 4.2.4
+-- Is your cannon pink?
+-- Open the Cannon Package -> Materials Folder -> Master Material
+--- At the top where it says Shader? Universal Render Pipeline -> Lit
+--- In the Base Map Box under Surface Inputs on the material, drop the MasterMaterial Texture.
+
+- 4.2.1
+-- Window -> Rendering -> Render Pipeline Converter -> Material Upgrade -> Initialize and Convert
+
+- 4.3.2
+-- FindObjectOfType Deprecated. FindFirstObjectByType or FindAnyObjectByType is faster.
+-- Performance considerations. Coupling. Use in Start. Why not Awake?
+-- Alternative.
+
+- 4.3.4
+-- Text - TextMeshPro -> Import TMP Essentials. Similar to Text.
+-- Legacy - Text
+-- Quirks of Unity UI:
+---- Look around you should see a large white Square. This is the canvas text is painted on. Swap to game view, you should see your text. Often find it easier to work on UI in game view.
+-- When setting the anchor, if you hold alt it will also set the position of the object to that anchor.
+-- For TMP Text Wrapping Mode: Normal and Overflow: Overflow has the same functionality.
+-- To test how UI looks on different resolutions, Next to the Display 1 Tab you should see a dropdown to the right. If you drag the panels around to resize the game view, you can see how it moves and changes.
+-- When working on things, I would recommend keeping it in a 16:9 or Full HD Resolution. Can also add custom ones with the + button at the bottom.
+-- TextMeshProUGUI instead of Text
+
+- 4.3.6
+-- LoadLevel Script
+-- Warning about chaining events. Good and bad example. Why did we do it here?
+-- File -> Build Profiles instead of File -> Build Settings
 
 https://incompetech.com/
 https://color.adobe.com/create/color-wheel

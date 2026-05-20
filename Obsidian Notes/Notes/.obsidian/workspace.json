@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "55562d9fa619a26e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee5031f3c95bf974",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96bde6ebc4364a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vocal Restoration and Cleaning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2c0f6daaf8bc69f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca41fa95d26f17dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "654f56ea074116ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "281176d2bf5fc49a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c85854c8b3987700",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "69c5309a26414a4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee4457fa9be5a8ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6754aa864ac167c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Vocal Restoration and Cleaning"
+            }
+          },
+          {
+            "id": "4e7c8192374e54b8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Vocal Restoration and Cleaning"
+            }
+          },
+          {
+            "id": "c3b10e5f75b3367e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7a7113d1cbdd97e1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bd82a178d4878c47",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Vocal Restoration and Cleaning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "96bde6ebc4364a07",
+  "lastOpenFiles": [
+    "Audio/Mixing/Solving Problems/Vocal Processing.png",
+    "Audio/Mixing/Solving Problems/Vocal Restoration and Cleaning.md",
+    "Audio/Mixing/Plugins/Izotope/RX11.md",
+    "Audio/Mixing/Solving Problems",
+    "Audio/Mixing/Mixing Problems and Solutions.md",
+    "Welcome.md",
+    "Audio/Mixing/Plugins/Izotope",
+    "Audio/Mixing/Plugins",
+    "Audio/Mixing",
+    "Audio"
+  ]
+}

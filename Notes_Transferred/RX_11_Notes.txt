@@ -1,5 +1,3 @@
-https://www.soundguys.com/audio-bit-depth-explained-23706/
-
 Spectrogram/Waveform Display
 ----------------------------
 - Louder = brighter
