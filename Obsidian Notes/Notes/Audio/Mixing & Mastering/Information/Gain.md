@@ -9,7 +9,8 @@
 - The volume of a track is how loud a track is after processing. The gain is how loud a track is before it's been processed.
 - Gain is your input level, volume is your output level.
 - Changing your volume doesn't mean changing your gain.
-- How do you change gain? Add a plugin at the top of a channel or use the DAWs gain system.
+- How do you change gain? 
+	- Add a plugin at the top of a channel or use the DAWs gain system.
 - What should you change the gain to? 0dBVU. Use a VU Meter Plugin. Stage one track of a time. Loop the loudest part and make sure it sits at around 0. If it's dynamic, use the peaks.
 - Sometimes you cannot get an item into the sweet spot due to digital clipping. Get it as close as possible.
 - The more plugins a track will use, the better it will sound if you gain stage a recording. After practice, you should try to knock it out in less than 10 minutes.

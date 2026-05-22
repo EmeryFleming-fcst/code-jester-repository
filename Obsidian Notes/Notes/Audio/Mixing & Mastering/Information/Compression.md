@@ -1,6 +1,273 @@
 ## Lessons
 ---
-
+### How to Use Compression [Source](https://www.youtube.com/watch?v=ksJRgK3viMc)
+- What is Compression?
+	- A smart volume fader.
+	- Usually used to squish the highs and lows together.
+- 4 Goals of Compression
+	- To Balance
+	- To Enhance
+	- To Glue
+	- To Fix.
+- To Balance for a Good Mix you need to balance
+	- The Tone with EQ
+	- The Space with Reverb, Panning, and Delay.
+	- The Dynamics with volume and compressors.
+- Types of Compression
+	- Balance Compression: Balances the Dynamics of each individual instrument.
+	- Tonal Compression: Compression that is there to change the sound's tone. 
+	- Glue Compression: Bring all of the instruments together and make them feel cohesive.
+- Types of Dynamics
+	- Music Dynamics: The range of volume between the loudest part of the song and the quietest part of the song. Shape of a song.
+	- Macro Dynamics: The difference between the loudest note in a track's performance and the quietest note. Shape of an instruments musical performance.
+	- Micro Dynamics: The range of volume between the loudest moment and the quietest moment in each and every note an instrument makes. Shape of the note.
+- Volume Envelope: The unique pattern of loudness that's made by each instrument.
+- Composition of a Note
+	- Sustain: The valley of the note.
+	- Transient: The peak of the note.
+- Good Compression Comes in Layers: Each of the layers is accomplishing a different goal and each of them is subtle.
+- Anatomy of a Compressor: 
+	- Threshold: Sets the volume level that turns the compressor on.
+	- Ratio: How hard the compressor works. How aggressive. The higher the ratio, the more gain reduction you get.
+	- Gain Reduction Meter: Visually shows how much compression is being done.
+	- Attack: The amount of time it takes for the compressor to apply the full dose of compression.
+	- Release: The amount of time it takes for the compressor to fully recover from gain reduction.
+	- Make-Up Gain: Turning the Volume up. Making the quiet sounds louder.
+	- Knee: Turn the threshold from a single number to a range of number. A hard-knee (0) is a more accurate compressor but is obvious, a soft-knee (1) is a less accurate compressor but is more subtle.
+	- Auto: Ignore the Release knob, release when the compressor thinks it should release.
+	- Mix Knob: Mix the Dry Signal with the Wet Signal
+	- Threshold and Ratio:
+		- Threshold: Choose the part of the micro-dynamics you want to target.
+		- Ratio: The higher the more compression occurs. For every x number of dbs that goes in, 1db is released from the Compressor.
+		- At the ratio gets higher, the amount of gain it reduces gets lower. 8:1 -> 1 - 1/8 -> 7/8 -> 88% volume decrease of what goes over the threshold.
+	- Attack and Release: Do the most shaping. They are rates, not delays. Rate of change. Think of it like a linear curve.
+		- Attack: The amount of time it takes for the compressor to apply the full does of compression after a sound has gone above the threshold. Slowly turns the ratio up over the attack time, say from 1:1 to 4:1.
+		- Release: The amount of time it takes for the compressor to fully recover from the gain compression.
+		- Fast Attack: Grabs your peaks really hard.
+		- Slow Attack: Lets your peaks pass through relatively uncompressed.
+		- Fast Release: Makes the compressor more dramatic.
+		- Slow Release: Makes the compressor more transparent by keeping the dynamics relatively the same.
+		- Attack times:
+			- Fast: 1us to 1000us
+			- Medium: 1ms - 10ms
+			- Slow: 10ms - 100ms. Starts to get into the valley.
+		- Release:
+		- Fast: 0ms - 100ms
+		- Medium: 100ms - 500ms
+		- Slow: 500ms - 20 seconds
+- Make-up Gain:
+	- Just a volume knob that increases the output.
+	- All a compressor knows how to do is turn loud sounds down.
+	- Turn our now turned-down sound back up.
+	- Usually want overall level to be the same pre and post compression.
+	- Sometimes you want the peaks to be at the same level they were before, sometimes the valleys.
+- Sidechain: The ears of the compressor.
+	- There is only one sidechain, but there are two different sources.
+		- Internal Source: Listening to the channel the plugin is on.
+			- Sidechain filtering: Just tells the sidechain "Hey I want you to ignore this part of the FQ spectrum". Can make it sound more natural in the low-end.
+		- External Source: Listen to a different instrument and act like it was compressing that instead.
+			- What people usually refer to as "sidechaining". Helps to keep balance by dropping the DB of one thing as another hits the threshold.
+- Lesser used parameters
+	- Knee: Turn the threshold into a range. Like a hazy cloud the sound passes through, eventually reaching the threshold. Helps it feel more subtle and natural. Ratio shifts throughout the cloud. Changes from a liner slope to a more parabolic one. Add it after everything else. Percussion usually prefers hard-knee, string instruments can benefit from a soft one due to sustain.
+	- Range: Affects the amount of compression being applied. Sets the upper limit of compression that can be applied. Helps keep transients intact. Usually in de-essers. Alternative to a mix-knob.
+	- Hold: Prolongs the peaks in gain-reduction. Rounds out the top of your gain-reduction. Usually found in noise-gates. Takes it from a sharp spike to more of a curved mountain.
+	- Lookahead: Anticipates peaks and starts to reduce the gain a few milliseconds early. Delays the entire track. Helps achieve loudness without decreasing clarity. More on Utility Compressors like Limiters where colorless gain reduction is the most important.
+- Combining it
+	- Thickness usually comes from a high valley.
+	- Punchiness comes from loud peaks and quiet valleys.
+- Styles of Compression
+	- Consistency
+		- Rebalance macro-dynamics. Level-balancing.
+		- High Threshold, fast attack, slow release.
+		- Match Release to BPM. 
+		- Very subtle. Serial-compression can be good here.
+		- Do I want my make-up gain to match the peaks or valleys?
+	- Thickness
+		- Gives a lot of loudness.
+		- Set the threshold to only catch the peaks.
+		- Fast attack. Fast Release. 
+		- Make-up Gain to hit top of peak.
+	- Groove
+		- Accentuates the accents of an instrument by introducing pumping. Can wreck a track.
+		- Slow Attack, Fast Release, Low Threshold. 
+		- Threshold beneath valleys.
+		- Make-up gain to the same as before.
+		- This has to be timed to the tempo.
+	- Punch
+		- Increasing the impact of the peaks.
+		- Changes the micro-dynamics.
+		- Slow Attack, Slow Release, Low Threshold.
+		- Threshold to beneath the peaks.
+		- Attack should allow peaks through.
+		- Release should last until next note.
+		- Make-up gain should match initial.
+- How to set up your compressor
+	- Zero out your compressor:
+		- Thresh: 0
+		- Ratio: Max
+		- Attack and Release: Max
+		- Knee: 0.0
+	- Adjust the threshold
+	- adjust your attack and release.
+	- Adjust your knee if you have one.
+	- Adjust ratio to taste.
+	- Adjust your make-up gain.
+- How to Create Depth.
+	- Soundwaves lose their transient properties the longer they go on. Peaks get quieter the further away sound travels. Smaller dynamic range is further away, closer is higher.
+	- Always gain stage to original loudness. Only changing peaks.
+	- The louder something is, the closer it appears to be.
+- How to Create Headroom
+	- Turn down the peaks of certain sounds.
+	- Saturation is a different type of compressor.
+	- Adds distortion and compresses peaks
+- Remove Room Sound
+	- Turn down the valleys of the sound.
+	- Going to be losing some tone.
+	- Slow Attack, Slow Release, Low Threshold. Match output gain to peak level.
+- What compression style should I use?
+	- To Balance
+		- Use Consistency or Depth style (Closer/Farther)
+	- To Enhance
+		- Punchy, Thick, Groove
+	- To Glue
+		- Consistent, Depth (Farther), Groove
+	- To Fix
+		- Create Headroom
+		- Turn Down Room Sound
+- What Does Over Compression sound like
+	- If you can hear the compression, and it's not your goal, you overdid it.
+	- Pumping: Fast Release in compressor that causes unnatural dip in DB. Caused by using too heavy of a ratio on Groove Style.
+	- Breathing / Splat: Breathing is on sustain instruments. Compressor clamps down and has a very slow release. Sustain louder than transient. Splat means peaks are becoming unfocused. Caused by a low threshold targeting both the peaks and valleys in a Consistency style compression.
+	- Brick-walling / Lifelessness : BW. Fast attack, slow release, but has a low threshold. Thickness style of compression leads to it. Turns down peaks so they are at the same level of the valley. If added to a sound that has a lot of dynamics, it will suck the life out of it.
+	- Inconsistency: Occurs when you are compressing on an overly dynamic track. Punchy style of compression with an aggressive ratio.
+- How to Compress Any Instrument
+	- Figure out your goal.
+	- Decide on a Compression Style
+	- Find our style's settings
+	- Find your Peaks and Valleys. Use Threshold and makes sure it hits back to zero.
+	- Set up Your Compressor
+- How Fast are the Peaks?
+	- These ranges only show how long it takes to get from no sound to the loudest part of the sound.
+		- Percussive
+			- 1ms - 10ms
+		- Rhythmic:
+			- 10ms - 40ms
+		- Sustained:
+			- 15ms - 60ms
+	- Use the Slope of the note to visually check it.
+- Advanced Compression Methods
+	- Serial Compression
+		- Stack multiple compressors in a row.
+	- Parallel Compression: Put the compressor on a send and mix it in subtly.
+		- Usually works best with Analog compressor since the goal is color.
+	- Sidechain Compression
+		- Creating room in a mix
+- Over vs Under Compression?
+	- How to get good dynamic balance?
+		- Compression Sweet Spot
+			- Depth, Size, Definition, Consistency, Separation. All of that plus keeping excitement and drive in a song is a really good place for compression to sit.
+	- Over-Compression
+		- Flat and annoying. No sense of depth. Low end gives a mix it's size. It's the foundation. Compression can kill it.
+	- Under-Compression
+		- Sounds like RAW tracks. No definition (Can't hear proper details of the instruments. Notes jump in and out). No placement.
+		- Compression is a focuser. Squishes a sound together a little bit. Easier to mix when we have small blocks rather than a lot of instruments elbowing one another.
+	- A/B Test the Compression
+- How To Compress an Entire Mix
+	- Pre-Mix
+		- Routing: Routing Outputs that should be grouped together to a mix Bus that can be glued, then routing that to a mix bus.
+		- Gain Automation: Like doing compression before putting a compressor on your track. Lower or raise volumes of part of the track to keep consistency. Can use automation on a gain plugin or break the track up and increase the clip gain.
+		- Volume Balancing: The most important thing in a mix.
+			- Look for any channels that are peaking and reduce the gain.
+			- Loop the loudest section of the song.
+			- Turn the faders all the way down.
+			- Listen to a few reference tracks to prime your ears.
+			- Decide on the most important channel and send it to -5db.
+			- Bring in the second most important channel and balance its volume with the first channel.
+			- Continue in this manner, bringing up channels in the order of importance.
+			- Once all the channel are set up, spend at least 10 minutes adjusting the balance.
+			- Take a short break and listen again. You will likely find some final tweaks.
+			- Once you've finished your initial mix, play the song from the beginning and automate the volume of each instrument to fit.
+	- Mix Bus
+		- Glues the entire mix together
+		- Aim for 1-2db of compression
+		- Can use different styles by using serial compression
+		- Make sure to use internal sidechain. Filter out some of the low-end.
+	- Balancing
+		- Vocals typically need a lot of compression.
+		- Things that pop in and out usually need consistency compression.
+		- Would also use some depth compression here.
+	- Gluing
+		- Pretty explanatory
+	- Enhancing
+		- Do any of these instruments need enhancements?
+		- Prefer to do in parallel.
+	- Fixing
+		- If it's unnecessary don't use it.
+		- Consider using Saturation when creating headroom.
+	- Limiting
+		- Limiter: The most aggressive compressor you can have. Get loudness. -0.3 to -0.7
+		- Limiters are sometimes used on specific instruments subtly.
+- Analoging your mix
+	- Saturation is the marriage between compression and distortion. Both adding a removing frequencies. Makes it both thicker and more natural.
+	- Stages to Emulate
+		- Pre-Amp
+		- Analog Tracking Board
+		- Tracking Tape Machine
+		- Mixing Board
+		- Analog Summing Channel
+		- Master Tape Machine
+- Where should I put my compressors?
+	- Cleaning: Do before the compressor.
+	- Tonal: Can do before or after. If huge cuts or boosts, before. Effect, put after.
+	- Reverbs and Delays: Put on a send. If have to be on a channel, put at the very end. Other effects should be at the end of the chain before reverbs and delays.
+- How do I compress the low-end?
+	- Low-end has to be louder in order to hear it properly at the same level as other instruments.
+	- Best way is to use the compressor's sidechain filter.
+	- Most of the Microdynamics of a low end instrument don't live in the lows 
+	- Bass Frequencies are slower than our standard fast attack times. 3ms-10ms. Cutting the wave off before it finishes causes modulation distortion. Stick to medium attack times.
+- Why is Compression making my mix worse?
+	- Room reverb lives in the sustain and valleys.
+	- When bringing up the valley it also brings up that reverb.
+	- Don't record in rooms with parallel walls. Lots of glass, tiles, etc.
+	- Get Acoustic Treatment.
+	- Try to get acoustic panels, not foam, if possible
+	- Record in a studio
+	- Use MIDI, if you want
+	- If none of that works, just be okay with having a punchy mix.
+- Compressing for Different Genres
+	- Pop: Trend towards perfection. More about consistency. Controlling dynamics. Consistency compression.
+	- Rock: More concerned about shaping tones. All about the vibes. Enhance and Glue more that the others. Slow attack times. More punchiness and aggression.
+	- Hip-Hip: Older was more like rock, newer is more like pop. Drums are punchy across the board.
+	- Acoustic: New Country is basically pop. Old country is consistent. No tone-changing or glue. Or at least, very little of it.
+	- Electronic: Compress vocals or enhancement, but that's usually it.
+- What are the most used analog compressors?
+	- Get good with what you have first!
+	- VCA
+		- Voltage Controlled Amplifier. The most standard compressor.
+		- Jack-of-all trades. Not great at adding warmth or color.
+		- Used in 80% of mixes.
+		- Example: API-2500.
+	- FET
+		- Field Effect Transistor
+		- Extremely fast attack times. Down to micro-seconds.
+		- Aggression, excitement, limiting. Great on vocals and guitars.
+		- Usually only have control over the attack, release, and ratio.
+		- Example: 1176 Compressor
+	- Optical
+		- Simplest of all of them. Have only gain and peak reduction.
+		- Attack and release dependent entirely on the sound.
+		- Slow response and a fast-medium attack.
+		- Very polished sound. Great for adding warmth and sheen. Great for controlling the levels of a sound.
+		- Not good for controlling transients. Closer to a consistency compressor.
+		- Not great at adding aggression. Adds smoothness.
+		- Example: Teletronix LA-2A Silver
+	- Vari-Mu
+		- Really, Really colorful.
+		- Very few controls. Thresholds. Combinations of attack and releases.
+		- Add warmth, depth, thickness, fatness. Might have hyper fast or super slow attack times.
+		- Great at punchy and thick styles. Great at mix bus glue. Usually found on vocals.
+		- Do not have precise attack and release. Not great at controlling super hard transients.
+		- Example: Fairchild 670
 ## Tips
 ---
 ### Getting Weird with Parallel Compression [Source](https://www.youtube.com/watch?v=DRkMvuNZ8_E)

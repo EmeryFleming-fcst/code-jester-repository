@@ -84,3 +84,32 @@
 	- Closer you are, the boomier it is. 
 	- The further you are, the thinner it is.
 	- Record to a drum beat, not a metronome.
+### 5 Vocal Effects for a More Interesting Mix - Delay [Source](https://www.youtube.com/watch?v=9lQrSDVJQCs)
+- Think of Delay as a whole other instrument in the mix and make sure it fits.
+- Brighter: Forward in the mix.
+- Darker: Backward in the mix.
+- Throw Delay: Copy the part of the track you want to throw, place it in a new lane, and move it forward to fill in empty space of the original track.
+- Speaker Box Effect: Cut the low end and High End.
+- Stereo Delay: Very light touch to make the vocal more powerful. Make sure the delay for left and right are different
+### 10 Grammy-Winning Secrets [Source](https://www.youtube.com/watch?v=b3bApEnoMk4)
+- Shape Vocals with a Multi-Band Compressor
+- Use Delay to Widen and create movement on a panned instrument. Short Delay on one side, long delay on another.
+- Serial De-Ess.
+- Splitting the lead vocal regions into different tracks based on different EQ Needs.
+- EQ to cut bottom and boost top. Compress it. Second EQ. To Boost Low-end and cut top end to reduce harshness.
+- EQ to boost sides. Bring the mids up.
+- Blending Wet Effects for Vocals.
+- Delay. Slight stagger of left and right to use stereo field.
+### Vocal Delay and Reverb [Source](https://www.youtube.com/watch?v=OAS9QaU80nU)
+- Why use them? 
+	- Create more subtle space and creative effects.
+- Bussing them allows more flexibility. Including send amount and volume.
+- Sit the Vocal well in the mix
+	- Rebalance, Short Reverb (lower than 1 second decay. Dependent on track, maybe try to have it decay between each word), Short Delay (Can be cleaner and stand out more in a thick mix), Add a Longer Reverb.
+- Use EQ to shape the tone of the Reverb.
+- Creating a sense of width
+	- Short Reverb, Stereo Delay (Slightly Different timings on the left and right channels). 
+	- Fix Masking for the vocal. 
+	- Pre-delay on reverbs to separate dry and wet signal. Sidechain Compression to duck the volume of your wet FX whenever the vocal is present.
+- Add Obvious and Creative Effects
+	- Stack Delays and Reverbs to create Ambient Effect. Extra track just for throws. Use sidechain compression.

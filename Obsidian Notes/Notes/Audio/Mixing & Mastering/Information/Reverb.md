@@ -1,0 +1,221 @@
+## Lessons
+---
+### How to use Reverb [Source](https://www.youtube.com/watch?v=gxXlPbpRIMc)
+- What is Reverb? 
+	- The sound of the room. 
+	- The tone printed on top of your sounds.
+- Why use Reverb?
+	- To create space.
+		- Creating Space: Glues tracks together. Makes the mix feel cohesive. Creates depth and width. Turns a 1D mix into a 3D mix. Draws attention to what you want. Subtle
+	- To create style
+		- Creating Style: Makes the mix cool & unique. helps the mix sound larger than life. Creates energy and connection. Will be heard by the listener.
+- The Science of Sound
+	- Everything in nature is made up of three sounds
+		- Direct sound
+			- The sound wave that travels in a straight line to your ears. "Oh, I'm hearing this sound"
+		- Early Reflections
+			- The sound waves that bounced off one or two surfaces to your ears. Determine the room size, how far away the sound is, what direction the sound is coming from.
+		- Late Reflections
+			- The sound waves that bounce dozens of times before reaching your ears. The makeup, shape, and tone of the room. They give you all of the color of the room, but only that.
+	- Sound waves emanate in all directions.
+	- Read your reverb plugin manuals to understand what the labels on the plugin mean!
+- Anatomy of Reverb
+	- The 3 different jobs of a reverb setting
+		- Create the 3D space of the room
+		- Changing the tone of that room
+		- Making the job of mixing with reverb easier
+	- Space: Setting the size of the room and how close/far the instrument will sound to the listener.
+		- Pre-delay, Room Size, Distance, Early Reflections
+	- 3D's of Reverb Tone
+		- Decay, Density, Damping, Late Reflections
+	- Mixing Tools
+		- EQ, Wet/Dry Mix, ER/LR Mix, Stereo Spread, Modulation
+- Creating 3D Space
+	- Room Size: The size of a room. Just a knob. Changing the early reflections. Adding a bit of pre-delay and possibly changing the principal amount of the decay.
+		- The higher the room size, the more spaced out the early reflections are.
+	- Distance: How far away the instrument is.
+		- Distance is like a seesaw. If it's closer, the direct sound and the early early reflections are louder. If it's further, it evens out a bit more. The later early reflections are louder, the early early reflections and direct sound decrease in volume, and the late reflections increase in volume.
+		- The closer the sound is to you, the less energy is lost. All sounds naturally lose energy over time.
+	- Pre-delay
+		- The delay between the direct sound and the reverb.
+		- We use it to make the room sound bigger, to make an instrument sound closer to us, or to separate the instrument from the reverb.
+			- Two different types of pre-delay:
+				- Early pre-delay: A delay between the direct sound and the early reflections. Separates direct sound from all reverb. Helpful for establishing distance. The longer it is, the closer something seems. Helpful for creating separation between the instrument and the reverb.
+				- Late/Reverb Pre-delay: A delay between the early reflections and the late reflections. Early reflections are baked into your direct sound. Help the room seem larger. Help to create separation, but only if you want to have some level of depth inside of your instrument.
+				- Plugins usually only give you control over one, but hide the other behind one of the other knobs, making it part of the backend. Distance knob and early pre-delay. Size and late pre-delay.
+				- A longer pre-delay usually indicates something is closer. The reason for this is the length of the early reflections. If something is closer to you, it typically has to travel further to bounce off the walls and get back to you when compared to the length of time it takes the direct sound to reach you. In comparison, the further away you are from the sound the closer the length the direct sound and early reflections are to one another, since they have to travel a more similar distance. 
+				- Limit to what is natural. Usually between 1-50ms in any room. Greater than that and you start to hear the separation from the sound and reverb.
+				- Larger Room size, higher late pre-delay. Smaller room size, smaller late pre-delay. It also swallows the early reflections.
+				- For early pre-delay, there are times when you may need to use a delay plugin.
+				- How to figure out which pre-delay you have? For one, read the manual. Second, grab a snare or percussive instrument. Dry/Wet 100% and max out the pre-delay. Figure out where the delay is.
+- Changing the Tone of the Room
+	- Late Reflections AKA Reverberation, Decay Time, Reverb Time, Reverb Tail, RT60
+	- When sound waves bounce off of a surface, they have 3 options: Reflection, Absorption, and Diffusion.
+	- Reflection: The base reaction for sound waves. Very little energy is lost. Decay time reflects this. It's essentially how many reflective surfaces there are in a room.
+		- Think What's the room, How Big Is It, How far away is the sound, what is the room made of, what is the room shaped like.
+		- Usually want to stick to 0.5 - 1.5s unless you're doing longer ones with intention.
+		- How Lively a room sounds. Longer = Livelier.
+	- Absorption: When a sound wave hits a soft, porous material, it begins to lose some of its energy.
+		- Top end is absorbed much faster than low end.
+		- Damping: Looks like EQ. Determines how long each of the sections of the Frequency Spectrum last.
+		- Damping can be used to control how emotionally intimate a reverb sounds.
+		- People are some of the most absorbent things in a room.
+		- How full a room sounds. A lot of damping makes a full sounding room that loses top energy quickly.
+	- Diffusion: When a soundwave hits a really sharp or jagged surface, bouncing off completely randomly and sometimes splitting off. This creates a more even wash of sound, since it covers more of the room.
+		- Density controls how focused and even the late reflections sound. Subtle. Mostly in the beginning. It allows you to hear the extra "crack" of the sound.
+		- The denser the sound, the lower the density should be.
+		- If referred to as Diffusion, it works on both type of reflections. If called Density, it's just the late reflections.
+		- How even the room is. The higher the density, the more complex the room.
+- Tools for Mixing
+	- EQ, Wet/Dry Mix, ER/LR Mix, Stereo Spread, Modulation
+	- EQ: Before Reverb for smoothness. Cuts are usually in the top, low, and areas where there might be too much energy in the reverb.
+		- Abbey Road Trick: HP Filter. Start at 600Hz, Slope of 12 or 18db. Low pass Filter start at 10KHz with a 12-18db slope. Adjust frequency.
+	- Wet/Dry Mix: How much of the instrument and Reverb is used.
+	- ER/LR Mix: The closer the slider gets to one side or the other the more you hear only one of the two. Helpful when trying to really zone in on one of the two reasons to use Reverb.
+	- Stereo Spread: How Wide the Reverb is. Don't be afraid to decrease it down from 100.
+	- Modulation: Adding random delays so reflections aren't static. Low rate and low depth usually give best results.
+		- Mod Speed: How fast the modulation is.
+		- Mod Depth: How aggressive the back and forth is. 
+- Types of Reverb
+	- Room Reverb: Modeled after normal rooms. Shorter early and late reflections.
+	- Hall Reverb: Modeled after Concert Halls. Long early and late reflections 1 - 1.5s decay.
+	- Chamber Reverb: Modeled after old chamber reverb rooms. Very reflective. Medium early and late reflection time.
+	- Ambience Reverb: Focus on Early Reflections. Short Decay Time. Short Pre-Delay.
+	- Plate Reverb: A huge metal plate with a pickup. No early reflections or natural pre-delay. Good for getting a cool tone without pushing stuff back in the mix. Sound really smooth or really jangly.
+	- Spring Reverb: Uses large metal spring instead of plate. In most electric guitar amps. No ER or natural Pre-delay. Not very subtle. Very Metallic.
+	- Non-Linear Reverb: Catch all for all of the other reverbs. Gate Reverb is the most common type: A reverb that ends out of nowhere.
+- Types of Reverb Plugins
+	- Algorithmic Reverbs: Created by computer algorithms. Can give a larger than life reverb. About 80% of plugins are this.
+	- Convolution Reverbs: Natural Reverb. Sampled Reverb. Tonally flexible. Natural sounding. Take up a huge amount of processing power. Less control over settings.
+- Creating Space
+	- Science of Distance
+		- Overall loudness, the difference between the direct sound and reverb, the overall brightness, the dynamic range, and the early pre-delay.
+		- Overall loudness through volume faders. The further away it is, the quieter it is. Energy lost.
+		- The volume difference between the direct sound and reverb.
+		- The higher the Dry, the Lower the Wet, the closer it sounds.
+		- High Frequency Energy: Absorbed first. If it's really close, it sounds brighter. If it's further away, it's darker. EQ. Low Pass/High Pass filter. Use a low slope. Subtle Low Cut can make it sound better.
+		- Dynamic Range: Things that are further away have smaller Dynamic Ranges, things that are closer have larger ones. Depth Compression/Thickness Compression. Saturation. Modulation (these make the transient sound less focused and our ears treat it like they're lowers)
+		- Early Pre-Delay (ITDG: Initial Time Delay Gap): The larger it is, the closer it is. Early Reflections.
+- Direction
+	- There are only 2 Direction Cues your ears use
+		- Interaural Level Difference (ILD): Volume difference. Panning
+		- Interaural Time Difference (ITD): Time difference. Precedence effect. Wherever a sound comes from first, our ear determines that as the direction of the sound. HAAS Delay. <1ms delay. Pan to the exact opposite.
+			- 0%Pan = 0.0ms. 25% = 0.23ms. 50% = 0.42ms. 75% = 0.55ms. 100% = 0.59ms. All of this on the HAAS delay.
+			- Want to add Head Shadow to it. 100% = -6db. 50% -3db. 25% = -1.5db. Turn down volume of the delay.
+			- Pitch Shift to avoid wrecking a sound when it gets summed to Mono. Minus 1-10ct in a Detune.
+			- Can also add a very subtle chorus.
+			- Mainly use this for things in the background.
+	- The direct sound is two sound waves: The on that hits your left ear and the one that hits your right ear. This is how we tell direction.
+	- The Head Shadow Effect: If something passes through the head, absorption occurs. 
+- The Shadow System
+	- Built around how we see things.
+	- Depth, Distance, and Direction.
+	- Steps:
+		1. Create Depth: Add Early Reflections to everything
+		2. Create Distance: Make use of 5 Distance Cues
+		3. Create Direction: Panning and HAAS Delay
+- Creating Depth
+	- The Mix-Depth Matrix: A serious of Aux tracks with different versions of the same reverb on them.
+	- Create 4 different sends
+		- FRONT
+		- BACK
+		- MIDDLE
+		- ROOM TONE
+	- Start with setting up general room sound. Send every track to it at Unity.
+	- Visualize where the song is being performed.
+	- Pick a preset and start tweaking
+	- Set Room Size
+		- 100% Early Reflection
+		- Set Size Knob
+		- Tweak Late Pre-Delay if you have access
+		- Same with early reflection patterns.
+	- Set Room Tone
+		- 100% Late Reflection
+		- Decay time: 0.5 - 1.5seconds
+			- Try to time to tempo of song, can use Delay Time Calculator. 
+			- The more complex the arrangement, the shorter the decay time. 
+		- Tweak Density based on what objects are in the room and how big it is.
+		- Damping: How many people are in the room. Or how much furniture. Essentially, how full is it.
+	- Set Early/Late to 50/50 and do some tweaking.
+	- End with about 85% to 15% Early/Late.
+- Creating Distance
+	- Finish the Matrix.
+	- Pushing things further makes them sound quieter, darker, and more compressed.
+	- Chart (Close to Far)
+		- EQ: Bright, Dimmer, Dark
+		- Volume: Loud, Average, Quiet
+		- Compression: Fast Attack, Fast Release, High Threshold (Dynamics).
+			- 0db Gain Reduction, 1-3db Gain Reduction, 4-6db Gain Reduction.
+		- Reverb
+			- Early Pre-Delay: Large, Medium, Small. 
+			- ER/LR Balance: Mostly ERs, 2/3rd ERs, 50/50. 
+			- Wet/Dry Balance: Mostly Dry, 2/3rds Dry, 50/50.
+	- Pre-Delay/Decay Time Cheat Sheet
+		- Ambience: 0-10ms / 0.25-1.0ms.
+		- Room: 0-25ms / 0.25 - 1.5ms.
+		- Chamber: 5ms-40ms / 0.75ms - 2.0ms
+		- Hall: 10-50ms / 1.25 - 2.5ms
+	- Copy Reverb to each of the aux tracks.
+	- Set the different variant values. Get a good starting point.
+	- Since 100% of the volume of the channels are sent to Reverb with 100% Wet, the volume fader of the reverb channels becomes the wet/dry mix. -15, -7, 0 to start with.
+	- Room Tone: 100% LR. Just for color. Usually don't have pre-delay. Distance around where you set the middle to. Overall Dependent on Reverb Plugin.
+	- A General, but not hard, rule is: 
+		- 25% of instruments in the front
+		- 25% in the back
+		- 50% in the middle. 
+		- If the listener should be paying attention to it, it should be in the front. 
+		- Ear Candy, Pad, things that should fill up the room tend to go in the back.
+		- Everything else goes in the middle. 
+		- Send stuff to front and back first, then fill in the middle.
+	- When adding to the back/middle reverbs, gain will increase. Make sure to compensate by turning down the volume of the input.
+	- Final Questions
+		- What needs more color? 
+			- Add to the Room Tone
+			- Don't add 100%, like the others. Add to taste. 
+			- A lot of the time, the things set to the back aux are sent to the room tone as well. Pick your battles carefully.
+	- After tweaking, you can start modifying for style. Like the width. Output EQ. Etc.
+- Others Ways to Create Distance
+	- EQ: Top-End Shelf Boost to bring it closer. Can back off Volume. Reverse to push back.
+	- Compression: Decrease the peaks to push it further back. Can use Saturation instead.
+- Creating Direction
+	- 50/50 Panning: 100%, 50%, Center 
+	- LCR Panning: 100%, Center
+	- Instinctual Panning: Move as you see fit.
+	- If parts feel like they're sticking out, use HAAS Delay.
+- Creating Style with Reverb:
+	- Avoid Creating Space and Avoid Gunk
+	- Pre-delay above 40-50ms can cause the ear to detect a proper delay between the instrument and reverb. This can be useful for tonal reverbs because it puts the reverb behind the instrument. 
+	- Aim pre-delay to 50ms-150ms. Time it to the tempo of the song.
+	- For style reverbs, focus on mono reverbs (or thinner reverbs)
+	- Use mostly Late Reflection 85%+
+	- Long Decay vs Short Decay: Mixes usually do better with short. Depends on how many instruments. Time to tempo of song.
+	- Density: The denser it is, the more gunk it will add. Making it harder to see what's behind it.
+	- If you can't get the reverb you want, but you want the length, try using a delay. Or try using a delay leading into the reverb for smoothness
+- How to use a De-Esser
+	- Use before compressor. Sometimes use both before and after.
+- Reverb Tips on Different Instruments
+	- Vocals
+		- Avoid Long Delay-Times and Short Pre-Delays
+		- Am I looking for bounce or connection? Shorter Decay Time or Longer Decay Time
+		- If using a brighter reverb, put a de-esser before it. Be a bit more aggressive with how much it taken.
+			- Tape Delay. Darker. Evolves over time. Good for filling empty space.
+- Using a Gate
+	- Threshold: What level should close or open the gate?
+	- Reduction: How much volume is reduced?
+	- Attack: Time it takes to fully open the gate.
+	- Hold: The minimum amount a gate stays open before releasing and closing again.
+	- Release: How slowly the volume is lowered after the audio sign falls below the threshold.
+	- Hysteresis: Turns the threshold into a range. If threshold is -21 and hysteresis is -6, only closes when sound is below -27.
+	- Side Chain: Link gate to another audio source. Closes the gate only when the new side-chained instrument goes below the threshold.
+	- Filters: Don't affect the tone. Only affect accuracy of gate. Essentially, "I only want sounds in this frequency range to trigger the gate"
+	- Monitor: Allows you to just listen to the cutoff.
+	- Gate/Ducker: Lower the volume only when it is above the Threshold.
+	- Lookahead: Predict the change.
+	- Gate Trick:
+		- Help vocals sit on top.
+		- Put Noise Gate on the entire band. Sidechain the vocals.
+		- Change to a Ducker.
+		- This will duck everything else by a little bit when the vocals are playing.
+
+## Tips
+---

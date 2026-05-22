@@ -4,14 +4,31 @@ Which to upgrade first?
 - Saturation
 	- Fabfilter Saturn
 	- Antares - Avox Warm
+	- Izotope Vinyl (Free)
+	- langhelm IVGI2 (Free)
+- EQ
+	- Slate Revival EQ (Free)
+	- TDR Nova (Free)
+	- Kush Clariphonic EQ.
 - Reverb
 	- Liquidsonic - Seventh Heaven
 	- Valhalla Vintage
 - Amp Simulator
 	- Positive Grid - Bias Amp
+- Delay
+	-  UAD Lexicon
 - Compressor
 	- TDR Kotelnikov Compressor
+	- API-2500
+	- Teletronix LA-2A Silver
+	- Fairchild 670
+	- MV2
 - Limiter
 	- Loudmax
 - Utility
 	- Avox Mutator
+	- Izotope Vocal Doubler (Free)
+	- Voxengo SPAN (Free)
+	- The Lyons' Den Delay Time Calculator (Free)
+	- Polyverse Wider (Free)
+	- Battery 4
