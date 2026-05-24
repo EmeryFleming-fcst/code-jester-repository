@@ -172,6 +172,114 @@
 	2. Sonic Tools: EQ and Saturation. 
 	3. Dynamic Tools: Compressors, Clippers, and Limiters. 
 	4. Keep the end in mind while mixing. Frequency imbalance and Peaks are the two largest enemies to loudness.
+### How To Mix Like A Pro [Source](https://www.youtube.com/watch?v=1BLZGe-TqW0)
+- Song Writing and Arrangement -> Recording -> Production -> Mixing -> Mastering
+- Mixing enhances the Dynamic, Sonic, and Spatial Qualities of Music.
+- The Sonic Spectrum: 20hz -> 20kHz
+- Frequencies are vibrations/pitch.
+- Dynamic Spectrum
+	- Difference between loudest and quietest parts of the music. 
+	- Volume Fade, Compression, Clipping, and Limiting.
+- Spatial Dimension
+- Give a feeling of space and realism
+- Reverb and Delay.
+- The technical is there to serve the creative.
+- The Goal of Mixing
+	- Blend the individual tracks containing the various instruments and sounds in a way that creates a polished, unified, and pleasing auditory experience for the intended listener.
+	- How to achieve the right Volume Balance in the mix.
+	- How to manipulate Frequencies in the Mix
+	- How to manipulate Dynamics in the mix.
+	- How to manipulate the Spatial Aspects of the mix.
+- The Editing Process:
+	- Tuning
+	- Timing
+	- Cleanup
+	- Digital Cleaning is NO GOOD.
+- Session Setup and References
+	1. Build a New Session: Match Sample Rate, Set Project Tempo, Increase Buffer Size, Import Multi-Tracks and References. 512 Buffer Size for Mixing, Lower for Recording.
+	2. Organize the Tracks.
+	3. Identify Phase and Polarity Issues.
+	4. Noise Gate Unwanted Bleed.
+	5. Gain Stage Everything. 
+		1. -10 to -20dbfs per track.
+		2. Occasional Peak no higher than -6dbfs.
+- Parallel Track 
+	- Refers to Any Duplicate Copy of a track which has FX on it. 
+	- The Parallel (Effected) track can be blended in with the original signal to taste.
+- Use Utility Plugin Phase Invert on tracks to see if they are out of phase (Less Punchy)
+- Select All. Normalize Region Gain. Peak. -10.
+- Volume Balance
+	- Adjusting the volume faders of the individual tracks in order to achieve a balanced and cohesive static mix, prior to any processing.
+- Fundamental Frequency
+	- The frequency of any sound where the energy or volume of that energy is greatest.
+- A static mix is one with only volume balance.
+- Can play with gain automation when volume balancing. Start with leading role and pair it with the rest.
+- Can also pan.
+- Frequencies (EQ)
+	- Refer to the specific pitches or tones in a sound, spanning from low to high.
+	- Frequencies are the height of a mix, Width is panning and Stereo Imaging, Depth is Compression, Reverb, Delay, and EQ.
+	- Identify Problems with EQ
+		- Low End Muddiness 
+			- 20-60hz: Sub-Bass Range
+			- 60-250hz: General Bass Range.
+		- Mid-Range Clutter
+			- 250-500hz: Muddiness or Thickness
+			- 500-1khz: "Box", "Honky", "Nasal"
+			- 1kHz-3kHz: Intelligibility and Presence. 
+		- Harsh Highs
+			- 5-8kHz: Sibilance
+			- 6-10kHz: Cymbals and High-Pitched Percussion.
+	- Fix Sonic Relationships with EQ.
+		- Helps reduce Frequency Masking
+		- Frequency Carving: Bass & Kick Drum Clarity, Vocal and Guitar Separation, Synth & Snare Definition. 
+		- Identify overlapping frequency ranges and make subtle adjustments to create distinct spaces for each element, ensuring clarity and a balanced mix.
+		- Boosting with Context
+			- Boost while paying close attention to how the boost effects everything.
+		- Frequency Slotting
+			- Choose which instruments take up which part of the frequency spectrum.
+	- Use EQ to bring Global Balance.
+		- Keep in mind Frequency Distributions and Profiles.
+		- Track Level
+		- Bus Level
+		- Boosts are typically more broad than cuts are. Broad > 3.0Q.
+	- Use EQ to Enhance each Instrument.
+		- The more subtle and final moves we make.
+		- Analog EQs can sound better on the high end.
+- Spatial Processing
+	- Reverb simulates the natural echoes that envelop sounds in real environments.
+	- Delay creates echoes that can add rhythm, depth, & texture. Further enhancing the spatial illusion.
+	- Depth and Width Dimensions.
+		- Width: By panning the echoes of the reverb tails we can create a sense of spaciousness. Can add delay to that reverb further enhancing the width. 
+	- Delay occupies less space in the mix. 
+	- Delays
+		- Delay Time: Length of time between the original signal and the echo.
+		- Feedback: The number of repeats or echoes.
+		- Wet/Dry: Balance between
+		- Tap Tempo: Set Delay time by tapping a key.
+		- Modulation: Adds Movement and Texture to the echoes.
+		- Filter/EQ: Shape Tonal Quality of Delay Signal
+		- Stereo Spread/ Panning
+		- Ducking: Reduces the volume of the delay when the original signal is present.
+	- Analog and Tape Delay: Known for their warm, decaying echoes. Depth without muddiness.
+	- Digital Delay: Pristine repeats with precise control. Great for rhythmic patterns.
+	- Ping Pong Delay: Back and Forth
+	- Slapback Delay: A single short echo with a quick delay time. Mimics a soundwave bouncing off a nearby surface. Tight, energetic feel.
+- More Tools and Techniques
+	- Saturation
+		- The addition of harmonic content that wasn't originally there in a dry signal.
+		- Adds this above the fundamental. Because our ears are more sensitive to the 1-3k range it makes it louder.
+		- Distortion is heavy saturation.
+		- Saturation can often tame the high end, especially in tape machines.
+	- Parallel Processing (Compression, Saturation, EQ)
+		- Blending in the dry signal with the wet signal.
+		- Send at Unity Gain to another bus. Blend it using the volume knob.
+	- Sidechain Compression
+		- Duck certain instruments out when other instruments need to be more prominent. Fast Attack.
+		- If you want to make it transparent, no more than 5db.
+	- Dynamic EQ
+		- Suppress a certain frequency only when it crosses a certain threshold. Soothe 2.
+	- Multiband Compression
+		- Take a specific frequency and compress it. 
 ## Tips
 ---
 ### Simple Mixing Workflow [Source](https://www.youtube.com/watch?v=aKrF2dra1S0)
@@ -217,6 +325,7 @@
 23. Know why the rough mix can be better.
 24. Aim to capture feelings when mixing.
 25. Rules are made to be ignored.
+26. Put a soft-clipper on each group track before it hits the final limiter on the mix bus. Give more headroom.
 ### 13 Mixing Tips for Beginners [Source](https://www.youtube.com/watch?v=gCbugYCROCo)
 1. You Cannot make a 5/10 -> 10/10. At most, 8/10 -> 10/10. 
 2. Learn technical first, then the creative.
@@ -261,3 +370,29 @@
 	- Ex, if one waveform on one track goes up and another goes down they will cancel one another out depending on the frequencies.
 - The 5 Click Rule: If it takes more than 5 clicks, find a way to automate or shortcut it.
 - Thinking for yourself when buying products.
+### 20 Mixing Tips [Source]( https://www.youtube.com/watch?v=ufKKHlnYUso)
+1. Use both headphones and listen to the track in your room.
+2. Fix Your Room: Reflection Points are to the left and right of you. Ceiling. 
+3. Manage your perspective: Take lots of breaks. Preferably a place with sounds. Switch between different headphones and speakers while mixing. Listen to references tracks. Jump around the mix.
+4. Train your ears
+5. Always keep the end in mind.
+6. Don't use Band-Aids. Make sure you do your job through each part of the phase.
+7. Volume Balance is 80% of the mix.
+8. Volume Automation to help things sit in the mix
+9. Progressive Referencing
+	1. As you're starting out, reference and copy. As you progress, reference less. 3-5 every 10 minutes or so to checking your mix. Later on, mostly just at the start and end of the mix.
+10. Any workflow WORKS. Just go through different passes.
+11. Mix Fast: The longer you mix the more perspective you lose. Forces you to be intentional.
+12. Intent Based EQ: Have an intention before you load up an EQ.
+13. Fearless Compression: Don't be afraid to compress a lot.
+14. Don't neglect clipping and limiting
+	1. Clipping shaves off the transient. 
+15. Close your eyes. Tools have a ton of visual feedback. 
+16. Mix in three dimensions
+	1. Height is FQ
+	2. Width is Panning
+	3. Depth is Front and Back: Volume, Transient Shaping, Reverb, Delays, Cutting High Frequencies.
+17. Know what Matters: Don't make hard decisions with the solo button. Mix back-and-forth in Mono. Gain staging does not need to be perfect.
+18. Objective vs Subjective: Technical and Scientific vs Creative.
+19. Lean into Subjectivity. Mixing is artistic.
+20. Master the Objective first! Once you have the technical skills first it's easier to be creative.

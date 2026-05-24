@@ -9,6 +9,7 @@
 		- Sound Gym
 		- Audio Drillz
 		- EQ Academy Plugin
+		- Quiztone
 	2. Analyze a Track
 		- Categories to record:
 			- Track
@@ -39,3 +40,9 @@
 
 ## Tips
 ---
+### How To Make Progress
+- Disciplined Practice and Strategic Learning
+- Develop Ear Training Habits Focused on identifying Frequency Ranges, Dynamics, Spatial Effects, and other Effects. Soundgym and Quiztone. 20-30 minutes a day.
+- Watch Tutorial then Apply.
+- Stay Consistent, don't be intense.
+- Stay Curious, Stay Humble. Balance Confidence and the awareness that perfection is a constant pursuit.

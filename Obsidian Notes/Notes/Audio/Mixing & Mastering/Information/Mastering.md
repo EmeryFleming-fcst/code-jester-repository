@@ -1,0 +1,133 @@
+## Lessons
+---
+### How To Master Your Music [Source](https://www.youtube.com/watch?v=ID-xyOnEB1c)
+- The last and final step of the music production cycle for recorded music.
+- It is where the a track or collection of tracks is refined and finalized for tonal balance, dynamic consistency, and optimized for playback across various platforms and media formats.
+- Songwriting -> Recording -> Production -> Mixing -> Mastering
+- Mastering can enhance the music, it can't fix problems.
+- Can:
+	- Enhance the sonic or EQ spectrum.
+	- Enhance the dynamic spectrum.
+	- Stereo Image
+- Adds clarity, excitement, openness, transient details, pronounced low end.
+- Learning how to master makes people better mixers and producers.
+- Mastering is purely objective, producing is subjective, mixing is somewhere in-between.
+- Mastering exposes everything. Sonic Problems, Dynamic Problems, Poor Volume Balance, Etc.
+### Referencing, EQ, and Saturation
+- If you're track is good or better than the references, you did good.
+- References provide a target and guide for sonic, dynamic, and loudness-based decision making.
+- Help develop critical listening skills.
+- Introduce Objectivity and helps you push back on unrealistic client expectations.
+- Helps to understand artist's intent.
+- Reveals flaws in the engineering and production process.
+- Import Reference:
+	- MP3 High Quality from Amazon Music: 320k
+	- HD Tracks: Lossless format. Wav. FLAAC. TIDAL.
+		- Spotify: Very High Quality setting.
+- Steps:
+	- Import Reference
+	- Volume Match
+		- Find the loudest, most dense section.
+		- Based on perceived loudness. Use your ears, not your meters! 
+	- Frequency Analyzer
+		- Look at the high level details, not every single peak.
+		- Listening objectively for Frequencies and Volumes.
+		- Translating what you're seeing and hearing to the mix and production.
+		- What instruments are these frequencies coming from.
+		- Are there any opportunities to push back on the mix?
+		- Can use a Filter to help narrow down what instrument is contributing to which part of the spectrum.
+		- A good mix will have a full spectrum with a slight slope (most of the time).
+		- Is there more low-end in the reference than mine? Can I boost?
+		- When determining frequency areas to boost or cut, always keep instrumentation in mind. 
+- Why use EQ in mastering?
+	- To bring the mix to baseline.
+	- The make enhancements as a final step in EQ.
+	- Your job is to make something that sounds good sound great.
+	- If there is an issue, push back on the mix. This means to look at the Mix, Production, Recording, or arrangement and solve the problem there.
+	- If you ever cut or boost more than 6db, that's a sign you need to go back and fix somewhere else.
+	- Steps to using EQ in Mastering:
+		- Identify Differences
+		- Bring it to Baseline
+		- Make Enhancements: Low Boosts, Midrange Boosts, High Boosts, and Saturation.
+	- Identify Differences: Analyze the mix frequencies. Make observations on a broad scale.
+		- What is the overall shape of this curve?
+		- Does it slope down evenly and gradually from low to high?
+		- Does is have more of a smiley face curve?
+		- Does it gradually taper off towards the high end?
+		- Or, if it's more lo-fi, maybe there's a more sudden drop off in the high end.
+	- Identify the high level differences between the frequency response of your track and the reference.
+	- Bring it to Baseline: The act of making EQ moves to bring the mix into the ballpark of the reference.
+		- Muddiness (200-400hz), Boxiness (500-800hz), Harshness (2.5-5k HZ), Excessive low end (under 200hz), excessive high end (6k+ Hz)
+		- Tilt EQ: Shift the overall balance of the mix.
+	- Make Enhancements
+		- Low Boosts
+		- Mid Range Boosts
+		- High Boosts
+		- Saturation
+		- Start with 20hz, steep high shelf.
+		- Use Visual EQ to sweep, analog EQ to add character. 
+		- Every EQ move has an equal and opposite reaction.
+	- Dynamic Spectrum
+		- Why manipulate dynamics in a master?
+			- Dynamic Control: Narrowing Dynamic range for loudness.
+			- Punch: More or less?
+			- Character: Experiment with different compression settings.
+		- How do you create more or less punch?
+			- Slow Attack.
+		- How do you enhance the character of a master?
+			- Any distinct and perceptible sonic qualities or attributes of the mix that give it uniqueness.
+			- Punch & Dynamics, Glue, Tonality, Energy, and Texture.
+			- Slower release times create glue.
+		- How do you control dynamics in a master?
+			- Compression: More control over the sound and shape.
+			- Limiting: Squashes peaks so that they can't get past the limit.
+			- Clipping: Shaves off the peaks.
+		- Peaks prevent loudness.
+		- The higher the dynamics, the less cohesive instruments sound together.
+		- Rule of thumb: No more than 3db of gain reduction from any one compressor, limiter, or clipper.
+		- The Process:
+			- Identify Differences 
+			- Bring to Baseline
+			- Enhance
+	- Loudness Spectrum
+		- RMS and LUFs. The number depends on genre.
+		- Measure using the loudest part of the track. 
+		- The louder you push a track, the less dynamic it is.
+		- Loudness starts in production and mix. A balanced frequency spectrum.
+		- During mixing and mastering, dynamics should be reduced.
+		- Can't get your mix loud?
+			- Is there sonic energy that is tied up in the lows and low-mids?
+			- Are we missing a lot of the midrange frequencies in the mix that our ear are more sensitive to? (Fletcher Munson Curve)
+			- Is the track still too dynamic?
+			- Am I having to use more than 3 dynamic processors before my final limiter to get it loud?
+			- The goal is the same as EQ: The less you have to do in mastering to control dynamics the more transparent you can be.
+	- Process
+		- Bring the volume of the master as close to digital zero as possible before the final limiter. The goal is to be within 3db of the loudness target before the final limiter.
+		- Identify the loudness difference - Loudness Metering.
+		- Bridge the loudness gap with the final limiter:
+			- Set output ceiling to -1db.
+			- Pull down the threshold (or push up gain) on the limiter until you've reached your desired loudness target.
+## Tips
+---
+### How to Prepare a Mix for Mastering
+1. Make sure you are happy with the mix.
+2. Make sure the mix is not clipping. < 0dbfs
+3. As mastering engineers, we aim for peaking no higher than -6db on the loudest peaks at the start.
+4. Make sure your EQ correction is disabled (Monitoring)
+5. Export as a Stereo Wav file. 24bit. 48K. Interleaved. Normalize off.
+### Setting up your DAW for Mastering
+- Create two audio tracks: A final mix and a reference track
+- Set Buffer size: 128. Sample Rate: Match Sample Rate of session to Audio File.
+- Set up metering plugins on stereo-out channel.
+- EQ Compensation software as final plugin in chain. 
+### How To Master Podcasts [Source](https://www.youtube.com/watch?v=vki3i3m0bLg)
+- Izotope RX: Fix Phase Rotation.
+- Izotope RX Leveler: Responsiveness 1. Preserve Dynamics 20. Target Level -20.
+- Izotope RX Mouth De-Click. Transparent Removal. Sens: 3. Frequency Skew: -2.0.
+- EQ
+- Multiband Compression: McDSP
+- De-Esser
+- Noise Suppression: NS1
+- POWAIR Compressor. Waves MV2. -16 LUFS
+- True Peak Limiter. Loudness Limiter.
+- Afterwards Mix Everything around the dialogue.

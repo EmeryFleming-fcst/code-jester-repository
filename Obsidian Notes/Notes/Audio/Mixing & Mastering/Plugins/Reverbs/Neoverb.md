@@ -1,0 +1,41 @@
+- [Source](https://www.youtube.com/watch?v=PhJINfAdyiA)
+- Can use Real Time Blending.
+- Shared Controls:
+-- Space: Alters Time and Size. Keeps relationship. For reflections, it focuses on Early Reflections.
+-- Time: Length.
+-- Size: Room Size.
+-- Diffusion: High Diffusion, closer and more reflections. Punchier. Lower Diffusion, further away and more spread out.
+- Reflections: Early Reflections
+-- Angle: Early vs Late Reflections: Low is Early, Late is high.
+-- Tone:
+--- Low Pass: Get rid of some of the high frequencies from the initial shot. Remove brightness.
+- Mid-Size Reverb
+-- Attack: How long it takes for the reverb to fully develop.
+-- Tone:
+--- Crossover + Tilt EQ: Darken or Brighten reverb. 
+--- Damping + EQ: Get rid of frequencies and tails.
+-Large Reverb
+-- Attack: How long it takes for the reverb to fully develop.
+-- Tone:
+--- Crossover + Tilt EQ: Darken or Brighten reverb. 
+--- Damping + EQ: Get rid of frequencies and tails.
+- Pre EQ
+-- Use Amount slider to hone in on area. Grab EQ nodes.
+- Reverb EQ
+-- Use Amount slider to hone in on area. Grab EQ nodes.
+- Masking
+- Dry/Wet Control + Level
+- Mod Section
+-- Better on long tails.
+-- Rate: How often the fluctuation happens.
+-- Depth: How deep it goes.
+- Pre-Delay and Smoothing Section
+-- Delay before Reverb Starts. Can sync to tempo of track.
+-- Smoothing: Smooths between Original Signal and Reverb.
+- Reverb Assistant
+-- Style
+--- Realistic: Early Reflections
+--- Middle: Medium Room
+--- Dramatic: Large Room
+-- Size: Sculpt the size and tail.
+-- Tone: Clean, Dark, Bright, Airy

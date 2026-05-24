@@ -17,18 +17,39 @@ Which to upgrade first?
 	- Positive Grid - Bias Amp
 - Delay
 	-  UAD Lexicon
+	- Valhalla Delay
 - Compressor
 	- TDR Kotelnikov Compressor
 	- API-2500
 	- Teletronix LA-2A Silver
 	- Fairchild 670
 	- MV2
+	- TR5 Classic Clipper
 - Limiter
 	- Loudmax
 - Utility
 	- Avox Mutator
 	- Izotope Vocal Doubler (Free)
 	- Voxengo SPAN (Free)
+	- Paz
 	- The Lyons' Den Delay Time Calculator (Free)
 	- Polyverse Wider (Free)
 	- Battery 4
+	- Reference 2
+	- AutoTune
+	- UAD C-Suite C-Vox
+	- VocalSynth
+	- VocAlign
+	- Slapper 2
+	- McDSP
+	- NS1
+	- Spitfire Labs
+	- U-HE TyrelleN6
+	- Tal-Chorus-LX
+	- Tone Projects BassLane
+	- Kilohearts Essentials Bundl
+	- Venn Audio Free Clip
+	- Limiter6
+	- Youlean Loudness Meter
+	- Analog RareSE EQ
+	- Acoustic Audio Baxter EQ

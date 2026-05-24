@@ -279,3 +279,12 @@
 	- Add to the parallel compressed channel
 ### Compression Tips [Source](https://www.youtube.com/watch?v=J5aHSV_aTWs)
 1. Multi-Band Compression as a way to shape the tone. Use it when you like part of the sound, but don't like other parts of it.
+### Drum Compression [Source](https://www.youtube.com/watch?v=K0XGXz6SHco)
+- Compression is a lot easier to hear at a lower volume. Turn the mix down to where you can barely hear it. Helpful when shaping the attack.
+- Attack is useful for shaping the punch, attitude, and brightness.
+- Letting less sound through makes it sound mellower.
+- Lets you bury a sound in the mix, only allowing that transient through to remind the listener it's there.
+- Hardness and Softness of a sound. Authority, weight, etc. The lower the attack, the more it is about the release.
+- Release: Changes the groove.
+- Release: Faster releases are brighter more aggressive forms of distortion. Growlier.
+- Release: Slower releases makes the sound more darker and smoother. Compression feels more relaxed.

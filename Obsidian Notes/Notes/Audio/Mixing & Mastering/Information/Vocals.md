@@ -1,6 +1,136 @@
 ## Lessons
 ---
-
+## How to Produce & Mix Pro Vocals [Source](https://www.youtube.com/watch?v=qKZFckGgd8A)
+- Vocal Recording
+	- Minimizing Reflection
+		- Blankets and Pillows to catch sound
+		- Isolate the singer around the microphone as much as possible
+		- Find the sweet spot of your microphone.
+		- Experiment with angels. Aim for -10 and -6db.
+		- Pick the Right Mic, Find the Sweet Spot, Experiment with Angles, Isolate, Check Gain. Record.
+		- Hydration is Key
+		- Warm up your voice
+		- Focus on Emotional Intent
+		- Embrace Mistakes
+		- Experiment with different takes
+		- Break it Down, section by section
+- Comping and Editing
+	- Assemble the best parts from multiple takes.
+	- Comping Process
+	- General Comp. Listen on instinct. Pick the best representation of the performance. Take a break, come back.
+	- Local. Any one-phrases, one-words. Comp those.
+	- Breaths. Fade or bring down breaths with gain automation.
+	- Remove mouth clicks.
+	- Visit Problem areas.
+	- Not thinking about technical during comping. Emotion and performance first and foremost.
+	- R11 Mouth de-click sensitivity. 5.0-6.0
+- Time Aligning
+	- Adjusting the timing of individual vocal tracks aiming to achieve tight cohesion
+	- Listen and analyze the waveforms to identify timing discrepancies. 
+	- Carefully adjust the timing of each track to bring all elements into alignment.
+	- Why do it?
+		- Enhances tightness, groove, and clarity. Eliminate phase issues. More polished and professional sound.
+	- General run through with alignment.
+	- Depending on the genre, remove breaths.
+	- Afterwards, remove clicks.
+	- Align vocals. Manually or through VocAlign.
+	- Tuning: Adjustment of a vocalist's pitch to achieve a flawless and harmonically accurate performance. A crucial step in modern music production.
+		- Using software to analyze and adjust the pitch of recorded vocals.
+		- Manual vs Auto-pitch correction:
+			- Manual affords more control and precision. Helps preserve the nuance of the vocal.
+			- Auto relies on algorithms. Quicker and more efficient, but less control.
+	- Melodyne:
+		- Click Transfer and play the section you want to fix.
+		- The lines are the pitch, The shaded areas are the breaths and sibilance.
+		- Select tool. Pitch tools. Formant tool (placement of the note within the vocal track. Chesty further down, higher more nasally)
+		- Amplitude tool (volume). Fade tool. Sibilance tool that brings down sibilance.
+		- Time tool to adjust timing. Attack tool.
+		- Noise separation tool for more flexibility.
+		- First: Click on correct pitch macro. Pull centers and drift up to around 75-80%.
+		- Clean up notes through dragging.
+		- Move pitch shift in.
+		- Tedious and Time Consuming. But most important part.
+	- Auto-Tune:
+		- Input Type affects algorithm.
+		- Pick Key
+		- Presets
+		- Classic gives original sound. Modern, more options.
+		- Formant: Vocal length.
+		- Transpose to move octaves.
+		- Mix Knob
+		- Retune Speed: How fast you move to the notes. 30-40% typically. The slower it is, the more transparent.
+		- Flex Tune: Allows style to come through.
+		- Natural Vibrato: Shakiness of the track.
+		- Humanize: Adds realism to sustained notes with a high retune speed. Minimizes auto-tune sound. Usually around 100%
+	- Gain Automation: Usually done in preparation. 
+		- Dynamically adjusting the volume levels of a vocal track to create a more consistent and balanced performance.
+		- Aims to address variations in volume that naturally occur during a vocal recording.
+		- The goal is to create a consistent volume by mitigating sudden spike and dips that distract from the overall listening experience.
+		- Do it before compression to ensure the process operates on a more stable foundation.
+		- Final stage before it hits the mixer.
+		- Manually adjust gain volume of sections.
+		- Automate gain plugin for specific parts. In singing, lifting the end of the phrases up can accentuate it.
+		- Take regular breaks
+		- Mentally prepare yourself for the tedium.
+		- Edit as many vocals as possible
+		- Give yourself a time limit
+		- Don't fear being heavy-handed with BVS.
+		- Aim for clean takes when comping
+		- Pay close attention to consonant timing.
+- Audio Restoration
+	- De clicking
+		- RX De-click
+	- Removing Noise
+		- RX Voice De-Noise
+		- UAD C-Suite C-Vox
+	- Removing Plosives
+	- Resonance Suppression
+		- Soothe 2
+		- Can use gates
+		- Usually between 500 - 2K
+		- Different Variations
+- Vocal Arrangement and Workflow
+	- Doubles involves recording the same part twice.
+		- Record a second, identical take.
+		- Alter certain parameters in the second take. Modified double. Different microphone, pitch adjustment, changing the performance style.
+		- Add more thickness and energy.
+		- Panned fully to the side adds more width.
+		- 50% makes it feel more intimate.
+	- Harmonies introduce additional notes that complement the main melody.
+		- Layering Harmonies involves careful consideration of each Note's role in the chord.
+	- Provide a fuller, more immersive listening experience.
+	- Doubles and Harmonies add emotional depth, create a sense of space, and enhance the overall experience for the listener.
+	- LCR Panning: Lead vocals in the center, doubles and harmonies panned hard left and hard right.
+	- Common Technique
+		- Lead Vocal
+		- Doubles panned hard left and hard right.
+		- High harmonies panned hard left and right.
+		- Additional Harmonies hard Panned left and Right to thicken part.
+		- Accentuate more specific phrases with Unison.
+	- Experiment with panning percentage of different types of harmonies.
+- Producing Gang Vocals
+	- Goal is to create a cohesive and impactful sound.
+	- Inject a sense of Unity and Power into a song.
+	- Consider layering Unison Chants with Harmonies.
+	- Strategically place accents to emphasize key moments in the song.
+- Producing Choirs
+	- Choir-Like Arrangements involves creating a rich and harmonically complex vocal ensemble.
+	- Arranging choirs requires meticulous attention to Voicing, Dynamics, and the overall harmonic structure.
+	- Counterpoint: The combination of different, independent melodies that are played or sung simultaneously.
+	- Encourage singers to deliver nuanced performances, allowing for dynamic expression.
+	- Choirs emphasize intricate harmonies and nuanced voicings, creating a refined and classical aesthetic.
+	- Gang vocals focus on Unity and Power, often used in Contemporary Genres for anthemic choruses or energetic moments.
+	- Choir arrangements bring a level of sophistication and emotional depth to music.
+	- Convey a sense of grandeur, nostalgia, or spirituality depending on the context.
+- AD Libs
+	- Spontaneous and Improvisational Vocal Embellishments.
+	- Add Flair, Emotion, and a Distinctive Touch To a Song.
+- Pitch and Formant Shifting
+	- Pitch Shifting Changes the note
+	- Formant Shifting changes the color or tonality, offering creative possibilities.
+- VoCoder
+	- Has the characteristics of a Modulator and a Carrier (Synth). Creating a distinctive sound that merges the two together.
+	- VocalSynth
 ## Tips
 ---
 ### Your Vocals Are Too Loud [Source](https://www.youtube.com/watch?v=XWskyKzGvpc)

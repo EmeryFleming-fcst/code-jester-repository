@@ -58,3 +58,30 @@
 ### Stop High Passing Everything [Source](https://www.youtube.com/watch?v=9bJrPtXYNtI)
 - Use a shelf instead of always high/low passing
 - You can retain some of the harmonics by limiting it
+### EQ Tips You've Never Heard
+- Is your mix too slow? 
+	- Turn it down to very quiet, turn it back up. Does it sound slower?
+	- Identity 2-3 elements
+	- Boost 1.5DB
+		- 60
+		- 130
+		- 200
+- If your mix feels too Loud or Quiet?
+	- Identity 2-3 elements
+	- Cut 1.5DB | Boost 
+		- 1.2k
+		- 1.8k
+		- 2.5k
+- Mix feels too Full or Hollow?
+	- Identify 2-3 elements
+	- Cut 1.5DB | Boost
+	- 400
+	- 800
+	- 1.2K
+- Mix Feels too Hard or Soft?
+	- Identify 2-3 Elements
+	- Cut 1.5DB | Boost
+	- 1.8k
+	- 2.5k
+	- 3.5k
+	- 5k
