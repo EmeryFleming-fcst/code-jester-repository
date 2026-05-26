@@ -1,5 +1,60 @@
 Music: https://www.youtube.com/watch?v=I9fBqKNXIbk
+https://www.youtube.com/watch?v=7DMJgoRcPIE
+https://www.youtube.com/watch?v=AL21_-REZLw
 
+How to Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
+- EMPRE system
+-- Environment
+--- Choose your Room
+---- Noise
+----- Control background noise.
+----- Check Equipment.
+---- Reflection
+----- Pick a less reflective room.
+----- Tame the reflective surfaces.
+----- Use acoustic panels, blankets, mattresses, or pillows.
+---- Resonances
+----- Avoid Corners
+----- Avoid the center of your room
+-- Microphones
+--- Dynamic
+---- More forgiving of noisier environments.
+--- Condenser
+---- Will pick up more detail and have a wider frequency response.
+-- Positioning your Mic
+--- Isolation Station
+--- The 1/2 over Rule
+--- Pop Filter Please
+--- The 5 inch rule. Mark a distance from the mic.
+--- The Proximity Factor
+---- 7 - 12 inches away from the mic
+--- Eyes for highs Chest for Depth
+---- Aim around the eye for highs.
+---- Aim around the upper chest for depth.
+---- Aim at mouth for neutral.
+-- Recording your Takes
+--- Get Comfy
+---- Create an inviting space
+---- Experiment with what works for you
+--- Get Levels
+---- Keep it 90% green looking at the audio interface.
+---- -12 to -18dbfs, no higher than -10dbfs.
+--- Follow a Workflow
+---- Ride the Creative Momentum in the Room
+---- Option 1: 3-5 Full takes and punch in sections as needed.
+---- Option 2: Record 3-5 Takes section by section
+---- Option 3: Record High and Low Energy Parts together.
+--- Focus on Performance
+---- Allow the singer to dial in performance energy.
+---- Play around with facial expressions.
+---- Create a Great Environment to explore.
+-- Editing
+--- Comping
+---- Taking the best pieces and putting it together.
+---- How to Comp
+----- Listen through each take one at a time.
+----- Choose the best parts and compile them into a master take.
+----- Crossfade any cuts for smooth transitions.
 
 9 Mixing Tips I Wish I Knew Sooner: https://www.youtube.com/watch?v=VmoOepAUvfY
 1. There are no hard rules in mixing
