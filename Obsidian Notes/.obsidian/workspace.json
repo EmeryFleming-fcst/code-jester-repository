@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Audio/Mixing & Mastering/Plugins/Vocal/Melodyne.md",
+                "file": "Notes/Audio/Mixing & Mastering/Information/Vocals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Melodyne"
+              "title": "Vocals"
             }
           }
         ]
@@ -185,11 +185,12 @@
   },
   "active": "73ca69e760083c8c",
   "lastOpenFiles": [
-    "Notes/Audio/Mixing & Mastering/Plugins/Synths/UVI Walker.md",
+    "Notes/Audio/Mixing & Mastering/Information/Equalization.md",
+    "Notes/Audio/Mixing & Mastering/Information/Vocals.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Vocal/Melodyne.md",
+    "Notes/Audio/Mixing & Mastering/Plugins/Synths/UVI Walker.md",
     "Notes/Audio/Mixing & Mastering/Information/Mixing.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Vocal",
-    "Notes/Audio/Mixing & Mastering/Information/Equalization.md",
     "Notes/Audio/Mixing & Mastering/Information/Mixing Plugins.md",
     "Notes/Audio/Mixing & Mastering/Information/Ear Training.md",
     "Notes/Audio/Mixing & Mastering/Information/Ableton.md",
@@ -200,7 +201,6 @@
     "Notes/Audio/Mixing & Mastering/Plugins/Izotope/Ozone 12.md",
     "Notes/Audio/Sound Design/Informative/Film and Games.md",
     "Notes/Audio/Mixing & Mastering/Information/Mastering.md",
-    "Notes/Audio/Mixing & Mastering/Information/Vocals.md",
     "Notes/Audio/Mixing & Mastering/Information/Saturation.md",
     "Notes/Audio/Mixing & Mastering/Information/Reverb.md",
     "Notes/Audio/Sound Design/Informative",
