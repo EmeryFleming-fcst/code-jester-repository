@@ -1,0 +1,4 @@
+CTRL + ARROW Left/Right = Move Word by Word
+Home/End = Go to Line Beginning or End
+CTRL + ARROW UP/DOWN Move vertically 6 lines
+CTRL + HOME/EMD = Go to beginning/end of file
