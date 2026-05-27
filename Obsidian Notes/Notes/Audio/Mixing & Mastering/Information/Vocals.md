@@ -131,6 +131,43 @@
 - VoCoder
 	- Has the characteristics of a Modulator and a Carrier (Synth). Creating a distinctive sound that merges the two together.
 	- VocalSynth
+- Types of EQ used in Vocal Mixing
+	- Parametric EQ
+	- Graphic EQ
+	- Dynamic EQ
+	- Linear Phase EQ
+	- Shelving EQ
+- Common Frequencies to Pay Attention To
+	- Low-End (20HZ - 200HZ)
+		- 80HZ Provides Warmth and Body
+		- 100HZ and Less can have Rumble or Muddiness
+	- Low-Mids (200HZ - 800HZ)
+		- 200HZ-400HZ: Muddiness and Boxiness
+	- Upper Low-Mids (350HZ - 700HZ)
+		- Critical ghost area. Honky and Nasal
+	- Mids (800HZ - 2KHZ)
+		- 1000HZ: A lot of fundament frequencies of voices and instruments reside here.
+			- Can affect clarity
+		- 1KHZ - 2KHZ: Presence range.
+	- High-Mids (2KHZ - 5KHZ)
+		- 2KHZ - 3KHZ: Nasal or Honkey
+		- 3KHZ - 5KHZ: Brightness and Sibilance 
+	- High-End (5KHZ - 20KHZ)
+		- 5KHZ - 8KHZ: Adds air and sparkle
+		- 10KHZ and above: Presence and crispiness
+- Filters
+	- Notch Filters: The higher in the FQ spectrum, the tighter you want them to be.
+- Sweeping
+	- Rather than sweeping with boosts, solo and sweep at unity.
+- Popular EQ Models
+	- PULTEC EQP-1A
+		- Adds warmth, presence and air.
+	- FABFILTER PRO-Q
+		- Transparent
+	- SSL E Series Channel Strip
+		- Adds Clarity, presence, and energy
+	- MAAG Audio EQ4
+		- Enhance Clarity and Airiness
 ## Tips
 ---
 ### Your Vocals Are Too Loud [Source](https://www.youtube.com/watch?v=XWskyKzGvpc)
