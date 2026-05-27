@@ -25,8 +25,10 @@ Which to upgrade first?
 	- Fairchild 670
 	- MV2
 	- TR5 Classic Clipper
+	- Leapwing Dynone
 - Limiter
 	- Loudmax
+	- Newfangled Elevate
 - Utility
 	- Avox Mutator
 	- Izotope Vocal Doubler (Free)
@@ -53,3 +55,20 @@ Which to upgrade first?
 	- Youlean Loudness Meter
 	- Analog RareSE EQ
 	- Acoustic Audio Baxter EQ
+	- Soother 3
+	- Smooth Operator
+	- Ozone Imager
+	- JST Clip
+	- Paz Analyzer
+	- SSL G Bus Compressor
+	- Plugin Doctor
+	- Fresh Air by Slate Digital
+	- Vital
+	- U-HE TyrellN6
+	- Tone Projects Bassline
+	- Venn Audio Free-Clip
+	- Youlean Loudness Meter
+		- Color Threshold -14
+		- Scale range 18
+	- Analog Obsession Rare-SE
+	- Acoustica Audio Baxter-EQ

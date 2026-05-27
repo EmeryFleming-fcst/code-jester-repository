@@ -1,6 +1,62 @@
-Music: https://www.youtube.com/watch?v=I9fBqKNXIbk
-https://www.youtube.com/watch?v=7DMJgoRcPIE
-https://www.youtube.com/watch?v=AL21_-REZLw
+Music Production For Beginners: https://www.youtube.com/watch?v=I9fBqKNXIbk
+- Process
+-- Composing
+--- Chords
+--- Melodies
+--- Effective Structure
+-- Arranging
+--- Drums
+--- Bass
+--- Chords
+--- Atmos/Fx
+--- Vocals
+-- Recording
+--- Vocals
+--- Foley
+-- Editing
+--- Practical
+--- Creative
+-- Mixing
+-- Mastering
+-- Distribution
+
+Essential Tools
+- DAW
+- Midi Controller
+-- Keyboard
+-- Drum Pad
+- Audio Interface
+-- Considerations
+--- Number of Inputs/Outputs
+--- Connection Type
+--- Budget
+--- Phantom Power
+--- Included Software
+
+Monitors vs Headphones
+- Considerations
+-- Budget
+-- Environment
+-- Portability
+-- Ear Fatigue
+
+Choosing the Right Space
+- Considerations
+-- Room Size
+--- Medium size is usually the best.
+-- Noise Levels
+--- Quiet is better.
+-- Reflectivity
+--- Hard surfaces reflect more.
+-- Nearby Distractions
+--- Get away from distractions.
+
+Essential Software/Hardware Setup
+- External Hard Drive
+- Stock Plugins
+- Sound Libraries
+- File Organization
+
 
 How to Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
 - EMPRE system
@@ -55,252 +111,31 @@ How to Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
 ----- Listen through each take one at a time.
 ----- Choose the best parts and compile them into a master take.
 ----- Crossfade any cuts for smooth transitions.
-
-9 Mixing Tips I Wish I Knew Sooner: https://www.youtube.com/watch?v=VmoOepAUvfY
-1. There are no hard rules in mixing
-2. Understand what stereo is
-- Decorrelation
--- Making two or more audio signals less similar.
--- Goal is to widen.
-3. Decorrelate
-- Timing, pitch
-- Keep an eye out for phase cancellation
-4. Decorrelate through chorusing.
-- Chorus plugin in stereo.
-5. Chorusing on higher end frequencies
-- Has less of an effect.
-6. Use Caution when decorrelating vocals.
-- As long as phase correlation meter isn't dipping down constantly, you can get away with a lot.
-- Keep an eye on low end
-7. Play around with automation.
-8. Use Clipping for Headroom and Tone.
-9. Use Saturation for Perceived Loudness
-
-
-9 Tips for Wider Mixes
-----------------------
-- Subtle Tremolo 
--- Good for things in the background including reverb. 
-- Use Mono Reverbs and Delays
--- Contrast between mono and stereo creates width.
--- Try panning one of your main instruments with a reverb to one side, and another instrument with a tonal reverb to the opposite side.
-- Automate imaging/panning from verse to chorus.
-- Pan Early and With Context
--- Should be genre specific
--- Stereo tracks should be centered.
--- Anything that helps with atmosphere can be panned anywhere.
---- To keep it in balance, pair supporting sounds opposite each other.
--- Try panning full-body instruments hard left and right.
-- Use Haas Delays
--- Set a Haas effect on an Aux channel and EQ before it, taking out the lows on only the Mids.
-- Try Stereo Wideners on individual tracks.
--- Widen lows to low Mids with saturation or chorus.
--- Can do this on anything that occupies the 80-400hz range.
--- To keep phasing intact, use any imager that allows you further narrow in the frequency. Put this on the end of the track. Narrow in the lows to taste.
-- Expand the sides of upper-mids or highs.
--- M/S EQ. Boost the highs on the side. Dynamically expand.
-- Pan reverbs and delays to opposite sides.
--- Completely dry instrument on one side. 100% wet version of that instrument on the other.
-
-
-Headphones vs Studio Monitors: https://www.youtube.com/watch?v=9uKe5DEVpWs
------------------------------
-- Accuracy is higher with Studio Monitors, but also had a wider range. Headphones are more consistent, but less accurate.
-- Headphones are a lot cheaper.
-- Headphones are easier to setup and adaptable.
-- Comfort. Studio Monitors are more comfortable.
-- Headphones increase ear fatigue.
-- Easier to hear details on headphones.
-- Mastering is better on speakers.
-- Mixing is good on headphones.
-- Do you optimize for high end listener or average listener?
-- 80/20 principle. 80% of the results will be from 20% of the effort.
-- Shortcut vs Long Term? Headphones are the shortcut.
-
-
-7 Plugins I Can't live without: https://www.youtube.com/watch?v=gqElARjEP6w
-- Soothe3 / Smooth Operator
-- LoudMax Limiter
-- TrackSpacer
-- Ozone Imager
-- JST Clip
-- TAL Chorus LX
-- Paz Analyzer
-- SSL G Bus Compressor
-- Plugin Doctor
-
-9 Mixing Tips that are ruining your mix: https://www.youtube.com/watch?v=MwjhqrYkxu4
-- There is no "one size fits all"
-- Don't hunt for all resonant frequencies. Only address the obvious issues.
-- Don't Compress Everything
-- Don't avoid presets. Use them and modify them as you see fit.
-- Don't listen to never use more than 'x' decibels.
-- Don't copy your reference track. Use multiple reference track, like a playlist. Add ensure your track doesn't stand out.
-- Don't be afraid to mix in the recording phase.
-- You don't always have to Aux your wet effects.
-
-Fresh Air - Slate Digital
-- Makes Dark Tracks/Dull Tracks lighter.
-- Free Plugin
-
-A Simple Trick to Get Your Instruments "In The Pocket": https://www.youtube.com/watch?v=OCFkcHg6uJo
-- Nudge Tool
--- Increment of 1ms or 10ms
-
-Thin vs Muddy Mixes: https://www.youtube.com/watch?v=RGZIcii6zKo
-- Imbalanced 100Hz to 300Hz. This needs a boost, muddy needs a cut.
-
-Favorite Sidechain Compression Hack: https://www.youtube.com/watch?v=XxX3SxJis0o
-- Make a Dummy send for each instrument bus. Make before you start.
-
-
-I found 15 BEST FREE PLUGINS: https://www.youtube.com/watch?v=0BTcW2PNrnA
-- Vital
-- Spitfire Labs
-- U-HE TyrellN6
-- TAL-CHORUS-LX
-- Tone Projects Bassline
-- Venn Audio Free-Clip
-- TDR Limiter 6
-- Voxengo Span
-- Youlean Loudness Meter
--- Color Threshold -14
--- Scale range 18
-- Analog Obsession Rare-SE
-- Acoustica Audio Baxter-EQ
-
-21 Advanced Ableton Live Tips: https://www.youtube.com/watch?v=ycQ-Mc60Vyg
-- Arpeggiator can repeat sounds quickly or slowly.
-- Right + Click -> Extract Groove.
--- Double click other track. Change groove to match extracted one.
-- When modifying parameter in kit, right click and copy to siblings.
-- Haas Effect using Align Delay
-- Duck Reverb with a compressor
-- Can create Frequency Split Rack
-- Can create Mid/Side rack
-- Sideband compression
-- Search similar sample
-- Envelope Follower to use volume as a control.
-- Mix Reference Technique
--- Group the Reference Track
--- Put Glue Compressor after processing but before meters.
--- Open Sidechain, put source to mixing reference. Post FX.
--- Turn on Blue Headphone.
--- Keymapping mode -> Map on/off to whatever.
-
-Compression
------------
-LA-2A
-- OPtical. Gentle leveling and transparent sound. Warm
-1176
-- FET. Agressive punchy. Energy, presence and character.
-SSL G Series Bus Compressor
-- VCA. Punchy, aggressive. Solid state sound. Energy, presence, excitement. Gluing bus together.
-
-Compression for Tone
-- Optical Compressor: Subtle Coloration.
-	- Soul, R&B, Jazz
-- FET Compressor: Punchy, upfront character.
-	- Rock, Pop, Hip-Hop
-- VCA Compressor: Transparent and Neutral Tone.
-	- General
-- Tube Compressor: Distinct Warmth, Harmonics, and Saturation.
-	- Blues, Rock, Folk
-
-Multi-Band Compression
-- Splitting the signal -> Compression -> Processing -> Recombining the signal
-- Provides Greater control
-- Reduces pumping and artifacts.
-- Versatility: Mixing, Mastering, and Sound Design
-- Can be used for De-Essing
-- Taming Resonances
-- Balancing Tone
-- Controlling Dynamics
-- Enhancing Clarity
-	- Allows for the mixer to bring out subtle details.
-
-Saturation
-- Works by introducing harmonic distortion.
--- Soft Clipping: The peaks of the audio signal are rounded off instead of clipped.
--- Harmonic Generation: Non-linearity to the processing circuitry causes harmonic generation.
--- Dynamic Response: Saturator may react differently to chances in input level.
--- Frequency Dependence: Some saturators may emphasize certain frequencies. 
-- Can add Warmth and Depth
-- Tonal Enhancement
-- Character and Texture
-- Glue and Cohesion
-- Emulation of Vintage Equipment
-
-Parallel Processing
-- Duplicate the Signal
-- Apply Processing
-- Blend the Signals
-- Can be done through a send
-- Common Uses
--- Compression
--- Equalization
--- Saturation and Distortion
-
-Vocal Chain
-- PreAmp
-- Equalization
-- Compression
-- De-essing
-- Saturation or Harmonic Enhancement
-- Effects (Reverb, Delay, Etc)
-- Final Processing and Mixing
-
-Budget Friendly Vocal Chains
-- Microphone Emulation
-- Preamp Emulation
-- Compressor Emulation
-- Equalizer Emulation
-- Effects Emulation
-
-Does Order Matter?
-- Noise Reduction/Gate
-- Gain/Trim
-- Pitch Correction
-- EQ
-- Compression
-- De-Esser
-- Saturation/Harmonic Enhancement
-- Effects
-
-Action Item
------------
-Find Your Emulation Mic
-Set up Your Recording Space
-Record your Vocals
-Apply Emulation Plugins
-Mix and Listen
-Final Touches
-
-10 Tips for Louder Masters: https://www.youtube.com/watch?v=YOtvxXaoGeA
---------------------------
-- Clipping
--- For transparency, Clippers/Limiters one after the other, shaving off 0.5-1dbs.
-- Light Limiting
--- Aim for -9.2LUFS
-- Fast Compression / No Compression
-- Parallel Compression (Leapwing Dynone)
--- Increases body without increasing peaks.
-- Reducing the Low End
--- Shelf the low-end by a very small amount.
-- Avoid Saturation
--- Only use it very carefully.
--- Use something like Saturn to multiband the saturation.
-- Sonnox Oxford Inflator
--- Bringing up low-level information to make it sound louder.
-- Serial Limiting
--- Different Limiters.
--- 3, 4, even 5 different limiters taking of 1/2 - 1 decibel.
--- Mid-Side Limiting
--- Left-Right Limiting
--- Multiband Limiting
---- Newfangled Elevate
--- Can also use limiters with different attack and release times.
-- Checking Phase Rotation
--- RX Waveform statistics + Phase
-- Manually Reducing Transients
--- Use RX and Waveform statistics. Jump to peaks.
+--- TNT
+---- Timing
+----- Listen to the vocal in the context of the music/groove.
+----- Don't make it too perfect.
+----- Time compression and time stretching when there's issues within the phrase itself.
+---- Noise and Clean Up
+----- Mouth noises. Breaths. Sibilants. Consonants. Etc.
+------ Breath removals and volume are stylistic.
+------ Remove things from doubles and harmonies if they're distracting. Clicks and breaths.
+---- Tuning
+----- Manual Pitch Correction
+----- Auto Pitch Correction
+----- Listen in the context of the mix
+----- Auto Pitch Correction after
+--- Gain
+---- Normalize: Peak at -10
+---- Gain Automation
+----- Get things about as even as you can. Both loud and quiet.
+----- You only really do this on the lead vocal.
+---- Organize
+----- Lead Vocals
+------ Lead
+------ Chorus
+------ Backing Vocals
+------- Doubles
+------- Harmonies
+------- Hums
+------- Stabs

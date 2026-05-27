@@ -76,3 +76,21 @@
 - Warp in the timeline: Shift + Drag at the top bar of a clip.
 - Slipping: Shift + ALT + Drag. Move position in clip around.
 - Add Ctrl to warp and slip to snap grid on.
+### 21 Advanced Ableton Tips
+- Arpeggiator can repeat sounds quickly or slowly.
+- Right + Click -> Extract Groove.
+	- Double click other track. Change groove to match extracted one.
+- When modifying parameter in kit, right click and copy to siblings.
+- Haas Effect using Align Delay
+- Duck Reverb with a compressor
+- Can create Frequency Split Rack
+- Can create Mid/Side rack
+- Sideband compression
+- Search similar sample
+- Envelope Follower to use volume as a control.
+- Mix Reference Technique
+	- Group the Reference Track
+	- Put Glue Compressor after processing but before meters.
+	- Open Sidechain, put source to mixing reference. Post FX.
+	- Turn on Blue Headphone.
+	- Keymapping mode -> Map on/off to whatever.

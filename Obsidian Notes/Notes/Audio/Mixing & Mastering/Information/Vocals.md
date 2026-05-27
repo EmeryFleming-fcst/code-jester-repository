@@ -243,3 +243,27 @@
 	- Pre-delay on reverbs to separate dry and wet signal. Sidechain Compression to duck the volume of your wet FX whenever the vocal is present.
 - Add Obvious and Creative Effects
 	- Stack Delays and Reverbs to create Ambient Effect. Extra track just for throws. Use sidechain compression.
+### Vocal Chain
+- Vocal Chain
+	- PreAmp
+	- Equalization
+	- Compression
+	- De-essing
+	- Saturation or Harmonic Enhancement
+	- Effects (Reverb, Delay, Etc)
+	- Final Processing and Mixing
+- Budget Friendly Vocal Chains
+	- Microphone Emulation
+	- Preamp Emulation
+	- Compressor Emulation
+	- Equalizer Emulation
+	- Effects Emulation
+- Does Order Matter?
+	- Noise Reduction/Gate
+	- Gain/Trim
+	- Pitch Correction
+	- EQ
+	- Compression
+	- De-Esser
+	- Saturation/Harmonic Enhancement
+	- Effects

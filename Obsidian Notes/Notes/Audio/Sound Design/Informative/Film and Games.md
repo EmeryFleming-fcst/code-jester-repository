@@ -18,16 +18,64 @@
 - Raid 0 and Raid 5
 - Sound Effects
 	- Purchased Libraries
+		- Name of the Library Manufacturer + Category
 	- Recorded Sound Effects
-	- Sounds to Go Through
+	- Sound Effects to Go Through
+	- RAW
+		- Unprocessed Files
+		- Folder: Creator ID, Date, Description
 	- Personal Library
 	- Kontakt Libraries
+	- Production
+		- Shows
+		- Demos
 - Database Manager: SoundMiner, SoundQ, SoundParticles, Soundly
 	- Databases: Sound Effects, Vehicles, Ambiances, All Sounds, RAM
-	- Playlists: Granular search.
+	- Playlists: Granular search. 
+		- Category - Type
 	- Organize Ambience by INT/EXT
 	- Organize Vehicles by Cylinder
 	- UCS v8.1 Meta Data. ADD THIS!
+		- Filename Structure
+			- CatID
+				- Defined in UCS List
+			- FXName
+				- What is the sound?
+				- A brief description
+				- 25-30 Characters
+			- CreatorID
+				- Who made the sound?
+				- Can be a designer, recordist, or vendor
+				- Abbreviate when possible
+			- SourceID
+				- Why was this made?
+					- NONE if it was made for nothing
+				- Can be a project, show, or library
+				- Abbreviate when possible
+		- Optional Blocks
+			- UserCategory
+				- An optional tail extension to the CatID Block
+				- Add a '-' after the CatID
+				- Often used for a Mic Perspective, Location etc.
+			- VendorCategory
+				- An optional head extension to the FXName Block
+				- Add a '-' after the phrase put before the FXName
+				- Often used for a Library specific category
+			- UserData
+				- Comes at the end after the final underscore.
+				- Completely freeform
+		- Separated by an underscore
+		- Descriptions
+			- Single Course SFX
+				- Title (Take#)-subtitle-Prop, Verb, Descriptive terms
+			- Ambience SFX
+				- Setting-Specific Location, State - Primary Content in Descending Order (CU, MED, DST)
+			- Vehicle Driving SFX
+				- CAR MODEL & YEAR(Take#)-Specific Action-MPH, Order of Actions if Maneuver ||| Car Model & Specific Engine Info
+			- Vehicle Specifics SFX
+				- Title(Take#)-Verb, Descriptive Terms ||| Card Model & Year
+			- Synth SFX
+				- Title-Style of Synthesis, Descriptive Terms, Pitch
 ### Mono VS Stereo Effects [Source](https://www.youtube.com/watch?v=7lVV7Gww-Vg&)
 - Music is usually Stereo.
 - Ambiences are Stereo.
@@ -48,3 +96,51 @@
 - Most Real World sounds are little symphonies. When you do this kind of layering right, they combine to create new sounds that are unrecognizable, but still familiar enough to be accepted as real. Think about all the things that would be happening in the object you're trying to create, and then which individual sound-making objects work the same way.
 - Each kind of layer should be responsible for a different part of the spectrum.
 - "Offset layering will allow you to produce richer and more complex sounds from single sources, giving depth and fullness to an otherwise boring sound. It can also create complex sources for ambiences, science fiction, water, and other sounds"
+### How To Build a Sound Effects Library [Source](https://www.youtube.com/watch?v=8gU1lDwLavA)
+- You need to have a system in place
+- Creativity (Chaos) is balanced by Systems (Order)
+- Write your system down
+- Onboarding
+	- Year
+		- Recording Folder: Date_Description
+			- Bounces
+				- Mastered
+				- Premastered
+			- Cleaned
+			- Edit Session
+			- Raw
+- Libraries
+	- Non-Commercial
+	- Published
+	- WIP
+		- Library Name
+			- Deliverables
+			- Documentation
+				- Sound Design Session: Alias' to all folders in the session
+			- Graphics
+			- Images
+				- Images for graphics
+			- Library
+				- Pre-Deliverable
+			- Previews
+			- Notes (Not a folder)
+- Sound Design
+	- Sound Design Sessions by years
+	- Sound Design Reels
+		- Name
+			- Design Session
+			- Mixing Session
+- Building Your Library
+	- Active
+		- Concept: Organize ideas on what you want to make.
+		- Focus on this when you have the downtime.
+	- Passive
+		- Concept: As you find something cool, you add it to your library.
+		- Try to record at least on thing a day.
+- How to Create a Foundation
+	- Be ready to record
+		- Have a portable recorder
+		- Have a tripod
+		- Have a wind protector
+	- Reduce the friction in your workflow
+	- Be efficient

@@ -131,3 +131,30 @@
 - POWAIR Compressor. Waves MV2. -16 LUFS
 - True Peak Limiter. Loudness Limiter.
 - Afterwards Mix Everything around the dialogue.
+### 10 Tips for Louder Masters [Source](https://www.youtube.com/watch?v=YOtvxXaoGeA)
+- Clipping
+	- For transparency, Clippers/Limiters one after the other, shaving off 0.5-1dbs.
+- Light Limiting
+	- Aim for -9.2LUFS
+- Fast Compression / No Compression
+- Parallel Compression 
+	- Increases body without increasing peaks.
+- Reducing the Low End
+	- Shelf the low-end by a very small amount.
+- Avoid Saturation
+	- Only use it very carefully.
+	- Use something like Saturn to multiband the saturation.
+- Sonnox Oxford Inflator
+	- Bringing up low-level information to make it sound louder.
+- Serial Limiting
+	- Different Limiters.
+	- 3, 4, even 5 different limiters taking of 1/2 - 1 decibel.
+	- Mid-Side Limiting
+	- Left-Right Limiting
+	- Multiband Limiting
+		- Newfangled Elevate
+		- Can also use limiters with different attack and release times.
+- Checking Phase Rotation
+	- RX Waveform statistics + Phase
+- Manually Reducing Transients
+	- Use RX and Waveform statistics. Jump to peaks.

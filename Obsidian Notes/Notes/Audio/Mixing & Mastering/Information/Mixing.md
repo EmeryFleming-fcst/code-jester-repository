@@ -396,3 +396,57 @@
 18. Objective vs Subjective: Technical and Scientific vs Creative.
 19. Lean into Subjectivity. Mixing is artistic.
 20. Master the Objective first! Once you have the technical skills first it's easier to be creative.
+### 9 Mixing Tips [Source](https://www.youtube.com/watch?v=VmoOepAUvfY)
+1. There are no hard rules in mixing
+2. Understand what stereo is
+	- Decorrelation
+		- Making two or more audio signals less similar.
+		- Goal is to widen.
+3. Decorrelate
+	- Timing, pitch
+	- Keep an eye out for phase cancellation
+4. Decorrelate through chorusing.
+	- Chorus plugin in stereo.
+5. Chorusing on higher end frequencies
+	- Has less of an effect.
+6. Use Caution when decorrelating vocals.
+	- As long as phase correlation meter isn't dipping down constantly, you can get away with a lot.
+	- Keep an eye on low end
+7. Play around with automation.
+8. Use Clipping for Headroom and Tone.
+9. Use Saturation for Perceived Loudness
+### 9 Tips for Wider Mixes
+- Subtle Tremolo 
+	- Good for things in the background including reverb. 
+- Use Mono Reverbs and Delays
+	- Contrast between mono and stereo creates width.
+	- Try panning one of your main instruments with a reverb to one side, and another instrument with a tonal reverb to the opposite side.
+- Automate imaging/panning from verse to chorus.
+- Pan Early and With Context
+	- Should be genre specific
+	- Stereo tracks should be centered.
+	- Anything that helps with atmosphere can be panned anywhere.
+		- To keep it in balance, pair supporting sounds opposite each other.
+	- Try panning full-body instruments hard left and right.
+- Use Haas Delays
+	- Set a Haas effect on an Aux channel and EQ before it, taking out the lows on only the Mids.
+- Try Stereo Wideners on individual tracks.
+	- Widen lows to low Mids with saturation or chorus.
+	- Can do this on anything that occupies the 80-400hz range.
+	- To keep phasing intact, use any imager that allows you further narrow in the frequency. Put this on the end of the track. Narrow in the lows to taste.
+- Expand the sides of upper-mids or highs.
+	- M/S EQ. Boost the highs on the side. Dynamically expand.
+- Pan reverbs and delays to opposite sides.
+	- Completely dry instrument on one side. 100% wet version of that instrument on the other.
+### 9 Mixing Tips that Ruin Your Mix [Source](https://www.youtube.com/watch?v=MwjhqrYkxu4)
+- There is no "one size fits all"
+- Don't hunt for all resonant frequencies. Only address the obvious issues.
+- Don't Compress Everything
+- Don't avoid presets. Use them and modify them as you see fit.
+- Don't listen to never use more than 'x' decibels.
+- Don't copy your reference track. Use multiple reference track, like a playlist. Add ensure your track doesn't stand out.
+- Don't be afraid to mix in the recording phase.
+- You don't always have to Aux your wet effects.
+### Get Your Instruments in the Pocket [Source](https://www.youtube.com/watch?v=OCFkcHg6uJo)
+- Nudge Tool
+	- Increment of 1ms or 10ms

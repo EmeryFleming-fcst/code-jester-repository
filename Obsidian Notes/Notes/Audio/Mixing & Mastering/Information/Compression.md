@@ -268,6 +268,54 @@
 		- Great at punchy and thick styles. Great at mix bus glue. Usually found on vocals.
 		- Do not have precise attack and release. Not great at controlling super hard transients.
 		- Example: Fairchild 670
+### Compression
+- Examples
+	- LA-2A
+		- Optical. Gentle leveling and transparent sound. Warm
+	- 1176
+		- FET. Aggressive punchy. Energy, presence and character.
+	- SSL G Series Bus Compressor
+		- VCA. Punchy, aggressive. Solid state sound. Energy, presence, excitement. Gluing bus together.
+- Compression for Tone
+	- Optical Compressor: Subtle Coloration.
+		- Soul, R&B, Jazz
+	- FET Compressor: Punchy, upfront character.
+		- Rock, Pop, Hip-Hop
+	- VCA Compressor: Transparent and Neutral Tone.
+		- General
+	- Tube Compressor: Distinct Warmth, Harmonics, and Saturation.
+		- Blues, Rock, Folk
+- Multi-Band Compression
+	- Splitting the signal -> Compression -> Processing -> Recombining the signal
+	- Provides Greater control
+	- Reduces pumping and artifacts.
+	- Versatility: Mixing, Mastering, and Sound Design
+	- Can be used for De-Essing
+	- Taming Resonances
+	- Balancing Tone
+	- Controlling Dynamics
+	- Enhancing Clarity
+		- Allows for the mixer to bring out subtle details.
+- Saturation
+	- Works by introducing harmonic distortion.
+		- Soft Clipping: The peaks of the audio signal are rounded off instead of clipped.
+		- Harmonic Generation: Non-linearity to the processing circuitry causes harmonic generation.
+		- Dynamic Response: Saturator may react differently to chances in input level.
+		- Frequency Dependence: Some saturators may emphasize certain frequencies. 
+	- Can add Warmth and Depth
+	- Tonal Enhancement
+	- Character and Texture
+	- Glue and Cohesion
+	- Emulation of Vintage Equipment
+- Parallel Processing
+	- Duplicate the Signal
+	- Apply Processing
+	- Blend the Signals
+	- Can be done through a send
+	- Common Uses
+		- Compression
+		- Equalization
+		- Saturation and Distortion
 ## Tips
 ---
 ### Getting Weird with Parallel Compression [Source](https://www.youtube.com/watch?v=DRkMvuNZ8_E)
@@ -288,3 +336,5 @@
 - Release: Changes the groove.
 - Release: Faster releases are brighter more aggressive forms of distortion. Growlier.
 - Release: Slower releases makes the sound more darker and smoother. Compression feels more relaxed.
+### Favorite Sidechain Compression Hack [Source](https://www.youtube.com/watch?v=XxX3SxJis0o)
+- Make a Dummy send for each instrument bus. Make before you start.
