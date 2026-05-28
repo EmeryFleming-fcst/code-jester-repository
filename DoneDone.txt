@@ -1,35 +1,30 @@
-9:11 Harem
-23:14 Ojisan
-24:51 Monkey Hotaru
-36:24 Hotaru-Oji
-37:01 Cute Girls
-38:04 Genmates
-40:50 Unseiso Art
-42:47 Mane-chan
-46:50 Seiso Gamer
-48:30 More Monkey
-49:40 Monkey~
-59:30 Emergency Food
-1:00:55 Hota Jii
-1:03:27 Cute Girl Buff
-1:09:11 Jiji
-1:12:12 Cute Girl Praying Circle
-1:12:40 Monkey Cute Girl
-1:13:31 Monkey Continued
-1:14:24 Cute Girl Harem
-1:28:55 Kitta yo
-1:30:25 More Monkey
-1:32:23 Cute
-1:55:18 Cute Girl Buff 2
-2:14:01 Harem
-2:18:00 Steppies before this
-2:23:10 Hotaru Seiso
-2:24:11 Nuzzle Nuzzle
-2:25:02 Kabedon
-2:27:46 Oppai
-2:29:55 A love you
-2:31:55 Onee-san
-2:37:57 Sniff clothes
-2:40:56 Little Sister Romance
-
-yt-dlp https://www.youtube.com/watch?v=qcuPrlZfKB8 --merge-output-format mp4 --convert-thumbnails png --write-thumbnail --audio-format aac --embed-metadata --embed-thumbnail --write-subs --extractor-args "youtube:skip=dash" -o "\[%(upload_date)s] %(title)s [%(uploader)s] (%(id)s).%(ext)s"
+7:55 Birthday Announcement + Oji-san First Appearance
+22:59 Hotaru Admits She's an Oji-san + Monkey Sounds
+24:35 Monkey Hotaru
+36:05 Oji-san: Wanting to collab with a cute Japanese Girl
+40:20 Oji-san: Artconnoisseur
+42:20 Oji-san: Mane-chan
+46:30 Hotaru pretends she's not an Oji-san
+48:12 Monkey Hotaru Returns
+49:30 More Monkey
+1:00:27 Oji-san: I will join you soon~
+1:01:44 Cute Girl Buff Start!
+1:04:49 Cute Girl Buff Ends
+1:08:54 Oji-san: What the Cute Girl Buff Said
+1:11:22 "I'm not falling for that"
+1:12:16 Hotamonkey Battle Cries
+1:28:27 Oji-san: "Oji-san Kitta yo
+1:31:00 Catchphrase Brain Storming
+1:32:10 Hotaru Being Cute with Catchphrases
+1:55:04 Cute Girl Buff Part 2
+2:12:50 Oji-san: Neglect 
+2:13:31 The real reason behind the birthday
+2:15:22 A treat for Hotapis
+2:22:58 Oji-san: Hotaru admits she's short
+2:39:59 Nuzzle Nuzzle
+2:24:44 Oji-san: Kabedons and cute girls
+2:27:14 Hotaru shows off her chopping board
+2:29:40 "I might love you guys too"
+2:31:40 Hotaru Onee-san
+2:37:40 Oji-san: Outfit Swaps
+2:40:27 Little Sisters

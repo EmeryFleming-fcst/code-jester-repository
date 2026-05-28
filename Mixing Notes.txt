@@ -57,6 +57,8 @@ Essential Software/Hardware Setup
 - Sound Libraries
 - File Organization
 
+Recording and Editing
+
 
 How to Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
 - EMPRE system
@@ -134,8 +136,19 @@ How to Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
 ----- Lead Vocals
 ------ Lead
 ------ Chorus
------- Backing Vocals
-------- Doubles
-------- Harmonies
-------- Hums
-------- Stabs
+----- Backing Vocals
+------ Doubles
+------ Harmonies
+------ Hums
+------ Stabs
+----- Ad Libs
+--- Cut
+---- De-Essing and Subtractive EQ
+---- Compression and Limiting to lower dynamics
+--- Enhancement
+---- Additive EQ, Saturation, Exciter
+---- Adding Space
+----- Delays, Reverbs
+----- How can I add dimension to the vocal?
+----- What effect can I add to the vocal for style or texture?
+
