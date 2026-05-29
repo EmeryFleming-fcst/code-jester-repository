@@ -1,3 +1,106 @@
+https://www.youtube.com/watch?v=rgnAOVRyebE
+https://www.youtube.com/watch?v=WkUAC8wJOMI
+https://www.youtube.com/watch?v=3R3F07mfx14
+https://www.youtube.com/watch?v=AZxeprFnUjI
+https://www.youtube.com/watch?v=XBsPONPk0LY
+https://www.youtube.com/watch?v=ffAJycod840
+https://www.youtube.com/watch?v=QABNlKkDe9A
+https://www.youtube.com/watch?v=-HgJfL-QtXM
+https://www.youtube.com/watch?v=pLF7Fu3ajOc
+https://www.youtube.com/watch?v=4cGCL4KVXhA
+https://www.youtube.com/watch?v=vsuLEM0I7x0
+https://www.youtube.com/watch?v=3Uqo1oFsIP4
+https://www.youtube.com/watch?v=pBjT_fLjww8
+
+Freelancing 101: https://www.youtube.com/watch?v=ieo7iNnDXFo
+- Use Social Media and Gigs.
+- Networking is always important.
+- Use your work to continue to invest in yourself.
+- Keep learning and always be willing to adapt.
+- Negotiating the Gig
+-- What is the schedule
+-- What is the scope of the work
+-- Recognize that there is a disconnect in terminology between you and clients.
+- Negotiating the Budget
+-- Ask them what budget they have in mind.
+-- If they ask you what your rate is, give them a minimum and then allow for negotiation. Try to meet them in the middle.
+-- Understand what your time is worth.
+-- Understand what crew you need.
+- Understanding End Goals and Revisions
+-- You give them a limited number of revisions for editing and mixing. Typically 3 revisions for each.
+-- Keep a paper trail. Usually via email.
+- As a freelancer, the contract you set at the beginning should be kept. It's up to you if you want to do favors.
+
+Creature Sound Design: https://www.youtube.com/watch?v=WSZnCYOq2iE
+- Make a list of what the creature reminds you of.
+- Put that into a mind map space.
+- Figure out what sounds could work with that.
+- Pitch tool on each track to give them more movement.
+- Saturate tool on each track to give them some grit.
+- Have both horizontal and vertical layers.
+-- Vertical are like an envelope: Attack, Sustain, Decay, Release
+- Always remember the value of inanimate objects!
+
+Gun Sound Design: https://www.youtube.com/watch?v=e7U3NDRBeO8
+- Transient
+- Body
+- Sub
+-- Drums are often a good way to round out a gun.
+- Mech
+- Tail
+-- Good at communicating where the player is and how far away the gun is (if enemy)
+- Clippers help preserve transients
+- Render out variations of each part.
+
+How to Build a Sound Editorial Session: https://www.youtube.com/watch?v=P7rbyv2rSAg
+- Make sure DAW FPS matches video FPS
+- Cut video into scenes
+- Set markers for a vertical visual reference.
+- BG Tracks
+-- BGA, BGB, BGC. 4 stereo and 4 mono.
+-- Checkboard them to make editing easier.
+-- BGC is for background sound effects.
+- FX Tracks
+-- FXA, FXB
+-- FX split into what the sounds are for.
+- Leave Empty Tracks as Notes!
+- Reverb tail for wooshes.
+- Foley Tracks
+-- Props, Footsteps, and Cloth
+
+Dave Whitehead's Approach to Sound Design: https://www.youtube.com/watch?v=iysDw4qxsCo
+- Get a good first impression of the source material.
+- Set a tone
+-- Do this through ambience.
+-- Sink yourself into the world.
+- How do the characters change that space
+- Sonic Identity
+-- Genre
+-- Director preferences
+--- Do they like synths or not?
+-- Trying to find an organic skin to wrap around the image.
+-- Often times you can figure this out by reading the script.
+- Rhythm and Restraint
+-- You don't want to overcrowd the space.
+- Tones change but fundamentals don't
+- The Future of Sound Design
+
+Harnessing Vibration in Sound Design: https://www.youtube.com/watch?v=T3oucSFFDqc
+- Contact and Room mics
+- Conveys speed and danger
+- Good for machinery, spaceships, etc.
+- Add a vibration object, like a razer, to something else and make that vibrate.
+
+The Art of Sonic Storytelling: https://www.youtube.com/watch?v=JhtmDJHN-ic
+- Sound Design should always serve a specific purpose.
+
+Finding Inspiration in the Script: https://www.youtube.com/watch?v=QdKNiU4CA-Y
+- Use Youtube videos as references and inspiration. 
+
+Behind the Library: Data with Mark Mangini: https://www.youtube.com/watch?v=NS0bwpcEGqY
+- EMF Mics and Contact mics on anything with a microchip.
+
+
 Music Production For Beginners: https://www.youtube.com/watch?v=I9fBqKNXIbk
 - Process
 -- Composing
@@ -58,7 +161,90 @@ Essential Software/Hardware Setup
 - File Organization
 
 Recording and Editing
+- Loops can be arranged to make music.
+- Grid is separated by bars/meters.
+- Quantization
+-- Using the DAW to digitally snap things to the grid.
+-- Correct imperfect timing or change the feel rhythmically.
+-- Q-Strength: How perfect the snapping is.
+- Busses and Sends
+-- A send is a copy sent to a bus.
+-- Done when you want to blend the copy of a signal in.
 
+The Language of Music
+- Notes and Scales
+-- C, D, E, F, G, A, B
+-- Bb Eb F# Ab Bb
+-- These 12 notes together are an octave.
+-- Distance between two notes is an interval. Steps and Tones.
+-- Major: W W H W W W
+-- Minor: W H W W H W W
+- Chords
+-- A group of three or more notes played together.
+-- Major: Root -> Three Half Steps -> Four Half Steps
+-- Minor: Bring one note from the major down a half step.
+-- There are 7 of them, but the diminished 7th is rarely played.
+- Progressions
+-- I ii iii IV V vi vii
+-- Capitals are major chords, lowercase are minor.
+-- Popular Chord Progressions:
+--- I V vii IV
+--- vi IV I V
+--- I IV V IV
+--- ii V I vi
+-- Chord Voicings
+--- Add notes to the chord to spice them up.
+--- Most common note to add is the 7th.
+--- A triad is three notes at once.
+--- C Major 7th: I iii V vii
+--- Dominant 7th: I iii V viib
+--- Minor 7th:  I iiib V viib
+--- Add the second chord in the scale to any chord in your progression. Called an Add 9.
+--- Others: Suspended Chords, Augmented Chord, 6 ninths, etc.
+-- Inversions
+--- Playing the same note in a chord in a different order to create a different feel and bridge the gap between chord changes.
+--- C Major: I iii V
+---- 1st Inversion: iii V I
+---- 2nd Inversion: V I iii
+
+Creating Chord Progressions
+- Put together Chord progressions, chop them up and re-arrange them experimentally.
+- Bringing a note in the chord down an octave and layering it makes it sound fuller. Can do this multiple times.
+- Can bring notes up and down an octave to minimize the gap between different chord changes.
+- Can start to add some extended voices.
+- Transposing: Moving up and down keys.
+
+Rhythm
+- An event that repeats regularly over time.
+- At the heart of a rhythm is a beat.
+- A single beat that repeats at regular time intervals is called a pulse.
+- To create your own pulse, you can use a metronome. It's measured in beats per minute.
+- High and low beat of a metronome. Low beat measures the down beat. 1, 1.1.2, 1.2, 1.2.2, 1.3, 1.3.2 
+- Time Signature: 4/4 means there are 4 equal part in 1 bar.
+- Can automate BPM in a DAW over time. Rare.
+- Can set subdivisions
+-- Tempo stays the same. You just increase the number of notes that can live within that one bar in the BMP.
+- Triplets
+-- Changes the notes
+-- Rather than 4 notes in a bar, you have three.
+-- Can add different parts on different notes. Kick on the 4th, snare on the 8th, Hi-Hat on the 16th.
+-- 4 bars are a phrase
+
+3 Ways to Create Beats
+- Sampler
+-- Put a sound in the sampler and play it on the MIDI track.
+-- Usually you play around with the attack and release.
+- Rack & Kit
+-- Several different sounds mapped to different keys.
+-- Drum Kit: Kick, Snare, Hi-Hats, etc.
+-- You can create your own racks.
+-- You can use loops to create your own.
+- Step Sequencer
+-- Activating different pre-configured sounds on bars.
+- Drag and Drop Audio
+-- Dropping Loops directly into a track and editing them.
+-- Hot Key For Muting
+-- Find setting for snap settings
 
 How to Record Pro Vocals: https://www.youtube.com/watch?v=JrgNWLcGLsc
 - EMPRE system
