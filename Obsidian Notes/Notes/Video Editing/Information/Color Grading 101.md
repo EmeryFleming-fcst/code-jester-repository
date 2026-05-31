@@ -1,0 +1,16 @@
+### [Source](https://www.youtube.com/watch?v=pAh83khT1no)
+- Color Correction: Harmonizes Image. Correct White Balance, Equalize the Exposure, Reduce the Highlights, increase the Midtones, Apply Noise Reduction
+- Color Grading: Curves, Masks, Color Wheels, and other precise tools to get the look we want.
+- RAW Recordings have the most information, but take a lot of space.
+- LOG uses an optimized gamma curve to save as much info as possible to record highlights and shadows. A good middle ground. Usually use a Log Version to REC.709
+- ACES is a Dynamic Color Space that lets you work with the full color space without needing to convert. Good for distributing on multiple platforms.
+- LUTs cannot do corrections or additions, just handle colors.
+- Try to keep LUTs between 25 - 50% used in the end result.
+- Waveform: Overexposed and Underexposed areas are pure white and pure black.
+- RGB Parade: Check that our RGB is balanced. Control White Balance.
+- Vector Scope: A good balanced image is centered in the middle of the Vector Scope. Good for checking Scopes.
+- RGB curve allows for the correction of contrast.
+- Hue vs Saturation: Increase the saturation based on a Hue.
+- Hue vs Luma: Modify luminance based on Hue.
+- Luma vs Sat: Modify saturation based on Luminance. Highlights and shadows.
+- Hue vs Hue: Modify Hue by Hue

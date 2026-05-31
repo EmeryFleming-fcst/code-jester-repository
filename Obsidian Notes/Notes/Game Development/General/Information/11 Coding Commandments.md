@@ -1,0 +1,11 @@
+1. Thy code shall read like English (without comments)
+2. Thou shalt take time to name things well 
+3. Thy classes shall do one thing (and functions too)
+4. Thou shalt use as little state as possible
+5. Thou shalt not refactor before the 3rd repetition
+6. Thou shalt not use Static and Global State
+7. Thy classes shall be highly cohesive
+8. Thy classes shall be loosely coupled
+9. Thou shalt use Composition over Inheritance
+10. Thou shalt follow the Law of Demeter
+11. Comment like the person maintaining your code is a serial killer that knows where you live

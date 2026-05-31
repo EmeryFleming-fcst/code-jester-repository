@@ -1,0 +1,11 @@
+### 10 Tips [Source](https://www.youtube.com/watch?v=gza5-1e0IY4)
+- White on dark background looks larger than dark on a white background. Offset this with inside stroke.
+- Boning Effect: Make the curve of an oval + square shape more gradual.
+- The Noun Method: Pick 2 of the best nouns that describe the business. Mash them together into a shape.
+- Clearspace around Logo. Find the height. Duplicate around shape in all four directions creating a square on top of that logo. Convert it to an artboard.
+- Logo-types: Kerned tighter than they are wide.
+- Do not use perfect shapes. Adjust them to be very slightly imperfect to make them look more natural.
+- Spend 20 minutes on 20 ideas.
+- Reflect your logo types to test them.
+- How to know if your logo is alright? Google image reverse search.
+- Mind Mapping

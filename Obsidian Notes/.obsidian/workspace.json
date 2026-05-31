@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Audio/Mixing & Mastering/Information/Vocals.md",
+                "file": "Notes/Writing/Scriptwriting/Script Layout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vocals"
+              "title": "Script Layout"
             }
           }
         ]
@@ -185,27 +185,42 @@
   },
   "active": "73ca69e760083c8c",
   "lastOpenFiles": [
-    "Notes/Audio/Mixing & Mastering/Information/Equalization.md",
+    "Notes/Game Development/General/Unity/5 Ways to Make a Skybox in Unity.md",
+    "Notes/Writing/Scriptwriting/Script Layout.md",
+    "Notes/Writing/Scriptwriting",
+    "Notes/Writing",
+    "Notes/Video Editing/Not Started.md",
+    "Notes/Game Development/General/Unity",
+    "Notes/Game Development/General/Information/Best Code Architecture For Indie Games.md",
+    "Notes/Video Editing/Information/How to Do a Good Title Card.md",
+    "Notes/Video Editing/After Effects/After Effects 3D Camera.md",
+    "Notes/Video Editing/Information/Color Grading 101.md",
+    "Notes/Video Editing/After Effects",
+    "Notes/Graphic Design/Information/Not Started.md",
+    "Notes/Video Editing/Information",
+    "Notes/Graphic Design/Information/Where to Start.md",
+    "Notes/Graphic Design/Information/Shape Psychology.md",
+    "Notes/Graphic Design/Information/Tips.md",
+    "Notes/Graphic Design/Information/Process For Creating Logos.md",
+    "Notes/Graphic Design/Information/Color Theory.md",
+    "Notes/Graphic Design/Information/Logo Design Course.md",
+    "Notes/Game Development/General/Information/11 Coding Commandments.md",
+    "Notes/Graphic Design/Information",
+    "Notes/Graphic Design",
+    "Notes/Shaders/Unity/Unity Shader Graph Basics.md",
+    "Notes/Game Development/General/Information",
+    "Notes/Game Development/General",
+    "Notes/Game Development",
+    "Notes/Video Editing/DaVinci Resolve/Courese.md",
+    "Notes/Audio/Sound Design/Informative/Film and Games.md",
     "Notes/Audio/Mixing & Mastering/Information/Vocals.md",
+    "Notes/Audio/Mixing & Mastering/Information/Equalization.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Vocal/Melodyne.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Synths/UVI Walker.md",
     "Notes/Audio/Mixing & Mastering/Information/Mixing.md",
-    "Notes/Audio/Mixing & Mastering/Plugins/Vocal",
     "Notes/Audio/Mixing & Mastering/Information/Mixing Plugins.md",
     "Notes/Audio/Mixing & Mastering/Information/Ear Training.md",
     "Notes/Audio/Mixing & Mastering/Information/Ableton.md",
-    "Notes/Audio/Mixing & Mastering/Information/Compression.md",
-    "Notes/Audio/Mixing & Mastering/Plugins/Reverbs/Neoverb.md",
-    "Notes/Audio/Mixing & Mastering/Plugins/Reverbs/Bloom.md",
-    "Notes/Audio/Mixing & Mastering/Plugins/Izotope/Insight 2.md",
-    "Notes/Audio/Mixing & Mastering/Plugins/Izotope/Ozone 12.md",
-    "Notes/Audio/Sound Design/Informative/Film and Games.md",
-    "Notes/Audio/Mixing & Mastering/Information/Mastering.md",
-    "Notes/Audio/Mixing & Mastering/Information/Saturation.md",
-    "Notes/Audio/Mixing & Mastering/Information/Reverb.md",
-    "Notes/Audio/Sound Design/Informative",
-    "Notes/Audio/Sound Design",
-    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png",
-    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Restoration and Cleaning.md"
+    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png"
   ]
 }

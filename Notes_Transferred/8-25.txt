@@ -1,5 +1,3 @@
-Ducky 3D
-
 Color Grading 101: https://www.youtube.com/watch?v=pAh83khT1no
 
 -Color Correction: Harmonizes Image. Correct White Balance, Equalize the Exposure, Reduce the Highlights, increase the Midtones, Apply Noise Reduction
@@ -42,11 +40,6 @@ Best Code Architecture For Indie Games: https://www.youtube.com/watch?v=8WqYQ1Ow
 -If it is game designed together, store it together. Data should be easy to work with, update, expand, mod.
 -Try to control execution order when possible.
 -Separate the gameplay and art
-
-8 Quick Programming Tips You Need to Know: https://www.youtube.com/watch?v=YCvh88Hg5m8
--You don't have to update everything all the time. 2-5 times per second is better.
--Serialized Fields instead of Find.
--Make sure to test things on lower framerate!
 
 -After Effects Genshin Character Animation Tutorial: https://www.youtube.com/watch?v=wHbZMGx3GSo
 -Marketing a Game GDC: https://www.youtube.com/watch?v=WUNygTII6p0
