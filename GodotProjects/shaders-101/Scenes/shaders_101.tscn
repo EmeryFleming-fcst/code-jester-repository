@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bpfnud26opb8q"]
+
+[ext_resource type="Texture2D" uid="uid://b87nvt3hgmlqa" path="res://icon.svg" id="1_modum"]
+[ext_resource type="Shader" uid="uid://xtb4p43ai5a1" path="res://shaders/my_first_shader.gdshader" id="1_ni0wl"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ni0wl"]
+shader = ExtResource("1_ni0wl")
+
+[node name="Shaders101" type="Node2D" unique_id=806458329]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1008360174]
+material = SubResource("ShaderMaterial_ni0wl")
+position = Vector2(596, 319)
+texture = ExtResource("1_modum")

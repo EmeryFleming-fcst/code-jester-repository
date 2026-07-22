@@ -1,0 +1,151 @@
+[gd_scene format=3 uid="uid://cb6j62dyclmx1"]
+
+[ext_resource type="Texture2D" uid="uid://dnvdqbngupjvg" path="res://assets/textures/enemy/enemy1.png" id="1_7p1mj"]
+[ext_resource type="Script" uid="uid://cm8qb05dveej5" path="res://scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Texture2D" uid="uid://hx2jnekd5hl3" path="res://assets/textures/enemy/enemy2.png" id="3_w8i8w"]
+[ext_resource type="Texture2D" uid="uid://buy1oolxn2cpw" path="res://assets/textures/enemy/enemy3.png" id="4_otmr2"]
+[ext_resource type="Texture2D" uid="uid://dfvv4t3cdpx62" path="res://assets/textures/enemy/enemy4.png" id="5_wtq4b"]
+[ext_resource type="Texture2D" uid="uid://da7gtuvrd8r56" path="res://assets/textures/enemy/enemy5.png" id="6_j0cyh"]
+[ext_resource type="Texture2D" uid="uid://p71kljpi6dpm" path="res://assets/textures/explosion/explosion1.png" id="7_g0wcc"]
+[ext_resource type="Texture2D" uid="uid://cjcem1dy60evq" path="res://assets/textures/explosion/explosion2.png" id="8_s1ycm"]
+[ext_resource type="Texture2D" uid="uid://376e4mpmpf2k" path="res://assets/textures/explosion/explosion3.png" id="9_shcg2"]
+[ext_resource type="Texture2D" uid="uid://bxp8sr0rgiy0a" path="res://assets/textures/explosion/explosion4.png" id="10_ile5s"]
+[ext_resource type="Texture2D" uid="uid://cb7wq5kbdmybp" path="res://assets/textures/explosion/explosion5.png" id="11_1x4g4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3fygf"]
+radius = 13.0
+
+[sub_resource type="Animation" id="Animation_2pwtc"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_7p1mj")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:speed")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [100]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CollisionShape2D:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_rogs8"]
+resource_name = "default"
+length = 0.5
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_7p1mj"), ExtResource("3_w8i8w"), ExtResource("4_otmr2"), ExtResource("5_wtq4b"), ExtResource("6_j0cyh")]
+}
+
+[sub_resource type="Animation" id="Animation_wrm80"]
+resource_name = "explode"
+length = 0.35
+step = 0.07
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.071428575, 0.14285715, 0.21428573, 0.2857143),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("7_g0wcc"), ExtResource("8_s1ycm"), ExtResource("9_shcg2"), ExtResource("10_ile5s"), ExtResource("11_1x4g4")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:speed")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CollisionShape2D:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.35),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6awcb"]
+_data = {
+&"RESET": SubResource("Animation_2pwtc"),
+&"default": SubResource("Animation_rogs8"),
+&"explode": SubResource("Animation_wrm80")
+}
+
+[node name="Enemy" type="Area2D" unique_id=1349770540]
+script = ExtResource("1_md0e3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=253810920]
+texture = ExtResource("1_7p1mj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=738508244]
+position = Vector2(2, 0)
+shape = SubResource("CircleShape2D_3fygf")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1112032334]
+libraries/ = SubResource("AnimationLibrary_6awcb")
+autoplay = &"default"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

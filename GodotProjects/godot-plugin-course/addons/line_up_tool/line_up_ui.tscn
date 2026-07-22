@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://xx3quaua2j1x"]
+
+[ext_resource type="Script" uid="uid://btvfvjkm43pou" path="res://addons/line_up_tool/line_up_ui.gd" id="1_j1cs4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3fygf"]
+bg_color = Color(0.21950114, 0.21950093, 0.21950102, 1)
+
+[node name="Line Up Tool" type="Control" unique_id=593947514]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j1cs4")
+
+[node name="Panel" type="Panel" parent="." unique_id=985424510]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3fygf")
+
+[node name="CenterContainer" type="CenterContainer" parent="Panel" unique_id=1226388469]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 158.0
+grow_horizontal = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/CenterContainer" unique_id=332024619]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="Panel/CenterContainer/VBoxContainer" unique_id=690822630]
+layout_mode = 2
+text = "LINE UP TOOL"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/CenterContainer/VBoxContainer" unique_id=160315423]
+layout_mode = 2
+alignment = 1
+
+[node name="XLabel" type="Label" parent="Panel/CenterContainer/VBoxContainer/HBoxContainer" unique_id=1910228869]
+layout_mode = 2
+text = "X"
+
+[node name="CheckButton" type="CheckButton" parent="Panel/CenterContainer/VBoxContainer/HBoxContainer" unique_id=1630162966]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="YLabel" type="Label" parent="Panel/CenterContainer/VBoxContainer/HBoxContainer" unique_id=767032057]
+layout_mode = 2
+text = "Y"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Panel/CenterContainer/VBoxContainer" unique_id=1497407855]
+layout_mode = 2
+
+[node name="DistanceLabel" type="Label" parent="Panel/CenterContainer/VBoxContainer/HBoxContainer2" unique_id=725047981]
+layout_mode = 2
+text = "Distance:"
+
+[node name="DistanceSpinBox" type="SpinBox" parent="Panel/CenterContainer/VBoxContainer/HBoxContainer2" unique_id=1233951180]
+unique_name_in_owner = true
+layout_mode = 2
+max_value = 9999.0
+value = 300.0
+alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/CenterContainer/VBoxContainer" unique_id=1102613168]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+
+[node name="ApplyButton" type="Button" parent="Panel/CenterContainer/VBoxContainer/MarginContainer" unique_id=287778680]
+layout_mode = 2
+text = "Apply"
+
+[connection signal="pressed" from="Panel/CenterContainer/VBoxContainer/MarginContainer/ApplyButton" to="." method="_on_apply_button_pressed"]

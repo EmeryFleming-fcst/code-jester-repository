@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://wb8wicfv460y"]
+
+[ext_resource type="Texture2D" uid="uid://yblsjig2xlfv" path="res://assets/art/world/General/Floor1 640x360.png" id="1_cjhsi"]
+
+[node name="CombatLevelVarOne" type="Node2D" unique_id=2139151547]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1334055378]
+z_index = -100
+position = Vector2(320, 180)
+texture = ExtResource("1_cjhsi")
+metadata/_edit_lock_ = true
+
+[node name="PlayerSpawnMarker" type="Marker2D" parent="." unique_id=2057634081]
+position = Vector2(320, 320)
+metadata/_edit_lock_ = true
+
+[node name="EnemySpawnMarkers" type="Node2D" parent="." unique_id=1478920958]
+metadata/_edit_lock_ = true
+
+[node name="ESM_1" type="Marker2D" parent="EnemySpawnMarkers" unique_id=1381854219]
+position = Vector2(64, -64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_2" type="Marker2D" parent="EnemySpawnMarkers" unique_id=1738062618]
+position = Vector2(192, -64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_3" type="Marker2D" parent="EnemySpawnMarkers" unique_id=539131071]
+position = Vector2(320, -64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_4" type="Marker2D" parent="EnemySpawnMarkers" unique_id=1036585367]
+position = Vector2(448, -64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_5" type="Marker2D" parent="EnemySpawnMarkers" unique_id=1346491812]
+position = Vector2(576, -64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_6" type="Marker2D" parent="EnemySpawnMarkers" unique_id=338830025]
+position = Vector2(704, 64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_7" type="Marker2D" parent="EnemySpawnMarkers" unique_id=958045090]
+position = Vector2(704, 192)
+metadata/_edit_lock_ = true
+
+[node name="ESM_8" type="Marker2D" parent="EnemySpawnMarkers" unique_id=272147007]
+position = Vector2(-64, 64)
+metadata/_edit_lock_ = true
+
+[node name="ESM_9" type="Marker2D" parent="EnemySpawnMarkers" unique_id=1580446430]
+position = Vector2(-64, 192)
+metadata/_edit_lock_ = true

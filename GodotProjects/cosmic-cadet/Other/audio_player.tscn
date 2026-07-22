@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://c47giev1v7qp"]
+
+[ext_resource type="Script" uid="uid://corg3l4jxn7ss" path="res://Other/audio_player.gd" id="1_2a8ja"]
+[ext_resource type="AudioStream" uid="uid://dlbf6n8xtx60y" path="res://Assets/audio/SuperGrottoEscape.ogg" id="2_avxwy"]
+
+[node name="AudioPlayer" type="Node" unique_id=1963248776]
+script = ExtResource("1_2a8ja")
+
+[node name="BGMusic" type="AudioStreamPlayer" parent="." unique_id=1708978659]
+stream = ExtResource("2_avxwy")
+autoplay = true
+parameters/looping = true
+
+[node name="SFXStreamPlayerContainer" type="Node" parent="." unique_id=2026255694]
+
+[node name="SFX_Player_1" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=1164259251]
+
+[node name="SFX_Player_2" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=2104076216]
+
+[node name="SFX_Player_3" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=219379117]
+
+[node name="SFX_Player_4" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=1873141376]
+
+[node name="SFX_Player_5" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=911931678]
+
+[node name="SFX_Player_6" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=1513660763]
+
+[node name="SFX_Player_7" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=130616555]
+
+[node name="SFX_Player_8" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=142735590]
+
+[node name="SFX_Player_9" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=2079459299]
+
+[node name="SFX_Player_10" type="AudioStreamPlayer" parent="SFXStreamPlayerContainer" unique_id=1774148129]

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bdncsd44upsow"]
+
+[ext_resource type="Texture2D" uid="uid://cq8epwfr07grg" path="res://Assets/textures/props/crate.png" id="1_kltfy"]
+[ext_resource type="Script" uid="uid://7lg1478pi8b" path="res://items/collectible_item.gd" id="1_yp0mf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kltfy"]
+size = Vector2(18, 16)
+
+[node name="Gun" type="Area2D" unique_id=1042612735]
+collision_layer = 256
+collision_mask = 2
+script = ExtResource("1_yp0mf")
+item_name = "gun_item"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=292786083]
+texture = ExtResource("1_kltfy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=784039541]
+shape = SubResource("RectangleShape2D_kltfy")

@@ -1,0 +1,157 @@
+[gd_scene format=3 uid="uid://ck3x24mg031wv"]
+
+[ext_resource type="Script" uid="uid://dietb6ntx83fs" path="res://Enemy/walking_enemy.gd" id="1_nb3po"]
+[ext_resource type="Texture2D" uid="uid://parqnwthxe7r" path="res://Assets/textures/enemies/crab/crab-walk.png" id="2_iqcnu"]
+[ext_resource type="PackedScene" uid="uid://60tj1leowigt" path="res://Combat/hitbox.tscn" id="3_aj7ev"]
+[ext_resource type="PackedScene" uid="uid://b0t84xao4dxv" path="res://Combat/hurtbox.tscn" id="4_1x5cr"]
+
+[sub_resource type="Animation" id="Animation_aj7ev"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_iqcnu")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [6]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_1x5cr"]
+resource_name = "walk"
+length = 0.6
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_iqcnu")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [6]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_j7cvl"]
+_data = {
+&"RESET": SubResource("Animation_aj7ev"),
+&"walk": SubResource("Animation_1x5cr")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iqcnu"]
+size = Vector2(24, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fhl08"]
+size = Vector2(24, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j7cvl"]
+size = Vector2(24, 20)
+
+[node name="WalkingEnemy" type="CharacterBody2D" unique_id=1631031391 node_paths=PackedStringArray("enemy_sprite")]
+collision_layer = 8
+script = ExtResource("1_nb3po")
+enemy_sprite = NodePath("Sprite2D")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1644282926]
+libraries/ = SubResource("AnimationLibrary_j7cvl")
+autoplay = &"walk"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1343199392]
+position = Vector2(0, -16)
+texture = ExtResource("2_iqcnu")
+hframes = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=796167231]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_iqcnu")
+
+[node name="RightRayDown" type="RayCast2D" parent="." unique_id=1393566647]
+position = Vector2(15, -10)
+target_position = Vector2(0, 15)
+
+[node name="LeftRayDown" type="RayCast2D" parent="." unique_id=749469563]
+position = Vector2(-15, -10)
+target_position = Vector2(0, 15)
+
+[node name="RightRay" type="RayCast2D" parent="." unique_id=1171949449]
+position = Vector2(0, -10)
+target_position = Vector2(20, 0)
+
+[node name="LeftRay" type="RayCast2D" parent="." unique_id=367053248]
+position = Vector2(0, -10)
+target_position = Vector2(-20, 0)
+
+[node name="Hitbox" parent="." unique_id=1960944254 instance=ExtResource("3_aj7ev")]
+collision_layer = 32
+collision_mask = 128
+max_hp = 30.0
+
+[node name="CollisionShape2D" parent="Hitbox" index="0" unique_id=258053101]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_fhl08")
+
+[node name="Hurtbox" parent="." unique_id=302713364 instance=ExtResource("4_1x5cr")]
+collision_layer = 64
+collision_mask = 16
+one_shot = false
+
+[node name="CollisionShape2D" parent="Hurtbox" index="0" unique_id=1291012116]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_j7cvl")
+
+[editable path="Hitbox"]
+[editable path="Hurtbox"]

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dmp8ubjgucfq4"]
+
+[node name="GameCamera" type="Camera2D" unique_id=1147922133]
+limit_left = -112
+limit_right = 623
+limit_bottom = 230

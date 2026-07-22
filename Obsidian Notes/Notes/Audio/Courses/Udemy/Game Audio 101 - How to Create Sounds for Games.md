@@ -1,0 +1,376 @@
+Human Hearing
+	- Sound begins as a wave traveling through the air.
+	- First thing it comes into contact with is the Tympanic Membrane(eardrum)
+	- On the back of the Tympanic Membrane, 3 bones are connected: Stapes, Incus, and Malleus.
+	- The bones amplify the energy received by the eardrum and transfer it to the cochlea.
+	- Inside of the cochlea are hair follicles and liquid. The energy that enters it excites different hairs, and that excitement gets transmitted into our brain as sound.
+	- Pitch
+		- The Highness or Lowness of a sound.
+		- Depends on the frequency of a sound wave.
+		- Human Range: 20 - 20,000 Hz
+		- Hz: How many times a sound vibrates per second.
+	- Intensity
+		- Volume of a sound.
+		- Depends on energy(amplitude) of the sound wave.
+		- Measured in decibels.
+		- Decibels are not linear, they are logarithmic. 
+		- To double the amount of acoustic energy of a sound, you only need to raise it by 3 dBs.
+- "Seeing" with sound
+	- Ultrasonic Waves - above 20,000 Hz
+	- Medical Imaging
+	- SONAR
+- Music/Sound vs Noise
+	- Music/Sound = specific pitches and sound quality that form a regular pattern.
+	- Noise = no definite pitch or definite pattern.
+	- White Noise = Every frequency humans can hear all at the same volume.
+	- Pink Noise = Every frequency humans can hear with the entire frequency spectrum played at the same loudness.
+- Compression: Pushing on air molecules in front of a speaker cone.
+- Rarefaction: Pulling away on the air molecules in front of a speaker cone.
+- Loudness: Perceived from both amplitude and pitch.
+- Timbre: The tone quality or "color" of a sound. Allows you to distinguish two sounds of the same pitch and loudness.
+- Shape/Envelope: ADSR
+- Audio Resolution
+	- The Nyquist Theorem
+		- The theory states the upper threshold of a piece of digital audio will top out at half the sample rate.
+		- At 44.1, the highest frequencies are 22khz, 2khz higher than the typical human with excellent hearing.
+	- Sample Rate
+		- The number of times your audio is measured (sampled) per second.
+		- 96khz sample rate = 96,000 slices of audio sampled each second.
+	- Bit Depth
+		- A series of levels, a slice of audio frozen in a single moment of time. With 16 bit audio, there are 65,536 possible levels.
+		- With every bit of greater resolution, the number of levels double. By the time we get to 24 bit, we actually have 16,777,216 levels.
+	- Resolution Facts
+		- A greater sample rate allows more of a sound to be sampled.
+		- A higher bit resolution allows for a better dynamic range of a sound.
+		- A higher bit depth and sample rate results in increased audio resolution.
+- Sound Design Areas
+	- Speech: Dialogue, Voiceover, Background Voices
+	- Sound Effects: Foley, Production Effects, Hard Effects, Backgrounds
+	- Music: Diegetic, non-diegetic, underscore, transition, psychological.
+- Sound Functions
+	- Contextual sound/Narrative sound: Sound interprets the visuals as it happens.
+		- Setting Pace as a Gameplay Function
+		- Gameplay and Game State Transitions
+	- Focusing Attention: Subject and direction.
+		- Visual focuses one thing, sound focuses something else.
+		- Emphasizing/Intensifying Action
+	- Defining Space: Mood and Atmosphere.
+		- Establishing a place: How we should feel about it. Comfort, excitement, threat.
+		- Creating an environment: Different environments have different sound characters.
+- Bouncing, Fades, Clipping, and Master Fader
+	- Faders are logarithmic.
+	- The lower the fader goes, the more drastic the attenuation.
+	- When gain riding from high res to low res, the ride is faster at the top and lower at the bottom.
+	- Fader like to go up.
+		- Instead of increasing the volume to hear something, try decreasing the volume of other things.
+	- Leave extra gain. Never end up at +12. There's no place to go.
+	- Tracks and Panning
+		- Mono: One set of audio direction.
+		- Stereo: Two sets of audio directions. One for each speaker.
+		- Multiple Mono: More prevalent in film.
+			- 5.1: 5 speakers surrounding the listener and one subwoofer.
+			- Atmos: All the walls and the ceiling surrounding you are covered in speakers.
+Defining Space through Sound
+1. Space - Mono, Stereo, Surround
+2. Dynamic Range - SPL measured in db
+3. Frequency/pitch
+4. Time - How sound evolves in time
+- Direct Sound
+	- Issues from the source itself
+	- Closer something is, the more direct sound we hear, including low frequency tones.
+	- As the person moves further away, we hear more of the reflected sound.
+- Reflected Sound
+	- Produced by the direct sound bouncing off the walls.
+- Reverb
+	- The many reflections of a sound that occur in a room.
+- Sound Perspective
+	- Close perspective sound contains a high ratio of direct sound to reflected sound.
+	- Distant perspective sound contains a high ration of reflected sound to direct sound.
+- Room Tone
+	- A location's aural fingerprint. Nonspecific sounds on the upper end, usually between 2 and 8k.
+	- Each room has a distinct presence of subtle sounds created by the movement of air particles in a particular volume.
+	- A microphone placed in two different empty rooms will product different room tones for each.
+- Subjective Ambience
+	- Adding Room tones. EQing Room Tones.
+	- Color ambient sound with bells and whistles
+- Establishing Sound
+	- Sound that established, from the very beginning of a scene, the general character of the surroundings.
+	- Establishing sound is usually removed or reduced in volume during dialogue, but may return in the form of reestablishing sound.
+- Hyper-Real Sound
+	- Film sound is exaggerated compared to sound in real life.
+	- Sound that must be heard must be over-emphatically stated, just to read through the clutter.
+	- Heard in isolation, the recordings seem silly, but hear in context; they assume a more natural balance.
+### Mics for Games
+- A pickup element to convert sound pressure into electrical voltage.
+- Sound Waves -> Microphone -> Electrical Waveform
+- Factors to consider when choosing a microphone:
+	- It's transducer design, i.e. the method of converting sound waves into electrical waveforms.
+	- It's directionality, or pick-up pattern
+- Dynamic Microphone
+	- Reverse Speaker
+	- A diaphragm is mounted on the front of the microphone. A coil of wire is mounted to the back of it and located in the magnetic field provided by a permanent magnet.
+	- When sound waves push the diaphragm, an electric signal is generated on the coil as it moves in the magnetic field.
+	- Facts
+		- Are recommended for live concerts
+		- Are more suitable for live recordings because of their durability and reliability
+		- Do not overload or distort as easily as condenser mics
+		- Color the sound
+- Condenser Microphone
+	- A capacitor has two plates with voltage between them.
+	- One of those plates is made of very light material and acts as the diaphragm.
+	- The diaphragm vibrates when struck with sound waves, changing the distance between the two plates, therefore changing the capacitance.
+	- When the plates are closer together, capacitance increases and a charge current occurs. When they are further apart, capacitance decreases and a discharge current occurs.
+	- A voltage (phantom power +45v) is required across the capacitor for this to work.
+	- Facts
+		- Have a wide-range frequency response
+		- Frequency response tends to be uniform
+		- Condenser mics are typically used on acoustic instruments and studio vocals
+		- Dynamic mics are typically used on guitar amps and drums, and for vocal sound reinforcement.
+- Lavaliere clip-on mics
+	- An electret microphone is a type of condenser microphone that uses a permanently-charged material.
+	- An electret is a stable material with a permanently-embedded static electric charge.
+	- Due to the high resistance of the material, the charge will not decay for hundreds of years.
+	- Facts
+		- Inconspicuous and portable
+		- Can be easily placed close to the direct source of someone's voice
+		- Can only capture one voice
+		- Do not work well for recording live concerts or for ambient field recording
+- Phantom Power
+	- Usually 48 volts DC applied to pins 2 and 3 of a condenser mic's XLR to power the microphone's electronics. Pin 1 (shield) is the ground for the phantom voltage.
+	- All condenser microphones require phantom power.
+	- Phantom power is supplied by either a standalone phantom power supply or by a mixer that has phantom power built in.
+- Microphone Directionality
+	- Polar Patterns
+		- A polar pattern is a graph of a mic's sensitivity vs the angle of the incoming sound wave.
+		- The farther from the center a point on the graph is, the strong the mic signal is at that angle.
+		- Omnidirectional: Picks up equally in all directions
+		- Cardioid: "Heart-shaped". Maximum rejection at the rear of the microphone. Amplify bass frequencies as a voice gets closer, creating the proximity effect.
+		- Super cardioid: Narrowed pickup pattern than the cardioid, but also has some rear pickup.
+		- Hyper cardioid: Even narrower pickup pattern, but has more rear pickup than a super cardioid.
+		- Shotgun Microphones: Picks up a highly exaggerated hyper cardioid pattern
+		- Bidirectional: Picks up in mainly two directions, and rejects sound from the sides.
+- How to choose a microphone?
+	- Omni for most natural sound.
+	- Directional mics if you want to reject sounds from certain directions or if you want a bass boost.
+	- Choose a hyper cardioid or shotgun mic if you want a tighter focus.
+- Mic Measurements
+	- Frequency response is the measure of any system's spectrum response at the output to a signal of varying frequency.
+	- Impedance 1.5k Ohms @ 1KHz: The relationship between voltage and current which a device is capable of accepting or delivering. Matters with long cables.
+	- Max. SPL Input Level: Sound Pressure Level. Maximum loudness.
+	- Signal to Noise Ratio: The level of a desired signal compared to the level of background noise. The higher the ratio, the less obtrusive the background noise.
+	- Dynamic Range: A ratio in dbs of the difference between the softest and the loudest sound that can be produces, reproduced, or captured by an audio device.
+### Live Recording & Sound Design Conceptualization
+- Preparing yourself for live recording
+	- The location...visit it 2x AM/PM
+	- Listen for traffic, planes, hvac, acoustics
+	- Can hvac and other noise emitting objects can be controlled?
+	- If noisy and no control, can location be moved.
+	- If using generator (blimping-noise reduction varies), make sure the generator is placed far away. Insist on a long cable run if necessary.
+- Fundamentals
+	- Mono or Stereo?
+	- Multiple Mics? Mixers?
+	- Who is doing post and where?
+	- What is the post setup?
+	- Sound crew should be at least 2: The mixer and the boom op.
+- How it usually works
+	- Atmosphere and crowd tracks are in stereo
+	- Passbys are recorded in mono. Stereo/surround mix is done in post.
+	- Car interior fx in mono.
+	- Spot sfx in mono.
+	- Dialogue in MONO
+- Noise Issues
+	- Even if set is impossibly noisy, still record dialogue.
+	- There will always be ambience.
+	- Sound mixer's job: best signal to noise ratio possible.
+- Sound Crew #3
+	- 3 people is ideal
+	- 3rd:
+		- Performs maintenance on equipment.
+		- Second boom/performer when required.
+		- Cable handling for any recording that requires movement.
+		- Setting up equipment, packing and shifting.
+		- Filling out log sheets
+			- Time codes
+			- Which takes weren't good
+		- Maintaining batteries, tape, and external drives.
+- Equipment testing on delivery
+	- Setup Equipment - Make sure you have everything you need including spares.
+	- Run tests - make sure everything is in working order, connects, and turns on.
+	- Record and evaluate
+- The Big Day
+	- Get to the shoot early
+	- Unpack the equipment near the shooting area.
+	- Test everything again.
+	- Record a reference tone.
+	- Record a verbal ID of production and tape number.
+	- Set timecode to reference in logs.
+	- Playback recording and listen for quality of recording.
+	- Check mic suspension and pole for noise.
+	- Make out a sound log (takes, timecodes, locations)
+	- Sound report sheet for each take (good takes, time code, general notes)
+- Tips and Tricks
+	- Know what has to be recorded.
+	- Think ahead
+	- Listen for strange or unexpected noises.
+	- Listen for crew noise.
+	- Keep clear, detailed records. You can never give enough info to post.
+	- Record Room Tone
+	- Record Atmosphere
+	- Record SFX that will be useful to post.
+	- Be friendly but don't bother people.
+	- Know where you are supposed to be.
+	- Never hurry.
+	- Set a backup channel with a limiter.
+- 3:1 Rule of Mic Placement
+	- Good for ambience recordings
+	- When using 2 mics, place the 2nd mic three times the distance from the 1st mic as the 1st mic is from the source.
+	- If 1st mic is a foot from source, the 2nd mic should be placed 3 feet from the 1st mic.
+	- Minimizes phase problems created by delay
+- Do's
+	- Understand what you need to record and what's most important to capture that day.
+	- Have the right equipment in working order.
+	- Protect the equipment when moving it.
+	- Check the weather forecast.
+	- Make sure your formats are compatible with post.
+- Dont's
+	- Be a one person sound crew.
+	- Forget several windscreens of different efficacies.
+	- Record too hot or too cold.
+	- Leave equipment lying around.
+	- Leave equipment out of the sound crew's sight.
+- Sound Design Thought Process
+	- Mickey Mouseing vs Texture
+		- Realistic vs not-realistic
+	- Type of game
+		- What is the tone?
+		- Is it a serious game, or more of a non-serious one?
+	- Blade Impact
+		- Moving Through The Air
+			- The material type
+			- Quality of it being a sharp blade
+		- Impact Moment
+			- Needs to be general enough to be used on different types of objects.
+			- Some for lows, mids, highs, and adding a kind of crunch.
+			- A material aspect.
+	- Bullet Impact
+		- Impact doesn't seem like it's immediate.
+		- Loading a weapon to create build-up.
+		- Build and whoosh up to impact.
+		- Classic cartoon gunshot sound layered with realistic ones. Helps to balance the seriousness.
+	- Heal Impact
+		- Build-up and then an explosion.
+		- Should have a positive sound.
+		- Sound to acknowledge that things are different in that animation. 
+		- Sounds to capture the movement.
+### Data Storage and File Types
+- The Theory
+	- Sound information is stored within a sound file.
+	- Uncompressed Sound File: Contains every bit from the original digital recording.
+	- Compressed Sound File: Utilizes a Coded to contain less data than the original digital recording.
+- Compressed Sound Files
+	- Contain coded information, that when decoded, can be read by an audio player.
+	- Codec (encode, decode): A method of encoding and decoding a compressed sound file.
+	- Lossless Compression: Coding a file in such a way that it can be reconstructed with no change to the original PCM data. NOT COMMON.
+- Lossy Compression
+	- PCM data that is deemed unnecessary by the codec is deleted during encode.
+	- Bit rate: The amount of data that needs to be processed per second when playing back a sound file.
+	- Common sound files using a loss compression codec: .mp3, .m4a, .ogg
+- File Types
+	- WAV
+		- .wav: Waveform audio file format
+		- Created by Windows/IBM
+		- Uncompressed PCM data
+		- Most compatible across all platforms
+	- AIFF
+		- Audio Interchange File Format
+		- Created by Apple
+		- Uncompressed PCM data
+		- Less compatible than .wav, so don't use these if you can avoid it
+	- MP3
+		- MPEG Layer 3 (MPEG = Motion Picture Experts Group)
+		- Most widely used lossy CODEC
+		- Required licensing fee to support
+		- Cannot be looped seamlessly due to encode delay, metadata, and frames
+	- AAC
+		- Advanced Audio codec (.m4a)
+		- Same as mp3 but newer and slightly better sounding
+	- Vorbis
+		- .ogg
+		- Open source lossy CODEC
+		- Sounds better than mp3, especially at lower bit rates/quality settings
+		- Can be looped seamlessly
+		- Require no licensing fee
+		- Less compatible than mp3
+	- Which format?
+		- Licensed game engines take uncompressed audio formats and compress them to their preferred format automatically.
+		- Proprietary game engines often don't
+		- When using a proprietary game engine, use .ogg unless you can't.
+		- mp3/m4a should be a last resort
+### Compression and Creating Seamless Loops
+- What is it doing?
+	- It decreases the dynamic range.
+- Why use it?
+	- Loudness management
+	- Helps create hierarchy
+		- What elements are compressed
+		- Different amounts of compression
+		- Forward or backward in the mix
+	- Changes Timbre
+		- Softer qualities of element are louder relative to the louder qualities
+- Compressor Settings
+	- Attack - The speed at which compression is applied.
+	- Knee - The severity and characteristic of how compression is applied when the level is near the threshold. 
+	- Ratio - The amount of compression that is applied.
+	- Release - The speed at which compression is removed when the level falls below the threshold.
+	- Threshold - The level at which the compressor begins to apply compression.
+	- Make-up Gain Threshold - Level of output after compression is applied. Make softer qualities louder relative to louder qualities.
+- Tips and Tricks
+	- Automate compression for different phrases in music.
+	- Use different ratio values.
+	- Apply to "punch" through a mix
+	- Direct listener's attention
+- How to mess it up
+	- Too much compression creates distortion. Takes away "natural breathing"
+	- Neglect to think about how it interacts with out effects. 
+	- If everything is compressed, nothing sounds like it is compressed.
+- Creating Seamless Loops
+	- For audio like footsteps, cut at the start of a transient for beginning and before the start of another transient at the end.
+	- For audio like a background crowd:
+		- Take a selection
+		- Cut in the middle
+		- Swap the the two parts
+		- Create a crossfade in the middle
+	- For Music
+		- Chip away at the audio clip until you get the right timing.
+		- Get close to a transient. Try to aim for a place where both channels are near unity.
+		- If looping two parts into one, make sure they loop individually then connect them.
+### EQ and Ear Training
+- Why EQ?
+	- Balance Frequency Spectrum
+	- Shape presentation (sharp, rounded, dirty, clean)
+	- Separation
+	- Mood - bright and dark
+	- FX
+	- Depth = less, hf = distancing. EQ and depth-lpf swept up/down
+	- Fine level adjustments. Boost or attenuate part of the spectrum.
+	- As frequency gets higher, the space between frequencies gets less.
+	- Low Bands
+		- Subsonic = Up to 20Hz. Feel not hear
+		- Low Bass = 20-60Hz. Kick and bass have fundamentals here. Still not heard, but felt. Lowest piano.
+		- Mid bass = 60-120Hz. Start to perceive pitch and tonality. Power frequencies that create depth.
+		- Upper bass = 120-250Hz. Most instruments have fundamentals in this range. Depth. Alter the natural tone here.
+	- Mid/High Bands
+		- Low-mids = 250Hz - 2kHz. The lower order harmonics of many sounds. Meat, color, and timbre. Some depth.
+		- High-mids = 2-6kHz. Human's most sensitive range. Complex harmonics. Loudness, definition, presence, and dialogue.
+		- Highs = 6-20kHz. Not much energy. Air, Brilliance, and Effervescence.
+	- EQ Tips
+		- Always EQ in context
+		- A little bit goes a long way
+		- The more gain you apply in EQ, the more you increase the phasing artifacts.
+		- Try to use EQ to attenuate instead of EQ to boost.
+		- Use pass filters to remove content from extremes and parametric for surgical removal.
+		- HPF's increase clarity and definition. Removes dispensable lows. Our brains easily reconstruct missing fundamentals.
+		- HPF's can reduce size and depth of reverbs.
+		- LPF's remove hiss or HF noise.
+		- LPF's mark HF boundary of HF sounds
+		- Use several passed of EQ as opposed to one for more control.

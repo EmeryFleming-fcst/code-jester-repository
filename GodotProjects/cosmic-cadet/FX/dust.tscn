@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://y6pp2m80ad3d"]
+
+[ext_resource type="Texture2D" uid="uid://dpvokuy53hyx3" path="res://Assets/textures/fx/dust1.png" id="1_xovhx"]
+[ext_resource type="Texture2D" uid="uid://daurgedy5qmr8" path="res://Assets/textures/fx/dust2.png" id="2_3sxtb"]
+[ext_resource type="Texture2D" uid="uid://cqcwbrosx2grf" path="res://Assets/textures/fx/dust3.png" id="3_ohfoo"]
+[ext_resource type="Texture2D" uid="uid://cjlbklmq8oneg" path="res://Assets/textures/fx/dust4.png" id="4_trflg"]
+
+[sub_resource type="Animation" id="Animation_b51ih"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_xovhx")]
+}
+
+[sub_resource type="Animation" id="Animation_s1h1g"]
+resource_name = "animate"
+length = 0.3
+step = 0.075
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.075, 0.15, 0.225),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_xovhx"), ExtResource("2_3sxtb"), ExtResource("3_ohfoo"), ExtResource("4_trflg")]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e68qi"]
+_data = {
+&"RESET": SubResource("Animation_b51ih"),
+&"animate": SubResource("Animation_s1h1g")
+}
+
+[node name="Dust" type="Node2D" unique_id=103559374]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1196287142]
+position = Vector2(0, -8)
+texture = ExtResource("1_xovhx")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1633563326]
+libraries/ = SubResource("AnimationLibrary_e68qi")
+autoplay = &"animate"

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://blqqmvu1kr806"]
+
+[ext_resource type="Texture2D" uid="uid://bmwbds3il3fo4" path="res://icon.svg" id="1_qpi13"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_3fygf"]
+
+[node name="MyLevel" type="Node2D" unique_id=775399875]
+
+[node name="GodotIcon" type="Sprite2D" parent="." unique_id=492378498]
+position = Vector2(603, 294)
+texture = ExtResource("1_qpi13")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=174944730]
+position = Vector2(602, 127.000015)
+scale = Vector2(113.5, 113.5)
+mesh = SubResource("QuadMesh_3fygf")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="." unique_id=944463878]
+position = Vector2(602, 127.000015)
+scale = Vector2(113.5, 113.5)
+mesh = SubResource("QuadMesh_3fygf")

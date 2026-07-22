@@ -1,0 +1,191 @@
+### Basic Physics of Sound
+- Timbre: The characteristics of a sound.
+	- Caused by Harmonics, Overtones, Partials, etc.
+	- Sound Design is about crafting all of these.
+- Harmonics and Partials
+	- All of the notes above the fundamental.
+	- Harmonics are at specific frequencies.
+	- Subharmonics are below the fundamental.
+- Overtones
+	- More of a musical term.
+	- A specific sequence of notes called the harmonic or overtone series.
+- Waveforms
+	- Spectrogram looks at volume vs frequency
+	- Waveform looks at volume vs time
+### Essential Tools: Sound Generators
+- Oscillators, Filters, etc... drive all sound generation.
+- Oscillator:
+	- The sound making tool.
+	- Parameters:
+		- Shape
+		- Tuning
+	- VCO stands for Voltage Control Oscillator: 
+		- Speed it up and slow it down (varying the pitch) by giving it varying amounts of voltage.
+- Waveforms:
+	- Cycles per second is the pitch
+- Waveforms: Sine Waves
+	- The smoothest. Makes the fewest amount of overtones.
+- Waveforms: Square Waves
+	- Square Waves are very harsh
+	- The sharper the angle, the buzzier it gets
+- Waveforms: Triangle Waves
+	- Triangle Waves are very harsh
+	- Less abrasive than a square wave
+- Waveforms: Sawtooth Waves
+	- Sawtooth Waves are very harsh
+	- Different kind of buzzy that square
+	- More honkey
+- Waveforms: Under the Spectrogram
+	- Sine: Huge fundamental
+	- Square: Big fundamental. Big Partials create buzz.
+	- Triangle: Big fundamental. Big partials that get closer together the higher the frequency.
+	- Sawtooth: Big fundamental. Smaller partials that get closer together the higher the frequency.
+- Noise Generators
+	- Generate random noise by generating random waves.
+	- White, Brown, Pink
+- Other Sound Generators
+	- Subtractive - Oscillator
+	- FM - Oscillator
+	- Additive - Oscillator
+	- Sampling - Sample
+	- Physical Modeling - Math
+	- Wavetable - Resynthesized samples
+	- Granular - Samples chopped into grains
+### The Filter
+- Subtractive Synthesis
+	- We start with a complex sound, and chip away at it with filters.
+	- Think of a strainer that separates rice from water.
+	- Usually use things like noise.
+- The Filter and The EQ
+	- An EQ is a group of filters.
+- Gain and Q
+	- Gain: How much lower the volume is getting per octave. It's the slope.
+	- Q: The Width of the filter
+- Filter Types: Low Pass Filter
+	- Lets low frequencies pass through.
+- Filter Types: High Pass Filter
+	- Lets high frequencies pass through.
+	- Hook-up is called resonance. Gives laser gun sound.
+- Filter Types: Bandpass Filter
+	- A Low Pass + A High Pass.
+- Filter Types: Notch Filter
+	- Take out a specific frequency range. Surgical.
+### Ableton's Analog Instrument
+- The Sound Generators and Filters
+	- Instrument/Device: Something that makes sound.
+	- Oscillator -> Filter -> Amplifier
+		- Amplifier controls panning and volume.
+		- Detuning a little can cause a little bit of wobble.
+		- Semitone is a key.
+		- Every 1 on the detune is one semitone.
+- Deeper into the Oscillator Section
+	- F1/F2: How much of the oscillator you want to send to the filters.
+		- Effectively increases the number of signals through routing,
+- Deeper in the Filter Section
+	- Image an EQ for Filter type, Frequency, and Resonance.
+	- Can route to other filter.
+- Signal Flow
+	- Common in synths for the graphic layout to reveal the signal flow.
+- Why Two Amps?
+	- Can use the amplifier section to craft the volume shape.
+- The LFO
+	- An LFO gives a steady rhythmic motion.
+	- An LFO can give a subtle vibrato.
+	- How it works:
+		- Low Frequency Oscillator.
+		- Sends the motion to another parameter.
+		- Rate is the speed of the Oscillator.
+		- Keep an eye on the rate and the amount.
+- Quick Routing
+	- Shows signal flow.
+	- Sets routing up to match what you select.
+### Essential Tools: Envelopes
+- The ADSR Format
+	- Attack: How long it takes the volume to reach it's peak.
+	- Decay: How long it takes the volume to decay.
+	- Sustain: What happens when the note is held down.
+	- Release: How long it takes the volume to release.
+	- When modeling a sound, you need to understand the instrument.
+- More than Just Amplitude
+	- Envelopes are used all over the pace.
+	- Filter, Amplitude, Oscillators, LFOs, etc...
+	- Almost any parameter can be altered with an envelope.
+- Other ways Envelopes can look
+	- If there is no graphic, look for ADSR
+### Methods for Creating Sounds
+- Waveforms: Thick or Thin?
+	- Mostly rests in the Oscillators
+	- Thick: Square Waves
+		- Thicker: Two Square Waves
+		- Even Thicker: Detune a bit
+	- Thin: Sin Waves
+	- In-Between:
+		- Saw-tooth
+		- Triangles
+		- Separate two by octave to add a little thickness.
+- Filters: High or Low?
+	- Frequency Content
+	- Fuzziness is high stuff.
+	- Lies in the filters.
+- Amplitude: Short or Long?
+	- A quick or slow sound that involves?
+	- The Amplitude Envelope
+- LFO: Motion or Stillness?
+	- How much motion do I want?
+	- Tuning can create motion.
+	- Filter Envelope can create motion.
+	- LFO can create a lot of motion.
+### Other Types of Synthesis
+- A lot of the basics still hold true.
+- Subtractive
+- FM: Take multiple waveforms and tie them together
+- Additive: Stack Waveforms
+- Wavetable Synthesis: Very Different Oscillators
+- Physical Modeling: Lots of Math
+### FM Synthesis
+- Like the LFO but supercharged
+- Two kinds of signals:
+	- Carrier
+	- Modulator
+- An actual audible frequency that modulates the carrier
+- Musical Examples
+	- Very 80's, but it can still be modern.
+	- Stranger Things Music uses this a lot
+	- Synthwave is FM heavy
+- What is the same?
+	- Still have LFO
+	- Timbre control
+	- Waveforms
+	- Pitch
+	- Appregiator
+	- Noise
+	- Resonance
+### FM8 Plugin
+- Getting to a Default Patch
+	- Set up the initial carrier.
+- Adding a Modulator
+	- The volume sent by the modulator is the amount of modulation.
+	- The modulation amount adjusts the timbre.
+	- Can apply Envelope the the modulator for an even weirder sound.
+	- Ratio Adjustment is a multiplier. Increases the octave.
+		- Whole numbers are clean sounds
+		- Non-whole numbers introduce partials and cause distortion
+	- Changing the routing and modulators changes the tone drastically.
+- FM: Frequency Modulation
+### Additive Synthesis
+- What is it?
+	- Sound design comes from adding layers.
+	- Paying attention to the partials involved in each oscillator.
+- Musical Examples
+	- Green Onions by Booker T & The MG'S
+- What is the same?
+	- Layered Oscillators
+	- Filters
+	- Envelopes
+	- Tuning of Oscillators is important
+### Ableton Live's Operator Synthesizer
+- Setting up Operator
+	- Pay attention to how the oscillators are stacked.
+	- Can draw in "notes" (overtones)
+	- Every other note from the fundamental will sound good. The higher you get in frequency, the more dissonant.
+	- Drawing it just alters the waveform.

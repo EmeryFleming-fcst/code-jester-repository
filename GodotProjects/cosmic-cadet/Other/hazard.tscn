@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://co5gft3n2ig14"]
+
+[ext_resource type="Script" uid="uid://bvc4vhe2ckhm0" path="res://Other/hazard.gd" id="1_joxu1"]
+
+[node name="Hazard" type="Area2D" unique_id=1216138480]
+collision_layer = 512
+collision_mask = 2
+script = ExtResource("1_joxu1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1038676150]

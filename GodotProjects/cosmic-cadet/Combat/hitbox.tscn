@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://60tj1leowigt"]
+
+[ext_resource type="Script" uid="uid://df33tlv1ontgk" path="res://Combat/hitbox.gd" id="1_s4jvb"]
+
+[node name="Hitbox" type="Area2D" unique_id=1960944254]
+script = ExtResource("1_s4jvb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=258053101]
+
+[node name="InvincibilityTimer" type="Timer" parent="." unique_id=2039215447]
+one_shot = true
+
+[connection signal="timeout" from="InvincibilityTimer" to="." method="_on_invincibility_timer_timeout"]

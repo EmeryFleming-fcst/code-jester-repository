@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bkiddhltesb0e"]
+
+[ext_resource type="Script" uid="uid://dsbc17ciiss3m" path="res://addons/my_custom_node/custom_button.gd" id="1_swk18"]
+
+[node name="CustomDock" type="Control" unique_id=806555474]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CustomButton" type="Button" parent="." unique_id=56723879]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Custom Button
+"
+script = ExtResource("1_swk18")
+metadata/_custom_type_script = "uid://dsbc17ciiss3m"

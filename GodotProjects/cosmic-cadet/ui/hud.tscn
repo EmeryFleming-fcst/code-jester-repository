@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://cplkk86usmmnh"]
+
+[ext_resource type="Script" uid="uid://ebdcttv1hkgv" path="res://ui/hud.gd" id="1_rbyyf"]
+[ext_resource type="Texture2D" uid="uid://4f2mjbxkcr2" path="res://Assets/textures/props/gun-energy.png" id="2_276te"]
+[ext_resource type="Texture2D" uid="uid://xv2h4hajg1di" path="res://Assets/textures/props/battery1.png" id="3_546lt"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rbyyf"]
+bg_color = Color(0, 0, 0, 0.7058824)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0.8, 0.10666676, 0.8627451)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+shadow_color = Color(0, 0, 0, 0.23529412)
+shadow_size = 1
+shadow_offset = Vector2(-1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_276te"]
+bg_color = Color(0, 0.8, 0.10666676, 0.8627451)
+corner_radius_top_left = 2
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 2
+
+[node name="HUD" type="Control" unique_id=317180210]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rbyyf")
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=354920363]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 105.0
+offset_bottom = 15.0
+theme_override_styles/background = SubResource("StyleBoxFlat_rbyyf")
+theme_override_styles/fill = SubResource("StyleBoxFlat_276te")
+step = 1.0
+show_percentage = false
+
+[node name="GunTexture" type="TextureRect" parent="." unique_id=1436985364]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 17.0
+offset_right = 21.0
+offset_bottom = 33.0
+texture = ExtResource("2_276te")
+
+[node name="DoubleJumpTexture" type="TextureRect" parent="." unique_id=674887649]
+visible = false
+layout_mode = 0
+offset_left = 24.0
+offset_top = 17.0
+offset_right = 40.0
+offset_bottom = 33.0
+texture = ExtResource("3_546lt")
+expand_mode = 1

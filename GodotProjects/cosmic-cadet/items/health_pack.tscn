@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cihoalajie1tg"]
+
+[ext_resource type="Script" uid="uid://7lg1478pi8b" path="res://items/collectible_item.gd" id="1_d60ra"]
+[ext_resource type="Texture2D" uid="uid://0gaxgiua31ya" path="res://Assets/textures/props/battery2.png" id="2_esixq"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_esixq"]
+radius = 7.0
+height = 18.0
+
+[node name="HealthPack" type="Area2D" unique_id=68255406]
+collision_layer = 256
+collision_mask = 2
+script = ExtResource("1_d60ra")
+item_name = "health_pack_item"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1620947842]
+modulate = Color(0.22940001, 0.62, 0.35309, 1)
+texture = ExtResource("2_esixq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=630294967]
+shape = SubResource("CapsuleShape2D_esixq")

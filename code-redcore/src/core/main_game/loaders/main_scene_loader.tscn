@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://b7n7ur2cqonm8"]
+
+[ext_resource type="Script" uid="uid://bu1tcu021hcnx" path="res://src/core/main_game/loaders/scene_loader.gd" id="1_l7pyv"]
+
+[node name="MainSceneLoader" type="Node2D" unique_id=2110246035 node_paths=PackedStringArray("entity_node")]
+script = ExtResource("1_l7pyv")
+entity_node = NodePath("World/EntityRoot")
+
+[node name="Systems" type="Node" parent="." unique_id=672557092]
+
+[node name="World" type="Node2D" parent="." unique_id=1389988546]
+
+[node name="LevelRoot" type="Node2D" parent="World" unique_id=713561655]
+
+[node name="EntityRoot" type="Node2D" parent="World" unique_id=1203100472]
+
+[node name="EffectRoot" type="Node2D" parent="World" unique_id=1151373625]
+
+[node name="HudLayer" type="CanvasLayer" parent="." unique_id=1680421821]
+
+[node name="HudRoot" type="Control" parent="HudLayer" unique_id=1536940281]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PauseLayer" type="CanvasLayer" parent="." unique_id=478377125]
+
+[node name="PauseRoot" type="Control" parent="PauseLayer" unique_id=1811181981]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TransitionLayer" type="CanvasLayer" parent="." unique_id=949435677]
+
+[node name="TransitionRoot" type="Control" parent="TransitionLayer" unique_id=1813185721]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DebugLayer" type="CanvasLayer" parent="." unique_id=1709846966]
+
+[node name="DebugRoot" type="Control" parent="DebugLayer" unique_id=1721185069]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

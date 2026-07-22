@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bg8oetwiyitny"]
+
+[ext_resource type="Script" uid="uid://7lg1478pi8b" path="res://items/collectible_item.gd" id="1_8t4cq"]
+[ext_resource type="Texture2D" uid="uid://xv2h4hajg1di" path="res://Assets/textures/props/battery1.png" id="2_uh7en"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rvorq"]
+radius = 7.0
+height = 18.0
+
+[node name="DoubleJumpItem" type="Area2D" unique_id=1580044151]
+collision_layer = 256
+collision_mask = 2
+script = ExtResource("1_8t4cq")
+item_name = "double_jump_item"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1254197971]
+texture = ExtResource("2_uh7en")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=698414243]
+shape = SubResource("CapsuleShape2D_rvorq")

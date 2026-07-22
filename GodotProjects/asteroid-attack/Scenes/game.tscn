@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://cc23548oy2dlm"]
+
+[ext_resource type="Texture2D" uid="uid://ddxoy11ss6l5r" path="res://Assets/textures/star_background.png" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://cwtm13ws3ca17" path="res://Scenes/collection_area.tscn" id="2_3dryh"]
+[ext_resource type="PackedScene" uid="uid://cvhty6unj6v6s" path="res://Scenes/player.tscn" id="2_qxrlw"]
+[ext_resource type="PackedScene" uid="uid://cgmjml6n8fiic" path="res://Scenes/asteroid.tscn" id="3_wrm1d"]
+[ext_resource type="Texture2D" uid="uid://byaxgvy8gi3tt" path="res://Assets/planets/planet00.png" id="5_i6g32"]
+[ext_resource type="Texture2D" uid="uid://h3a74ny00mwi" path="res://Assets/planets/planet04.png" id="6_1l0tm"]
+[ext_resource type="Texture2D" uid="uid://cpgd7uq6egb1v" path="res://Assets/planets/planet02.png" id="7_v158k"]
+[ext_resource type="Texture2D" uid="uid://di0oy04lrhp3h" path="res://Assets/planets/planet09.png" id="8_h4fw4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3fygf"]
+font_size = 30
+
+[node name="Game" type="Node2D" unique_id=120038590]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1411953948]
+metadata/_edit_lock_ = true
+
+[node name="Stars" type="Sprite2D" parent="Background" unique_id=709878277]
+texture_repeat = 2
+position = Vector2(640, 360)
+texture = ExtResource("1_ebmjs")
+region_enabled = true
+region_rect = Rect2(0, 0, 10000, 10000)
+metadata/_edit_lock_ = true
+
+[node name="Planet00" type="Sprite2D" parent="Background" unique_id=805879979]
+modulate = Color(1, 1, 1, 0.27450982)
+position = Vector2(24, -1056)
+texture = ExtResource("5_i6g32")
+
+[node name="Planet04" type="Sprite2D" parent="Background" unique_id=873684159]
+modulate = Color(1, 1, 1, 0.14901961)
+position = Vector2(649, -1339)
+scale = Vector2(0.21171875, 0.21171875)
+texture = ExtResource("6_1l0tm")
+
+[node name="Planet02" type="Sprite2D" parent="Background" unique_id=184469548]
+modulate = Color(1, 1, 1, 0.10980392)
+position = Vector2(1859, 807.99994)
+scale = Vector2(0.4046875, 0.4046875)
+texture = ExtResource("7_v158k")
+
+[node name="Planet09" type="Sprite2D" parent="Background" unique_id=1453366448]
+modulate = Color(1, 1, 1, 0.08627451)
+position = Vector2(-771, 1197)
+scale = Vector2(0.4828125, 0.4828125)
+texture = ExtResource("8_h4fw4")
+
+[node name="Instructions" type="Label" parent="Background" unique_id=1881624049]
+offset_left = -283.0
+offset_top = -310.0
+offset_right = 287.0
+offset_bottom = -223.0
+text = "Push the asteroids into the green area. 
+Collect them all"
+label_settings = SubResource("LabelSettings_3fygf")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Gameplay" type="Sprite2D" parent="." unique_id=1266106332]
+
+[node name="MapBounds" type="StaticBody2D" parent="Gameplay" unique_id=1910454662]
+metadata/_edit_lock_ = true
+
+[node name="Polygon2D" type="Polygon2D" parent="Gameplay/MapBounds" unique_id=1163794230]
+color = Color(0, 0, 0, 0.43529412)
+polygon = PackedVector2Array(56, -1547, -337, -1441, -670, -1160, -951, -745, -1129, -324, -1314, -28, -1336, 528, -1218, 1105, -307, 1386, 425, 1460, 1387, 1408, 2090, 1201, 2312, 727, 2275, 224, 2201, -731, 1861, -1152, 966, -1448, 57, -1548, 216, -3587, 3439, -3735, 4941, -2558, 5098, -523, 5088, 570, 5068, 1654, 4043, 3532, 598, 3434, -1699, 3564, -2989, 2178, -2956, 672, -3000, -1084, -2773, -3533, -1419, -3934, 217, -3588)
+
+[node name="CollectionArea" parent="Gameplay/MapBounds/Polygon2D" unique_id=1827764189 instance=ExtResource("2_3dryh")]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Gameplay/MapBounds" unique_id=1618455443]
+polygon = PackedVector2Array(56, -1547, -337, -1441, -670, -1160, -951, -745, -1129, -324, -1314, -28, -1336, 528, -1218, 1105, -307, 1386, 425, 1460, 1387, 1408, 2090, 1201, 2312, 727, 2275, 224, 2201, -731, 1861, -1152, 966, -1448, 57, -1548, 47, -1780, 1010, -1700, 1994, -1360, 2423, -768, 2527, 239, 2527, 957, 1868, 1571, 906, 1645, -100, 1726, -1173, 1430, -1595, 853, -1558, -190, -1070, -975, -700, -1522, 47, -1778)
+
+[node name="Asteroids" type="Node2D" parent="Gameplay" unique_id=1172443622]
+z_index = 50
+
+[node name="Asteroid" parent="Gameplay/Asteroids" unique_id=1830066871 instance=ExtResource("3_wrm1d")]
+position = Vector2(512, 411)
+gravity_scale = 0.0
+
+[node name="Asteroid9" parent="Gameplay/Asteroids" unique_id=713532467 instance=ExtResource("3_wrm1d")]
+position = Vector2(-574, 251)
+gravity_scale = 0.0
+
+[node name="Asteroid10" parent="Gameplay/Asteroids" unique_id=1744975192 instance=ExtResource("3_wrm1d")]
+position = Vector2(-527, 524)
+gravity_scale = 0.0
+
+[node name="Asteroid11" parent="Gameplay/Asteroids" unique_id=1314369177 instance=ExtResource("3_wrm1d")]
+position = Vector2(-204, 806)
+gravity_scale = 0.0
+
+[node name="Asteroid12" parent="Gameplay/Asteroids" unique_id=1671805630 instance=ExtResource("3_wrm1d")]
+position = Vector2(-543, -277)
+gravity_scale = 0.0
+
+[node name="Asteroid13" parent="Gameplay/Asteroids" unique_id=1568162357 instance=ExtResource("3_wrm1d")]
+position = Vector2(-1092, 285)
+gravity_scale = 0.0
+
+[node name="Asteroid14" parent="Gameplay/Asteroids" unique_id=1751273288 instance=ExtResource("3_wrm1d")]
+position = Vector2(446, -383)
+gravity_scale = 0.0
+
+[node name="Asteroid15" parent="Gameplay/Asteroids" unique_id=644469205 instance=ExtResource("3_wrm1d")]
+position = Vector2(1450, -367)
+gravity_scale = 0.0
+
+[node name="Asteroid16" parent="Gameplay/Asteroids" unique_id=1339565545 instance=ExtResource("3_wrm1d")]
+position = Vector2(1070, -1067)
+gravity_scale = 0.0
+
+[node name="Asteroid17" parent="Gameplay/Asteroids" unique_id=422036493 instance=ExtResource("3_wrm1d")]
+position = Vector2(-242, -898)
+gravity_scale = 0.0
+
+[node name="Asteroid18" parent="Gameplay/Asteroids" unique_id=69372031 instance=ExtResource("3_wrm1d")]
+position = Vector2(524, -757)
+gravity_scale = 0.0
+
+[node name="Asteroid19" parent="Gameplay/Asteroids" unique_id=403584804 instance=ExtResource("3_wrm1d")]
+position = Vector2(97, -1369)
+gravity_scale = 0.0
+
+[node name="Asteroid20" parent="Gameplay/Asteroids" unique_id=1322802696 instance=ExtResource("3_wrm1d")]
+position = Vector2(957, -286)
+gravity_scale = 0.0
+
+[node name="Asteroid2" parent="Gameplay/Asteroids" unique_id=390116415 instance=ExtResource("3_wrm1d")]
+position = Vector2(988, 417)
+gravity_scale = 0.0
+
+[node name="Asteroid3" parent="Gameplay/Asteroids" unique_id=804094288 instance=ExtResource("3_wrm1d")]
+position = Vector2(477, 640)
+gravity_scale = 0.0
+
+[node name="Asteroid4" parent="Gameplay/Asteroids" unique_id=1831434349 instance=ExtResource("3_wrm1d")]
+position = Vector2(880, 591)
+gravity_scale = 0.0
+
+[node name="Asteroid5" parent="Gameplay/Asteroids" unique_id=1250813484 instance=ExtResource("3_wrm1d")]
+position = Vector2(787, 137)
+gravity_scale = 0.0
+
+[node name="Asteroid6" parent="Gameplay/Asteroids" unique_id=576223722 instance=ExtResource("3_wrm1d")]
+position = Vector2(1164, 568)
+gravity_scale = 0.0
+
+[node name="Asteroid7" parent="Gameplay/Asteroids" unique_id=1748498469 instance=ExtResource("3_wrm1d")]
+position = Vector2(231, 543)
+gravity_scale = 0.0
+
+[node name="Asteroid8" parent="Gameplay/Asteroids" unique_id=1288044747 instance=ExtResource("3_wrm1d")]
+position = Vector2(1010, 199)
+gravity_scale = 0.0
+
+[node name="Player" parent="Gameplay" unique_id=1104568515 instance=ExtResource("2_qxrlw")]
+z_index = 100
+position = Vector2(376, 197)
