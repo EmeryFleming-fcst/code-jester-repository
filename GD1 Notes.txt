@@ -377,6 +377,14 @@ GD2:
 1.2.5
 -- Make sure to add the car script to the empty gameobject that is labeled Car, not Player Car
 
+
+2.1.1: Editor Scripting
+-- Warning about editor scripts, assemblies, etc.
+
+2.1.2: Mesh Generator, Rectangles
+
+
+
 https://incompetech.com/
 https://color.adobe.com/create/color-wheel
 https://github.com/Cysharp/UniTask
