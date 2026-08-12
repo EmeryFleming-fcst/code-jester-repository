@@ -1,12 +1,7 @@
 Easy - Normal - Hard
 
-Slice of Life Settings
 Course Overview Marked as a graph. Give suggestion to take Intro to Programming or C#
-Pre-Requisites? Show off stuff not-used.
 Cinemachine
-Game View Aspect Ratio
-What a game engine is
-Debugging: What a pink graphic in Unity means
 Additional Learning
 -- Videos
 -- Articles
@@ -14,81 +9,17 @@ Additional Learning
 Common Bugs
 Computer Hardware/Graphics
 Default Parameters
-Memory (RAM variables)
 Commenting
 Slowly lead them through making a GDD Template
 Design Patterns for Games
 A list of some of the more useful Unity [Tags]
-Joke Articles
-New Unity Input
 
-VR/AR
-
-
-3: Blender
-- 3.2.4
--- Angle Constraint is now 'A'
--- Cut Through is now 'C'
--- Add more info on Ngons
-
-- 3.3.3
--- Images as planes is now a default part of Blender.
--- When downloading 3rd part addons, it is important to not unzip the download.
-
-- 3.3.4
--- If you have a pink texture, do the following:
---- Open the shading workspace (top of the screen)
---- In the bottom panel, there should be a node graph. On the left side of that graph, there should be two material slots.
---- One that says basecolor, one that says normal.
---- Click the folder icon for each of the material nodes. Navigate to the Lion folder you unzipped, navigate to the Textures subfolder, and select the texture that matches the name of the slot.
-
-
-- 4.1.1
--- Include a visual representation of namespaces and classes.
-
-- 4.1.2
--- Information about access levels when not included.
--- Information about public versus SerializeField
-
-- 4.1.5
--- How to use Input Actions. Use new Move Script.
--- Make new Package for Unity 6+
-
-- 4.2.2
--- Monobehavior Life Cycle Chart
-
-- 4.2.3
--- Events and Memory Leaks
-
-- 4.2.4
--- Is your cannon pink?
--- Open the Cannon Package -> Materials Folder -> Master Material
---- At the top where it says Shader? Universal Render Pipeline -> Lit
---- In the Base Map Box under Surface Inputs on the material, drop the MasterMaterial Texture.
-
-- 4.2.1
--- Window -> Rendering -> Render Pipeline Converter -> Material Upgrade -> Initialize and Convert
-
-- 4.3.2
--- FindObjectOfType Deprecated. FindFirstObjectByType or FindAnyObjectByType is faster.
--- Performance considerations. Coupling. Use in Start. Why not Awake?
--- Alternative.
-
-- 4.3.4
--- Text - TextMeshPro -> Import TMP Essentials. Similar to Text.
--- Legacy - Text
--- Quirks of Unity UI:
----- Look around you should see a large white Square. This is the canvas text is painted on. Swap to game view, you should see your text. Often find it easier to work on UI in game view.
--- When setting the anchor, if you hold alt it will also set the position of the object to that anchor.
--- For TMP Text Wrapping Mode: Normal and Overflow: Overflow has the same functionality.
--- To test how UI looks on different resolutions, Next to the Display 1 Tab you should see a dropdown to the right. If you drag the panels around to resize the game view, you can see how it moves and changes.
--- When working on things, I would recommend keeping it in a 16:9 or Full HD Resolution. Can also add custom ones with the + button at the bottom.
--- TextMeshProUGUI instead of Text
-
-- 4.3.6
--- LoadLevel Script
--- Warning about chaining events. Good and bad example. Why did we do it here?
--- File -> Build Profiles instead of File -> Build Settings
+Videos:
+5: https://www.youtube.com/watch?v=rC55Q7p90qs
+5: https://www.youtube.com/watch?v=5qnCbyD98co
+6: Level Design and Lighting
+7: https://www.youtube.com/watch?v=Fy0aCDmgnxg & https://www.youtube.com/watch?v=216_5nu4aVQ
+8: https://www.youtube.com/watch?v=RqRoXLLwJ8g&list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx
 
 
 - 5.1.1
@@ -164,6 +95,7 @@ Camera Zoom: 4.1
 -- Do you notice any problems with the script?
 -- How about you try to increase the amount it shakes?
 
+
 - 6.1.2
 -- Image as planes is now built in. Use Image -> Reference
 -- Data -> Opacity
@@ -185,6 +117,7 @@ Camera Zoom: 4.1
 
 - 6.4.3
 -- Null Coalesce with Events
+
 
 - 7.2.4
 -- Pink Material? Window -> Rendering -> Render Pipeline Converter.
@@ -213,6 +146,7 @@ Camera Zoom: 4.1
 - 7.4.4
 -- Taking a moment to talk about start vs awake. Explain that there are more complex methods for doing setting up the game in the future
 -- Give further reading for interfaces
+
 
 - 8.1.1
 -- GDL: Reference Blue Sky Notes
