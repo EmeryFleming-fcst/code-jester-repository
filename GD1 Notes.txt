@@ -15,101 +15,8 @@ Design Patterns for Games
 A list of some of the more useful Unity [Tags]
 
 Videos:
-5: https://www.youtube.com/watch?v=rC55Q7p90qs
-5: https://www.youtube.com/watch?v=5qnCbyD98co
-6: Level Design and Lighting
 7: https://www.youtube.com/watch?v=Fy0aCDmgnxg & https://www.youtube.com/watch?v=216_5nu4aVQ
-8: https://www.youtube.com/watch?v=RqRoXLLwJ8g&list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx
 
-
-- 5.1.1
--- Camera -> Environment -> Background
--- HSV, RBG 0-1.0, RGB 0-255
-
-- 5.1.7
--- No Scrolling Background included in video files!!! Ignore this for now, you'll learn how to do it in another lesson. In 5.2.4.
-
-- 5.2.1
--- Explain Static Better. Very useful for events.
--- Make sure to slice by Cell Count! H Box: Each of the section to 825.
-
-- 5.2.4
---4159
-830
-
-3328
-827
-
-2497
-828
-
-1664
-830
-
-834
-827
-
-3
-827
-
-Camera Zoom: 4.1
-
-
-- 5.2.5
--- Ignore the Layer Part in the Obstacle Script (5.2.8) in the sample image. Add an Obstacle Layer Below Foreground and Set Obstacle to it. Speed: 2x The Foreground Speed.
--- Make sure to add the obstacle spawner here too. Outside of the right Boundary of the Camera. 9.8, -1.9
--- Add a Box Collider to the Foreground and make it fit the screen so the player can lay on it. Make sure it's set to the Ground Layer Tag
-
-- 5.2.6
--- Making some adjustments to the Obstacle Spawn Script:
---- Make TimeToSpawn Private.
---- Create timeToSpawnMin and timeToSpawnMax. Make them public or Serialized Fields. Set the default values to 1.0 and 3.0.
---- Replace the values in the Random.Range Method Call, within Update, with timeToSpawnMin and timeToSpawnMax.
-
-- 5.2.7
--- Singleton Warning
--- If a Gear Doesn't Pop up, don't worry.
-
-- 5.3.1
--- Animation -> Animation Clip
--- Explain what the fades are
-
-- 5.3.2
--- LinearVelocityY instead of .velocity.y
-
-- 5.3.3
--- When adding the animation event, make sure to add it with the Player Prefab selected
-
-- 5.3.4
--- I find working with UI to be far easier in Game View.
-
-- 5.4.1
--- The downsides of tieing UI to Scripts
--- String Builder
-
-- 5.4.2 - PlayerPrefs
-- 5.4.3 - ObjectPooling
--- Expand and Make a Generic Pool
-
-- 5.4.4 - Game Feel: Camera Shake
--- Do you notice any problems with the script?
--- How about you try to increase the amount it shakes?
-
-
-- 6.1.2
--- Image as planes is now built in. Use Image -> Reference
--- Data -> Opacity
--- Will need to manually create materials
-
-- 6.2.1
--- If the models appear pink, you need to open up the shading window and reapply the textures. Remember to reapply both of them
--- Save current to is no longer an option, use "Create New FBX Importer Preset..."
--- Grid and Snap Settings are now the dropdown next to the number.
--- The magnet with the unit circle angle represents Rotation snapping/Angle Snapping. click it to turn it on and set the degrees in the textbox. You can can hover over the tool to see the name.
--- After Parenting, I would recommend clicking on the hand icon to the left of the empty game object to disable selecting via mouse click for that entire collection.
-
-- 6.2.5
--- Explaining why things are set to zero.
 -- Provide Better Resource for Lighting. Explain you may need to tweak settings quite a bit.
 
 - 6.4.1
@@ -201,8 +108,6 @@ GD2:
 
 2.1.1: Editor Scripting
 -- Warning about editor scripts, assemblies, etc.
-
-2.1.2: Mesh Generator, Rectangles
 
 
 
