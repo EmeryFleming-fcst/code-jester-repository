@@ -11,12 +11,14 @@
             "id": "73ca69e760083c8c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png"
+                "file": "Notes/Audio/Mixing & Mastering/Plugins/Izotope/RX11.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Vocal Processing"
+              "icon": "lucide-file",
+              "title": "RX11"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -183,6 +187,8 @@
   },
   "active": "73ca69e760083c8c",
   "lastOpenFiles": [
+    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Restoration and Cleaning.md",
+    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png",
     "Notes/Audio/Mixing & Mastering/Plugins/Izotope/RX11.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Izotope/Insight 2.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Izotope/Ozone 12.md",
@@ -202,9 +208,7 @@
     "Notes/Audio/Mixing & Mastering/Information/Vocals.md",
     "Notes/Audio/Mixing & Mastering/Information/Reverb.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Reverbs/Bloom.md",
-    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Restoration and Cleaning.md",
     "Notes/Audio/Mixing & Mastering/Plugins/Synths/UVI Walker.md",
-    "Notes/Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png",
     "Notes/Audio/Mixing & Mastering/Information/Ableton.md",
     "Notes/Audio/Mixing & Mastering/Information/Mixing.md",
     "Notes/Audio/Mixing & Mastering/Information/Mixing Plugins.md",
@@ -218,7 +222,6 @@
     "Notes/Graphic Design/Information/Not Started.md",
     "Notes/Graphic Design/Information/Where to Start.md",
     "Notes/Graphic Design/Information/Shape Psychology.md",
-    "Notes/Graphic Design/Information/Tips.md",
-    "Notes/Graphic Design/Information/Process For Creating Logos.md"
+    "Notes/Graphic Design/Information/Tips.md"
   ]
 }
