@@ -1,7 +1,6 @@
 Easy - Normal - Hard
 
 Course Overview Marked as a graph. Give suggestion to take Intro to Programming or C#
-Cinemachine
 Additional Learning
 -- Videos
 -- Articles
@@ -12,14 +11,43 @@ Default Parameters
 Commenting
 Slowly lead them through making a GDD Template
 Design Patterns for Games
-A list of some of the more useful Unity [Tags]
 
 
 GD2:
 -- Should be able to upgrade project no problem
+-- Steps for setting up with package.
+-- Bonus Video: A list of some of the more useful Unity [Tags]
+-- Explain Regions
 
 1.2.5
 -- Make sure to add the car script to the empty gameobject that is labeled Car, not Player Car
+
+1.1.7
+-- LinearVelocity instead of Velocity.
+-- For the assignment, ApplyLaterForce should be called in FixedUpdate() after ApplyLogitudinalForce()
+
+- 1.1.12
+-- Cinemachine Virtual Camera is now just CinemachineCamera
+-- Include Cinemachine guide
+-- Tracking Target: Car
+-- Position Control: Follow
+--- Cinemachine Follow: Binding Mode: Lock To Target
+-- Rotation Control: Rotation Composer
+-- Play with setting to get what you like.
+-- Make sure Tracking Target is set to Car, not Player Car.
+-- Red and Blue: Rotation Composer, enable Dead Zone and Hard Limits
+
+- 1.1.13
+-- Tool for References.
+-- Mood Board.
+-- Art Station.
+
+- 1.1.14
+-- Alternative for Car Modeling
+
+- 1.2.2
+-- URP -> Simple Lit
+-- May need a second material to get both colors.
 
 
 2.1.1: Editor Scripting
