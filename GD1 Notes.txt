@@ -5,19 +5,27 @@ Additional Learning
 -- Videos
 -- Articles
 -- Book Recommendations
-Common Bugs
 Computer Hardware/Graphics
 Default Parameters
 Commenting
 Slowly lead them through making a GDD Template
 Design Patterns for Games
-
+https://www.youtube.com/watch?v=AFMkXYiquB0 = Addressables
+https://www.youtube.com/watch?v=8QQG0J624LY = Project Auditor
+https://www.youtube.com/watch?v=sCIK78OHrIY&t=3s
 
 GD2:
 -- Should be able to upgrade project no problem
 -- Steps for setting up with package.
 -- Bonus Video: A list of some of the more useful Unity [Tags]
--- Explain Regions
+
+
+Debugging:
+-- https://www.youtube.com/watch?v=bdOoQ_Xdxz8
+
+Unity Profiler:
+-- https://www.youtube.com/watch?v=xjsqv8nj0cw
+
 
 1.2.5
 -- Make sure to add the car script to the empty gameobject that is labeled Car, not Player Car
@@ -44,6 +52,18 @@ GD2:
 
 - 1.1.14
 -- Alternative for Car Modeling
+-- Shaders: 
+	https://www.youtube.com/playlist?list=PLsaDw3p1XpJiGHPnA8gZH6gO2gQYz3JH1 Pt. 1-7, can do the rest.
+-- VFX:
+	https://www.youtube.com/watch?v=gPiRUmVFZ1o. Watch
+	https://www.youtube.com/watch?v=uFcTWm40fCA. This or one of the others on his channel.
+	https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/
+-- Sound Design
+	https://www.youtube.com/watch?v=srVPLrmlBJY: Copyright. tl;dr CC0 is your best friend/
+	What is Sound Design? https://www.youtube.com/watch?v=kPDXmWxnFKY
+	https://www.youtube.com/watch?v=DU7cgVsU2rM <- Do this sort of thing
+	Dovasyndrome for music. Pixabay. Freesound. Sonnis.
+	
 
 - 1.2.2
 -- URP -> Simple Lit
