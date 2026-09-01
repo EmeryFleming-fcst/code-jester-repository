@@ -1,0 +1,60 @@
+Section 1: Creating Seamless Loops
+- Ambience:
+-- Cut selection out of clip.
+-- Cut that selection around the middle.
+-- Swap the first and second half.
+-- Create a crossfade between them.
+- Music:
+-- Find a moment as close to the transient as possible.
+-- Ensure that moment is as close to Unity as possible.
+-- Do that for both the starting cut and ending cut.
+
+Section 3: Stereo Recording Techniques, Phase, BIG Combat Sounds
+- Phase
+-- A particular point in the cycle of a waveform, measured as an angle.
+-- Plays a huge role when combining waveforms.
+-- Interference
+--- The way in which two waveforms interact
+--- Positive Interference
+---- An increase in amplitude.
+--- Negative Interference
+---- A decrease in amplitude.
+--- Interference is negligible in waveforms that are not nearly identical.
+--- Complex waveforms make the effects more timbrel than volume.
+-- Phase and Interference in the DAW and Studio
+--- DAW sources:
+---- Duplicating a track
+---- Polarity switch. Cancels a sound.
+---- Delay.
+---- Parallel Processing
+--- Studio Sources:
+---- Two mics picking up the same source (3:1 rule)
+---- Standing Waves
+---- Incorrect polarity of speakers and mics.
+--- 3:1 Rule
+---- When recording with multiple mics, the second mic must be at least 3 times the distance away from a sound source than the first mic.
+---- Exceptions:
+----- Stereo Pair (Treat the pair as a single mic)
+----- Drum Set
+- Stereo Recording Techniques
+-- Two mics can provide us with a stereo recording.
+-- Must be set up to avoid phase cancellation issues.
+-- Stereo Microphone: Has two transducers that record in stereo.
+-- Stereo Pair: Two Microphones, typically of the same model, set up to record in stereo.
+-- Matched Pair: Two microphones of the same model with adjacent serial numbers meant to be used together as a stereo pair.
+-- X/Y
+--- Two coincident cardioid mic capsules at an angle of 90 degrees
+--- Smallest stereo image with the least phase cancellation and the most mono compatibility.
+--- Use in a bad sounding room or if end user will likely have a system that plays back in mono or close to it
+-- ORTF
+--- Two capsules 17 cm apart at a 110 degree angle.
+--- Simulates placement of ears, similar to Binaural.
+--- Wider image than X/Y
+--- Little phase cancellation and good mono compatibility.
+--- Use in nicer sounding rooms and for large groups.
+-- Blumlein Pair
+--- Two coincident, crossed, figure 8 capsules.
+--- Wider image than X/Y.
+--- Little Phase Cancellation and good mono compatibility.
+--- Lots of Room Sound.
+--- Use for very natural sounding stereo recording in good sound rooms.
