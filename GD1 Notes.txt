@@ -74,6 +74,14 @@ Unity Profiler:
 -- Warning about editor scripts, assemblies, etc.
 
 
+3.1.2
+- Importing Sprites
+-- Texture Type: Sprite, Sprite Mode: Single, Compression: None
+-- Name Text: Alignment: Center, Bottom. Font Size 25. Bold
+-- ManaCost: Anchor: Top, Left. Same. -0.68, 0.05
+-- Description: Not Bold. Same. Width: 125. Font size: 15. Y: -0.8
+
+
 
 https://incompetech.com/
 https://color.adobe.com/create/color-wheel
