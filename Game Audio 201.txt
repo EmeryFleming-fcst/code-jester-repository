@@ -58,3 +58,334 @@ Section 3: Stereo Recording Techniques, Phase, BIG Combat Sounds
 --- Little Phase Cancellation and good mono compatibility.
 --- Lots of Room Sound.
 --- Use for very natural sounding stereo recording in good sound rooms.
+-- Spaced Pair
+--- Two Omni mics spaced 3-10ft
+--- Wide Stereo image
+--- Suffers from phase cancellation, little mono compatibility, sometimes lacks center energy.
+--- Use to supplement close miked sources in a good sounding room.
+-- M/S (Mid/Side)
+--- Two coincident mic capsules
+--- One Cardioid, facing forward.
+--- One figure 8, facing to the sides.
+--- Cardioid picks up mono sound, figure 8 picks up stereo.
+--- Requires Mid/Side Matrix processing.
+--- Allows for variable stereo imaging.
+--- 100% mono compatible.
+--- Can sound weird but cool.
+-- Binaural
+--- Two Cadioid mic capsules in the ears of a dummy head.
+--- Dummy head provides acoustic separation between mics and creates phase cancellation similar to human hearing.
+--- Sound hyper-realistic in headphones.
+--- Sounds terrible in speakers.
+--- Little Mono compatibility.
+--- Can simulate surround sounds but they're expensive.
+
+Voice/Dialogue Recording and Editing
+- Decibels and Metering
+-- Humans are sensitive to a very wide range of pressure amplitudes.
+-- 20 pascals is the quietest we can hear.
+-- 63,000 pascals is the threshold of pain
+-- Like pitch, we perceive loudness logarithmically.
+-- A sound is perceives as twice as loud when its power is 10x as large (power is different from pressure)
+-- This makes communicating about loudness hard.
+- Decibels makes things easier!
+-- Converts large numbers to smaller ones, achieved with a logarithm.
+-- A comparison between a reference value and another value, achieved with a ratio.
+-- Has no physical quantity.
+-- Closely related to the way humans perceive loudness.
+-- dB = 10log(power2/power1)
+- Important Decibel Changes
+-- 0dB: No change
+-- 3dB: Doubling in power/acoustic energy. Smallest loudness change that an untrained ear will hear.
+-- 6dB: Quadrupling in power/acoustic energy, doubling in pressure.
+-- 10db: 10 times the power, double in perceived loudness.
+- Common Reference Values
+-- dBSPL: 0db = 20 pascals, the threshold of hearing. Used in sound pressure meters.
+-- dBV/dBu: 0dB = nominal operating voltage level of analog system. Is comfortably audible. Used on analog gear.
+-- dBFS (dB Full Scale): 0dB = point of distortion in digital gear. Causes all dB measures to have negative numbers.
+- Importance of Level Meters
+-- Amplifiers and speakers can be turned up and down.
+-- A level meter is your best reference for how loud something is.
+-- Different types of meters can give us different important information about the mix.
+- Peak vs RMS values
+-- Loudness of complex waveforms changes rapidly.
+-- And dB measurement is affected by how long the measurement is being taken.
+-- Peak Values: Measurements taken nearly instantly.
+-- RMS(root mean square) Values: Measurements taken more slowly and the transients are averaged in.
+-- RMS measurements are always lower than the peak measurements of the same material.
+- Meter Types
+-- Peak Meter: Displays peak measurements. Best for normal use in digital applications.
+-- RMS Meter: Displays RMS measurements. Use to meter average loudness of a mix.
+-- VU Meter: specific RMS meter that displays measurements in Volume Units. Used on analog consoles.
+- Dialogue Editing and RX 7
+-- Try to make cuts at areas at Unity.
+
+Delay and Modulation Effects
+- Delay
+-- Delaying the start of the sound.
+-- When blended with the non-delayed sound, it creates and echo effect.
+-- The time between the dry signal and the delayed signal helps determine the perceived size of the space.
+-- The volume difference between the dry signal and the wet signal determines how far away the source is perceived.
+- Delay Controls
+-- Delay Time: How long the wet signal is delayed (changing this in real time causes pitch shift!)
+-- Mix: balance between the wet and dry signal.
+-- Feedback: How much of the delayed signals is fed back into the processor. Creates repeated echoes.
+-- Rate: How quickly the delay time is modulated.
+-- Depth: How widely the delay time is modulated.
+- Reverb
+-- In acoustics, the blend of echoes that a space creates when a sound is present in it.
+-- The louder the wet signal, as compared to the dry signal, the further away the source seems.
+-- The more time between the dry and wet signal, the larger the space seems.
+-- The longer the reverb, the bigger, emptier, and harder-surfaced the space seems.
+- Reverb Controls
+-- Decay: How long the reverb takes to decay
+-- Pre Delay: Time before the reverb begins.
+-- Diffusion: How close together the initial echoes in the delay effect are (important for percussive sounds)
+-- Mix: Balance between the wet signal and the dry signal.
+-- Some reverbs have EQ and advanced early reflections controls as well.
+- LFO
+-- Something used to control another parameter.
+- Flanger
+-- A very short delayed signal is blended with the dry signal causing comb filtering.
+-- Comb Filtering: Constructive and destructive interference pattern resulting from a complex waveform interfering and itself.
+-- The short delay is modulated
+-- As the delay is changed, the comb filter pattern changes, causing a whoosh sound.
+- Flanger Controls
+-- Rate: How quick the delay time changes.
+-- Depth: How much the delay time changes.
+-- Feedback: How much of the flanged signal is looped back in for more flanging.
+- Chorus
+-- The same as flanger but with a much longer delay time (20 ms)
+-- Sometimes the signal is delayed multiple times.
+-- Those delays are modulated, causing some pitch shifting and interference.
+-- This makes it sound like there is a whole group of signals rather than just one.
+- Phaser
+-- Dry signal is blended with a signal that is sent through several phase shifts.
+-- The phase shifts cause comb filtering in only certain frequency ranges.
+-- The phase shifts are modulated, causing whooshing, but different timbre from flanger.
+- Phaser Controls
+-- Poles: How many phase shifts
+-- Rate: How quickly the phase shifts are modulated.
+-- Depth: How much the phase shifts are modulated.
+-- Feedback: How much of the phasered signal is sent back into itself for more phasing.
+- Ring Modulation
+-- Input signal is multiplies by a carrier signal, and the result is awesome.
+-- Frequency: The frequency of the carrier signal.
+-- Depth: Sets how much of the carrier signal is multiplied.
+-- Some Ring Mod effects allow modulation of the carrier signal.
+
+Audio and Music Synthesis
+- MIDI
+-- Musical Instrument Digital Interface
+-- Not audio but digital instructions in the form of binary code.
+-- MIDI messages contain 2-3 bytes of information.
+-- Bytes in MIDI messages classified as either status bytes or data bytes.
+- Status Bytes
+-- Specify the MIDI channel (1-16) and the message type
+-- Types of MIDI messages:
+--- Note on
+--- Note off
+--- Pitch Bend Change
+--- Control Change 
+--- Etc...
+- Data Bytes
+-- A number between 1-127
+-- Used as the actual data for the message
+- MIDI Controllers
+-- Something that generates MIDI
+-- Examples: Keyboard, Drum Pads, EWI, Pitch tracking devices, Etc...
+- MIDI Flexibility
+-- It's just data so it can control anything.
+-- Synthesizer's/samplers. Lights/Smoke machines. Console Automation. Etc...
+- Velocity: How hard someone is pressing a note.
+- Synthesizers and Synthesis
+-- Creates vibrations like any instrument
+-- Vibrations in the form of an electrical signal
+-- Signal able to be modified in ways that are not possible with acoustic instruments.
+-- Modular vs. All-In-One.
+-- Analog vs Digital
+--- Analog synths use analog circuitry, digital synths use digital signal processing.
+--- Certain types of synthesis are only feasible with digital.
+- Waveforms
+-- Synths use alternating currents to create electrical signals.
+-- Above Unity is pushing on the speaker cone, below Unity is pulling on it.
+-- The shape of the waveform determines the timbre of the sound.
+- Harmonics
+-- The reason sound waves sound different is because they have different harmonics.
+-- A harmonic of is just a multiple of a fundamental frequency. 
+- Components of Synthesis
+-- Oscillator: Generates the original waveform.
+-- Amplifier: Controls loudness pertaining to certain parameters.
+-- Envelope: Helps shape the waveform playback.
+-- Filter: Helps shape sound by filtering out unwanted frequencies. Essential to subtractive synthesis.
+-- FX
+- Subtractive Synthesis
+-- Older, analog synthesizers.
+-- Start with Waveform or noise, then subtract away until desired sound is achieved.
+-- Use filters to subtract away.
+-- Cutoff Frequency.
+- Additive Synthesis
+-- Any sound can be made by combining a series of sine waves at various frequencies.
+-- Most sounds in nature are complex. 100s if not 1000s of sine waves to be accurately reproduced.
+-- Any types of waves can be mixed to create new, interesting sounds.
+- FM Synthesis
+-- Frequency Modulation
+-- Two Waves:
+--- Carrier: What is heard
+--- Modulator: Controls the pitch of the carrier.
+-- Usually only implemented in digital synths.
+- Granular Synthesis
+-- Chopping sound up into very small pieces (called grains)
+-- If you chop up a sound, and do different processing on each piece, you can make unique sounds.
+-- Pitch shifting, looping, filtering, overlapping with other grains, playback speed of groups of grains, playback direction.
+
+Connections, Speakers, and More Sound Effects
+- Connection Types
+-- XLR
+--- Commonly used for microphones, powered speaker connections, and long cable runs.
+--- Carry a balanced signal.
+--- Three Pins: Positive (Hot), negative (Cold), and ground.
+--- Male end - pins, female end - holes
+-- 1/4 inch TS (Tip/Sleeve)
+--- Used for instruments and powered speaker connections
+--- Carry an unbalanced signal
+--- Two Configurations:
+---- Instrument: Tip is signal, sleeve is ground.
+---- Speaker: Tip and sleeve both get signal.
+--- Susceptible to noise.
+-- 1/4 inch TRS (Tip, Ring, Sleeve)
+--- Used for connection audio gear and stereo applications
+--- Two Configurations:
+---- Balanced (Mono): Tip and ring received balanced signal, sleeve is the ground.
+---- Stereo: Tip gets left, ring gets right, sleeve is ground. Two signal are unbalanced.
+--- Mono Configuration is less noisy than TS.
+-- 1/8 TRS (aka 3.5 mm)
+--- Used in stereo configuration for headphones mostly.
+--- Not typically used in balanced configuration.
+--- Commonly seen in Y converter cables with two mono RCA connectors on the other end.
+-- RCA (Radio Corporation of America)
+--- Typically used for consumer analog or digital audio signals (s/pdif)
+--- Pin is the signal, the shell is the ground.
+--- Used for short cable runs as they can be very noisy.
+- Speakers
+-- Two main types of speakers.
+-- Important Speaker Terminology
+--- Driver: The thing making the sound
+--- Tweeter: High Frequency driver
+--- Woofer: Low frequency driver
+--- Subwoofer: ultra low frequency driver.
+--- Crossover: circuitry that determines which frequencies go to which driver.
+--- Port: piping in the box that increases low frequency response.
+--- Amplifier: adds gain to the signal so the drivers can actually move air.
+-- Speaker Classifications
+--- Powered: Contains amplifier inside of speaker enclosure.
+--- Unpowered: Requires an external amplifier. Does not need to be plugged into a power outlet directly.
+--- Active/Passive: Differences in crossover design. Active is less prone to distortion.
+--- Bi-Amped: Separate amplifiers power the tweeter and woofer.
+
+Career Development: Entering the Industry
+- Gear:
+-- Lots of sound and sample libraries
+-- Computer with lots of storage and memory (32GB RAM)
+-- Field Recorder
+-- Nearfield Stereo Monitors (KRK Rokit is a good starting series)
+-- MIDI Controller
+-- DAW
+- Legal Considerations:
+-- Work for Hire
+--- They own everything.
+--- It's as if you didn't even write it.
+-- Exclusive License
+--- You own it, but will not exploit it for a period of time or within an industry.
+-- Non-exclusive License
+--- You own it and can do whatever you want with it.
+-- Know your medium, contract, and terms!
+-- Establish Business (LLC, S-Corp, etc)
+--- Tax Incentives
+--- Comes off as professional and legitimate
+-- Invoice Service or Templates
+--- AND CO Service as an example
+- Pricing
+-- Per Sound Effect
+--- How many iteration are you willing to make?
+--- Anywhere between $10 - $90
+-- Per Minute of Music
+--- WFH? Ex? Non-Ex?
+--- $100 - $2000 per minute
+-- Per Track
+--- Primarily used when writing for libraries
+--- Royalties and Fees
+--- $100 - $3000
+-- Per Project
+--- Flat Rate to work on project.
+--- Best format for Game Developers
+-- Revenue Share
+--- You take % of funds game generates
+--- Net? Gross?
+--- Avoid this if possible
+-- Every Music Track Deal has the following
+--- Master Recording
+--- Underlying Composition
+--- Demo Fee
+--- Sync Fee
+--- Writer and Publisher Royalties
+- Royalties
+-- Collected by Performing Rights Organizations (PRO)
+--- ASCAP, BMI, SESAC
+-- 100% Royalties
+--- 50% Writer, 50% Publisher
+-- You can be your own publisher
+--- Then you're entitled to both royalties
+- How to Market Yourself
+-- CRM (Customer Relationship Manager)
+--- HubSpot, Salesforce, Mailchimp
+--- Stay in touch and help THEM
+-- Website
+--- Plenty of Work Examples
+---- Reels can be helpful, especially when tailored for specific styles
+--- Include example with Picture!
+-- Know what you're good at
+--- And what inspires you!
+--- This changes your pitch from "I could..." to "I am THE person"
+-- Tie yourself to brands/people/organizations/events
+-- Nothing replaces face time
+-- Conferences and Festivals:
+--- Chicago International Film Fest
+--- Game Developers Conference
+--- PAX
+--- Pocket Gamer Connects
+--- Production Music Conference
+-- Research who is Attending before the Conference
+--- Find projects/teams you'd be excited to work with.
+--- Email beforehand to set up a meeting or let them know you'll be saying hi
+-- Follow up: Exchange cards and bring a pen.
+--- It's all about them and their project!
+-- Networking
+--- Bring another person with you to help combat "fish out of water"
+--- Make friends
+---- Be interested in what they're doing
+---- Ask questions - again, it's not about you!
+--- Follow-up, follow-up, follow-up
+---- Grab a coffee and just hang out
+--- Be Present in the Community 
+---- Game Jams, Meetups, Discord, etc
+--- Know what you're best at
+---- Group or One-on-one
+--- Help them however you can
+---- Even help them move!
+- Getting the Gig
+-- "My usual rate is XXX but I also understand your situations. What would you be comfortable with?"
+-- What else are you giving them besides the audio work?
+-- Contract
+-- Invoice
+--- Show the discount on the invoice
+-- How are they paying you?
+--- Paypal? Check?
+-- Do not EVER work for free
+--- If you're working Pro Bono, how else are they compensating you?
+-- How quick will success happen?
+--- It is a slow burn
+--- Only the exceptional can do this at all
+--- You will almost certainly need a side job for the first 5-10 years.
+--- Library work takes time and volume.
+--- Be financially stable and realistic.

@@ -1,3 +1,13 @@
 https://www.youtube.com/watch?v=2yvOCohZ0kY
 - Create atmosphere, set a mood, and tell a story.
 - Texture and emotion.
+- Need synths.
+- Add atmospheric sounds.
+- Flavor comes from delay and reverb
+- Harmony: Pick a mode and stick to it. Aeolian/natural minor scale
+- After mode is in place you can start layering different sounds.
+-- Start with a drone or pad.
+-- Add arpeggios, melodies, or other elements that shift over time.
+-- Can add layers of subtle noise to give space and depth.
+- Sound Design:
+-- Use evolving sounds that change over time.
