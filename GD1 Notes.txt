@@ -28,6 +28,7 @@ Unity Profiler:
 
 
 1.2.5
+-- Import Car package, don't do project template.
 -- Make sure to add the car script to the empty gameobject that is labeled Car, not Player Car
 
 1.1.7
@@ -68,6 +69,8 @@ Unity Profiler:
 - 1.2.2
 -- URP -> Simple Lit
 -- May need a second material to get both colors.
+
+- 1.2.3 
 
 
 2.1.1: Editor Scripting
