@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=8KqTkXQRnbs
+- Sound Track Elements:
+-- Dialogue
+-- Music
+-- Sound Effects
+-- Foley
+-- Ambience
+- Ambient Effects: Static effects like wind, birds, traffic, flowing waters, trees, roomtones, etc.
+-- They are not tied to an object.
+- Sound Effects: Tied to an object and are pannable.
+-- Dynamic Sounds. Specific doors, cars, horns, birds, and almost anything you can see on screen.
+- Ask:
+-- What time of day is it?
+-- What obvious sounds should I put?
+-- What other sounds can I add?
+-- Time Period?
+-- Temperature?
+-- Wild life?
+-- Location in the world?
+- Process:
+-- Works in 5.1
+-- Start with the BGs
+--- Fill stereo channels with wind, distant insects, birds.
+--- Fill out Mono Channels with mid-range wind and grass movement.
+--- Fill out Surrounds with static mid-range wind and just some grass movement.
+-- Add some sound effects
+--- Hammering guy. Push Back.
+--- Focus on Trees
+-- Automated Wind Roar
+-- Sugar
+--- Add some Generic Birds
+--- Add a crow pan
+--- Add grasshopper to show warmth

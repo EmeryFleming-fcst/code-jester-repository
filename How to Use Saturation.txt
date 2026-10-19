@@ -1,0 +1,88 @@
+How to Use Saturation: https://www.youtube.com/watch?v=BDPknmgjRcs
+- Introducing new harmonic information at multiples of the original source.
+- 2nd order = x2, 3rd order = x3, 4th order = x4
+- Even order and odd order harmonics
+- Instead of purely distorting, you can use it to just change the tone
+- Two Approaches:
+-- Subtle Tonal Use
+-- Creative Effect
+- Warm is more Odd Harmonics
+- Bright is more Even Harmonics
+- Setting up a plugin
+-- Drive: Main Force
+-- Tonal Control:
+-- Low-Cut and High-Cut
+- Gain going into it might be important, depending on the plugin.
+- Advice:
+-- Load up the plugin
+-- Increase the Drive to more than you think you'll lose
+-- Play around with Tonal controls.
+-- Pull Drive Back Down
+-- Oversampling:
+--- Find the Nyquist Frequency by halfing the sample rate. The highest frequency that can be accurately recorded and reproduced.
+--- Saturation can go above that frequency threshold.
+--- Aliasing: Bounces harmonics back down and they can be undesirable.
+--- Oversampling prevents aliasing but increases latency by a lot. 4x is usually enough, 8x is driving really hard.
+- Saturation plugins are often adding EQ curves as well.
+- A lot of the time, you just have to try things out and see what you like.
+- Saturation Types:
+-- Valve
+--- Rich Sound
+-- Tape
+--- Tape machine
+--- Arturia J-37
+-- Transistor
+--- Cleanest
+-- Transformer
+--- Older hardware
+--- Aggressive and dirtier
+--- SSL Fusion Transformer
+- Plugin Recommendations:
+-- Free
+--- Softube
+---- Thick Saturation
+---- Saturation Type changes EQ
+-- Paid
+--- Decapitator
+---- A: Tape
+---- E: Transistor
+---- N: Transistor
+---- T: Tube/Valve
+---- P: Tube/Valve
+- When saturating, you're effectively pushing into the ceiling of the component, creating compression.
+- Clipping is saturation using a threshold.
+- Modes of Saturation
+-- Multi-band Saturation
+--- Only saturate parts of the frequency spectrum
+-- Serial Saturation
+--- Multiple Saturation plugins one after the other
+--- Happens quite naturally over the course of recording/mixing.
+-- Parallel Saturation
+--- Dry/Wet
+- 3 Common Mistakes
+-- Saturating the Low End
+--- Dulls the transients and breaks up the low end.
+-- Unintentional Oversaturation
+--- Most applications of saturation are subtle.
+--- Bring it up until you notice it, then back off.
+-- Not experimenting with different plugins
+--- All of them do different things
+- FAQs
+-- Odd and Even Harmonics
+--- Symmetrical is odd, asymmetrical is even.
+-- Saturation, Distortion, Overdrive are all basically the same thing.
+-- Gluing vocals together with Saturation
+--- Processing things together
+--- Slower Release times
+--- Tube Compressor
+-- When to clean and when to dirty
+--- What is the intent for this track?
+--- Approach it intentionally.
+-- When to use types of Saturation
+--- No hard rules but:
+---- Tape is typically used more on the mix bus.
+---- Pre-Amp transformer-based more on vocals.
+---- Tube a bit more on the mix bus.
+-- Generally Saturate towards the end. Before Limiting and Clipping.
+-- Saturating with a bus can let you control what is being saturated (via EQ before, for example)
+-- 
