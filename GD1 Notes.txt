@@ -17,13 +17,7 @@ A list of some of the more useful Unity [Tags]
 Videos:
 7: https://www.youtube.com/watch?v=Fy0aCDmgnxg & https://www.youtube.com/watch?v=216_5nu4aVQ
 
--- Provide Better Resource for Lighting. Explain you may need to tweak settings quite a bit.
-
-- 6.4.1
--- Caching the Camera
-
-- 6.4.3
--- Null Coalesce with Events
+-- Provide Better Resource for Lighting. Explain you may need to tweak settings quite a bit
 
 
 - 7.2.4
