@@ -58,6 +58,51 @@ https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.ht
 	- Can save and export custom editor profiles
 
 2D
-- Stopped at Rendering
+- Rendering
+	- CanvasModulate darkens scene
+	- Light 2D effects
+	- Additive sprites can be used as a more performant alternative, with tradeoffs
+- 2D antialiasing
+	- Antialiasing as a property
+	- MSAA
+- 2D Parallax
+	- Parallax2D node
+- 2D Tools
+	- Tilesets and Tilemaps
+3D
+- Read when needed
 
+Animation
 
+Assets Pipeline
+
+Audio
+- Read when needed
+
+Export
+
+File and Data I/O
+
+Internalization
+
+Input Handling
+
+Math
+
+Navigation
+
+Performance
+
+Physics
+
+Platform Specific
+
+Plugins
+
+Rendering
+
+Scripting
+
+Shaders
+
+UI
