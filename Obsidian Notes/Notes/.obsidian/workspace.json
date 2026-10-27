@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Audio/Mixing & Mastering/Information/Vocals.md",
+                "file": "Game Development/Engine Notes/Documentation/Documentation Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vocals"
+              "title": "Documentation Notes"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -185,10 +187,13 @@
   },
   "active": "f3d774eed0cdc06e",
   "lastOpenFiles": [
+    "Audio/Sound Design/Informative/Film and Games.md",
+    "Game Development/Engine Notes/Documentation/Documentation Notes.md",
+    "Game Development/Engine Notes/Documentation",
+    "Game Development/Engine Notes",
+    "Audio/Mixing & Mastering/Information/Vocals.md",
     "Audio/Mixing & Mastering/Solving Problems/Vocal Restoration and Cleaning.md",
     "Audio/Mixing & Mastering/Solving Problems/Vocal Processing.png",
-    "Audio/Mixing & Mastering/Information/Vocals.md",
-    "Audio/Sound Design/Informative/Film and Games.md",
     "Audio/Mixing & Mastering/Information/Compression.md",
     "Audio/Mixing & Mastering/Information/Ableton.md",
     "Audio/Mixing & Mastering/Information/Mixing Plugins.md",
@@ -214,8 +219,6 @@
     "Audio/Mixing & Mastering/Solving Problems",
     "Audio/Mixing/Mixing Problems and Solutions.md",
     "Welcome.md",
-    "Audio/Mixing & Mastering/Plugins/Izotope",
-    "Audio/Mixing & Mastering/Plugins",
-    "Audio/Mixing & Mastering"
+    "Audio/Mixing & Mastering/Plugins/Izotope"
   ]
 }
