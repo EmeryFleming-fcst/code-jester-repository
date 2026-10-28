@@ -70,8 +70,73 @@ https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.ht
 - 2D Tools
 	- Tilesets and Tilemaps
 3D
-- Read when needed
-
+- Introduction
+	- Godot uses Meters. 1 Unit = 1 Meter.
+![[introduction_to_3d_coordinate_systems 1.webp]]
+- Blender Style Shortcuts:
+	- Editor Setting Shortcut's Tab
+		- Begin Translate Transform to G
+		- Begin Rotate Transform to R
+		- Bring Scale Transform to S
+		- Unbind Scale Mode
+- Using 3D Transforms
+	- Euler Angles
+		- Problem: Orientation is dependent on the orientation of the previous one.
+		- Rotation Order is Important!
+		- Solution: Do not use the rotation property of Node3D! Use Transform.Basis
+		- Basis + Origin = Transform.
+		- Precision Errors:
+			- Doing successive operations on transforms will result in a loss of precision due to floating-point error.
+			- One solution is to call orthonormalized, but it will cause scale to be lost.
+			- It is recommended to not scale nodes that are going to be manipulated, but their children instead.
+		- Transforms are meant to be used with Vectors. Keep track of things like angles outside of them.
+		- Can use Quaternions for nearest interpolation.
+- Procedural Geometry
+	- Three Tools: ArrayMesh, SurfaceTool, and ImmediateMesh
+- 3D Text
+	- Label3D faster, more robust fonts, but limited interaction with the environment.
+	- TextMesh can have actual depth.
+	- Projected Control: Project a 2D node onto 3D space. More complicated. Use if BBCode or Control theming support is needed.
+- Rendering
+	- Limitations
+		- Texture Sizes
+			- Larger than 8192 x 8192 might not be supported for desktops.
+			- 4096 x 4096 maximum for mobile.
+			- Process -> Size Limit can reduce dimension's during import.
+		- Color Banding
+			- Project Settings -> Rendering -> Anti-Aliasing. Cheap. Applies a full-screen debanding Shader as post-processing.
+			- Custom shaders or baking some noise into the textures also works.
+		- Depth Buffer Precision
+			- To increase depth buffer precision, increase a Camera's Near property and lower it's far. Tradeoffs.
+		- Transparency Sorting
+			- Transparent after Opaque.
+			- If Objects sorted improperly, tweak Render Priority on material or sorting offset on Node.
+			- Can split a material into a transparent part and opaque part.
+			- It texture has mostly fully opaque and fully transparent, try Alpha Testing instead of Alpha Blending. 
+	- Lighting
+		- Light limits, by default, depend on the render.
+		- See Lights and Shadows as needed: https://docs.godotengine.org/en/stable/tutorials/3d/lights_and_shadows.html
+	- Decals
+		- Projected Textures
+		- Useful for:
+			- Static Decorations
+			- Bullet Impacts and explosions
+			- Blob Shadows
+		- Rendering Performance is mostly determined by screen coverage. Many small is better than a few large.
+	- Physical Light and Camera Units
+		- Physicals Units: Photorealism. Useful when porting from 3D software.
+		- Downside: Must manage dynamic range yourself.
+	- Particle Systems
+		- GPU vs CPU Variants
+	- HDR Lighting (Look more into this)
+		- sRGB -> Display Linear and Display Linear -> sRGB must both be enabled.
+	- Global Illumination
+		- Reflection Probe
+		- LightmapGI
+		- VoxelGI
+		- Screen-Space Indirect Lighting
+		- SDFGI
+	- Environment and Post-Processing
 Animation
 
 Assets Pipeline

@@ -1,0 +1,61 @@
+https://www.youtube.com/watch?v=uX-cIdWFAaA
+## MIDI Overview
+- Musical Instrument Digital Interface
+- Communicates:
+	- Which notes are being played and for how long
+	- How hard the keys are being pressed
+	- Smooth raising and lowering of pitch in real time
+	- Pressure applied to a key after it is held down
+	- Continuous data from assigned knobs, faders, and petals
+- Control Change (CC):
+	- CC1: Modulation. Vibrato or tremolo.
+	- CC2: Breath Control. Expression and dynamics on wind instruments and pads.
+	- CC7: Main Volume.
+	- CC10: Pan.
+	- CC11: Expression: Subtle volume changes in a performance.
+	- CC64: Sustain Pedal. Holds notes while the petal is pressed.
+- The Three Ts of MIDI:
+	- Trigger: What you play.
+		- Note ON fires when you press the key, Note Off when you lift. The time between is how long the note rings.
+	- Touch: How you play.
+		- Velocity isn't just volume, it's tone and timbre. 
+			- Hit Harder: Brighter, more bite.
+			- Hit Softer: Rounder and darker.
+		- Aftertouch adds expression via key pressure.
+			- Vibrato, Filter swells, and drive.
+	- Tweak: Shape it over time
+		- CC Message says: this control move to this position.
+		- Wheels, knobs, faders, and pedals.
+		- Map It: Map the control to a parameter.
+		- Ride It: Ride the swell live.
+		- Polish It: Perform first, then clean up the points after.
+## Anatomy of a MIDI Keyboard
+- Drum Pads
+	- Velocity-sensitive
+- Keys
+	- Sends note pitch, velocity, and aftertouch information.
+- Pitch Bend
+	- Smoothly bends pitch up and down
+- Mod Wheel
+	- Adds vibrato, tremolo, or any effects assigned. Sends CC1.
+- Display Screen
+	- Shows tempo, patch name, and MIDI Channel info.
+- Assignable Knobs
+	- Sends CC data to filter cutoff, reverb, volume or any CC parameter
+- Assignable Faders
+	- Great for assigning to individual tracks in your DAW as volume mixing
+- USB Port
+	- Connects to your computer via USB
+- Power
+	- Large Controllers my require a DC power adapter
+- MIDI IN
+	- Receives MIDI data from other hardware. Used to sync this keyboard from an external device.
+- MIDI OUT
+	- Sends MIDI data to other hardware. Used to sync or control an external device from this keyboard.
+- Sustain Pedal
+	- Connects a standard sustain pedal. Holds notes while pressed. Sends CC 64.
+- Expression Pedal
+	- Connects an expression pedal for real-time volume or filter control. Sends CC 11.
+
+## Core Synth Components
+- 

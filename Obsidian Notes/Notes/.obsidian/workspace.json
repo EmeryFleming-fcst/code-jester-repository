@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Development/Engine Notes/Documentation/Documentation Notes.md",
+                "file": "Audio/Sound Design/Synthesis/Synths and MIDI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Documentation Notes"
+              "title": "Synths and MIDI"
             }
           }
         ]
@@ -71,7 +71,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -185,10 +188,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "f3d774eed0cdc06e",
+  "active": "654f56ea074116ff",
   "lastOpenFiles": [
-    "Audio/Sound Design/Informative/Film and Games.md",
+    "Audio/Sound Design/Synthesis/Synths and MIDI.md",
+    "Audio/Sound Design/Synthesis",
+    "introduction_to_3d_coordinate_systems.webp",
+    "introduction_to_3d_coordinate_systems 1.webp",
     "Game Development/Engine Notes/Documentation/Documentation Notes.md",
+    "Audio/Sound Design/Informative/Film and Games.md",
     "Game Development/Engine Notes/Documentation",
     "Game Development/Engine Notes",
     "Audio/Mixing & Mastering/Information/Vocals.md",
@@ -218,7 +225,6 @@
     "Audio/Mixing & Mastering/Plugins/Izotope/RX11.md",
     "Audio/Mixing & Mastering/Solving Problems",
     "Audio/Mixing/Mixing Problems and Solutions.md",
-    "Welcome.md",
-    "Audio/Mixing & Mastering/Plugins/Izotope"
+    "Welcome.md"
   ]
 }
