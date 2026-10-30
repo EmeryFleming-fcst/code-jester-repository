@@ -58,4 +58,25 @@ https://www.youtube.com/watch?v=uX-cIdWFAaA
 	- Connects an expression pedal for real-time volume or filter control. Sends CC 11.
 
 ## Core Synth Components
-- 
+- Oscillator: The foundation of a synthesizer.
+	- Anything that generates the sound.
+- Waveform:
+	- The shape of the sound wave. Determines tonal character.
+- Filter
+	- Remove frequencies
+	- If filter type is followed by a number, that usually indicates slope.
+- Resonance
+	- Boosts the frequencies around a cut-off point
+- Low Pass
+	- Cuts out highs
+- High Pass
+	- Cuts out lows
+- Band Pass
+	- Cuts out both low and highs.
+- LFO
+	- A signal generator used to modulate pitch and filter parameters.
+	- Modulation is Cyclical.
+- Rate
+	- The speed of the LFO Cycle
+- Depth
+	- Increase the amount of movement inside of the LFO.

@@ -137,6 +137,51 @@ https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.ht
 		- Screen-Space Indirect Lighting
 		- SDFGI
 	- Environment and Post-Processing
+		- Use the world-environment node
+		- Background: Displays an image or color. Changes how objects are affected by the ambient and reflected light.
+		- Sky Material
+			- Can also create custom shader.
+		- Ambient Light
+			- Background, Color, Sky, or Disabled.
+		- Reflected Light
+			- Specular Light. Background, Disabled, Sky
+		- Tonemap
+			- Linear: Simple and Fast.
+			- Reinhard: Slower than linear. Dull and low contrast. Rolls off brights.
+			- Filmic: Slightly slower than Reinhard.
+			- ACES: Desaturates bright values. Slightly slower that filmic. 
+			- AgX: Similar to ACES. Slowest. Best at maintaining the hue of colors as they become brighter.
+	- Mid- and post-processing effects
+		- Screen Space Reflections
+			- Most sense when objects are in contact. 
+			- Real time
+			- Won't reflect transparent materials.
+		- Screen-Space Ambient Occlusion
+			- Only works with Ambient light by default.
+			- Make the darks, darker
+			- Looks best when combined with a real source of indirect light, like VoxelGI
+		- Screen-Space Indirect Lighting
+			- Meant to complement other Global Illuminations.
+			- Only provides indirect lighting
+		- Signed Distance Field Global Illumination
+			- Real Time
+		- Glow
+			- Can also be used to blur the screen
+		- Fog
+			- Depth Fog: Based on Distance to Camera
+			- Height Fog: Applied to objects beyond a certain height threshold (above or below)
+		- Volumetric Fog
+			- Fog affected by the lights that traverse the fog.
+		- BCS
+			- Brightness, Contrast, Saturation, Color Correction
+	- Camera Attribute Options
+		- Depth of Field / Far Blur
+		- Depth of Field / Near Blur
+		- Exposure
+	- Volumetric Fog and Fog Volumes
+		- Volumetric Fog can be used for lighting
+		- Fog Volumes can restrict it
+	- Antialiasing 
 Animation
 
 Assets Pipeline
