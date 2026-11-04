@@ -350,3 +350,5 @@ Unreal 5 C++ Developer: Code Your Own Unreal Games
 -- 2.32 Video of completed Level
 
 - Chapter 3
+-- 3.4 Content will be missing. Talk to Mr. Fleming
+-- 3.4 Image of Custom Design
