@@ -352,3 +352,5 @@ Unreal 5 C++ Developer: Code Your Own Unreal Games
 - Chapter 3
 -- 3.4 Content will be missing. Talk to Mr. Fleming
 -- 3.4 Image of Custom Design
+-- 3.10
+--- If you get an error when trying to *GetOwner(), include "GameFramework/Actor.h" 
