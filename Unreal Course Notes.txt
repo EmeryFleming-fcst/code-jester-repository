@@ -28,3 +28,8 @@ Unreal 5 C++ Developer: Code Your Own Unreal Games
 -- 3.4 Image of Custom Design
 -- 3.10
 --- If you get an error when trying to *GetOwner(), include "GameFramework/Actor.h" 
+-- 3.12
+--- Video of door moving up and down
+-- 3.20 Submit video of working pressure plate
+-- 3.26 The View Floor toggle seems to have been removed.
+-- 3.26 Submit a video of your puzzle designs.
