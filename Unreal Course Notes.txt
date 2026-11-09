@@ -33,3 +33,5 @@ Unreal 5 C++ Developer: Code Your Own Unreal Games
 -- 3.20 Submit video of working pressure plate
 -- 3.26 The View Floor toggle seems to have been removed.
 -- 3.26 Submit a video of your puzzle designs.
+-- 3.32 Video or Screenshot of Sphere Collision Shape
+-- 3.44 Video of Puzzle Working

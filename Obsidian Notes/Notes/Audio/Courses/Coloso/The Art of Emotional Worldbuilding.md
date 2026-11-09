@@ -1,3 +1,4 @@
+# Section 02: Preparation
 ## Essential Tools and Their Roles
 - Computer
 	- Components
@@ -31,3 +32,31 @@
 		- Main + Sub Approach
 			- Main (49): Smaller for quick Input.
 			- Sub (88): Bigger for full or more complex sections.
+# Section 03: Essential Theory for Writing Music
+## 04-1 Understanding DAW Architecture
+- What do we need to make music?
+	- An Instrument
+	- A Player
+	- A Score
+- Digital World
+	- Virtual Instrument (VSTi)
+	- Computer (Track)
+	- MIDI: Pure Data
+- Create a Track -> Assign a Virtual Instrument -> Play
+- Piano Roll
+	- Vertical Position represents Pitch
+	- Horizontal Position represents Time
+- Bar
+	- The Bar is the division of a length.
+	- Grid
+		- If a bar is divided into 4 parts, it's called Quarter Note Resolution
+		- If a bar is divided into 8 parts, it's called Eight Note Resolution
+		- If a bar is divided into 16 parts, it's called Sixteen Note Resolution
+- Velocity: How strongly a note is played
+	- Not the same as volume.
+	- Changing tone and character.
+	- Necessary for breathing life into the performance.
+- Audio Tracks
+	- Deal with actual recorded sounds.
+	- Samples: Sounds that are already recorded.
+	- Splice: A good place to buy samples. 
