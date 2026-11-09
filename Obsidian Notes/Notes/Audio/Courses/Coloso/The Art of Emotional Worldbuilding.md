@@ -1,0 +1,33 @@
+## Essential Tools and Their Roles
+- Computer
+	- Components
+		- CPU
+			- The Engine of Music Production
+			- The first bottleneck
+		- RAM
+			- The Workbench for your instruments
+		- SSD
+			- Speed and Capacity for Large Libraries
+	- The goal is maximum efficiency for your workflow.
+	- Only expand as needed.
+- Audio Interface
+	- Reasons to Buy
+		- Latency
+		- Sound Quality
+		- Connectivity
+	- Budget Recommendations
+		- $150 - $250
+			- Focusrite Scarlett Solo or 2i2
+			- Steinberg UR22C
+			- Audient iD4 or iD14
+			- MOTU M2
+- Monitoring
+	- Expensive speakers do not sound good in an untreated room.
+	- Monitoring Headphones
+		- Make music sound honest.
+		- Recommendation: Sennheiser HD 600
+- MIDI Keyboard
+	- Sends performance data to the computer.
+		- Main + Sub Approach
+			- Main (49): Smaller for quick Input.
+			- Sub (88): Bigger for full or more complex sections.
