@@ -60,3 +60,6 @@
 	- Deal with actual recorded sounds.
 	- Samples: Sounds that are already recorded.
 	- Splice: A good place to buy samples. 
+## 04-1 Understanding DAW Architecture
+- Mixing is the process of applying effects to tracks to enhance and shape them, with the goal of creating a single, cohesive, track.
+- Create Tracks -> Load Instruments / Place Audio -> Shape the Sound with Effects
