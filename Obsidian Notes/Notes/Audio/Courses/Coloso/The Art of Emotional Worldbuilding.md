@@ -63,3 +63,80 @@
 ## 04-1 Understanding DAW Architecture
 - Mixing is the process of applying effects to tracks to enhance and shape them, with the goal of creating a single, cohesive, track.
 - Create Tracks -> Load Instruments / Place Audio -> Shape the Sound with Effects
+## 05-1 Basic Harmony
+- Music wasn't born from theory, it came from instinct. Theory came later.
+- Harmony is similar to science: We observe phenomenon first, the create theories to describe them.
+- When we observe music, we're looking at how people react to sound. Theorists then analyze those musical examples and create theories based on patterns.
+- Context is important. An interval that sounds sad, may not always sound sad. Speed could change how it sounds. Rhythm and other harmonic context can change the emotional meaning completely.
+- Emotional meaning is also culturally dependent. And can change over time.
+- Harmony describes patterns of perception.
+- Harmony is not an absolute rulebook, it's a collection of tendencies. 
+- You can't break rules you don't understand.
+- Theory is a list of ingredients.
+- Listening to a lot of music is just as important as studying harmony.
+- The Note
+	- C D E F G A B
+	- Octave: When one sound vibrates twice as fast as the other, we tend to hear them as the same note. Just higher or lower.
+	- 12 notes in between each octave is not an absolute truth. It's a convention. An agreement that says it's practical, flexible, and sounds good for music.
+		- This convention is called 12-Tone Equal Temperament.
+		- This is a human made framework!
+	- The music we have grown up listening to does not randomly use all 12 notes equally. 
+	- When all 12 notes are allowed at once, there are too many choices.
+	- Humans added guidelines to make it easier. This is called a Scale.
+- The Scale
+	- A set of notes arranged according to a rule.
+	- Out of these 12 notes, lets use these ones.
+	- When used together, a certain mood tends to appear.
+	- There is no correct Scale.
+	- Two most common we'll encounter: The Major Scale and the Minor Scale
+	- The C Major Scale:
+		- C D E F G A B C
+	- The Tonic
+		- The reference note/The home base.
+	- To create a scale, you start at the tonic and arrange according to the scale rule.
+		- Major Scale: Whole, Whole, Half, Whole, Whole, Whole, Half (WWHWWWH)
+		- Two Adjacent notes form a half-step. If there's a note in-between, it's a whole step.
+- The Key
+	- A Key is what happens when we choose one scale as the center piece of music.
+	- When we say this piece is in a "key" we are saying this scale feels stable. The harmony and tension revolve around this.
+	- "The song is in the key of C Major" = We will mainly use the C major scale.
+	- The scale is the guideline. A collection of 12 possible notes.
+- Key Signature
+	- Sharps and Flats
+		- Sharp: Raise this note by a half-step
+		- Flat: Lower this note by a half-step
+	- In G-Major, adding the # at the beginning meant to play every F as F-sharp.
+- Intervals
+	- A way to measure the distance between two notes.
+	- Alternatively, a way to measure the relationship between notes.
+	- A note, by itself, doesn't have much emotion.
+	- Fundamental Rule:
+		- 2nd, 3rd, 5th are examples of interval numbers.
+		- Music does not count from zero. We start at 1.
+			- C to C: Unison. 1st Note.
+			- C to D: 2nd
+			- C to E: 3rd
+		- The 8th is called an Octave.
+	- Interval Names have two parts:
+		- The number and the quality.
+	- Quality
+		- From C to E is a Third. More precisely, a Major Third.
+		- From C to E-flat is a Minor Third. 3 half steps, versus 4 half steps from major.
+	- The Third often determines the color or character of chords.
+	- Perfect Intervals: Feel very stable and locked in.
+		- Perfect 1st (Unison): 0 half steps. C to C
+		- Perfect 4th: 5 half steps. C to F
+		- Perfect 5th. Seven half steps. C to G
+		- Perfect 8th (Octave). 12 half steps. C to High C.
+	- Major or Minor Intervals (Minor = Major - 1 half step)
+		- Major 2nd: 2 half steps. C to D
+			- Minor 2nd: C to Db
+		- Major 3rd: 4 half steps. C to E
+			- Minor 3rd: C to Eb
+		- Major 6th: 9 half steps. C to A
+			- Minor 6th. C to Ab
+		- Major 7th. 11 half steps. C to B
+			- Minor 7th. C to Bb
+- Chords
+	- Intervals that are combined and intensified
+	- 

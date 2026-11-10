@@ -35,3 +35,8 @@ Unreal 5 C++ Developer: Code Your Own Unreal Games
 -- 3.26 Submit a video of your puzzle designs.
 -- 3.32 Video or Screenshot of Sphere Collision Shape
 -- 3.44 Video of Puzzle Working
+-- 3.50 Video of Finished Project. Feel free to make it your own
+
+UNIT 2
+Unreal 5 C++ Developer: Code Your Own Unreal Games Continued
+Chapter 4
