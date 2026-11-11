@@ -139,4 +139,130 @@
 			- Minor 7th. C to Bb
 - Chords
 	- Intervals that are combined and intensified
-	- 
+	- The Triad Chord
+		- Choose a Root Note
+		- Stack notes a third apart on top of it
+		- Major Chord by default
+		- Minor Chord
+			- Bring the second note down a half-step
+		- Augmented Chord
+			- Taking the 5th note in the major chord and increase it by a half step.
+			- Feels too bright and intense to the point of feeling unstable.
+		- Diminished Chord
+			- Taking the minor chord and lowering the 5th note by a half step.
+			- Makes it sound tense, scary, or closed in.
+		- Summary:
+			- Major Chord: Root - Major 3rd - Perfect 5th
+			- Minor Chord: Root - Minor 3rd - Perfect 5th
+			- Augmented Chord : Root - Major 3rd - Augmented 5th
+			- Diminished Chord: Root - Minor 3rd - Diminished 5th
+	- Diatonic Chords
+		- Chords built using only the notes of a specific key.
+		- The Diatonic Chord of the C Major Scale is:
+			- C Maj, D min, E min, F Maj, G Maj, A min, B dim
+		- Playing with Diatonic chords is the safest method.
+		- Every Major Scale follows the same rule:
+			- Maj, min, min, Maj, Maj, min, dim 
+				- Because WWHWWWH
+				- Ever scale uses the same interval pattern.
+				- Since we're stacking thirds using the same intervallic structure, the chord quality pattern is also the same.
+			- We assign numbers to these chords
+				- I Maj
+				- ii min
+				- iii min
+				- IV Maj
+				- V Maj
+				- vi min
+				- vii dim
+			- Example:
+				- Build the A-Major Scale: A - B - C# - D - E - F# - G# - A
+				- Build the G-Major Scale: G - A - B - C - D - E - F# - G
+				- Build the C-Major Scale: C - D - E - F - G - A - B - C
+				- A-Major Chord: A Maj, B min, C# min, D Maj, E Maj, F# min, G# dim
+				- G-Major Chord: G Maj, A min, B min, C Maj, D Maj, E min, F# dim
+				- C-Major Chord: C Maj, D min, E min, F Maj, G Maj, A min, B dim
+			- Why do we number them?
+				- Each Chord has a specific role and feeling within the scale.
+				- These roles create relationships between chords. Numbering them makes them easy to translate across keys.
+				- Example:
+					- You like the following C-Major progression: F - G - Am - Em
+					- Memorizing them by words makes it hard to translate.
+					- But what about by number? 
+						- F - G - Am - Em becomes IV - V - vi - iii
+					- Now translating it to G-Major you get:
+						- IV - V - vi - iii = C - D - Em - Bm
+				- Lets you move freely between keys while preserving the musical key
+	- Major Key: Bright, Stable, and Warm. Positive and uplifting.
+	- Minor Key: Dark, Emotional, Tense
+	- Minor Scale: WHWWHWW
+		- A-Minor Scale (Natural Minor Scale): A - B - C - D - E - F - G - A
+	- Even if notes are identical between scales, their numbers and functions change depending on where the scale begins.
+	- Relative Key: When two keys share the same notes but have different homes.
+		- Every Major Key had a corresponding Minor key.
+	- Most music is built around Diatonic Chords. More colorful or complex chords are usually layered on top of it.
+	- ### EXERCISE HERE
+## 06-1 Song Structure and Musical Flow
+- Intro, Verse, Chorus, Bridge, Interlude. These are labels.
+- Think in terms of functions. Not, labels. Ask "What is this accomplishing inside the piece?"
+- Develop your own internal language. Music is a sensation. Define it yourself.
+- Modern music doesn't always fit into traditional categories.
+- Overall Flow of a Piece:
+	- Unfold over time. 
+	- Communicate theme or story.
+		- Prologue
+			- Present the world, raise questions
+		- Introduction
+			- Meet the protagonist
+		- Rising Conflict
+			- Obstacles grow, tension builds.
+		- Climax
+			- The decisive confrontation
+		- Resolution
+			- Release and Closure
+		- Continuation
+			- Same world, new situation
+	- Prologue -> Intro
+	- Introduction -> Verse
+	- Rising Conflict -> Build / Pre-Chorus
+	- Climax -> Chorus
+	- Resolution -> Breakdown / Outro
+	- Continuation -> Next Section (Verse 2)
+	- Intro - Verse - Pre-Chorus - Chorus
+	- This structure is not the only correct one or the only way to write music. It is simply a reliable structure for clear storytelling.
+	- Example Song:
+		- Introduction: The main motif that will repeat is introduced.
+			- Idea: "This is a dark and hopeless story"
+			- Not many instruments yet. Atmosphere, not impact.
+		- Rising Conflict
+			- Rhythm and Momentum begin to appear.
+			- Drums added.
+			- Elements are added gradually.
+			- Steady build-up of tension.
+		- Climax
+			- The main motif is fully presented.
+			- All the instruments come together.
+			- Core idea of the track is presented.
+			- Energy level is at it's highest so far.
+			- Everything surges forward and reaches a clear peak.
+		- Resolution
+			- The energy is much lower, but the kick remains. 
+			- Transition doesn't feel abrupt or empty.
+			- Most of the energy is released, but a small amount of tension lingers.
+			- The main conflict feels resolved, yet not completely finished.
+		- Continuation
+			- Lowest point of energy.
+			- Tension finally dissolves.
+			- Allows the listener to breathe.
+			- A new melodic idea appears.
+		- Rising Conflict
+			- Music swells again.
+		- Climax
+			- The main motif plays with full force.
+			- Everything pushes forward relentlessly.
+			- The piece continues just a bit longer, reinforcing that this is truly the final moment.
+			- Energy continues to grow until it explodes.
+		- Outro
+			- The main motif is repeated one last time.
+			- Leaves an afterimage before stopping.
+			- Like a film that shows the protagonists back for a moment at the ending, before the credits roll.
+	- Everything works through tension and release. Max intensity should not be constant.
