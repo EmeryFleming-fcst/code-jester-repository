@@ -40,3 +40,4 @@ Unreal 5 C++ Developer: Code Your Own Unreal Games
 UNIT 2
 Unreal 5 C++ Developer: Code Your Own Unreal Games Continued
 Chapter 4
+-- 4.10: Show working Tank with Log
