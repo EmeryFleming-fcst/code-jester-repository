@@ -60,7 +60,7 @@
 	- Deal with actual recorded sounds.
 	- Samples: Sounds that are already recorded.
 	- Splice: A good place to buy samples. 
-## 04-1 Understanding DAW Architecture
+## 04-2 Understanding DAW Architecture
 - Mixing is the process of applying effects to tracks to enhance and shape them, with the goal of creating a single, cohesive, track.
 - Create Tracks -> Load Instruments / Place Audio -> Shape the Sound with Effects
 ## 05-1 Basic Harmony
@@ -266,3 +266,108 @@
 			- Leaves an afterimage before stopping.
 			- Like a film that shows the protagonists back for a moment at the ending, before the credits roll.
 	- Everything works through tension and release. Max intensity should not be constant.
+	- Crisis -> Climax -> Release
+	- This way of thinking is based on a specific goal: Draw the user into the song like a story. This is just the most widely used approach.
+	- Always consider what the intention of the song is.
+		- Intent matters the most.
+	- Different Intent, Different Structure
+		- Novels where the ending appears first, the it flashes back.
+			- Immediately capture the audience's attention.
+		- Action Movies
+			- Destructive Catharsis.
+	- The same idea applies to songs.
+		- Completely changing the second verse.
+			- Creates a strong sense of freshness and curiosity.
+			- Breaks unity as a tradeoff.
+		- Energy never drops
+			- Constantly rising.
+			- Lose the feeling of building-up to the complex.
+	- Think in terms of energy flow and function.
+		- Label doesn't matter as much as role.
+	- By deciding what energy shift you want at each transition, you can shape the song much more effectively.
+	- What matters most: Before focusing on individual trees, design the forest.
+	- Core Idea: Understanding the large-scale framework of the piece and energy.
+		- Function matters more than terminology.
+		- Music is a form of storytelling.
+		- Control of energy is essential.
+		- Intention determines structure.
+		- Traditional structures are a foundation, not a rule.
+## 07 Virtual Instruments and Workflow Setup
+- A Practical Guide to Choosing Virtual Instruments
+	- Your DAW Already includes powerful instruments.
+	- Advice:
+		- Start composing with the instruments in your DAW.
+	- Three Step Approach:
+		- Beginner Stage:
+			- Fill gaps with samples
+			- Focus on melody, harmony, and rhythm
+			- Discover what sounds you actually need
+		- Exploration Stage:
+			- Access many instruments for a monthly fee
+				- Musio, EastWestComposerCloud
+			- Try different libraries freely
+			- Discover your preferences
+		- Investment Stage
+			- Prioritize Lead Instruments
+			- Background sounds can stay simple
+			- Invest where quality matters
+	- Use Subscriptions for exploration, investment for the instruments you use the most.
+	- Lappy's Tools:
+		- Full Orchestra - Choose what fits your style the most
+			- Nucleus
+			- Metropolis Ark Series
+		- Strings
+			- Berlin Symphonic Strings
+			- Abbey Road Two
+			- Bohemian Series
+		- Brass
+			- Tom Holkenborg's Brass
+			- Talos
+			- Infinite Brass
+		- Woodwinds
+			- Infinite Woodwinds
+		- Choir/Vocal
+			- Chorus
+			- Atlantis III
+			- 8dio Choir
+		- Cinematic Hybrid
+			- Heavyocity Products
+			- Keepforest Products
+		- Synth
+			- Serum
+			- Current
+		- Drums/Percussion
+			- Keepforest Samples
+			- Cerberus
+			- Damage 2
+			- Taiko Creator
+			- Tom Holkenborg's Percussion
+			- EZ Drummer 3
+			- Trivium Drums
+		- Piano
+			- James Newton Howard Piano
+		- Electric Guitar
+			- Odin III
+			- APPEX
+			- Hinterland
+		- Acoustic Guitar
+			- Ample Guitar Series
+			- Hoard Series
+		- Bass Guitar
+			- MODO Bass
+			- Ample Bass Series
+			- Euro Bass
+			- Nocturnal Bass
+		- Ethnic/Worlds
+			- Phoenix Orchestra
+			- East Asia
+			- Ample China
+			- Era II
+	- Tips For Purchasing:
+		- Listen to Sound Demos first. A lot of companies upload real world usage cases on their YouTubes.
+		- Look for Sales.
+		- Subscribe to their newsletters.
+	- Templates
+		- Templates help speed up your workflow
+			- Organize by Instrument Type
+			- Only Enable the tracks you need. The rest should start off disabled.

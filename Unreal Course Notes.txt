@@ -1,3 +1,5 @@
+Tested with Unreal 5.8 and Rider
+
 Include Courses, Course Order, and Explanation
 Include Quizzes
 Assignment at the end of each
@@ -41,3 +43,5 @@ UNIT 2
 Unreal 5 C++ Developer: Code Your Own Unreal Games Continued
 Chapter 4
 -- 4.10: Show working Tank with Log
+-- 4.16: Show Moving and Rotating Tank
+-- 4.20: Video of Rotating Towers
