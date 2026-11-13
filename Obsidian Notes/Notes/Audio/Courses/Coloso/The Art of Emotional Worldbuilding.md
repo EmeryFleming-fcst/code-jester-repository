@@ -371,3 +371,54 @@
 		- Templates help speed up your workflow
 			- Organize by Instrument Type
 			- Only Enable the tracks you need. The rest should start off disabled.
+# Section 04: Music Analysis For Faster Growth
+## 08. Deconstructive Analysis
+- Memorizing Steps != Understanding Principles
+- If you don't understand the why, you can't solve problems.
+- Song Copying should not be approached as Sound Matching.
+- Listeners feel, Composers ask why.
+- Focus on why the sound was chosen.
+	- Trace the CAUSE of the emotion.
+	- What emotion do I want to create?
+		- From there, you can choose the musical elements that support that emotion.
+- Finished product has already gone through several post processes. It will not sound the same as the arrangement.
+- Composers don't plan every detail from the beginning.
+- Recreating sounds itself is not meaningless.
+	- Studying sound textures and learning how to create them is important.
+	- At this stage, it's more important to know the why
+- Approach: Keep asking why for each element?
+	- Why is the background cold and electronic?
+		- Cosmic and Science Fiction Texture
+	- Why is the rhythm not hitting harder?
+		- Maintains tension without disturbing the dreamlike atmosphere.
+	- Why is the vocal so distant?
+		- It can create a feeling of space, emptiness, and nostalgia.
+- Once ideas are labelled like this, they create a set of tools.
+- How to analyze someone else's intention?
+	- You don't need the correct answer.
+	- When listening to a piece of music, identify what emotions you're feeling and try to explain what's making you feel like that.
+	- If you ever feel stuck:
+		- Return to one simple question: What emotion am I feeling while listening to this?
+- The flow of music analysis:
+	- Moving from Implicit to Explicit
+		- First you catch the emotion. Emotion.
+		- You understand why it feels that way. Technique.
+		- Then you label it. Reusable Knowledge.
+	- Try to remember "Why this was chosen here" not "This looks like that".
+- Instead of simply placing sounds, you begin to design emotions.
+- Guidelines for breaking down and analyzing each element:
+	- First, you take the question and focus on one element at a time.
+		- Ex. This time, I'll only look at the Rhythm in this piece.
+	- Before You Start
+		- Load the Reference Track in your DAW
+		- Match the BPM (tunebat.com / songbpm.com)
+	- How to Analyze Melody
+		- What you should take from a melody is not the note themselves, but the structure that creates the feeling of the melody.
+		- How do we look at structure?
+			- Two main dimensions:
+				- Vertical (Pitch)
+					- Up/Down Movement
+					- Size of the intervals
+				- Horizontal (Time)
+					- Repetition Patterns
+					- Variations over Time
