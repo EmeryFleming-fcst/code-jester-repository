@@ -422,3 +422,53 @@
 				- Horizontal (Time)
 					- Repetition Patterns
 					- Variations over Time
+			- First Step: Recreate the melody in your DAW using another instrument.
+			- Second Step: Look at Vertical Movement overall
+				- Example: Starting Lower and Building upwards in Pitch builds energy.
+			- Third Step: Look at Vertical Movement through size of interval jumps.
+				- Look for where there are big shifts.
+				- The larger the melodic leap, the more intense the emotion is in that moment.
+			- Fourth Step: Observe where ascending and descending movement occur.
+				- Ending Low and Rising Afterwards can create a strong emotional contrast.
+			- Fifth Step: Structure over time. How does the melody develop as it moves forward.
+				- Observe note duration.
+				- The most important thing to observe is the melodic pattern.
+				- A pattern is introduced and the slightly tweaked over time.
+				- Repetition reinforces the motif.
+				- The shifts in pitch create subtle emotional variations.
+			- Sixth Step: Don't just analyze the structure. Make a hypothesis. Think about why it was done that way.
+	- How to Analyze Rhythm
+		- Roles of instruments:
+			- Low Range: Foundation
+				- Kick / Bass / Low Percussion
+			- Mid Range: Impact Points
+				- Snare / Main Accents
+			- High Range: Subdivision & Detail
+				- Hi-hats / Fast Rhythmic Elements
+		- First, identify the basic pattern. Then examine what has changed.
+			- When a note is placed slightly before a beat, it creates a pushing groove that makes it feel like the rhythm is moving forward.
+			- When a note is placed slightly behind a beat, it creates a heavier more grounded groove.
+		- Unlike Melody, Rhythm does not always produce such an obvious emotional response.
+		- General Process:
+			- Divide the sounds by their role (Low/Mid/High)
+			- Identify the basic pattern
+			- Observe the deviations
+	- Harmony Progression Analysis
+		- Built gradually.
+		- Tunebat.com
+			- BPM and Key
+			- Helps to write down the scale for that key.
+		- Next, identify the root node in each progression.
+			- Boost the Bass with EQ
+			- Try to recreate the note while listening
+		- Build Chords on top of them.
+			- A good place to start is with the Diatonic Chords of the Key.
+		- Write the Chords in Scale Degrees
+		- Build Your Harmonic Vocabulary:
+			- Write Unfamiliar Chords
+			- Remember the Sound
+			- Understand the theory later
+		- Watch Harmony Analysis videos.
+	- Instrument Arrangement Analysis
+		- Understanding why each instrument is placed where it is.
+		- 
