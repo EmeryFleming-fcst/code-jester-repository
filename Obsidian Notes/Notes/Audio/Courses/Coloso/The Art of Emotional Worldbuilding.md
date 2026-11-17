@@ -471,4 +471,26 @@
 		- Watch Harmony Analysis videos.
 	- Instrument Arrangement Analysis
 		- Understanding why each instrument is placed where it is.
-		- 
+		- Process:
+			- First, Identify the instruments you can hear
+			- Second, look at the role each instrument plays in the music
+				- Example: Carries the Melody, pushes the rhythm forward, fills the space as a pad, adds a particular color or atmosphere.
+			- Third, Interpreting the Feeling
+				- Example:
+					- Trap Drums: Hip/Gangster Atmosphere
+					- 808 + Accordion: Mafia/Cinematic Mood
+					- Bell Pluck Melody: Tension/Fragile Feeling
+					- Pizzicato Strings: Mystery
+					- Trumpet Melody: Sticky/Dangerous Mood
+			- Goal is not to understand intention, but to create your own association between sounds and the feelings they invoke.
+	- Structure Analysis
+		- They key is to find where the sections change, understand the role of each section, and to study the overall flow of energy.
+		- Laying out the structure visually helps visualize the energy pattern better.
+## 09. How Analysis Becomes Composition
+- Analysis lets us understand what ingredients invoke which feelings or atmosphere, both on their own and combined.
+- Define a Concept
+	- Theme and Atmosphere
+	- Mood? Dark and Tragic? Mysterious
+	- Size? Vast and Grand? Small and Tight?
+	- Movement? Hopeless and still? Small bits of hope and moving forward?
+- Analyzing elements from other music, borrowing them thoughtfully, and transforming them into your own.

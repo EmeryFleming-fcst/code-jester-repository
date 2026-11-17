@@ -45,3 +45,4 @@ Chapter 4
 -- 4.10: Show working Tank with Log
 -- 4.16: Show Moving and Rotating Tank
 -- 4.20: Video of Rotating Towers
+-- 4.32: Show Tank and Tower Destruction
