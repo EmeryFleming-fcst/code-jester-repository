@@ -4,6 +4,8 @@ Include Courses, Course Order, and Explanation
 Include Quizzes
 Assignment at the end of each
 --------------------------------------------------------------------------------------------
+Explain why FVector, FText, etc are used.
+TEXT Macro Explanation
 
 
 Unreal: Include OnRamp
@@ -46,3 +48,8 @@ Chapter 4
 -- 4.16: Show Moving and Rotating Tank
 -- 4.20: Video of Rotating Towers
 -- 4.32: Show Tank and Tower Destruction
+-- 4.40: The name of the Variable in your ScreenMessage header file must match the name of your Textbox in the WBP_ScreenMessage blueprint.
+-- 4.45: Show off the completed Game
+
+Chapter 5
+-- 5.7: Video of your character moving in the world.
