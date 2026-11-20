@@ -53,3 +53,4 @@ Chapter 4
 
 Chapter 5
 -- 5.7: Video of your character moving in the world.
+-- 5.17: Video of turning/moving character with crosshair.
